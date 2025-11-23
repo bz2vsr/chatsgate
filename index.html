@@ -229,7 +229,18 @@
                 <div class="modal-body">
                     <!-- Controls -->
                     <div class="card mb-3">
-                        <div class="card-body">
+                        <div class="card-header d-flex justify-content-between align-items-center py-2 px-3">
+                            <span class="fw-bold mb-0">Controls</span>
+                            <button class="btn btn-sm btn-link text-decoration-none p-0" type="button" 
+                                    data-bs-toggle="collapse" data-bs-target="#word-cloud-controls" 
+                                    aria-expanded="true" aria-controls="word-cloud-controls"
+                                    id="toggle-controls-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16" id="toggle-controls-icon">
+                                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="card-body collapse show" id="word-cloud-controls">
                             <!-- Row 1: Range Sliders -->
                             <div class="row g-3 mb-3">
                                 <!-- Rank Range -->

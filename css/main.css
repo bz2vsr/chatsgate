@@ -165,6 +165,22 @@ body {
     border: none !important;
 }
 
+/* Word cloud controls collapse button */
+#toggle-controls-btn {
+    color: var(--bs-body-color);
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+#toggle-controls-btn:hover {
+    opacity: 1;
+}
+
+.modal-body .card-header {
+    background-color: var(--bs-secondary-bg);
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
 /* Zoom controls */
 .word-cloud-zoom-controls {
     position: absolute;

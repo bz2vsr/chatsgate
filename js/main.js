@@ -605,6 +605,28 @@ function initWordCloudModal() {
             applyZoom();
         });
         
+        // Controls collapse toggle with localStorage
+        const controlsCollapse = document.getElementById('word-cloud-controls');
+        const controlsIcon = document.getElementById('toggle-controls-icon');
+        
+        // Load saved state
+        const controlsState = localStorage.getItem('wordCloudControlsCollapsed');
+        if (controlsState === 'true') {
+            bootstrap.Collapse.getOrCreateInstance(controlsCollapse).hide();
+        }
+        
+        controlsCollapse.addEventListener('shown.bs.collapse', () => {
+            localStorage.setItem('wordCloudControlsCollapsed', 'false');
+            controlsIcon.innerHTML = '<path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>';
+            setTimeout(() => renderWordCloud(), 300); // Redraw with new dimensions
+        });
+        
+        controlsCollapse.addEventListener('hidden.bs.collapse', () => {
+            localStorage.setItem('wordCloudControlsCollapsed', 'true');
+            controlsIcon.innerHTML = '<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>';
+            setTimeout(() => renderWordCloud(), 300); // Redraw with new dimensions
+        });
+        
         // Add resize listener for responsive word cloud
         window.addEventListener('resize', () => {
             // Only re-render if modal is visible
