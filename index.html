@@ -313,6 +313,13 @@
                     <div id="word-cloud-container" class="text-center position-relative">
                         <svg id="word-cloud-svg" width="100%"></svg>
                         
+                        <!-- Loading Overlay -->
+                        <div id="word-cloud-loading" class="word-cloud-loading-overlay" style="display: none;">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                        
                         <!-- Zoom Controls -->
                         <div class="word-cloud-zoom-controls">
                             <button class="btn btn-sm btn-primary mb-2" id="zoom-in-btn" title="Zoom In">

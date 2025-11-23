@@ -757,65 +757,83 @@ function initRangeSliders() {
     });
 }
 
+function showWordCloudLoading() {
+    document.getElementById('word-cloud-loading').style.display = 'flex';
+}
+
+function hideWordCloudLoading() {
+    document.getElementById('word-cloud-loading').style.display = 'none';
+}
+
 function renderWordCloud() {
-    const data = getCloudData(cloudSettings);
+    // Show loading immediately
+    showWordCloudLoading();
     
-    if (data.length === 0) {
-        document.getElementById('word-cloud-container').innerHTML = 
-            '<div class="alert alert-warning">No words match the current filters</div>';
-        return;
-    }
-    
-    const svg = d3.select('#word-cloud-svg');
-    svg.selectAll('*').remove();
-    
-    const container = document.getElementById('word-cloud-container');
-    
-    // Calculate dimensions based on actual viewport and modal dimensions
-    const width = container.clientWidth;
-    const height = container.clientHeight;
-    
-    console.log('Word cloud dimensions:', width, 'x', height); // Debug log
+    // Use setTimeout to ensure loading indicator renders before heavy processing
+    setTimeout(() => {
+        const data = getCloudData(cloudSettings);
+        
+        if (data.length === 0) {
+            hideWordCloudLoading();
+            document.getElementById('word-cloud-container').innerHTML = 
+                '<div class="alert alert-warning">No words match the current filters</div>';
+            return;
+        }
+        
+        const svg = d3.select('#word-cloud-svg');
+        svg.selectAll('*').remove();
+        
+        const container = document.getElementById('word-cloud-container');
+        
+        // Calculate dimensions based on actual viewport and modal dimensions
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        
+        console.log('Word cloud dimensions:', width, 'x', height); // Debug log
     
     svg.attr('width', width).attr('height', height);
     
-    // Create word cloud layout with subtle angle variation
-    const layout = d3.layout.cloud()
-        .size([width - 20, height - 20]) // Minimal padding from edges
-        .words(data.map(d => ({ text: d.text, size: d.size })))
-        .padding(5)
-        .rotate(() => {
-            // Mostly horizontal (0°), with occasional slight angles
-            // 70% horizontal, 30% angled (-30° or 30°)
-            const rand = Math.random();
-            if (rand < 0.7) return 0;
-            return rand < 0.85 ? -30 : 30;
-        })
-        .font('Impact')
-        .fontSize(d => d.size) // Size already scaled in getCloudData
-        .spiral('rectangular')
-        .on('end', draw);
-    
-    layout.start();
-    
-    function draw(words) {
-        const g = svg.append('g')
-            .attr('class', 'word-cloud-group')
-            .attr('transform', `translate(${width / 2},${height / 2})scale(${currentZoom})`);
+        // Create word cloud layout with subtle angle variation
+        const layout = d3.layout.cloud()
+            .size([width - 20, height - 20]) // Minimal padding from edges
+            .words(data.map(d => ({ text: d.text, size: d.size })))
+            .padding(5)
+            .rotate(() => {
+                // Mostly horizontal (0°), with occasional slight angles
+                // 70% horizontal, 30% angled (-30° or 30°)
+                const rand = Math.random();
+                if (rand < 0.7) return 0;
+                return rand < 0.85 ? -30 : 30;
+            })
+            .font('Impact')
+            .fontSize(d => d.size) // Size already scaled in getCloudData
+            .spiral('rectangular')
+            .on('end', draw);
         
-        const colorScale = getColorScale(cloudSettings.colorScheme);
+        function draw(words) {
+            const g = svg.append('g')
+                .attr('class', 'word-cloud-group')
+                .attr('transform', `translate(${width / 2},${height / 2})scale(${currentZoom})`);
+            
+            const colorScale = getColorScale(cloudSettings.colorScheme);
+            
+            g.selectAll('text')
+                .data(words)
+                .enter().append('text')
+                .attr('class', 'word-cloud-text')
+                .style('font-size', d => d.size + 'px')
+                .style('font-family', 'Impact')
+                .style('fill', (d, i) => colorScale(i))
+                .attr('text-anchor', 'middle')
+                .attr('transform', d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
+                .text(d => d.text);
+            
+            // Hide loading after rendering
+            hideWordCloudLoading();
+        }
         
-        g.selectAll('text')
-            .data(words)
-            .enter().append('text')
-            .attr('class', 'word-cloud-text')
-            .style('font-size', d => d.size + 'px')
-            .style('font-family', 'Impact')
-            .style('fill', (d, i) => colorScale(i))
-            .attr('text-anchor', 'middle')
-            .attr('transform', d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
-            .text(d => d.text);
-    }
+        layout.start();
+    }, 10); // Small delay to ensure loading indicator renders
 }
 
 function getCloudData(settings) {
