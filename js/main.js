@@ -896,12 +896,25 @@ function applyZoom() {
 }
 
 function getColorScale(scheme) {
+    // Check if we're in dark mode
+    const isDarkMode = document.documentElement.getAttribute('data-bs-theme') === 'dark';
+    
+    // For sequential scales, adjust domain to avoid lightest colors in light mode
+    // and avoid darkest colors in dark mode
     const schemes = {
         default: d3.scaleOrdinal(d3.schemeCategory10),
-        blue: d3.scaleSequential(d3.interpolateBlues).domain([0, 100]),
-        green: d3.scaleSequential(d3.interpolateGreens).domain([0, 100]),
-        warm: d3.scaleSequential(d3.interpolateWarm).domain([0, 100]),
-        cool: d3.scaleSequential(d3.interpolateCool).domain([0, 100])
+        blue: isDarkMode 
+            ? d3.scaleSequential(d3.interpolateBlues).domain([0, 100])
+            : d3.scaleSequential(t => d3.interpolateBlues(0.4 + t * 0.6)).domain([0, 100]),
+        green: isDarkMode
+            ? d3.scaleSequential(d3.interpolateGreens).domain([0, 100])
+            : d3.scaleSequential(t => d3.interpolateGreens(0.4 + t * 0.6)).domain([0, 100]),
+        warm: isDarkMode
+            ? d3.scaleSequential(d3.interpolateWarm).domain([0, 100])
+            : d3.scaleSequential(t => d3.interpolateWarm(0.3 + t * 0.7)).domain([0, 100]),
+        cool: isDarkMode
+            ? d3.scaleSequential(d3.interpolateCool).domain([0, 100])
+            : d3.scaleSequential(t => d3.interpolateCool(0.3 + t * 0.7)).domain([0, 100])
     };
     
     return schemes[scheme] || schemes.default;
