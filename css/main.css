@@ -367,6 +367,26 @@ body {
 #cloud-font-range {
     height: 6px;
     margin-bottom: 0.5rem;
+    transition: opacity 0.2s ease;
+}
+
+/* Inline checkboxes for filter toggles */
+.form-label .form-check-input {
+    margin-top: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Tooltip info icons */
+.bi-info-circle {
+    opacity: 0.6;
+    cursor: help;
+    vertical-align: middle;
+}
+
+.bi-info-circle:hover {
+    opacity: 1;
+    color: var(--bs-primary);
 }
 
 /* Filter button spacing */

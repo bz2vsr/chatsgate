@@ -10,9 +10,11 @@ let currentFilters = {
 let cloudSettings = {
     rankMin: 1,
     rankMax: 500,
+    rankEnabled: true,
     showType: 'all',
     countMin: 100,
     countMax: Infinity,
+    countEnabled: true,
     colorScheme: 'blue',
     fontSizeMin: 12,
     fontSizeMax: 50,
@@ -574,6 +576,10 @@ function initWordCloudModal() {
                 initRangeSliders();
             }
             
+            // Initialize Bootstrap tooltips
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+            
             // Render word cloud after modal is shown
             setTimeout(() => renderWordCloud(), 300);
         });
@@ -587,6 +593,34 @@ function initWordCloudModal() {
     
     document.getElementById('cloud-color').addEventListener('change', (e) => {
         cloudSettings.colorScheme = e.target.value;
+        renderWordCloud();
+    });
+    
+    // Filter enable/disable toggles
+    document.getElementById('cloud-rank-enabled').addEventListener('change', (e) => {
+        cloudSettings.rankEnabled = e.target.checked;
+        const slider = document.getElementById('cloud-rank-range');
+        slider.style.opacity = e.target.checked ? '1' : '0.3';
+        rankSlider.set(e.target.checked ? [cloudSettings.rankMin, cloudSettings.rankMax] : [1, 1000]);
+        if (e.target.checked) {
+            renderWordCloud();
+        } else {
+            // Reset to full range when disabled
+            cloudSettings.rankMin = 1;
+            cloudSettings.rankMax = 1000;
+            renderWordCloud();
+        }
+    });
+    
+    document.getElementById('cloud-count-enabled').addEventListener('change', (e) => {
+        cloudSettings.countEnabled = e.target.checked;
+        const slider = document.getElementById('cloud-count-range');
+        slider.style.opacity = e.target.checked ? '1' : '0.3';
+        if (!e.target.checked) {
+            // Reset to full range when disabled
+            cloudSettings.countMin = 1;
+            cloudSettings.countMax = Infinity;
+        }
         renderWordCloud();
     });
 }
@@ -726,10 +760,14 @@ function renderWordCloud() {
 function getCloudData(settings) {
     const combined = [];
     
+    // Determine effective count range (use full range if disabled)
+    const effectiveCountMin = settings.countEnabled ? settings.countMin : 1;
+    const effectiveCountMax = settings.countEnabled ? settings.countMax : Infinity;
+    
     // Filter by type and count range
     if (settings.showType === 'all' || settings.showType === 'words') {
         Object.entries(rawData.words || {}).forEach(([text, count]) => {
-            if (count >= settings.countMin && count <= settings.countMax) {
+            if (count >= effectiveCountMin && count <= effectiveCountMax) {
                 combined.push({ text, count });
             }
         });
@@ -737,7 +775,7 @@ function getCloudData(settings) {
     
     if (settings.showType === 'all' || settings.showType === 'phrases') {
         Object.entries(rawData.phrases || {}).forEach(([text, count]) => {
-            if (count >= settings.countMin && count <= settings.countMax) {
+            if (count >= effectiveCountMin && count <= effectiveCountMax) {
                 combined.push({ text, count });
             }
         });
@@ -746,8 +784,10 @@ function getCloudData(settings) {
     // Sort by count descending
     combined.sort((a, b) => b.count - a.count);
     
-    // Apply rank range (slice by position in sorted list)
-    const rankedWords = combined.slice(settings.rankMin - 1, settings.rankMax);
+    // Apply rank range (slice by position in sorted list) - use full range if disabled
+    const effectiveRankMin = settings.rankEnabled ? settings.rankMin : 1;
+    const effectiveRankMax = settings.rankEnabled ? settings.rankMax : combined.length;
+    const rankedWords = combined.slice(effectiveRankMin - 1, effectiveRankMax);
     
     // Scale font sizes
     if (rankedWords.length === 0) return [];

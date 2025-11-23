@@ -234,19 +234,39 @@
                             <div class="row g-3 mb-3">
                                 <!-- Rank Range -->
                                 <div class="col-md-4">
-                                    <label class="form-label">Word Rank Range: <span id="cloud-rank-range-value">1 - 500</span></label>
+                                    <label class="form-label">
+                                        <input type="checkbox" class="form-check-input me-2" id="cloud-rank-enabled" checked>
+                                        Word Rank Range: <span id="cloud-rank-range-value">1 - 500</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle ms-1" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Select which ranked words to show. Set MIN higher to skip common words (e.g., 50-500 excludes top 49). Set MAX lower to focus on frequent words only.">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                        </svg>
+                                    </label>
                                     <div id="cloud-rank-range" class="mt-3"></div>
                                 </div>
                                 
                                 <!-- Count Range -->
                                 <div class="col-md-4">
-                                    <label class="form-label">Count Range: <span id="cloud-count-range-value">100 - ∞</span></label>
+                                    <label class="form-label">
+                                        <input type="checkbox" class="form-check-input me-2" id="cloud-count-enabled" checked>
+                                        Count Range: <span id="cloud-count-range-value">100 - ∞</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle ms-1" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Filter by how many times words appear. Increase MIN to exclude rare words. Decrease MAX to exclude very common words. Higher counts = more frequent usage.">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                        </svg>
+                                    </label>
                                     <div id="cloud-count-range" class="mt-3"></div>
                                 </div>
                                 
                                 <!-- Font Size Range -->
                                 <div class="col-md-4">
-                                    <label class="form-label">Font Size Range: <span id="cloud-font-range-value">12 - 50</span></label>
+                                    <label class="form-label">
+                                        Font Size Range: <span id="cloud-font-range-value">12 - 50</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-circle ms-1" viewBox="0 0 16 16" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Controls text size in the cloud. MIN = smallest words, MAX = largest words. More frequent words appear larger. Adjust range to control size variation.">
+                                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                        </svg>
+                                    </label>
                                     <div id="cloud-font-range" class="mt-3"></div>
                                 </div>
                             </div>
