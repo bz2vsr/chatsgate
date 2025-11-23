@@ -737,15 +737,21 @@ function renderWordCloud() {
     
     svg.attr('width', width).attr('height', height);
     
-    // Create word cloud layout with rectangular spiral for better rectangular space usage
+    // Create word cloud layout with subtle angle variation
     const layout = d3.layout.cloud()
         .size([width - 20, height - 20]) // Minimal padding from edges
         .words(data.map(d => ({ text: d.text, size: d.size })))
-        .padding(8)
-        .rotate(() => 0)
+        .padding(5)
+        .rotate(() => {
+            // Mostly horizontal (0°), with occasional slight angles
+            // 70% horizontal, 30% angled (-30° or 30°)
+            const rand = Math.random();
+            if (rand < 0.7) return 0;
+            return rand < 0.85 ? -30 : 30;
+        })
         .font('Impact')
-        .fontSize(d => d.size)
-        .spiral('rectangular') // Better for rectangular spaces
+        .fontSize(d => d.size) // Size already scaled in getCloudData
+        .spiral('rectangular')
         .on('end', draw);
     
     layout.start();
@@ -764,7 +770,7 @@ function renderWordCloud() {
             .style('font-family', 'Impact')
             .style('fill', (d, i) => colorScale(i))
             .attr('text-anchor', 'middle')
-            .attr('transform', d => `translate(${d.x},${d.y})`)
+            .attr('transform', d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
             .text(d => d.text);
     }
 }
