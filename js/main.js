@@ -149,6 +149,10 @@ function renderSummary() {
     // Total Users
     document.getElementById('badge-users').innerHTML = `Users: ${summary.totalUsers.toLocaleString()}`;
     
+    // Total Words
+    const totalWords = Object.keys(rawData.words || {}).length;
+    document.getElementById('badge-words').innerHTML = `Words: ${totalWords.toLocaleString()}`;
+    
     // Date Range
     const dateRange = summary.dateRange.start && summary.dateRange.end
         ? `${summary.dateRange.start} to ${summary.dateRange.end}`
