@@ -217,7 +217,7 @@ body {
 
 /* Chart container */
 #activity-chart {
-    max-height: 400px;
+    max-height: 220px;
 }
 
 /* Loading spinner adjustments */
