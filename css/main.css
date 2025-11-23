@@ -30,6 +30,26 @@ body {
     padding: 1rem;
 }
 
+/* User stats card should fill available height */
+.user-stats-card {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 120px);
+    overflow: hidden;
+}
+
+.user-stats-card .card-header {
+    padding: 0.75rem 1rem;
+}
+
+.user-stats-card .card-body {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
 /* Smooth scrolling */
 .left-panel::-webkit-scrollbar,
 .right-panel::-webkit-scrollbar {
@@ -106,9 +126,42 @@ body {
     padding: 3rem 0;
 }
 
-/* Custom word list input */
-#custom-word-list {
-    font-family: monospace;
+/* Custom word list panel */
+.custom-word-list-panel {
+    background-color: rgba(var(--bs-secondary-rgb), 0.05);
+    padding: 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--bs-border-color);
+    height: 100%;
+}
+
+.custom-word-item {
+    background-color: var(--bs-body-bg);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--bs-border-color);
+}
+
+.custom-word-item span {
+    font-size: 0.875rem;
+}
+
+.custom-word-item .btn {
+    padding: 0.125rem 0.375rem;
+}
+
+#custom-word-items {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#custom-word-items::-webkit-scrollbar {
+    width: 6px;
+}
+
+#custom-word-items::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 3px;
 }
 
 /* Badge spacing in navbar */
@@ -120,10 +173,77 @@ body {
 /* DataTables responsive adjustments */
 .table-responsive {
     max-height: calc(100vh - 250px);
+    overflow-x: hidden;
+}
+
+/* User table - adjust height to always show pagination */
+#user-table_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 #user-table_wrapper .table-responsive {
-    max-height: calc(100vh - 400px);
+    max-height: none;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Custom layout for search */
+.user-table-controls {
+    padding: 0.75rem 1rem;
+    flex-shrink: 0;
+}
+
+.user-table-controls .dataTables_filter {
+    margin: 0;
+}
+
+.user-table-controls .dataTables_filter label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-table-controls .dataTables_filter input {
+    width: 200px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid var(--bs-border-color);
+    border-radius: 0.375rem;
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.user-table-controls .dataTables_filter input:focus {
+    outline: none;
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Pagination at bottom */
+#user-table_wrapper .dataTables_paginate {
+    padding: 0.75rem 1rem;
+    flex-shrink: 0;
+}
+
+/* Remove horizontal scrollbar from user stats card */
+.left-panel .card-body {
+    overflow-x: hidden;
+}
+
+/* Word/phrase table takes full width */
+#word-phrase-table {
+    width: 100% !important;
+}
+
+#word-phrase-table_wrapper {
+    width: 100%;
+}
+
+#word-phrase-table_wrapper .table-responsive {
+    max-height: calc(100vh - 350px);
 }
 
 /* Compact table styling */
@@ -131,6 +251,19 @@ body {
 .table-sm td {
     padding: 0.4rem;
     font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+/* Ensure user table doesn't cause horizontal overflow */
+#user-table {
+    width: 100% !important;
+    table-layout: auto;
+}
+
+#user-table th,
+#user-table td {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Theme toggle button */

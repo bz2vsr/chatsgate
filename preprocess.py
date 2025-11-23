@@ -23,7 +23,10 @@ STOP_WORDS = set([
     'im', 'ive', 'dont', 'doesnt', 'didnt', 'wont', 'wouldnt', 'cant', 'couldnt', 'shouldnt',
     'isnt', 'arent', 'wasnt', 'werent', 'hasnt', 'havent', 'hadnt', 'theyre', 'theres',
     'ill', 'youre', 'youll', 'youve', 'hes', 'shes', 'its', 'were', 'weve', 'theyll',
-    'thats', 'whats', 'whos', 'hows', 'wheres', 'theres'
+    'thats', 'whats', 'whos', 'hows', 'wheres', 'theres',
+    # Additional filtered words
+    'also', 'don', 'even', 'get', 'goou', 'know', 'like', 'lol', 'make', 'need', 
+    'really', 'right', 'see', 'something', 'still', 'sure', 'thing', 'way', 'well', 'yeah'
 ])
 
 def clean_text(text):
@@ -256,7 +259,7 @@ def process_data():
             'avgMessageLength': round(avg_message_length, 2)
         },
         'users': users_list,
-        'words': dict(word_counter.most_common(2000)),  # Top 2000 words
+        'words': dict(word_counter.most_common()),  # All words
         'phrases': filtered_phrases,
         'timeline': timeline
     }

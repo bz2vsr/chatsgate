@@ -80,11 +80,14 @@ function loadCustomWordList() {
         }
     }
     
-    // Update input field if it exists
-    const input = document.getElementById('custom-word-list');
-    if (input && customWordList.length > 0) {
-        input.value = customWordList.join(', ');
+    // Default words if none stored
+    if (customWordList.length === 0) {
+        customWordList = ['scion', 'warrior', 'blink', 'lancer', 'isdf', 'hadean', 'invest', 'shut the fuck up'];
+        saveCustomWordList();
     }
+    
+    // Render the word list items
+    renderCustomWordItems();
 }
 
 function saveCustomWordList() {
@@ -187,8 +190,10 @@ function initUserTable() {
         searching: true,
         info: false,
         responsive: true,
+        dom: '<"user-table-controls"f>rtp',
         language: {
-            search: 'Search:',
+            search: '',
+            searchPlaceholder: 'Search users...',
             paginate: {
                 previous: '‹',
                 next: '›'
@@ -264,13 +269,8 @@ function initWordPhraseTable() {
         }
     });
     
-    // Custom word list filter
-    const customListInput = document.getElementById('custom-word-list');
-    if (customListInput) {
-        customListInput.addEventListener('input', debounce(() => {
-            applyCustomWordFilter(customListInput.value);
-        }, 500));
-    }
+    // Initialize custom word list controls
+    initCustomWordListControls();
 }
 
 function combineWordsAndPhrases() {
@@ -296,27 +296,84 @@ function combineWordsAndPhrases() {
     return combined;
 }
 
-function applyCustomWordFilter(input) {
-    if (!input || !input.trim()) {
-        // Clear filter
-        customWordList = [];
-        saveCustomWordList();
-        wordPhraseTable.search('').draw();
+function initCustomWordListControls() {
+    // Add word button
+    document.getElementById('btn-add-word').addEventListener('click', addCustomWord);
+    
+    // Add word on Enter key
+    document.getElementById('new-word-input').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            addCustomWord();
+        }
+    });
+    
+    // Apply filter button
+    document.getElementById('btn-apply-filter').addEventListener('click', applyCustomWordFilter);
+    
+    // Clear filter button
+    document.getElementById('btn-clear-filter').addEventListener('click', clearCustomWordFilter);
+}
+
+function renderCustomWordItems() {
+    const container = document.getElementById('custom-word-items');
+    if (!container) return;
+    
+    if (customWordList.length === 0) {
+        container.innerHTML = '<p class="text-muted small">No words in list. Add words below.</p>';
         return;
     }
     
-    // Parse comma-separated list
-    customWordList = input.split(',')
-        .map(w => normalizeText(w))
-        .filter(w => w.length > 0);
+    container.innerHTML = customWordList.map((word, index) => `
+        <div class="custom-word-item d-flex align-items-center mb-2">
+            <span class="flex-grow-1">${escapeHtml(word)}</span>
+            <button class="btn btn-sm btn-outline-danger" onclick="removeCustomWord(${index})" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                </svg>
+            </button>
+        </div>
+    `).join('');
+}
+
+function addCustomWord() {
+    const input = document.getElementById('new-word-input');
+    const word = normalizeText(input.value);
     
+    if (!word) return;
+    
+    // Check for duplicates
+    if (customWordList.includes(word)) {
+        input.value = '';
+        return;
+    }
+    
+    customWordList.push(word);
     saveCustomWordList();
+    renderCustomWordItems();
+    input.value = '';
+}
+
+function removeCustomWord(index) {
+    customWordList.splice(index, 1);
+    saveCustomWordList();
+    renderCustomWordItems();
+}
+
+function applyCustomWordFilter() {
+    if (!customWordList || customWordList.length === 0) {
+        wordPhraseTable.column(1).search('').draw();
+        return;
+    }
     
     // Build regex search pattern
     const escaped = customWordList.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
     const pattern = '^(' + escaped.join('|') + ')$';
     
     wordPhraseTable.column(1).search(pattern, true, false).draw();
+}
+
+function clearCustomWordFilter() {
+    wordPhraseTable.column(1).search('').draw();
 }
 
 // ============================================================================
@@ -671,4 +728,18 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
+
+function escapeHtml(text) {
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+    return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+// Make removeCustomWord globally accessible for inline onclick
+window.removeCustomWord = removeCustomWord;
 

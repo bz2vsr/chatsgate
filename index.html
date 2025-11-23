@@ -52,7 +52,7 @@
     <div class="container-fluid main-container">
         <div class="row h-100">
             <!-- Left Panel -->
-            <div class="col-12 col-lg-4 left-panel">
+            <div class="col-12 col-lg-5 left-panel">
                 <!-- Filters (Hidden for future implementation) -->
                 <div class="card mb-3" style="display: none;">
                     <div class="card-header">
@@ -85,7 +85,7 @@
                 </div>
                 
                 <!-- User Statistics Table -->
-                <div class="card">
+                <div class="card user-stats-card">
                     <div class="card-header">
                         <h6 class="mb-0">User Statistics</h6>
                     </div>
@@ -98,7 +98,7 @@
                                         <th>Msgs</th>
                                         <th>Words</th>
                                         <th>Score</th>
-                                        <th>Reactions</th>
+                                        <th>Reacts</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -111,7 +111,7 @@
             </div>
 
             <!-- Right Panel -->
-            <div class="col-12 col-lg-8 right-panel">
+            <div class="col-12 col-lg-7 right-panel">
                 <!-- Loading Spinner -->
                 <div class="text-center my-5" id="loading-spinner">
                     <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
@@ -158,27 +158,54 @@
                             <h6 class="mb-0">Word & Phrase Statistics</h6>
                         </div>
                         <div class="card-body">
-                            <!-- Custom Word List Filter -->
-                            <div class="mb-3">
-                                <label for="custom-word-list" class="form-label">Filter by custom word list (comma-separated):</label>
-                                <input type="text" class="form-control form-control-sm" id="custom-word-list" 
-                                       placeholder="e.g., played, despra, bussy, btc">
-                                <div class="form-text">Leave empty to show all words/phrases. Changes are saved automatically.</div>
-                            </div>
-                            
-                            <div class="table-responsive">
-                                <table class="table table-sm table-hover" id="word-phrase-table">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>Word/Phrase</th>
-                                            <th>Count</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <!-- Populated by JavaScript -->
-                                    </tbody>
-                                </table>
+                            <div class="row">
+                                <!-- Left Column: Table -->
+                                <div class="col-md-8">
+                                    <div class="table-responsive">
+                                        <table class="table table-sm table-hover" id="word-phrase-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Word/Phrase</th>
+                                                    <th>Count</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- Populated by JavaScript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                
+                                <!-- Right Column: Custom Word List -->
+                                <div class="col-md-4">
+                                    <div class="custom-word-list-panel">
+                                        <label class="form-label fw-bold">Custom Word List Filter</label>
+                                        <p class="text-muted small">Add words/phrases to filter the table. Click Apply to activate.</p>
+                                        
+                                        <!-- Word List Items -->
+                                        <div id="custom-word-items" class="mb-3">
+                                            <!-- Populated by JavaScript -->
+                                        </div>
+                                        
+                                        <!-- Add New Word Input -->
+                                        <div class="input-group input-group-sm mb-3">
+                                            <input type="text" class="form-control" id="new-word-input" 
+                                                   placeholder="Add word or phrase">
+                                            <button class="btn btn-success" type="button" id="btn-add-word">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        
+                                        <!-- Action Buttons -->
+                                        <div class="d-grid gap-2">
+                                            <button class="btn btn-primary btn-sm" id="btn-apply-filter">Apply Filter</button>
+                                            <button class="btn btn-outline-secondary btn-sm" id="btn-clear-filter">Show All Words</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
