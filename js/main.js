@@ -17,7 +17,7 @@ let cloudSettings = {
     countEnabled: true,
     colorScheme: 'blue',
     fontSizeMin: 12,
-    fontSizeMax: 50,
+    fontSizeMax: 150,
     userFilter: null
 };
 let rankSlider = null;
@@ -671,7 +671,6 @@ async function loadUserView(username) {
         // Update word cloud settings for user view
         cloudSettings.rankMax = 1000;
         cloudSettings.countMin = 1;
-        cloudSettings.fontSizeMax = 150;
         // Update sliders if modal is open
         if (rankSlider) {
             rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
@@ -717,7 +716,7 @@ function resetToGlobalView() {
     // Reset word cloud settings to defaults
     cloudSettings.rankMax = 500;
     cloudSettings.countMin = 100;
-    cloudSettings.fontSizeMax = 50;
+    cloudSettings.fontSizeMax = 150;
     // Update sliders if modal is open
     if (rankSlider) {
         rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
