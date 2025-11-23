@@ -698,3 +698,29 @@ body {
     z-index: 1000;
 }
 
+/* Extra small button styling */
+.btn-xs {
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.25;
+    border-radius: 0.2rem;
+}
+
+/* Make timeline toggle buttons more compact */
+#timeline-toggle .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+
+/* Reduce card header height for filter and timeline cards */
+#filterCard .card-header,
+#activity-timeline-card .card-header {
+    padding: 0.5rem 0.75rem;
+}
+
+#filterCard .card-header h6,
+#activity-timeline-card .card-header h6 {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+}
+
