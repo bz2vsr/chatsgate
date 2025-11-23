@@ -163,6 +163,11 @@ body {
 /* Theme toggle button */
 #theme-toggle {
     border: none !important;
+    color: var(--bs-body-color);
+}
+
+#theme-toggle:hover {
+    color: var(--bs-primary);
 }
 
 /* Word cloud controls collapse button */
