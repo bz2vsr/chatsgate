@@ -675,6 +675,7 @@ async function loadUserView(username) {
         // Re-render all components with user data
         renderUserSummary();
         updateUserTableForUserMode();
+        updateActivityTimelineHeader();
         renderChart();  // Will use currentViewMode to determine data source
         updateWordPhraseTableForUser();
         renderRelationships();
@@ -710,15 +711,16 @@ function resetToGlobalView() {
     }
     initUserTable();
     
+    // Update headers back to global
+    updateActivityTimelineHeader();
+    updateWordPhraseHeader();
+    
     renderChart();
     
     // Reset word/phrase table to global data
     if (wordPhraseTable) {
         wordPhraseTable.clear().rows.add(combineWordsAndPhrases()).draw();
     }
-    
-    // Update word/phrase header back to global
-    updateWordPhraseHeader();
     
     console.log('Reset to global view');
 }
@@ -810,6 +812,17 @@ function updateWordPhraseHeader() {
         header.textContent = `Word & Phrase Statistics (${currentUserData.displayName})`;
     } else {
         header.textContent = 'Word & Phrase Statistics';
+    }
+}
+
+function updateActivityTimelineHeader() {
+    const header = document.getElementById('activity-timeline-header');
+    if (!header) return;
+    
+    if (currentViewMode === 'user' && currentUserData) {
+        header.textContent = `Activity Timeline (${currentUserData.displayName})`;
+    } else {
+        header.textContent = 'Activity Timeline';
     }
 }
 
