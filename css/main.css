@@ -22,7 +22,14 @@ body {
 }
 
 /* Left and right panels with independent scrolling */
-.left-panel,
+.left-panel {
+    height: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .right-panel {
     height: 100%;
     overflow-y: auto;
@@ -34,7 +41,8 @@ body {
 .user-stats-card {
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 120px);
+    flex: 1 1 auto;
+    min-height: 0;
     overflow: hidden;
 }
 
@@ -43,11 +51,19 @@ body {
 }
 
 .user-stats-card .card-body {
-    flex: 1;
+    flex: 1 1 auto;
+    min-height: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     padding: 0;
+}
+
+.user-stats-card .table-responsive {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 /* Smooth scrolling */
@@ -253,24 +269,42 @@ body {
     padding: 0.5rem 0.75rem;
 }
 
-/* DataTables responsive adjustments */
-.table-responsive {
-    max-height: calc(100vh - 250px);
-    overflow-x: hidden;
+/* User stats card - fill available space */
+.user-stats-card {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
 }
 
-/* User table - adjust height to always show pagination */
+.user-stats-card .card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    overflow: hidden;
+}
+
+.user-stats-card .table-responsive {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+}
+
+/* User table wrapper - flexbox layout */
 #user-table_wrapper {
     display: flex;
     flex-direction: column;
     height: 100%;
+    min-height: 0;
 }
 
 #user-table_wrapper .table-responsive {
-    max-height: none;
-    flex: 1;
+    flex: 1 1 auto;
     overflow-y: auto;
     overflow-x: hidden;
+    min-height: 0;
 }
 
 /* Custom layout for search */
