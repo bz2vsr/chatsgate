@@ -22,21 +22,31 @@
             
             <!-- Summary Badges -->
             <div class="d-flex flex-wrap align-items-center gap-2 ms-auto">
-                <span class="badge bg-secondary-subtle text-body" id="badge-messages">
-                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
-                    Messages: ...
+                <span class="badge bg-secondary-subtle text-body" id="badge-messages" title="Messages">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chat-dots" viewBox="0 0 16 16">
+                        <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                        <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9 9 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.4 10.4 0 0 1-.524 2.318l-.003.011a11 11 0 0 1-.244.637c-.079.186.074.394.273.362a22 22 0 0 0 .693-.125m.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6-3.004 6-7 6a8 8 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a11 11 0 0 0 .398-2"/>
+                    </svg>
+                    <span class="ms-1">...</span>
                 </span>
-                <span class="badge bg-secondary-subtle text-body" id="badge-users">
-                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
-                    Users: ...
+                <span class="badge bg-secondary-subtle text-body" id="badge-users" title="Users">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+                    <span class="ms-1">...</span>
                 </span>
-                <span class="badge bg-secondary-subtle text-body" id="badge-words">
-                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
-                    Words: ...
+                <span class="badge bg-secondary-subtle text-body" id="badge-words" title="Words">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-alphabet" viewBox="0 0 16 16">
+                        <path d="M2.204 11.078c.767 0 1.201-.356 1.406-.737h.036l.079.576h1.1V7.125c0-.502-.07-.878-.24-1.123-.234-.32-.683-.51-1.371-.51-.971 0-1.57.366-1.57.366l.264.811s.492-.27 1.125-.27c.449 0 .664.28.664.749v.279l-.307.023c-1.036.071-2.198.427-2.198 1.585 0 .766.474 1.43 1.388 1.43zm.217-.998c-.413 0-.672-.255-.672-.583 0-.458.412-.718 1.01-.771l.293-.023v.515c0 .563-.273.862-.631.862m4.036.998c1.031 0 1.471-.819 1.471-.819h.035l.079.737h1.027V7.125h-1.17v3.618c-.165.17-.506.384-.923.384-.417 0-.641-.26-.641-.778V7.125H5.187v3.754c0 .88.594 1.199 1.27 1.199m3.76-.998c.413 0 .672.255.672.583 0 .459-.412.718-1.01.771l-.293.023v-.515c0-.563.273-.862.631-.862m-.217.998c-1.031 0-1.471.819-1.471.819h-.035l-.079-.737H8.488V13h1.17V9.382c.165-.17.506-.384.923-.384.417 0 .641.26.641.778V13h1.168V9.246c0-.88-.594-1.199-1.27-1.199z"/>
+                    </svg>
+                    <span class="ms-1">...</span>
                 </span>
-                <span class="badge bg-secondary-subtle text-body" id="badge-date-range">
-                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
-                    Date: ...
+                <span class="badge bg-secondary-subtle text-body" id="badge-date-range" title="Date Range">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-calendar3" viewBox="0 0 16 16">
+                        <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857z"/>
+                        <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2m3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg>
+                    <span class="ms-1">...</span>
                 </span>
                 
                 <!-- Theme Toggle Button -->
