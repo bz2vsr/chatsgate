@@ -23,6 +23,7 @@ let cloudSettings = {
 let rankSlider = null;
 let countSlider = null;
 let fontSlider = null;
+let currentZoom = 1;
 let userTable = null;
 let wordPhraseTable = null;
 let activityChart = null;
@@ -582,7 +583,26 @@ function initWordCloudModal() {
             [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
             
             // Render word cloud after modal is shown
-            setTimeout(() => renderWordCloud(), 300);
+            setTimeout(() => {
+                currentZoom = 1; // Reset zoom when opening modal
+                renderWordCloud();
+            }, 300);
+        });
+        
+        // Zoom controls
+        document.getElementById('zoom-in-btn').addEventListener('click', () => {
+            currentZoom = Math.min(currentZoom + 0.2, 3); // Max 3x zoom
+            applyZoom();
+        });
+        
+        document.getElementById('zoom-out-btn').addEventListener('click', () => {
+            currentZoom = Math.max(currentZoom - 0.2, 0.5); // Min 0.5x zoom
+            applyZoom();
+        });
+        
+        document.getElementById('zoom-reset-btn').addEventListener('click', () => {
+            currentZoom = 1;
+            applyZoom();
         });
         
         // Add resize listener for responsive word cloud
@@ -758,7 +778,8 @@ function renderWordCloud() {
     
     function draw(words) {
         const g = svg.append('g')
-            .attr('transform', `translate(${width / 2},${height / 2})`);
+            .attr('class', 'word-cloud-group')
+            .attr('transform', `translate(${width / 2},${height / 2})scale(${currentZoom})`);
         
         const colorScale = getColorScale(cloudSettings.colorScheme);
         
@@ -817,6 +838,21 @@ function getCloudData(settings) {
         text: d.text,
         size: scaleValue(d.count, minCount, maxCount, settings.fontSizeMin, settings.fontSizeMax)
     }));
+}
+
+function applyZoom() {
+    const svg = d3.select('#word-cloud-svg');
+    const group = svg.select('.word-cloud-group');
+    
+    if (!group.empty()) {
+        const container = document.getElementById('word-cloud-container');
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+        
+        group.transition()
+            .duration(200)
+            .attr('transform', `translate(${width / 2},${height / 2})scale(${currentZoom})`);
+    }
 }
 
 function getColorScale(scheme) {
