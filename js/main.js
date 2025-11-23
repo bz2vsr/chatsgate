@@ -565,6 +565,7 @@ function resetFilters() {
 function initWordCloudModal() {
     const openBtn = document.getElementById('btn-open-word-cloud');
     const modal = document.getElementById('word-cloud-modal');
+    let resizeTimeout;
     
     if (openBtn) {
         openBtn.addEventListener('click', () => {
@@ -582,6 +583,17 @@ function initWordCloudModal() {
             
             // Render word cloud after modal is shown
             setTimeout(() => renderWordCloud(), 300);
+        });
+        
+        // Add resize listener for responsive word cloud
+        window.addEventListener('resize', () => {
+            // Only re-render if modal is visible
+            if (modal.classList.contains('show')) {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    renderWordCloud();
+                }, 250); // Debounce resize events
+            }
         });
     }
     
@@ -716,24 +728,24 @@ function renderWordCloud() {
     svg.selectAll('*').remove();
     
     const container = document.getElementById('word-cloud-container');
-    const width = container.clientWidth || 1000;
     
-    // Calculate available height (modal body height minus controls card and padding)
-    const modalBody = container.closest('.modal-body');
-    const controlsCard = modalBody.querySelector('.card');
-    const availableHeight = modalBody.clientHeight - controlsCard.offsetHeight - 60; // 60px for padding
-    const height = Math.max(availableHeight, 400); // Minimum 400px
+    // Calculate dimensions based on actual viewport and modal dimensions
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+    
+    console.log('Word cloud dimensions:', width, 'x', height); // Debug log
     
     svg.attr('width', width).attr('height', height);
     
-    // Create word cloud layout
+    // Create word cloud layout with rectangular spiral for better rectangular space usage
     const layout = d3.layout.cloud()
-        .size([width, height])
+        .size([width - 20, height - 20]) // Minimal padding from edges
         .words(data.map(d => ({ text: d.text, size: d.size })))
-        .padding(5)
+        .padding(8)
         .rotate(() => 0)
         .font('Impact')
         .fontSize(d => d.size)
+        .spiral('rectangular') // Better for rectangular spaces
         .on('end', draw);
     
     layout.start();
