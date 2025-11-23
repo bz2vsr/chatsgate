@@ -1,0 +1,667 @@
+// Global State
+let rawData = null;
+let customWordList = [];
+let currentFilters = {
+    user: '',
+    dateStart: '',
+    dateEnd: '',
+    timelineView: 'daily'
+};
+let cloudSettings = {
+    topN: 50,
+    showType: 'all',
+    minCount: 20,
+    colorScheme: 'default',
+    fontSizeMin: 12,
+    fontSizeMax: 80,
+    userFilter: null
+};
+let userTable = null;
+let wordPhraseTable = null;
+let activityChart = null;
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+    loadTheme();
+    initThemeToggle();
+    loadData();
+});
+
+// ============================================================================
+// DATA LOADING
+// ============================================================================
+
+async function loadData() {
+    try {
+        const response = await fetch('data/processed-data.json');
+        if (!response.ok) throw new Error('Failed to load data');
+        
+        rawData = await response.json();
+        console.log('Data loaded:', rawData);
+        
+        // Load custom word list from localStorage
+        loadCustomWordList();
+        
+        // Initialize UI
+        renderSummary();
+        populateUserFilter();
+        initUserTable();
+        initWordPhraseTable();
+        renderChart();
+        
+        // Setup event listeners
+        initFilters();
+        initWordCloudModal();
+        
+        // Hide loading, show content
+        document.getElementById('loading-spinner').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+        
+    } catch (error) {
+        console.error('Error loading data:', error);
+        document.getElementById('loading-spinner').innerHTML = `
+            <div class="alert alert-danger">
+                <h5>Error Loading Data</h5>
+                <p>Failed to load processed-data.json. Make sure you've run the preprocessing script.</p>
+                <code>${error.message}</code>
+            </div>
+        `;
+    }
+}
+
+function loadCustomWordList() {
+    const stored = localStorage.getItem('customWordList');
+    if (stored) {
+        try {
+            customWordList = JSON.parse(stored);
+        } catch (e) {
+            console.error('Error parsing stored word list:', e);
+            customWordList = [];
+        }
+    }
+    
+    // Update input field if it exists
+    const input = document.getElementById('custom-word-list');
+    if (input && customWordList.length > 0) {
+        input.value = customWordList.join(', ');
+    }
+}
+
+function saveCustomWordList() {
+    localStorage.setItem('customWordList', JSON.stringify(customWordList));
+}
+
+// ============================================================================
+// THEME TOGGLE
+// ============================================================================
+
+function loadTheme() {
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.documentElement.setAttribute('data-bs-theme', savedTheme);
+    updateThemeIcon(savedTheme);
+}
+
+function saveTheme(theme) {
+    localStorage.setItem('theme', theme);
+}
+
+function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-bs-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-bs-theme', newTheme);
+    saveTheme(newTheme);
+    updateThemeIcon(newTheme);
+}
+
+function updateThemeIcon(theme) {
+    const lightIcon = document.getElementById('theme-icon-light');
+    const darkIcon = document.getElementById('theme-icon-dark');
+    
+    if (theme === 'dark') {
+        lightIcon.style.display = 'none';
+        darkIcon.style.display = 'inline';
+    } else {
+        lightIcon.style.display = 'inline';
+        darkIcon.style.display = 'none';
+    }
+}
+
+function initThemeToggle() {
+    const toggleBtn = document.getElementById('theme-toggle');
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', toggleTheme);
+    }
+}
+
+// ============================================================================
+// SUMMARY BADGES
+// ============================================================================
+
+function renderSummary() {
+    const { summary } = rawData;
+    
+    // Total Messages
+    document.getElementById('badge-messages').innerHTML = `Messages: ${summary.totalMessages.toLocaleString()}`;
+    
+    // Total Users
+    document.getElementById('badge-users').innerHTML = `Users: ${summary.totalUsers.toLocaleString()}`;
+    
+    // Date Range
+    const dateRange = summary.dateRange.start && summary.dateRange.end
+        ? `${summary.dateRange.start} to ${summary.dateRange.end}`
+        : 'N/A';
+    document.getElementById('badge-date-range').innerHTML = `Date: ${dateRange}`;
+}
+
+// ============================================================================
+// USER TABLE
+// ============================================================================
+
+function initUserTable() {
+    userTable = $('#user-table').DataTable({
+        data: rawData.users,
+        columns: [
+            { 
+                data: 'displayName',
+                render: (data, type, row) => {
+                    if (row.aliases && row.aliases.length > 0) {
+                        return `${data} <small class="text-muted">(${row.aliases.length} alias${row.aliases.length > 1 ? 'es' : ''})</small>`;
+                    }
+                    return data;
+                }
+            },
+            { data: 'messageCount', render: $.fn.dataTable.render.number(',') },
+            { data: 'wordCount', render: $.fn.dataTable.render.number(',') },
+            { 
+                data: 'activityScore',
+                render: (data) => data.toFixed(1)
+            },
+            { 
+                data: 'totalReactions',
+                render: (data) => data > 0 ? data.toLocaleString() : '0'
+            }
+        ],
+        order: [[3, 'desc']], // Sort by activity score
+        pageLength: 25,
+        lengthChange: false,
+        searching: false,
+        info: false,
+        responsive: true,
+        language: {
+            paginate: {
+                previous: '‹',
+                next: '›'
+            }
+        }
+    });
+    
+    // Click to expand emoji breakdown
+    $('#user-table tbody').on('click', 'tr', function() {
+        const tr = $(this);
+        const row = userTable.row(tr);
+        
+        if (row.child.isShown()) {
+            row.child.hide();
+            tr.removeClass('shown');
+        } else {
+            const rowData = row.data();
+            if (rowData.totalReactions > 0) {
+                row.child(formatEmojiBreakdown(rowData.emojiBreakdown)).show();
+                tr.addClass('shown');
+            }
+        }
+    });
+}
+
+function formatEmojiBreakdown(emojiData) {
+    if (!emojiData || Object.keys(emojiData).length === 0) {
+        return '<div class="p-2 text-muted">No reactions received</div>';
+    }
+    
+    const sorted = Object.entries(emojiData).sort((a, b) => b[1] - a[1]);
+    
+    let html = '<div class="emoji-breakdown-row p-3">';
+    html += '<table class="table table-sm table-borderless emoji-breakdown-table">';
+    html += '<thead><tr><th>Emoji</th><th>Count</th></tr></thead><tbody>';
+    
+    sorted.forEach(([emoji, count]) => {
+        html += `<tr><td>${emoji}</td><td>${count.toLocaleString()}</td></tr>`;
+    });
+    
+    html += '</tbody></table></div>';
+    return html;
+}
+
+// ============================================================================
+// WORD/PHRASE TABLE
+// ============================================================================
+
+function initWordPhraseTable() {
+    const combinedData = combineWordsAndPhrases();
+    
+    wordPhraseTable = $('#word-phrase-table').DataTable({
+        data: combinedData,
+        columns: [
+            { 
+                data: null,
+                render: (data, type, row, meta) => meta.row + 1
+            },
+            { data: 'text' },
+            { data: 'count', render: $.fn.dataTable.render.number(',') }
+        ],
+        order: [[2, 'desc']], // Sort by count
+        pageLength: 50,
+        lengthChange: false,
+        searching: true,
+        info: true,
+        language: {
+            search: 'Search:',
+            paginate: {
+                previous: '‹',
+                next: '›'
+            }
+        }
+    });
+    
+    // Custom word list filter
+    const customListInput = document.getElementById('custom-word-list');
+    if (customListInput) {
+        customListInput.addEventListener('input', debounce(() => {
+            applyCustomWordFilter(customListInput.value);
+        }, 500));
+    }
+}
+
+function combineWordsAndPhrases() {
+    const combined = [];
+    
+    // Add words
+    if (rawData.words) {
+        Object.entries(rawData.words).forEach(([text, count]) => {
+            combined.push({ text, count, type: 'word' });
+        });
+    }
+    
+    // Add phrases
+    if (rawData.phrases) {
+        Object.entries(rawData.phrases).forEach(([text, count]) => {
+            combined.push({ text, count, type: 'phrase' });
+        });
+    }
+    
+    // Sort by count descending
+    combined.sort((a, b) => b.count - a.count);
+    
+    return combined;
+}
+
+function applyCustomWordFilter(input) {
+    if (!input || !input.trim()) {
+        // Clear filter
+        customWordList = [];
+        saveCustomWordList();
+        wordPhraseTable.search('').draw();
+        return;
+    }
+    
+    // Parse comma-separated list
+    customWordList = input.split(',')
+        .map(w => normalizeText(w))
+        .filter(w => w.length > 0);
+    
+    saveCustomWordList();
+    
+    // Build regex search pattern
+    const escaped = customWordList.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const pattern = '^(' + escaped.join('|') + ')$';
+    
+    wordPhraseTable.column(1).search(pattern, true, false).draw();
+}
+
+// ============================================================================
+// ACTIVITY CHART
+// ============================================================================
+
+function renderChart() {
+    const ctx = document.getElementById('activity-chart').getContext('2d');
+    const timelineData = getTimelineData(currentFilters.timelineView);
+    
+    if (activityChart) {
+        activityChart.destroy();
+    }
+    
+    activityChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: timelineData.labels,
+            datasets: [{
+                label: 'Messages',
+                data: timelineData.values,
+                borderColor: 'rgb(13, 110, 253)',
+                backgroundColor: 'rgba(13, 110, 253, 0.1)',
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value) {
+                            return value.toLocaleString();
+                        }
+                    }
+                }
+            },
+            interaction: {
+                mode: 'nearest',
+                axis: 'x',
+                intersect: false
+            }
+        }
+    });
+}
+
+function getTimelineData(view) {
+    const timeline = rawData.timeline;
+    let data = [];
+    
+    switch (view) {
+        case 'daily':
+            data = timeline.daily;
+            return {
+                labels: data.map(d => d.date),
+                values: data.map(d => d.count)
+            };
+        case 'weekly':
+            data = timeline.weekly;
+            return {
+                labels: data.map(d => d.week),
+                values: data.map(d => d.count)
+            };
+        case 'monthly':
+            data = timeline.monthly;
+            return {
+                labels: data.map(d => d.month),
+                values: data.map(d => d.count)
+            };
+        default:
+            return { labels: [], values: [] };
+    }
+}
+
+function updateChartTimeline(view) {
+    currentFilters.timelineView = view;
+    renderChart();
+}
+
+// ============================================================================
+// FILTERS
+// ============================================================================
+
+function populateUserFilter() {
+    const select = document.getElementById('filter-user');
+    if (!select) return;
+    
+    rawData.users.forEach(user => {
+        const option = document.createElement('option');
+        option.value = user.displayName;
+        option.textContent = user.displayName;
+        select.appendChild(option);
+    });
+}
+
+function initFilters() {
+    // User filter
+    const userSelect = document.getElementById('filter-user');
+    if (userSelect) {
+        userSelect.addEventListener('change', (e) => {
+            currentFilters.user = e.target.value;
+            applyFilters();
+        });
+    }
+    
+    // Date filters
+    const dateStart = document.getElementById('filter-date-start');
+    const dateEnd = document.getElementById('filter-date-end');
+    
+    if (dateStart) {
+        dateStart.addEventListener('change', (e) => {
+            currentFilters.dateStart = e.target.value;
+            applyFilters();
+        });
+    }
+    
+    if (dateEnd) {
+        dateEnd.addEventListener('change', (e) => {
+            currentFilters.dateEnd = e.target.value;
+            applyFilters();
+        });
+    }
+    
+    // Timeline toggle
+    const timelineToggles = document.querySelectorAll('input[name="timeline-view"]');
+    timelineToggles.forEach(toggle => {
+        toggle.addEventListener('change', (e) => {
+            if (e.target.checked) {
+                updateChartTimeline(e.target.value);
+            }
+        });
+    });
+    
+    // Reset filters
+    const resetBtn = document.getElementById('btn-reset-filters');
+    if (resetBtn) {
+        resetBtn.addEventListener('click', resetFilters);
+    }
+}
+
+function applyFilters() {
+    // For now, filters only affect the chart
+    // User filter and date range filter would require per-user timeline data
+    console.log('Filters applied:', currentFilters);
+    
+    // Note: With current data structure, we can only filter timeline by date
+    // User filtering would require preprocessing changes to track per-user timelines
+}
+
+function resetFilters() {
+    currentFilters.user = '';
+    currentFilters.dateStart = '';
+    currentFilters.dateEnd = '';
+    
+    document.getElementById('filter-user').value = '';
+    document.getElementById('filter-date-start').value = '';
+    document.getElementById('filter-date-end').value = '';
+    
+    applyFilters();
+}
+
+// ============================================================================
+// WORD CLOUD MODAL
+// ============================================================================
+
+function initWordCloudModal() {
+    const openBtn = document.getElementById('btn-open-word-cloud');
+    const modal = document.getElementById('word-cloud-modal');
+    
+    if (openBtn) {
+        openBtn.addEventListener('click', () => {
+            const bsModal = new bootstrap.Modal(modal);
+            bsModal.show();
+            
+            // Render word cloud after modal is shown
+            setTimeout(() => renderWordCloud(), 300);
+        });
+    }
+    
+    // Control event listeners
+    document.getElementById('cloud-top-n').addEventListener('input', (e) => {
+        document.getElementById('cloud-top-n-value').textContent = e.target.value;
+        cloudSettings.topN = parseInt(e.target.value);
+        renderWordCloud();
+    });
+    
+    document.getElementById('cloud-type').addEventListener('change', (e) => {
+        cloudSettings.showType = e.target.value;
+        renderWordCloud();
+    });
+    
+    document.getElementById('cloud-min-count').addEventListener('input', (e) => {
+        document.getElementById('cloud-min-count-value').textContent = e.target.value;
+        cloudSettings.minCount = parseInt(e.target.value);
+        renderWordCloud();
+    });
+    
+    document.getElementById('cloud-color').addEventListener('change', (e) => {
+        cloudSettings.colorScheme = e.target.value;
+        renderWordCloud();
+    });
+    
+    document.getElementById('cloud-font-min').addEventListener('change', (e) => {
+        cloudSettings.fontSizeMin = parseInt(e.target.value);
+        renderWordCloud();
+    });
+    
+    document.getElementById('cloud-font-max').addEventListener('change', (e) => {
+        cloudSettings.fontSizeMax = parseInt(e.target.value);
+        renderWordCloud();
+    });
+}
+
+function renderWordCloud() {
+    const data = getCloudData(cloudSettings);
+    
+    if (data.length === 0) {
+        document.getElementById('word-cloud-container').innerHTML = 
+            '<div class="alert alert-warning">No words match the current filters</div>';
+        return;
+    }
+    
+    const svg = d3.select('#word-cloud-svg');
+    svg.selectAll('*').remove();
+    
+    const width = document.getElementById('word-cloud-container').clientWidth || 1000;
+    const height = 600;
+    
+    svg.attr('width', width).attr('height', height);
+    
+    // Create word cloud layout
+    const layout = d3.layout.cloud()
+        .size([width, height])
+        .words(data.map(d => ({ text: d.text, size: d.size })))
+        .padding(5)
+        .rotate(() => 0)
+        .font('Impact')
+        .fontSize(d => d.size)
+        .on('end', draw);
+    
+    layout.start();
+    
+    function draw(words) {
+        const g = svg.append('g')
+            .attr('transform', `translate(${width / 2},${height / 2})`);
+        
+        const colorScale = getColorScale(cloudSettings.colorScheme);
+        
+        g.selectAll('text')
+            .data(words)
+            .enter().append('text')
+            .attr('class', 'word-cloud-text')
+            .style('font-size', d => d.size + 'px')
+            .style('font-family', 'Impact')
+            .style('fill', (d, i) => colorScale(i))
+            .attr('text-anchor', 'middle')
+            .attr('transform', d => `translate(${d.x},${d.y})`)
+            .text(d => d.text);
+    }
+}
+
+function getCloudData(settings) {
+    const combined = [];
+    
+    // Filter by type
+    if (settings.showType === 'all' || settings.showType === 'words') {
+        Object.entries(rawData.words || {}).forEach(([text, count]) => {
+            if (count >= settings.minCount) {
+                combined.push({ text, count });
+            }
+        });
+    }
+    
+    if (settings.showType === 'all' || settings.showType === 'phrases') {
+        Object.entries(rawData.phrases || {}).forEach(([text, count]) => {
+            if (count >= settings.minCount) {
+                combined.push({ text, count });
+            }
+        });
+    }
+    
+    // Sort and take top N
+    combined.sort((a, b) => b.count - a.count);
+    const topN = combined.slice(0, settings.topN);
+    
+    // Scale font sizes
+    if (topN.length === 0) return [];
+    
+    const minCount = Math.min(...topN.map(d => d.count));
+    const maxCount = Math.max(...topN.map(d => d.count));
+    
+    return topN.map(d => ({
+        text: d.text,
+        size: scaleValue(d.count, minCount, maxCount, settings.fontSizeMin, settings.fontSizeMax)
+    }));
+}
+
+function getColorScale(scheme) {
+    const schemes = {
+        default: d3.scaleOrdinal(d3.schemeCategory10),
+        blue: d3.scaleSequential(d3.interpolateBlues).domain([0, 100]),
+        green: d3.scaleSequential(d3.interpolateGreens).domain([0, 100]),
+        warm: d3.scaleSequential(d3.interpolateWarm).domain([0, 100]),
+        cool: d3.scaleSequential(d3.interpolateCool).domain([0, 100])
+    };
+    
+    return schemes[scheme] || schemes.default;
+}
+
+// ============================================================================
+// UTILITIES
+// ============================================================================
+
+function normalizeText(text) {
+    if (!text) return '';
+    return text.toLowerCase()
+        .trim()
+        .replace(/\s+/g, ' ');
+}
+
+function scaleValue(value, minVal, maxVal, minScale, maxScale) {
+    if (maxVal === minVal) return minScale;
+    return minScale + ((value - minVal) / (maxVal - minVal)) * (maxScale - minScale);
+}
+
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+

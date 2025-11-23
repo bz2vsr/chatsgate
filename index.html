@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Chat Statistics</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- DataTables CSS (Bootstrap 5) -->
+    <link href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand navbar-dark bg-dark border-bottom">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Discord Chat Statistics</span>
+            
+            <!-- Summary Badges -->
+            <div class="d-flex align-items-center gap-2 ms-auto">
+                <span class="badge bg-primary" id="badge-messages">
+                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
+                    Messages: ...
+                </span>
+                <span class="badge bg-success" id="badge-users">
+                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
+                    Users: ...
+                </span>
+                <span class="badge bg-info" id="badge-date-range">
+                    <span class="spinner-border spinner-border-sm me-1" role="status"></span>
+                    Date: ...
+                </span>
+                
+                <!-- Theme Toggle Button -->
+                <button class="btn btn-outline-light btn-sm" id="theme-toggle" type="button" title="Toggle theme">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun-fill" id="theme-icon-light" style="display: none;">
+                        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-fill" id="theme-icon-dark">
+                        <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container-fluid main-container">
+        <div class="row h-100">
+            <!-- Left Panel -->
+            <div class="col-12 col-lg-3 left-panel">
+                <!-- Filters -->
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <h6 class="mb-0">Filters</h6>
+                    </div>
+                    <div class="card-body">
+                        <!-- User Filter -->
+                        <div class="mb-3">
+                            <label for="filter-user" class="form-label">User</label>
+                            <select class="form-select form-select-sm" id="filter-user">
+                                <option value="">All Users</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Date Range Filter -->
+                        <div class="mb-3">
+                            <label for="filter-date-start" class="form-label">Date Range</label>
+                            <div class="input-group input-group-sm mb-2">
+                                <span class="input-group-text">From</span>
+                                <input type="date" class="form-control" id="filter-date-start">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text">To</span>
+                                <input type="date" class="form-control" id="filter-date-end">
+                            </div>
+                        </div>
+                        
+                        <button class="btn btn-sm btn-secondary w-100" id="btn-reset-filters">Reset Filters</button>
+                    </div>
+                </div>
+                
+                <!-- User Statistics Table -->
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="mb-0">User Statistics</h6>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-hover mb-0" id="user-table">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Msgs</th>
+                                        <th>Words</th>
+                                        <th>Score</th>
+                                        <th>Reactions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <div class="col-12 col-lg-9 right-panel">
+                <!-- Loading Spinner -->
+                <div class="text-center my-5" id="loading-spinner">
+                    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-3">Loading data...</p>
+                </div>
+                
+                <!-- Content (hidden until loaded) -->
+                <div id="main-content" style="display: none;">
+                    <!-- Activity Timeline Chart -->
+                    <div class="card mb-3">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="mb-0">Activity Timeline</h6>
+                            <div class="btn-group btn-group-sm" role="group" id="timeline-toggle">
+                                <input type="radio" class="btn-check" name="timeline-view" id="view-daily" value="daily" checked>
+                                <label class="btn btn-outline-primary" for="view-daily">Daily</label>
+                                
+                                <input type="radio" class="btn-check" name="timeline-view" id="view-weekly" value="weekly">
+                                <label class="btn btn-outline-primary" for="view-weekly">Weekly</label>
+                                
+                                <input type="radio" class="btn-check" name="timeline-view" id="view-monthly" value="monthly">
+                                <label class="btn btn-outline-primary" for="view-monthly">Monthly</label>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="activity-chart"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Word Cloud Button -->
+                    <div class="mb-3">
+                        <button class="btn btn-primary btn-lg w-100" id="btn-open-word-cloud">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud me-2" viewBox="0 0 16 16">
+                                <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                            </svg>
+                            Open Word Cloud Visualization
+                        </button>
+                    </div>
+
+                    <!-- Word/Phrase Data Table -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h6 class="mb-0">Word & Phrase Statistics</h6>
+                        </div>
+                        <div class="card-body">
+                            <!-- Custom Word List Filter -->
+                            <div class="mb-3">
+                                <label for="custom-word-list" class="form-label">Filter by custom word list (comma-separated):</label>
+                                <input type="text" class="form-control form-control-sm" id="custom-word-list" 
+                                       placeholder="e.g., played, despra, bussy, btc">
+                                <div class="form-text">Leave empty to show all words/phrases. Changes are saved automatically.</div>
+                            </div>
+                            
+                            <div class="table-responsive">
+                                <table class="table table-sm table-hover" id="word-phrase-table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Word/Phrase</th>
+                                            <th>Count</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Populated by JavaScript -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Word Cloud Modal -->
+    <div class="modal fade" id="word-cloud-modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Word Cloud Visualization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Controls -->
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="row g-3">
+                                <!-- Top N -->
+                                <div class="col-md-3">
+                                    <label for="cloud-top-n" class="form-label">Top N words: <span id="cloud-top-n-value">50</span></label>
+                                    <input type="range" class="form-range" id="cloud-top-n" min="10" max="500" step="10" value="50">
+                                </div>
+                                
+                                <!-- Type Filter -->
+                                <div class="col-md-2">
+                                    <label for="cloud-type" class="form-label">Show</label>
+                                    <select class="form-select form-select-sm" id="cloud-type">
+                                        <option value="all">All</option>
+                                        <option value="words">Words Only</option>
+                                        <option value="phrases">Phrases Only</option>
+                                    </select>
+                                </div>
+                                
+                                <!-- Min Count -->
+                                <div class="col-md-2">
+                                    <label for="cloud-min-count" class="form-label">Min Count: <span id="cloud-min-count-value">20</span></label>
+                                    <input type="range" class="form-range" id="cloud-min-count" min="1" max="100" value="20">
+                                </div>
+                                
+                                <!-- Color Scheme -->
+                                <div class="col-md-2">
+                                    <label for="cloud-color" class="form-label">Colors</label>
+                                    <select class="form-select form-select-sm" id="cloud-color">
+                                        <option value="default">Default</option>
+                                        <option value="blue">Blue</option>
+                                        <option value="green">Green</option>
+                                        <option value="warm">Warm</option>
+                                        <option value="cool">Cool</option>
+                                    </select>
+                                </div>
+                                
+                                <!-- Font Size Range -->
+                                <div class="col-md-3">
+                                    <label class="form-label">Font Size</label>
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-text">Min</span>
+                                        <input type="number" class="form-control" id="cloud-font-min" value="12" min="8" max="50">
+                                        <span class="input-group-text">Max</span>
+                                        <input type="number" class="form-control" id="cloud-font-max" value="80" min="30" max="150">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Word Cloud SVG Container -->
+                    <div id="word-cloud-container" class="text-center">
+                        <svg id="word-cloud-svg" width="100%" height="600"></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    
+    <!-- D3.js and d3-cloud -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

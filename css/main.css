@@ -1,0 +1,232 @@
+/* Full-height layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main container takes remaining height */
+.main-container {
+    flex: 1;
+    overflow: hidden;
+}
+
+.main-container .row {
+    height: 100%;
+}
+
+/* Left and right panels with independent scrolling */
+.left-panel,
+.right-panel {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 1rem;
+}
+
+/* Smooth scrolling */
+.left-panel::-webkit-scrollbar,
+.right-panel::-webkit-scrollbar {
+    width: 8px;
+}
+
+.left-panel::-webkit-scrollbar-thumb,
+.right-panel::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 4px;
+}
+
+.left-panel::-webkit-scrollbar-thumb:hover,
+.right-panel::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+/* User table expandable row styling */
+#user-table tbody tr {
+    cursor: pointer;
+}
+
+#user-table tbody tr:hover {
+    background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+}
+
+#user-table tbody tr.shown {
+    background-color: rgba(var(--bs-info-rgb), 0.15) !important;
+}
+
+/* Child row (emoji breakdown) */
+.emoji-breakdown-row {
+    background-color: rgba(var(--bs-secondary-rgb), 0.1);
+}
+
+.emoji-breakdown-table {
+    margin: 0.5rem 0;
+    font-size: 0.875rem;
+}
+
+.emoji-breakdown-table td {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Word cloud SVG container */
+#word-cloud-container {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#word-cloud-svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Word cloud modal controls */
+.modal-fullscreen .modal-body {
+    overflow-y: auto;
+}
+
+/* Chart container */
+#activity-chart {
+    max-height: 400px;
+}
+
+/* Loading spinner adjustments */
+#loading-spinner {
+    padding: 3rem 0;
+}
+
+/* Custom word list input */
+#custom-word-list {
+    font-family: monospace;
+}
+
+/* Badge spacing in navbar */
+.navbar .badge {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+}
+
+/* DataTables responsive adjustments */
+.table-responsive {
+    max-height: calc(100vh - 250px);
+}
+
+#user-table_wrapper .table-responsive {
+    max-height: calc(100vh - 400px);
+}
+
+/* Compact table styling */
+.table-sm th,
+.table-sm td {
+    padding: 0.4rem;
+    font-size: 0.875rem;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Card adjustments for compact layout */
+.card {
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    border-bottom: 1px solid var(--bs-border-color);
+    padding: 0.75rem 1rem;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 991.98px) {
+    .left-panel,
+    .right-panel {
+        height: auto;
+        max-height: none;
+        overflow-y: visible;
+    }
+    
+    .main-container {
+        overflow-y: auto;
+    }
+    
+    .table-responsive {
+        max-height: 400px;
+    }
+    
+    #user-table_wrapper .table-responsive {
+        max-height: 300px;
+    }
+}
+
+/* Word cloud text styling */
+.word-cloud-text {
+    cursor: default;
+    user-select: none;
+}
+
+/* Range slider styling */
+.form-range::-webkit-slider-thumb {
+    background: var(--bs-primary);
+}
+
+.form-range::-moz-range-thumb {
+    background: var(--bs-primary);
+}
+
+/* Filter button spacing */
+#btn-reset-filters {
+    margin-top: 0.5rem;
+}
+
+/* Timeline toggle buttons */
+#timeline-toggle .btn {
+    font-size: 0.875rem;
+}
+
+/* Spinner in badges */
+.badge .spinner-border {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-width: 0.1em;
+}
+
+/* Ensure proper spacing for controls in modal */
+.modal-body .card {
+    margin-bottom: 1.5rem;
+}
+
+/* Word/phrase table rank column */
+#word-phrase-table tbody tr td:first-child {
+    font-weight: 600;
+    color: var(--bs-secondary);
+}
+
+/* Highlight current filter input when active */
+#custom-word-list:focus {
+    border-color: var(--bs-primary);
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+/* Loading state */
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
