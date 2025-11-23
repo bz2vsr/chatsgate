@@ -67,34 +67,26 @@
         <div class="row h-100">
             <!-- Left Panel -->
             <div class="col-12 col-lg-5 left-panel">
-                <!-- Filters (Hidden for future implementation) -->
-                <div class="card mb-3" style="display: none;">
-                    <div class="card-header">
-                        <h6 class="mb-0">Filters</h6>
+                <!-- User Selection Filter -->
+                <div class="card mb-3" id="filterCard">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">View Mode</h6>
+                        <button class="btn btn-sm btn-outline-secondary" id="btn-reset-filters" style="display: none;">
+                            Show All Users
+                        </button>
                     </div>
                     <div class="card-body">
-                        <!-- User Filter -->
-                        <div class="mb-3">
-                            <label for="filter-user" class="form-label">User</label>
+                        <div class="mb-2">
+                            <label for="filter-user" class="form-label">Select User</label>
                             <select class="form-select form-select-sm" id="filter-user">
-                                <option value="">All Users</option>
+                                <option value="">All Users (Global View)</option>
+                                <!-- Populated by JavaScript -->
                             </select>
                         </div>
-                        
-                        <!-- Date Range Filter -->
-                        <div class="mb-3">
-                            <label for="filter-date-start" class="form-label">Date Range</label>
-                            <div class="input-group input-group-sm mb-2">
-                                <span class="input-group-text">From</span>
-                                <input type="date" class="form-control" id="filter-date-start">
-                            </div>
-                            <div class="input-group input-group-sm">
-                                <span class="input-group-text">To</span>
-                                <input type="date" class="form-control" id="filter-date-end">
-                            </div>
+                        <div id="user-load-status" class="text-muted small" style="display: none;">
+                            <span class="spinner-border spinner-border-sm me-1"></span>
+                            Loading user data...
                         </div>
-                        
-                        <button class="btn btn-sm btn-secondary w-100" id="btn-reset-filters">Reset Filters</button>
                     </div>
                 </div>
                 
@@ -120,6 +112,20 @@
                                 </tbody>
                             </table>
                         </div>
+                    </div>
+                </div>
+                
+                <!-- User Relationships (Hidden until user selected) -->
+                <div class="card mt-3" id="relationships-card" style="display: none;">
+                    <div class="card-header">
+                        <h6 class="mb-0">Relationships</h6>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="small text-muted mb-2">Top Mentions</h6>
+                        <div id="mentions-viz" class="mb-3"></div>
+                        
+                        <h6 class="small text-muted mb-2">Top Reactions Received</h6>
+                        <div id="reactions-viz"></div>
                     </div>
                 </div>
             </div>

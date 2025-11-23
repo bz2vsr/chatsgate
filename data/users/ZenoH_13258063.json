@@ -1,0 +1,56 @@
+{
+  "userId": "1325806324688093216",
+  "displayName": "ZenoH",
+  "aliases": [],
+  "stats": {
+    "messageCount": 4,
+    "wordCount": 21,
+    "avgLength": 54.5,
+    "activityScore": 15.9,
+    "totalReactions": 0
+  },
+  "words": {
+    "yo": 3,
+    "discord": 3,
+    "one": 2,
+    "26": 1,
+    "go": 1,
+    "introduce": 1,
+    "ptb": 1,
+    "lets": 1,
+    "login": 1,
+    "accounts": 1,
+    "time": 1,
+    "device": 1,
+    "dipshit": 1,
+    "account": 1,
+    "reclaim": 1,
+    "uwu": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-07-14",
+        "count": 4
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W28",
+        "count": 4
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-07",
+        "count": 4
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

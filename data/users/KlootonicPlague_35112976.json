@@ -1,0 +1,117 @@
+{
+  "userId": "351129760472236034",
+  "displayName": "KlootonicPlague",
+  "aliases": [],
+  "stats": {
+    "messageCount": 4,
+    "wordCount": 80,
+    "avgLength": 233.0,
+    "activityScore": 57.2,
+    "totalReactions": 0
+  },
+  "words": {
+    "bomber": 5,
+    "build": 3,
+    "free": 3,
+    "ago": 2,
+    "ffa": 2,
+    "recycler": 2,
+    "base": 2,
+    "one": 2,
+    "wouldn": 2,
+    "let": 2,
+    "slot": 2,
+    "bay": 2,
+    "remember": 1,
+    "years": 1,
+    "trying": 1,
+    "allied": 1,
+    "started": 1,
+    "teammate": 1,
+    "area": 1,
+    "instead": 1,
+    "separate": 1,
+    "areas": 1,
+    "regular": 1,
+    "ahh": 1,
+    "okay": 1,
+    "maybe": 1,
+    "picked": 1,
+    "map": 1,
+    "back": 1,
+    "either": 1,
+    "good": 1,
+    "seemed": 1,
+    "fun": 1,
+    "gametype": 1,
+    "experienced": 1,
+    "unusable": 1,
+    "couple": 1,
+    "months": 1,
+    "single": 1,
+    "player": 1,
+    "match": 1,
+    "physically": 1,
+    "couldn": 1,
+    "use": 1,
+    "another": 1,
+    "since": 1,
+    "said": 1,
+    "probably": 1,
+    "didn": 1,
+    "built": 1,
+    "least": 1,
+    "happened": 1,
+    "avoid": 1,
+    "situation": 1,
+    "improved": 1,
+    "somehow": 1,
+    "better": 1,
+    "case": 1,
+    "assumed": 1,
+    "without": 1,
+    "unit": 1,
+    "group": 1,
+    "left": 1
+  },
+  "phrases": {
+    "the bomber": 4
+  },
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-06-18",
+        "count": 2
+      },
+      {
+        "date": "2024-08-31",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W24",
+        "count": 2
+      },
+      {
+        "week": "2024-W34",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-06",
+        "count": 2
+      },
+      {
+        "month": "2024-08",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

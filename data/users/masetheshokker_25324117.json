@@ -1,0 +1,55 @@
+{
+  "userId": "253241170472206336",
+  "displayName": "masetheshokker",
+  "aliases": [],
+  "stats": {
+    "messageCount": 2,
+    "wordCount": 3,
+    "avgLength": 10.0,
+    "activityScore": 2.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "hi": 1,
+    "joined": 1,
+    "server": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2023-11-20",
+        "count": 1
+      },
+      {
+        "date": "2025-10-07",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2023-W47",
+        "count": 1
+      },
+      {
+        "week": "2025-W40",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2023-11",
+        "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

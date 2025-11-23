@@ -1,0 +1,108 @@
+{
+  "userId": "1080387297385664602",
+  "displayName": "Scream",
+  "aliases": [],
+  "stats": {
+    "messageCount": 9,
+    "wordCount": 35,
+    "avgLength": 40.0,
+    "activityScore": 27.2,
+    "totalReactions": 0
+  },
+  "words": {
+    "anyone": 2,
+    "homemade": 2,
+    "thermal": 2,
+    "sup": 1,
+    "bitchezzz": 1,
+    "huge": 1,
+    "tallent": 1,
+    "awesome": 1,
+    "cookies": 1,
+    "btw": 1,
+    "playing": 1,
+    "airsoft": 1,
+    "hide": 1,
+    "seek": 1,
+    "kmsc": 1,
+    "hand": 1,
+    "crafted": 1,
+    "crafting": 1,
+    "materials": 1,
+    "localy": 1,
+    "sourced": 1,
+    "actualy": 1,
+    "several": 1,
+    "ghillies": 1,
+    "camera": 1,
+    "night": 1,
+    "vision": 1,
+    "analog": 1,
+    "nvg": 1,
+    "owerlay": 1,
+    "ggs": 1,
+    "yall": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-07-23",
+        "count": 1
+      },
+      {
+        "date": "2024-07-26",
+        "count": 3
+      },
+      {
+        "date": "2024-07-31",
+        "count": 2
+      },
+      {
+        "date": "2024-08-09",
+        "count": 1
+      },
+      {
+        "date": "2024-11-19",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W29",
+        "count": 4
+      },
+      {
+        "week": "2024-W30",
+        "count": 2
+      },
+      {
+        "week": "2024-W31",
+        "count": 1
+      },
+      {
+        "week": "2024-W46",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-07",
+        "count": 6
+      },
+      {
+        "month": "2024-08",
+        "count": 1
+      },
+      {
+        "month": "2024-11",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

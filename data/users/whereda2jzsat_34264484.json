@@ -1,0 +1,60 @@
+{
+  "userId": "342644846076624897",
+  "displayName": "whereda2jzsat",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 15,
+    "avgLength": 147.0,
+    "activityScore": 10.8,
+    "totalReactions": 1
+  },
+  "words": {
+    "holy": 1,
+    "crap": 1,
+    "bramble": 1,
+    "sick": 1,
+    "godda": 1,
+    "bz": 1,
+    "stuff": 1,
+    "lego": 1,
+    "wth": 1,
+    "good": 1,
+    "idea": 1,
+    "colors": 1,
+    "though": 1,
+    "probably": 1,
+    "lmao": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-08-16",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W32",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-08",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": [
+      {
+        "emoji": "💀",
+        "count": 1
+      }
+    ]
+  }
+}

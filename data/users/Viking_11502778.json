@@ -1,0 +1,52 @@
+{
+  "userId": "1150277804454318110",
+  "displayName": "Viking",
+  "aliases": [],
+  "stats": {
+    "messageCount": 3,
+    "wordCount": 4,
+    "avgLength": 14.33,
+    "activityScore": 3.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "joined": 1,
+    "server": 1,
+    "strats": 1,
+    "mpi": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-09-14",
+        "count": 1
+      },
+      {
+        "date": "2025-09-21",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W37",
+        "count": 1
+      },
+      {
+        "week": "2025-W38",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-09",
+        "count": 3
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

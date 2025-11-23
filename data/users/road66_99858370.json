@@ -1,0 +1,42 @@
+{
+  "userId": "998583707143262370",
+  "displayName": "road66",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 2,
+    "avgLength": 18.0,
+    "activityScore": 1.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "joined": 1,
+    "server": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-09-11",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W36",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-09",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

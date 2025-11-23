@@ -81,6 +81,108 @@ def parse_timestamp(ts_str):
     except:
         return None
 
+def build_user_timeline(messages):
+    """Build timeline data for a specific user's messages"""
+    daily_counts = defaultdict(int)
+    
+    for msg in messages:
+        timestamp = parse_timestamp(msg.get('timestamp', ''))
+        if timestamp:
+            date_key = timestamp.strftime('%Y-%m-%d')
+            daily_counts[date_key] += 1
+    
+    timeline = {
+        'daily': [],
+        'weekly': {},
+        'monthly': {}
+    }
+    
+    # Daily timeline
+    for date_str in sorted(daily_counts.keys()):
+        timeline['daily'].append({
+            'date': date_str,
+            'count': daily_counts[date_str]
+        })
+    
+    # Weekly and monthly aggregation
+    for date_str, count in daily_counts.items():
+        dt = datetime.strptime(date_str, '%Y-%m-%d')
+        week_key = dt.strftime('%Y-W%U')
+        timeline['weekly'][week_key] = timeline['weekly'].get(week_key, 0) + count
+        month_key = dt.strftime('%Y-%m')
+        timeline['monthly'][month_key] = timeline['monthly'].get(month_key, 0) + count
+    
+    # Convert to sorted lists
+    timeline['weekly'] = [{'week': k, 'count': v} for k, v in sorted(timeline['weekly'].items())]
+    timeline['monthly'] = [{'month': k, 'count': v} for k, v in sorted(timeline['monthly'].items())]
+    
+    return timeline
+
+def export_user_data(user_id, user_data, messages, mentions_given, mentions_received, 
+                     reactions_received, user_id_to_name):
+    """Generate comprehensive per-user JSON data"""
+    # Calculate per-user word and phrase counts
+    user_word_counter = Counter()
+    user_phrase_counter = Counter()
+    
+    for msg in messages:
+        content = msg.get('content', '')
+        words = extract_words(content)
+        user_word_counter.update(words)
+        
+        phrases = extract_phrases(content)
+        user_phrase_counter.update(phrases)
+    
+    # Build timeline for this user
+    user_timeline = build_user_timeline(messages)
+    
+    # Resolve mention user IDs to display names
+    def resolve_mentions(mention_counter):
+        resolved = []
+        for mentioned_id, count in mention_counter.most_common(10):
+            # Resolve ID to name, fall back to ID if not found
+            name = user_id_to_name.get(mentioned_id, f"User_{mentioned_id}")
+            resolved.append({'user': name, 'count': count})
+        return resolved
+    
+    mentions_given_resolved = resolve_mentions(mentions_given)
+    mentions_received_resolved = resolve_mentions(mentions_received)
+    
+    # Note: Reactions given data is not available in Discord exports
+    # We can only track reactions received
+    reactions_received_list = []
+    if reactions_received:
+        # Group by user (Discord doesn't provide who gave reactions, only counts)
+        # So we'll show total reactions received with emoji breakdown
+        reactions_received_list = [
+            {
+                'emoji': emoji,
+                'count': count
+            }
+            for emoji, count in reactions_received.get('emojiBreakdown', Counter()).most_common(10)
+        ]
+    
+    return {
+        'userId': user_id,
+        'displayName': user_data['displayName'],
+        'aliases': user_data.get('aliases', []),
+        'stats': {
+            'messageCount': user_data['messageCount'],
+            'wordCount': user_data['wordCount'],
+            'avgLength': user_data['avgLength'],
+            'activityScore': user_data['activityScore'],
+            'totalReactions': user_data['totalReactions']
+        },
+        'words': dict(user_word_counter.most_common()),  # All words, no limit
+        'phrases': {k: v for k, v in user_phrase_counter.items() if v >= 3},  # Minimum 3 occurrences
+        'timeline': user_timeline,
+        'relationships': {
+            'mentionsGiven': mentions_given_resolved,
+            'mentionsReceived': mentions_received_resolved,
+            'reactionsReceived': reactions_received_list
+        }
+    }
+
 def process_data():
     """Main processing function"""
     print("Starting Discord data processing...")
@@ -110,6 +212,14 @@ def process_data():
         'emojiBreakdown': Counter()
     })
     
+    # Per-user data structures for individual analysis
+    user_messages = defaultdict(list)  # Store all messages per user
+    user_mentions_given = defaultdict(Counter)  # Who each user mentions
+    user_mentions_received = defaultdict(Counter)  # Who mentions each user
+    
+    # Build user ID to display name mapping for mention resolution
+    user_id_to_name = {}
+    
     # Process all JSON files
     json_files = list(data_dir.glob('*.json'))
     print(f"Found {len(json_files)} JSON files to process...")
@@ -136,6 +246,9 @@ def process_data():
                 user_id = author.get('id', 'unknown')
                 display_name = get_display_name(author)
                 
+                # Build user ID to name mapping
+                user_id_to_name[user_id] = display_name
+                
                 # Update user stats (keyed by ID, track all display names)
                 words = extract_words(content)
                 word_count = len(words)
@@ -144,6 +257,21 @@ def process_data():
                 user_stats[user_id]['wordCount'] += word_count
                 user_stats[user_id]['totalLength'] += len(content)
                 user_stats[user_id]['displayNames'][display_name] += 1  # Count name frequency
+                
+                # Store message for per-user analysis
+                user_messages[user_id].append({
+                    'content': content,
+                    'timestamp': msg.get('timestamp', ''),
+                    'reactions': msg.get('reactions', [])
+                })
+                
+                # Extract and track mentions
+                # Discord format: <@USER_ID> or <@!USER_ID>
+                mention_pattern = r'<@!?(\d+)>'
+                mentioned_ids = re.findall(mention_pattern, content)
+                for mentioned_id in mentioned_ids:
+                    user_mentions_given[user_id][mentioned_id] += 1
+                    user_mentions_received[mentioned_id][user_id] += 1
                 
                 # Track reactions received by message author
                 reactions = msg.get('reactions', [])
@@ -205,6 +333,56 @@ def process_data():
     # Sort users by activity score
     users_list.sort(key=lambda x: x['activityScore'], reverse=True)
     
+    # Create user ID to user data mapping for export
+    user_id_to_data = {}
+    for user_id, stats in user_stats.items():
+        # Find this user in users_list
+        display_names = stats['displayNames']
+        most_common_name = display_names.most_common(1)[0][0] if display_names else 'Unknown'
+        user_data = next((u for u in users_list if u['displayName'] == most_common_name), None)
+        if user_data:
+            user_id_to_data[user_id] = user_data
+    
+    # Export per-user data files
+    print("\nExporting per-user data files...")
+    users_dir = Path('data/users')
+    users_dir.mkdir(exist_ok=True)
+    
+    user_files_mapping = {}  # For global data reference
+    
+    for user_id, user_data in user_id_to_data.items():
+        try:
+            # Generate user data
+            user_json = export_user_data(
+                user_id=user_id,
+                user_data=user_data,
+                messages=user_messages[user_id],
+                mentions_given=user_mentions_given[user_id],
+                mentions_received=user_mentions_received[user_id],
+                reactions_received=user_reactions[user_id],
+                user_id_to_name=user_id_to_name
+            )
+            
+            # Sanitize filename (remove special chars, handle conflicts)
+            safe_name = re.sub(r'[^\w\-]', '_', user_data['displayName'])
+            # Add user ID suffix to handle name conflicts
+            safe_name = f"{safe_name}_{user_id[:8]}"
+            filename = f"{safe_name}.json"
+            output_path = users_dir / filename
+            
+            # Write user file
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(user_json, f, indent=2, ensure_ascii=False)
+            
+            # Store mapping
+            user_files_mapping[user_data['displayName']] = f"data/users/{filename}"
+            
+        except Exception as e:
+            print(f"Error exporting data for user {user_data.get('displayName', user_id)}: {e}")
+            continue
+    
+    print(f"Exported {len(user_files_mapping)} user data files to {users_dir}/")
+    
     # Filter phrases to minimum 20 occurrences
     filtered_phrases = {phrase: count for phrase, count in phrase_counter.items() if count >= 20}
     print(f"Found {len(filtered_phrases)} phrases with 20+ occurrences (from {len(phrase_counter)} total)")
@@ -261,7 +439,8 @@ def process_data():
         'users': users_list,
         'words': dict(word_counter.most_common()),  # All words
         'phrases': filtered_phrases,
-        'timeline': timeline
+        'timeline': timeline,
+        'userFiles': user_files_mapping  # Mapping of display names to file paths
     }
     
     # Write output

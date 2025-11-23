@@ -1,0 +1,107 @@
+{
+  "userId": "871011493670420512",
+  "displayName": "vantage Starship",
+  "aliases": [],
+  "stats": {
+    "messageCount": 14,
+    "wordCount": 47,
+    "avgLength": 32.07,
+    "activityScore": 37.1,
+    "totalReactions": 0
+  },
+  "words": {
+    "servers": 2,
+    "different": 2,
+    "good": 2,
+    "welcome": 2,
+    "wait": 1,
+    "blueberry": 1,
+    "pintoh1": 1,
+    "makes": 1,
+    "magen": 1,
+    "david": 1,
+    "using": 1,
+    "genesis": 1,
+    "mod": 1,
+    "actually": 1,
+    "zionist": 1,
+    "seen": 1,
+    "go": 1,
+    "isreal": 1,
+    "ideas": 1,
+    "days": 1,
+    "anyways": 1,
+    "long": 1,
+    "general": 1,
+    "take": 1,
+    "reasonably": 1,
+    "hover": 1,
+    "yes": 1,
+    "mic": 1,
+    "ty": 1,
+    "thanks": 1,
+    "game": 1,
+    "cyber": 1,
+    "hopefully": 1,
+    "better": 1,
+    "dogfighting": 1,
+    "next": 1,
+    "lesson": 1,
+    "hi": 1,
+    "thxs": 1,
+    "letting": 1,
+    "quite": 1,
+    "new": 1,
+    "looks": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-06-22",
+        "count": 10
+      },
+      {
+        "date": "2024-06-23",
+        "count": 1
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-04",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W24",
+        "count": 10
+      },
+      {
+        "week": "2024-W25",
+        "count": 2
+      },
+      {
+        "week": "2024-W26",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-06",
+        "count": 12
+      },
+      {
+        "month": "2024-07",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": []
+  }
+}

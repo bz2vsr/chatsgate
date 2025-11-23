@@ -28,6 +28,11 @@ let userTable = null;
 let wordPhraseTable = null;
 let activityChart = null;
 
+// Per-user analysis state
+let currentUserData = null; // Cached user data
+let currentViewMode = 'global'; // 'global' or 'user'
+let loadedUsers = {}; // Cache for loaded user data
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
     loadTheme();
@@ -59,6 +64,7 @@ async function loadData() {
         
         // Setup event listeners
         initFilters();
+        initUserFilterDropdown();  // Initialize per-user analysis filter
         initWordCloudModal();
         
         // Hide loading, show content
@@ -476,7 +482,11 @@ function renderChart() {
 }
 
 function getTimelineData(view) {
-    const timeline = rawData.timeline;
+    // Use currentUserData timeline if in user mode, otherwise use global timeline
+    const timeline = currentViewMode === 'user' && currentUserData 
+        ? currentUserData.timeline 
+        : rawData.timeline;
+    
     let data = [];
     
     switch (view) {
@@ -588,6 +598,260 @@ function resetFilters() {
     document.getElementById('filter-date-end').value = '';
     
     applyFilters();
+}
+
+// ============================================================================
+// PER-USER ANALYSIS
+// ============================================================================
+
+function initUserFilterDropdown() {
+    const filterSelect = document.getElementById('filter-user');
+    const resetBtn = document.getElementById('btn-reset-filters');
+    
+    if (!filterSelect || !rawData || !rawData.users) return;
+    
+    // Clear existing options (except the first "All Users" option)
+    while (filterSelect.options.length > 1) {
+        filterSelect.remove(1);
+    }
+    
+    // Populate user dropdown from global data
+    const users = rawData.users || [];
+    users.forEach(user => {
+        const option = document.createElement('option');
+        option.value = user.displayName;
+        option.textContent = `${user.displayName} (${user.messageCount} msgs)`;
+        filterSelect.appendChild(option);
+    });
+    
+    // Event listener for user selection
+    filterSelect.addEventListener('change', async (e) => {
+        const username = e.target.value;
+        if (username) {
+            await loadUserView(username);
+        } else {
+            resetToGlobalView();
+        }
+    });
+    
+    // Event listener for reset button
+    if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+            filterSelect.value = '';
+            resetToGlobalView();
+        });
+    }
+}
+
+async function loadUserView(username) {
+    try {
+        // Show loading indicator
+        showUserLoadingStatus(true);
+        currentViewMode = 'user';
+        
+        // Check cache first
+        if (loadedUsers[username]) {
+            currentUserData = loadedUsers[username];
+            console.log('Loaded user from cache:', username);
+        } else {
+            // Fetch user data file
+            if (!rawData.userFiles || !rawData.userFiles[username]) {
+                throw new Error('User data file not found');
+            }
+            
+            const filepath = rawData.userFiles[username];
+            const response = await fetch(filepath);
+            if (!response.ok) throw new Error('Failed to load user data');
+            
+            currentUserData = await response.json();
+            loadedUsers[username] = currentUserData; // Cache it
+            console.log('Loaded user from file:', username);
+        }
+        
+        // Update UI
+        showUserLoadingStatus(false);
+        document.getElementById('btn-reset-filters').style.display = 'inline-block';
+        
+        // Re-render all components with user data
+        renderUserSummary();
+        updateUserTableForUserMode();
+        renderChart();  // Will use currentViewMode to determine data source
+        updateWordPhraseTableForUser();
+        renderRelationships();
+        
+        console.log('User view loaded:', username);
+        
+    } catch (error) {
+        console.error('Error loading user data:', error);
+        alert(`Failed to load user data: ${error.message}\n\nPlease ensure the preprocessing script has generated user files.`);
+        resetToGlobalView();
+    }
+}
+
+function resetToGlobalView() {
+    currentViewMode = 'global';
+    currentUserData = null;
+    
+    document.getElementById('btn-reset-filters').style.display = 'none';
+    document.getElementById('relationships-card').style.display = 'none';
+    
+    // Re-render with global data
+    renderSummary();
+    
+    // Show full user table again
+    document.querySelector('.user-stats-card').style.display = 'block';
+    if (userTable) {
+        userTable.clear();
+        initUserTable();  // Reinitialize with all users
+    }
+    
+    renderChart();
+    
+    // Reset word/phrase table to global data
+    if (wordPhraseTable) {
+        wordPhraseTable.clear().rows.add(combineWordsAndPhrases()).draw();
+    }
+    
+    console.log('Reset to global view');
+}
+
+function showUserLoadingStatus(show) {
+    const statusDiv = document.getElementById('user-load-status');
+    if (statusDiv) {
+        statusDiv.style.display = show ? 'block' : 'none';
+    }
+}
+
+function renderUserSummary() {
+    if (!currentUserData) return;
+    
+    // Update navbar badges with user-specific stats
+    document.getElementById('badge-messages').innerHTML = 
+        `Messages: ${currentUserData.stats.messageCount.toLocaleString()} <small class="text-muted">(User: ${currentUserData.displayName})</small>`;
+    
+    // Update words badge
+    const totalWords = Object.keys(currentUserData.words || {}).length;
+    document.getElementById('badge-words').innerHTML = 
+        `Words: ${totalWords.toLocaleString()}`;
+    
+    // Keep users and date range as global
+    document.getElementById('badge-users').innerHTML = 
+        `Users: ${rawData.summary.totalUsers.toLocaleString()} <small class="text-muted">(viewing 1)</small>`;
+}
+
+function updateUserTableForUserMode() {
+    if (!currentUserData || !userTable) return;
+    
+    // Clear and show only the selected user's row
+    userTable.clear();
+    
+    const userData = {
+        displayName: currentUserData.displayName,
+        messageCount: currentUserData.stats.messageCount,
+        wordCount: currentUserData.stats.wordCount,
+        activityScore: currentUserData.stats.activityScore,
+        totalReactions: currentUserData.stats.totalReactions,
+        avgLength: currentUserData.stats.avgLength,
+        emojiBreakdown: currentUserData.relationships?.reactionsReceived || []
+    };
+    
+    userTable.row.add(userData).draw();
+}
+
+function updateWordPhraseTableForUser() {
+    if (!currentUserData || !wordPhraseTable) return;
+    
+    const combined = [];
+    
+    // Add words
+    if (currentUserData.words) {
+        Object.entries(currentUserData.words).forEach(([word, count]) => {
+            combined.push({ text: word, count, type: 'word' });
+        });
+    }
+    
+    // Add phrases
+    if (currentUserData.phrases) {
+        Object.entries(currentUserData.phrases).forEach(([phrase, count]) => {
+            combined.push({ text: phrase, count, type: 'phrase' });
+        });
+    }
+    
+    // Sort by count
+    combined.sort((a, b) => b.count - a.count);
+    
+    // Add rank
+    combined.forEach((item, idx) => item.rank = idx + 1);
+    
+    // Update DataTable
+    wordPhraseTable.clear().rows.add(combined).draw();
+}
+
+function renderRelationships() {
+    if (!currentUserData || !currentUserData.relationships) return;
+    
+    const relationshipsCard = document.getElementById('relationships-card');
+    relationshipsCard.style.display = 'block';
+    
+    const { mentionsGiven, mentionsReceived, reactionsReceived } = currentUserData.relationships;
+    
+    // Render mentions
+    const mentionsViz = document.getElementById('mentions-viz');
+    mentionsViz.innerHTML = `
+        <div class="mb-3">
+            <small class="fw-bold d-block mb-2">Mentions Given:</small>
+            ${renderRelationshipBars(mentionsGiven, 'primary')}
+        </div>
+        <div>
+            <small class="fw-bold d-block mb-2">Mentions Received:</small>
+            ${renderRelationshipBars(mentionsReceived, 'success')}
+        </div>
+    `;
+    
+    // Render reactions (we only have reactions received)
+    const reactionsViz = document.getElementById('reactions-viz');
+    reactionsViz.innerHTML = renderReactionsReceived(reactionsReceived);
+}
+
+function renderRelationshipBars(data, colorClass) {
+    if (!data || data.length === 0) {
+        return '<div class="text-muted small">No data</div>';
+    }
+    
+    const maxCount = Math.max(...data.map(d => d.count));
+    
+    return data.slice(0, 5).map(item => {
+        const percentage = Math.max((item.count / maxCount) * 100, 5); // Minimum 5% width
+        return `
+            <div class="relationship-bar">
+                <div class="label" title="${item.user}">${item.user}</div>
+                <div class="bar-container">
+                    <div class="bar-fill bg-${colorClass}" style="width: ${percentage}%">
+                        ${item.count}
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function renderReactionsReceived(reactions) {
+    if (!reactions || reactions.length === 0) {
+        return '<div class="text-muted small">No reactions received</div>';
+    }
+    
+    return `
+        <small class="fw-bold d-block mb-2">Top Reactions Received:</small>
+        ${reactions.slice(0, 8).map(reaction => {
+            return `
+                <div class="d-inline-block me-2 mb-2">
+                    <span class="badge bg-secondary">
+                        ${reaction.emoji || 'Unknown'}: ${reaction.count}
+                    </span>
+                </div>
+            `;
+        }).join('')}
+    `;
 }
 
 // ============================================================================
@@ -870,13 +1134,18 @@ function renderWordCloud() {
 function getCloudData(settings) {
     const combined = [];
     
+    // Use currentUserData if in user mode, otherwise use global data
+    const dataSource = currentViewMode === 'user' && currentUserData 
+        ? currentUserData 
+        : rawData;
+    
     // Determine effective count range (use full range if disabled)
     const effectiveCountMin = settings.countEnabled ? settings.countMin : 1;
     const effectiveCountMax = settings.countEnabled ? settings.countMax : Infinity;
     
     // Filter by type and count range
     if (settings.showType === 'all' || settings.showType === 'words') {
-        Object.entries(rawData.words || {}).forEach(([text, count]) => {
+        Object.entries(dataSource.words || {}).forEach(([text, count]) => {
             if (count >= effectiveCountMin && count <= effectiveCountMax) {
                 combined.push({ text, count });
             }
@@ -884,7 +1153,7 @@ function getCloudData(settings) {
     }
     
     if (settings.showType === 'all' || settings.showType === 'phrases') {
-        Object.entries(rawData.phrases || {}).forEach(([text, count]) => {
+        Object.entries(dataSource.phrases || {}).forEach(([text, count]) => {
             if (count >= effectiveCountMin && count <= effectiveCountMax) {
                 combined.push({ text, count });
             }

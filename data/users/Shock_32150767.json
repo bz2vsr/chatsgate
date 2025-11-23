@@ -1,0 +1,92 @@
+{
+  "userId": "321507674531299329",
+  "displayName": "Shock",
+  "aliases": [],
+  "stats": {
+    "messageCount": 12,
+    "wordCount": 15,
+    "avgLength": 33.33,
+    "activityScore": 14.1,
+    "totalReactions": 2
+  },
+  "words": {
+    "joined": 1,
+    "server": 1,
+    "low": 1,
+    "iq": 1,
+    "says": 1,
+    "picking": 1,
+    "calling": 1,
+    "pedo": 1,
+    "ok": 1,
+    "bud": 1,
+    "loading": 1,
+    "calmate": 1,
+    "self": 1,
+    "aware": 1,
+    "whiner": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-07-21",
+        "count": 1
+      },
+      {
+        "date": "2025-09-05",
+        "count": 3
+      },
+      {
+        "date": "2025-09-10",
+        "count": 1
+      },
+      {
+        "date": "2025-09-12",
+        "count": 5
+      },
+      {
+        "date": "2025-09-15",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W29",
+        "count": 1
+      },
+      {
+        "week": "2025-W35",
+        "count": 3
+      },
+      {
+        "week": "2025-W36",
+        "count": 6
+      },
+      {
+        "week": "2025-W37",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-07",
+        "count": 1
+      },
+      {
+        "month": "2025-09",
+        "count": 11
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": [
+      {
+        "emoji": "🫃",
+        "count": 2
+      }
+    ]
+  }
+}
