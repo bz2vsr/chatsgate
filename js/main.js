@@ -8,14 +8,18 @@ let currentFilters = {
     timelineView: 'monthly'
 };
 let cloudSettings = {
-    topN: 500,
+    rankMin: 1,
+    rankMax: 500,
     showType: 'all',
-    minCount: 100,
+    countMin: 100,
+    countMax: Infinity,
     colorScheme: 'blue',
     fontSizeMin: 12,
     fontSizeMax: 99,
     userFilter: null
 };
+let rankSlider = null;
+let countSlider = null;
 let userTable = null;
 let wordPhraseTable = null;
 let activityChart = null;
@@ -564,26 +568,19 @@ function initWordCloudModal() {
             const bsModal = new bootstrap.Modal(modal);
             bsModal.show();
             
+            // Initialize sliders if not already done
+            if (!rankSlider) {
+                initRangeSliders();
+            }
+            
             // Render word cloud after modal is shown
             setTimeout(() => renderWordCloud(), 300);
         });
     }
     
     // Control event listeners
-    document.getElementById('cloud-top-n').addEventListener('input', (e) => {
-        document.getElementById('cloud-top-n-value').textContent = e.target.value;
-        cloudSettings.topN = parseInt(e.target.value);
-        renderWordCloud();
-    });
-    
     document.getElementById('cloud-type').addEventListener('change', (e) => {
         cloudSettings.showType = e.target.value;
-        renderWordCloud();
-    });
-    
-    document.getElementById('cloud-min-count').addEventListener('input', (e) => {
-        document.getElementById('cloud-min-count-value').textContent = e.target.value;
-        cloudSettings.minCount = parseInt(e.target.value);
         renderWordCloud();
     });
     
@@ -599,6 +596,59 @@ function initWordCloudModal() {
     
     document.getElementById('cloud-font-max').addEventListener('change', (e) => {
         cloudSettings.fontSizeMax = parseInt(e.target.value);
+        renderWordCloud();
+    });
+}
+
+function initRangeSliders() {
+    // Rank range slider
+    const rankSliderElement = document.getElementById('cloud-rank-range');
+    rankSlider = noUiSlider.create(rankSliderElement, {
+        start: [1, 500],
+        connect: true,
+        step: 1,
+        range: {
+            'min': 1,
+            'max': 1000
+        },
+        tooltips: false
+    });
+    
+    rankSlider.on('update', (values) => {
+        const min = Math.round(values[0]);
+        const max = Math.round(values[1]);
+        document.getElementById('cloud-rank-range-value').textContent = `${min} - ${max}`;
+        cloudSettings.rankMin = min;
+        cloudSettings.rankMax = max;
+    });
+    
+    rankSlider.on('change', () => {
+        renderWordCloud();
+    });
+    
+    // Count range slider
+    const countSliderElement = document.getElementById('cloud-count-range');
+    countSlider = noUiSlider.create(countSliderElement, {
+        start: [100, 1000],
+        connect: true,
+        step: 10,
+        range: {
+            'min': 1,
+            'max': 1000
+        },
+        tooltips: false
+    });
+    
+    countSlider.on('update', (values) => {
+        const min = Math.round(values[0]);
+        const max = Math.round(values[1]);
+        const maxDisplay = max >= 1000 ? '∞' : max;
+        document.getElementById('cloud-count-range-value').textContent = `${min} - ${maxDisplay}`;
+        cloudSettings.countMin = min;
+        cloudSettings.countMax = max >= 1000 ? Infinity : max;
+    });
+    
+    countSlider.on('change', () => {
         renderWordCloud();
     });
 }
@@ -660,10 +710,10 @@ function renderWordCloud() {
 function getCloudData(settings) {
     const combined = [];
     
-    // Filter by type
+    // Filter by type and count range
     if (settings.showType === 'all' || settings.showType === 'words') {
         Object.entries(rawData.words || {}).forEach(([text, count]) => {
-            if (count >= settings.minCount) {
+            if (count >= settings.countMin && count <= settings.countMax) {
                 combined.push({ text, count });
             }
         });
@@ -671,23 +721,25 @@ function getCloudData(settings) {
     
     if (settings.showType === 'all' || settings.showType === 'phrases') {
         Object.entries(rawData.phrases || {}).forEach(([text, count]) => {
-            if (count >= settings.minCount) {
+            if (count >= settings.countMin && count <= settings.countMax) {
                 combined.push({ text, count });
             }
         });
     }
     
-    // Sort and take top N
+    // Sort by count descending
     combined.sort((a, b) => b.count - a.count);
-    const topN = combined.slice(0, settings.topN);
+    
+    // Apply rank range (slice by position in sorted list)
+    const rankedWords = combined.slice(settings.rankMin - 1, settings.rankMax);
     
     // Scale font sizes
-    if (topN.length === 0) return [];
+    if (rankedWords.length === 0) return [];
     
-    const minCount = Math.min(...topN.map(d => d.count));
-    const maxCount = Math.max(...topN.map(d => d.count));
+    const minCount = Math.min(...rankedWords.map(d => d.count));
+    const maxCount = Math.max(...rankedWords.map(d => d.count));
     
-    return topN.map(d => ({
+    return rankedWords.map(d => ({
         text: d.text,
         size: scaleValue(d.count, minCount, maxCount, settings.fontSizeMin, settings.fontSizeMax)
     }));
