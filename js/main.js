@@ -20,6 +20,7 @@ let cloudSettings = {
 };
 let rankSlider = null;
 let countSlider = null;
+let fontSlider = null;
 let userTable = null;
 let wordPhraseTable = null;
 let activityChart = null;
@@ -588,16 +589,6 @@ function initWordCloudModal() {
         cloudSettings.colorScheme = e.target.value;
         renderWordCloud();
     });
-    
-    document.getElementById('cloud-font-min').addEventListener('change', (e) => {
-        cloudSettings.fontSizeMin = parseInt(e.target.value);
-        renderWordCloud();
-    });
-    
-    document.getElementById('cloud-font-max').addEventListener('change', (e) => {
-        cloudSettings.fontSizeMax = parseInt(e.target.value);
-        renderWordCloud();
-    });
 }
 
 function initRangeSliders() {
@@ -649,6 +640,31 @@ function initRangeSliders() {
     });
     
     countSlider.on('change', () => {
+        renderWordCloud();
+    });
+    
+    // Font size range slider
+    const fontSliderElement = document.getElementById('cloud-font-range');
+    fontSlider = noUiSlider.create(fontSliderElement, {
+        start: [12, 50],
+        connect: true,
+        step: 1,
+        range: {
+            'min': 8,
+            'max': 150
+        },
+        tooltips: false
+    });
+    
+    fontSlider.on('update', (values) => {
+        const min = Math.round(values[0]);
+        const max = Math.round(values[1]);
+        document.getElementById('cloud-font-range-value').textContent = `${min} - ${max}`;
+        cloudSettings.fontSizeMin = min;
+        cloudSettings.fontSizeMax = max;
+    });
+    
+    fontSlider.on('change', () => {
         renderWordCloud();
     });
 }

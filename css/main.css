@@ -363,7 +363,8 @@ body {
 
 /* Add some vertical spacing for the sliders */
 #cloud-rank-range,
-#cloud-count-range {
+#cloud-count-range,
+#cloud-font-range {
     height: 6px;
     margin-bottom: 0.5rem;
 }
