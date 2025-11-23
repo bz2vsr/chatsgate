@@ -1,0 +1,46 @@
+{
+  "userId": "229085761520009218",
+  "displayName": "HonourWolf",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 1,
+    "avgLength": 5.0,
+    "activityScore": 1.0,
+    "totalReactions": 0
+  },
+  "words": {
+    "ello": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-05-02",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W17",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-05",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

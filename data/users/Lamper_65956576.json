@@ -1,0 +1,3036 @@
+{
+  "userId": "659565763031728128",
+  "displayName": "Lamper",
+  "aliases": [
+    "Six Seven"
+  ],
+  "stats": {
+    "messageCount": 1324,
+    "wordCount": 2948,
+    "avgLength": 26.87,
+    "activityScore": 2460.8,
+    "totalReactions": 18
+  },
+  "words": {
+    "game": 23,
+    "yes": 20,
+    "got": 17,
+    "use": 17,
+    "cerberi": 16,
+    "though": 16,
+    "want": 14,
+    "tank": 12,
+    "vsr": 12,
+    "10": 12,
+    "think": 12,
+    "gun": 12,
+    "maybe": 12,
+    "good": 12,
+    "scion": 12,
+    "go": 11,
+    "damage": 11,
+    "shit": 11,
+    "one": 11,
+    "ass": 10,
+    "mean": 10,
+    "join": 10,
+    "huh": 10,
+    "give": 10,
+    "play": 10,
+    "fuck": 10,
+    "ll": 10,
+    "going": 10,
+    "didn": 9,
+    "back": 9,
+    "never": 9,
+    "bz1": 9,
+    "lmao": 8,
+    "put": 8,
+    "base": 8,
+    "better": 8,
+    "range": 8,
+    "car": 8,
+    "oh": 8,
+    "herp": 8,
+    "build": 7,
+    "say": 7,
+    "actually": 7,
+    "ve": 7,
+    "used": 7,
+    "channel": 7,
+    "ammo": 7,
+    "scrap": 7,
+    "looks": 7,
+    "people": 7,
+    "assault": 7,
+    "weapon": 7,
+    "uh": 6,
+    "dunno": 6,
+    "ok": 6,
+    "time": 6,
+    "rather": 6,
+    "less": 6,
+    "mortar": 6,
+    "plus": 6,
+    "discord": 6,
+    "ever": 6,
+    "voice": 6,
+    "look": 6,
+    "let": 6,
+    "guys": 6,
+    "work": 6,
+    "server": 6,
+    "unit": 6,
+    "player": 6,
+    "useless": 6,
+    "medusa": 6,
+    "since": 5,
+    "weapons": 5,
+    "normal": 5,
+    "players": 5,
+    "hit": 5,
+    "least": 5,
+    "someone": 5,
+    "instead": 5,
+    "probably": 5,
+    "killed": 5,
+    "useful": 5,
+    "wtf": 5,
+    "okay": 5,
+    "couldn": 5,
+    "wait": 5,
+    "lines": 5,
+    "honestly": 5,
+    "hate": 5,
+    "ai": 5,
+    "sucks": 5,
+    "getting": 5,
+    "kill": 5,
+    "said": 5,
+    "bruh": 5,
+    "making": 5,
+    "eat": 5,
+    "please": 5,
+    "tech": 5,
+    "women": 5,
+    "archer": 5,
+    "joined": 5,
+    "atlas": 5,
+    "tried": 4,
+    "shield": 4,
+    "flag": 4,
+    "gotta": 4,
+    "games": 4,
+    "played": 4,
+    "every": 4,
+    "command": 4,
+    "aren": 4,
+    "fun": 4,
+    "shell": 4,
+    "gonna": 4,
+    "come": 4,
+    "god": 4,
+    "damn": 4,
+    "late": 4,
+    "burst": 4,
+    "sub": 4,
+    "vt": 4,
+    "bz2": 4,
+    "nsfw": 4,
+    "happens": 4,
+    "blast": 4,
+    "looking": 4,
+    "green": 4,
+    "red": 4,
+    "kinda": 4,
+    "light": 4,
+    "stop": 4,
+    "says": 4,
+    "hedoux": 4,
+    "anti": 4,
+    "scav": 4,
+    "pilot": 4,
+    "mod": 4,
+    "big": 4,
+    "wut": 4,
+    "ah": 4,
+    "read": 4,
+    "hull": 4,
+    "hovering": 4,
+    "man": 4,
+    "glad": 4,
+    "different": 4,
+    "local": 4,
+    "enough": 4,
+    "re": 4,
+    "true": 4,
+    "made": 4,
+    "drop": 4,
+    "wouldn": 4,
+    "fucking": 4,
+    "believe": 4,
+    "us": 4,
+    "nah": 4,
+    "stay": 4,
+    "fine": 4,
+    "mine": 4,
+    "show": 4,
+    "home": 4,
+    "saw": 4,
+    "ayo": 4,
+    "great": 4,
+    "ofc": 4,
+    "scions": 4,
+    "hi": 4,
+    "balance": 4,
+    "armoury": 4,
+    "wrong": 4,
+    "yall": 3,
+    "wanna": 3,
+    "cat": 3,
+    "throw": 3,
+    "hadean": 3,
+    "happy": 3,
+    "long": 3,
+    "last": 3,
+    "first": 3,
+    "upgrade": 3,
+    "nobody": 3,
+    "save": 3,
+    "fair": 3,
+    "much": 3,
+    "head": 3,
+    "comes": 3,
+    "emp": 3,
+    "af": 3,
+    "bus": 3,
+    "straight": 3,
+    "slicer": 3,
+    "miss": 3,
+    "human": 3,
+    "nice": 3,
+    "gorgon": 3,
+    "shields": 3,
+    "left": 3,
+    "day": 3,
+    "100": 3,
+    "slow": 3,
+    "heh": 3,
+    "happening": 3,
+    "doesn": 3,
+    "anymore": 3,
+    "post": 3,
+    "girl": 3,
+    "pass": 3,
+    "money": 3,
+    "map": 3,
+    "needs": 3,
+    "cough": 3,
+    "example": 3,
+    "find": 3,
+    "bzed": 3,
+    "joining": 3,
+    "confirm": 3,
+    "mcderperson": 3,
+    "team": 3,
+    "cool": 3,
+    "hadeans": 3,
+    "furies": 3,
+    "literally": 3,
+    "anything": 3,
+    "moving": 3,
+    "bullshit": 3,
+    "although": 3,
+    "white": 3,
+    "faf": 3,
+    "comet": 3,
+    "sorry": 3,
+    "arc": 3,
+    "real": 3,
+    "chain": 3,
+    "sound": 3,
+    "everywhere": 3,
+    "bet": 3,
+    "watch": 3,
+    "canada": 3,
+    "add": 3,
+    "thought": 3,
+    "pulse": 3,
+    "hmm": 3,
+    "blue": 3,
+    "hello": 3,
+    "centre": 3,
+    "drone": 3,
+    "lost": 3,
+    "called": 3,
+    "always": 3,
+    "sabre": 3,
+    "flying": 3,
+    "tell": 3,
+    "deleted": 3,
+    "nope": 3,
+    "tourist": 3,
+    "leave": 3,
+    "popper": 3,
+    "rocket": 3,
+    "cheaper": 3,
+    "old": 3,
+    "tf": 3,
+    "forever": 3,
+    "next": 3,
+    "take": 3,
+    "reason": 3,
+    "child": 3,
+    "massive": 3,
+    "skill": 3,
+    "issue": 3,
+    "sup": 3,
+    "faction": 3,
+    "hard": 3,
+    "nom": 3,
+    "siren": 3,
+    "80": 3,
+    "tritons": 3,
+    "triton": 3,
+    "fix": 2,
+    "ew": 2,
+    "school": 2,
+    "question": 2,
+    "controls": 2,
+    "food": 2,
+    "model": 2,
+    "alright": 2,
+    "wants": 2,
+    "ping": 2,
+    "stacked": 2,
+    "mainly": 2,
+    "hide": 2,
+    "suck": 2,
+    "using": 2,
+    "sentries": 2,
+    "bullets": 2,
+    "dawg": 2,
+    "particle": 2,
+    "xypos": 2,
+    "figure": 2,
+    "penetrator": 2,
+    "minutes": 2,
+    "goes": 2,
+    "love": 2,
+    "ones": 2,
+    "curious": 2,
+    "move": 2,
+    "won": 2,
+    "bed": 2,
+    "vehicle": 2,
+    "sentient": 2,
+    "mom": 2,
+    "care": 2,
+    "across": 2,
+    "dad": 2,
+    "conversation": 2,
+    "teams": 2,
+    "monee": 2,
+    "deployed": 2,
+    "watching": 2,
+    "stupid": 2,
+    "blows": 2,
+    "skin": 2,
+    "15": 2,
+    "minor": 2,
+    "bad": 2,
+    "age": 2,
+    "answer": 2,
+    "seconds": 2,
+    "bathroom": 2,
+    "woman": 2,
+    "ish": 2,
+    "anyways": 2,
+    "along": 2,
+    "part": 2,
+    "buy": 2,
+    "whole": 2,
+    "chocobar": 2,
+    "rip": 2,
+    "bzed1": 2,
+    "downgrade": 2,
+    "mega": 2,
+    "fighting": 2,
+    "dog": 2,
+    "middle": 2,
+    "unused": 2,
+    "wonder": 2,
+    "trusted": 2,
+    "editor": 2,
+    "break": 2,
+    "bug": 2,
+    "gas": 2,
+    "mission": 2,
+    "sp": 2,
+    "gets": 2,
+    "view": 2,
+    "oof": 2,
+    "another": 2,
+    "bz": 2,
+    "muffin": 2,
+    "crown": 2,
+    "crayon": 2,
+    "wasp": 2,
+    "forgot": 2,
+    "radar": 2,
+    "building": 2,
+    "lancer": 2,
+    "whoever": 2,
+    "quick": 2,
+    "baked": 2,
+    "hop": 2,
+    "increase": 2,
+    "sleep": 2,
+    "keeping": 2,
+    "built": 2,
+    "higher": 2,
+    "dps": 2,
+    "60": 2,
+    "little": 2,
+    "quill": 2,
+    "nerf": 2,
+    "simple": 2,
+    "block": 2,
+    "satchel": 2,
+    "wanted": 2,
+    "sad": 2,
+    "added": 2,
+    "playing": 2,
+    "lie": 2,
+    "tested": 2,
+    "temp": 2,
+    "degrees": 2,
+    "movemint": 2,
+    "computer": 2,
+    "cookie": 2,
+    "night": 2,
+    "beautiful": 2,
+    "funny": 2,
+    "needed": 2,
+    "training": 2,
+    "send": 2,
+    "zone": 2,
+    "whale": 2,
+    "burn": 2,
+    "bazooka": 2,
+    "top": 2,
+    "specifically": 2,
+    "snipe": 2,
+    "later": 2,
+    "scimitar": 2,
+    "makes": 2,
+    "open": 2,
+    "turn": 2,
+    "dragon": 2,
+    "beam": 2,
+    "shooting": 2,
+    "lasers": 2,
+    "moment": 2,
+    "isdf": 2,
+    "birb": 2,
+    "ain": 2,
+    "naw": 2,
+    "ends": 2,
+    "est": 2,
+    "second": 2,
+    "week": 2,
+    "study": 2,
+    "user": 2,
+    "based": 2,
+    "shoot": 2,
+    "pain": 2,
+    "american": 2,
+    "air": 2,
+    "unless": 2,
+    "working": 2,
+    "mostly": 2,
+    "chirp": 2,
+    "thank": 2,
+    "ice": 2,
+    "cream": 2,
+    "holy": 2,
+    "yappatron": 2,
+    "host": 2,
+    "breab": 2,
+    "odf": 2,
+    "cocks": 2,
+    "whoa": 2,
+    "weren": 2,
+    "mortars": 2,
+    "shadower": 2,
+    "resin": 2,
+    "taken": 2,
+    "everything": 2,
+    "ls": 2,
+    "cost": 2,
+    "hot": 2,
+    "cheese": 2,
+    "racist": 2,
+    "bracelet": 2,
+    "plasma": 2,
+    "phone": 2,
+    "baby": 2,
+    "switch": 2,
+    "win": 2,
+    "bz2maps": 2,
+    "control": 2,
+    "changed": 2,
+    "hey": 2,
+    "grab": 2,
+    "banana": 2,
+    "fk": 2,
+    "guy": 2,
+    "aight": 2,
+    "corn": 2,
+    "front": 2,
+    "minigun": 2,
+    "bring": 2,
+    "mk": 2,
+    "vtrider": 2,
+    "midnight": 2,
+    "12": 2,
+    "hmmm": 2,
+    "banished": 2,
+    "role": 2,
+    "new": 2,
+    "cord": 2,
+    "buh": 2,
+    "outta": 2,
+    "nowhere": 2,
+    "lemme": 2,
+    "peace": 2,
+    "cause": 2,
+    "shitters": 2,
+    "nothing": 2,
+    "dumb": 2,
+    "bison": 2,
+    "missile": 2,
+    "updates": 2,
+    "feel": 2,
+    "extra": 2,
+    "cops": 2,
+    "enemy": 2,
+    "mits": 2,
+    "shot": 2,
+    "touch": 2,
+    "bye": 2,
+    "unc": 2,
+    "focus": 2,
+    "slag": 2,
+    "streamers": 2,
+    "limit": 2,
+    "deflection": 2,
+    "suppose": 2,
+    "balanced": 2,
+    "giving": 2,
+    "krul": 2,
+    "slightly": 2,
+    "rapido": 2,
+    "slower": 2,
+    "talon": 2,
+    "untouched": 2,
+    "underwhelming": 2,
+    "units": 2,
+    "gt": 2,
+    "lookin": 2,
+    "guns": 2,
+    "combat": 2,
+    "leaving": 2,
+    "atlases": 2,
+    "aim": 2,
+    "bit": 2,
+    "drones": 2,
+    "family": 2,
+    "hour": 2,
+    "cs": 1,
+    "specular": 1,
+    "highlights": 1,
+    "uuhhhhhhhhhh": 1,
+    "pineapple": 1,
+    "scream": 1,
+    "chairs": 1,
+    "stairs": 1,
+    "sir": 1,
+    "putting": 1,
+    "service": 1,
+    "truck": 1,
+    "alrighty": 1,
+    "citric": 1,
+    "acid": 1,
+    "product": 1,
+    "chemistry": 1,
+    "restore": 1,
+    "strategy": 1,
+    "capture": 1,
+    "object": 1,
+    "rated": 1,
+    "answers": 1,
+    "many": 1,
+    "dandelions": 1,
+    "fit": 1,
+    "ford": 1,
+    "150": 1,
+    "seen": 1,
+    "yelled": 1,
+    "either": 1,
+    "experimental": 1,
+    "yea": 1,
+    "xohm": 1,
+    "wat": 1,
+    "dies": 1,
+    "initially": 1,
+    "factory": 1,
+    "power": 1,
+    "start": 1,
+    "loose": 1,
+    "scioning": 1,
+    "correctly": 1,
+    "thrill": 1,
+    "catching": 1,
+    "city": 1,
+    "sprinting": 1,
+    "blocks": 1,
+    "catch": 1,
+    "pffft": 1,
+    "compromise": 1,
+    "15m": 1,
+    "scan": 1,
+    "balancing": 1,
+    "hardpoint": 1,
+    "snake": 1,
+    "comeback": 1,
+    "werk": 1,
+    "slam": 1,
+    "vortex": 1,
+    "getsthedubs": 1,
+    "goober": 1,
+    "commanders": 1,
+    "target": 1,
+    "uphill": 1,
+    "battle": 1,
+    "retrieve": 1,
+    "sly": 1,
+    "wake": 1,
+    "earlier": 1,
+    "stayed": 1,
+    "prefer": 1,
+    "louder": 1,
+    "engines": 1,
+    "quieter": 1,
+    "hear": 1,
+    "dope": 1,
+    "pods": 1,
+    "gnight": 1,
+    "treaded": 1,
+    "times": 1,
+    "pace": 1,
+    "suppressor": 1,
+    "stick": 1,
+    "blind": 1,
+    "yer": 1,
+    "meatball": 1,
+    "loving": 1,
+    "bzcc": 1,
+    "lyin": 1,
+    "shout": 1,
+    "house": 1,
+    "redux": 1,
+    "isn": 1,
+    "pvp": 1,
+    "scrolling": 1,
+    "heart": 1,
+    "attack": 1,
+    "slyforion": 1,
+    "sort": 1,
+    "hud": 1,
+    "worry": 1,
+    "fixed": 1,
+    "management": 1,
+    "problem": 1,
+    "soldier": 1,
+    "battlefield": 1,
+    "apc": 1,
+    "3rd": 1,
+    "episode": 1,
+    "spongebob": 1,
+    "squarepants": 1,
+    "cells": 1,
+    "pfft": 1,
+    "onion": 1,
+    "opened": 1,
+    "someones": 1,
+    "parking": 1,
+    "garage": 1,
+    "stole": 1,
+    "battery": 1,
+    "steal": 1,
+    "beside": 1,
+    "annoyance": 1,
+    "achieved": 1,
+    "colors": 1,
+    "bar": 1,
+    "swapped": 1,
+    "fast": 1,
+    "traffic": 1,
+    "pedestrian": 1,
+    "jaywalking": 1,
+    "download": 1,
+    "woah": 1,
+    "girlie": 1,
+    "bathrooms": 1,
+    "grade": 1,
+    "dressed": 1,
+    "entered": 1,
+    "source": 1,
+    "female": 1,
+    "clothing": 1,
+    "friend": 1,
+    "backpack": 1,
+    "hand": 1,
+    "remember": 1,
+    "memorable": 1,
+    "dress": 1,
+    "bucks": 1,
+    "2019": 1,
+    "vending": 1,
+    "machine": 1,
+    "50": 1,
+    "took": 1,
+    "gimme": 1,
+    "action": 1,
+    "pump": 1,
+    "cmding": 1,
+    "destroyed": 1,
+    "simply": 1,
+    "downgraded": 1,
+    "faster": 1,
+    "stumped": 1,
+    "easily": 1,
+    "choose": 1,
+    "failing": 1,
+    "properly": 1,
+    "fail": 1,
+    "chat": 1,
+    "ship": 1,
+    "objective": 1,
+    "box": 1,
+    "protect": 1,
+    "scavengers": 1,
+    "offense": 1,
+    "menus": 1,
+    "thug": 1,
+    "menu": 1,
+    "tomorrow": 1,
+    "listen": 1,
+    "trifled": 1,
+    "bzededitor": 1,
+    "definetly": 1,
+    "yucky": 1,
+    "citizen": 1,
+    "detected": 1,
+    "pffffft": 1,
+    "zed": 1,
+    "cc": 1,
+    "wow": 1,
+    "wasted": 1,
+    "solve": 1,
+    "f7": 1,
+    "hunt": 1,
+    "obviously": 1,
+    "cleaner": 1,
+    "present": 1,
+    "deny": 1,
+    "passive": 1,
+    "chill": 1,
+    "bunker": 1,
+    "press": 1,
+    "sat": 1,
+    "pintoh": 1,
+    "arthritis": 1,
+    "list": 1,
+    "end": 1,
+    "math": 1,
+    "best": 1,
+    "community": 1,
+    "literal": 1,
+    "anime": 1,
+    "nerd": 1,
+    "psychotic": 1,
+    "24": 1,
+    "sponge": 1,
+    "internet": 1,
+    "died": 1,
+    "dropped": 1,
+    "soap": 1,
+    "march": 1,
+    "came": 1,
+    "olimpieans": 1,
+    "vs": 1,
+    "remain": 1,
+    "lore": 1,
+    "accurate": 1,
+    "created": 1,
+    "became": 1,
+    "unstable": 1,
+    "started": 1,
+    "attacking": 1,
+    "olimpians": 1,
+    "allied": 1,
+    "planet": 1,
+    "went": 1,
+    "boom": 1,
+    "pools": 1,
+    "rock": 1,
+    "breaddick": 1,
+    "black": 1,
+    "orange": 1,
+    "halloween": 1,
+    "forgotten": 1,
+    "olmpyian": 1,
+    "armada": 1,
+    "shadow": 1,
+    "ops": 1,
+    "wrote": 1,
+    "story": 1,
+    "fe": 1,
+    "definitely": 1,
+    "hornet": 1,
+    "heatseeking": 1,
+    "raise": 1,
+    "boost": 1,
+    "updated": 1,
+    "learn": 1,
+    "lua": 1,
+    "photon": 1,
+    "goof": 1,
+    "likelihood": 1,
+    "low": 1,
+    "designed": 1,
+    "done": 1,
+    "ohhhhh": 1,
+    "physic": 1,
+    "bunny": 1,
+    "speed": 1,
+    "wild": 1,
+    "try": 1,
+    "demoing": 1,
+    "return": 1,
+    "distorted": 1,
+    "browser": 1,
+    "month": 1,
+    "prevents": 1,
+    "eating": 1,
+    "mosquitoes": 1,
+    "loudest": 1,
+    "fuckin": 1,
+    "possible": 1,
+    "insomniac": 1,
+    "psychopath": 1,
+    "stash": 1,
+    "retardedness": 1,
+    "sentry": 1,
+    "stfu": 1,
+    "chase": 1,
+    "stuck": 1,
+    "wish": 1,
+    "absorption": 1,
+    "guess": 1,
+    "seeker": 1,
+    "variable": 1,
+    "canblocksniper": 1,
+    "shush": 1,
+    "describe": 1,
+    "aka": 1,
+    "boolean": 1,
+    "sniped": 1,
+    "knowledge": 1,
+    "type": 1,
+    "grenades": 1,
+    "jet": 1,
+    "pack": 1,
+    "insert": 1,
+    "bail": 1,
+    "favourite": 1,
+    "colour": 1,
+    "carry": 1,
+    "desktop": 1,
+    "wierd": 1,
+    "crust": 1,
+    "toast": 1,
+    "gif": 1,
+    "splashed": 1,
+    "bay": 1,
+    "laugh": 1,
+    "otter": 1,
+    "jamming": 1,
+    "frover": 1,
+    "die": 1,
+    "cali": 1,
+    "smidge": 1,
+    "eyepoint": 1,
+    "balls": 1,
+    "room": 1,
+    "bricked": 1,
+    "scared": 1,
+    "phuck": 1,
+    "fool": 1,
+    "freshly": 1,
+    "herps": 1,
+    "stalk": 1,
+    "distance": 1,
+    "understand": 1,
+    "obnoxious": 1,
+    "assume": 1,
+    "circle": 1,
+    "job": 1,
+    "wot": 1,
+    "everyone": 1,
+    "design": 1,
+    "wise": 1,
+    "fireballs": 1,
+    "step": 1,
+    "scavenger": 1,
+    "spikey": 1,
+    "shiny": 1,
+    "create": 1,
+    "fac": 1,
+    "picture": 1,
+    "bland": 1,
+    "42": 1,
+    "cmon": 1,
+    "total": 1,
+    "3d": 1,
+    "channels": 1,
+    "ears": 1,
+    "filled": 1,
+    "perhaps": 1,
+    "secretly": 1,
+    "beluga": 1,
+    "horizontally": 1,
+    "challenged": 1,
+    "shut": 1,
+    "mouth": 1,
+    "easier": 1,
+    "harder": 1,
+    "xd": 1,
+    "bum": 1,
+    "mosquito": 1,
+    "sorta": 1,
+    "200m": 1,
+    "line": 1,
+    "others": 1,
+    "stupidest": 1,
+    "fucker": 1,
+    "cannons": 1,
+    "scorp": 1,
+    "vibes": 1,
+    "idiot": 1,
+    "gbd": 1,
+    "agreed": 1,
+    "ne": 1,
+    "stories": 1,
+    "broken": 1,
+    "panther": 1,
+    "scout": 1,
+    "epic": 1,
+    "heavy": 1,
+    "sense": 1,
+    "bee": 1,
+    "cheeks": 1,
+    "plain": 1,
+    "oatmeal": 1,
+    "keys": 1,
+    "dang": 1,
+    "nabit": 1,
+    "may": 1,
+    "shabeyev": 1,
+    "scouts": 1,
+    "boys": 1,
+    "anyone": 1,
+    "siege": 1,
+    "wasn": 1,
+    "jabba": 1,
+    "stopped": 1,
+    "rising": 1,
+    "morphed": 1,
+    "secondary": 1,
+    "err": 1,
+    "told": 1,
+    "f1": 1,
+    "kept": 1,
+    "fb": 1,
+    "sonic": 1,
+    "deflecting": 1,
+    "jedi": 1,
+    "buckshot": 1,
+    "pull": 1,
+    "snipes": 1,
+    "rephrase": 1,
+    "fulls": 1,
+    "21000": 1,
+    "stream": 1,
+    "100m": 1,
+    "halfway": 1,
+    "worked": 1,
+    "sniper": 1,
+    "especially": 1,
+    "reticle": 1,
+    "development": 1,
+    "arrangements": 1,
+    "sized": 1,
+    "fork": 1,
+    "certainly": 1,
+    "frying": 1,
+    "pan": 1,
+    "00": 1,
+    "pm": 1,
+    "timed": 1,
+    "03": 1,
+    "woodworking": 1,
+    "auto": 1,
+    "shop": 1,
+    "spare": 1,
+    "english": 1,
+    "supposed": 1,
+    "brake": 1,
+    "fluid": 1,
+    "supercalifragilisticexpialidocious": 1,
+    "underline": 1,
+    "whatever": 1,
+    "double": 1,
+    "google": 1,
+    "11": 1,
+    "heyyyyyy": 1,
+    "bird": 1,
+    "champ": 1,
+    "disclose": 1,
+    "information": 1,
+    "redacted": 1,
+    "younger": 1,
+    "sx": 1,
+    "rejecting": 1,
+    "image": 1,
+    "smart": 1,
+    "observations": 1,
+    "lower": 1,
+    "calibre": 1,
+    "resistances": 1,
+    "calibres": 1,
+    "punching": 1,
+    "wall": 1,
+    "resistance": 1,
+    "crashes": 1,
+    "organ": 1,
+    "doners": 1,
+    "infinite": 1,
+    "glitch": 1,
+    "noises": 1,
+    "uhh": 1,
+    "laptop": 1,
+    "4v4s": 1,
+    "3v3s": 1,
+    "lately": 1,
+    "scevanger": 1,
+    "yo": 1,
+    "mic": 1,
+    "slys": 1,
+    "colon": 1,
+    "rust": 1,
+    "qf2": 1,
+    "mods": 1,
+    "yup": 1,
+    "medal": 1,
+    "pause": 1,
+    "fabricators": 1,
+    "raceprj": 1,
+    "description": 1,
+    "able": 1,
+    "activate": 1,
+    "hosted": 1,
+    "full": 1,
+    "cone": 1,
+    "ready": 1,
+    "fvartl": 1,
+    "fvarch": 1,
+    "birds": 1,
+    "vent": 1,
+    "goose": 1,
+    "giant": 1,
+    "slapper": 1,
+    "tiktok": 1,
+    "69": 1,
+    "99": 1,
+    "world": 1,
+    "awful": 1,
+    "except": 1,
+    "semi": 1,
+    "productive": 1,
+    "visa": 1,
+    "expired": 1,
+    "posting": 1,
+    "flies": 1,
+    "huge": 1,
+    "taunting": 1,
+    "cats": 1,
+    "important": 1,
+    "uhhhh": 1,
+    "fat": 1,
+    "earth": 1,
+    "tilt": 1,
+    "additional": 1,
+    "forget": 1,
+    "forgive": 1,
+    "forgave": 1,
+    "gravey": 1,
+    "punk": 1,
+    "xares": 1,
+    "fs": 1,
+    "takes": 1,
+    "hat": 1,
+    "helped": 1,
+    "dodge": 1,
+    "else": 1,
+    "fall": 1,
+    "seeks": 1,
+    "stock": 1,
+    "check": 1,
+    "bio": 1,
+    "response": 1,
+    "bike": 1,
+    "hardpoints": 1,
+    "hardponts": 1,
+    "tag": 1,
+    "healer": 1,
+    "repair": 1,
+    "likely": 1,
+    "practical": 1,
+    "fact": 1,
+    "naturally": 1,
+    "bzedcc": 1,
+    "healthy": 1,
+    "shiet": 1,
+    "cold": 1,
+    "brew": 1,
+    "filtered": 1,
+    "finest": 1,
+    "dirt": 1,
+    "helmet": 1,
+    "course": 1,
+    "cheaters": 1,
+    "mort": 1,
+    "cases": 1,
+    "downgrading": 1,
+    "idea": 1,
+    "niche": 1,
+    "uses": 1,
+    "pooled": 1,
+    "dropping": 1,
+    "technically": 1,
+    "hope": 1,
+    "blessed": 1,
+    "water": 1,
+    "vitamin": 1,
+    "gummies": 1,
+    "coeming": 1,
+    "special": 1,
+    "americans": 1,
+    "suffer": 1,
+    "traumatic": 1,
+    "raqequit": 1,
+    "disorder": 1,
+    "lego": 1,
+    "towards": 1,
+    "cock": 1,
+    "shocker": 1,
+    "forbidden": 1,
+    "viagra": 1,
+    "flower": 1,
+    "pot": 1,
+    "california": 1,
+    "technic": 1,
+    "sets": 1,
+    "glove": 1,
+    "cavity": 1,
+    "search": 1,
+    "sideways": 1,
+    "falls": 1,
+    "sides": 1,
+    "oopsie": 1,
+    "poopie": 1,
+    "stab": 1,
+    "mag": 1,
+    "luck": 1,
+    "projectiles": 1,
+    "shiiit": 1,
+    "mr": 1,
+    "fleur": 1,
+    "tablet": 1,
+    "severe": 1,
+    "concussions": 1,
+    "mass": 1,
+    "effect": 1,
+    "sec": 1,
+    "calling": 1,
+    "nate": 1,
+    "euros": 1,
+    "com": 1,
+    "bz2vsr": 1,
+    "links": 1,
+    "lil": 1,
+    "console": 1,
+    "cheat": 1,
+    "bzeditor": 1,
+    "access": 1,
+    "confoosing": 1,
+    "goodness": 1,
+    "listening": 1,
+    "valuable": 1,
+    "info": 1,
+    "smacks": 1,
+    "lips": 1,
+    "elephant": 1,
+    "trunks": 1,
+    "clearly": 1,
+    "taller": 1,
+    "cane": 1,
+    "packed": 1,
+    "vc": 1,
+    "duck": 1,
+    "quack": 1,
+    "hell": 1,
+    "jif": 1,
+    "store": 1,
+    "supermarket": 1,
+    "port": 1,
+    "backwarded": 1,
+    "stoopid": 1,
+    "chatting": 1,
+    "enjoy": 1,
+    "lasts": 1,
+    "load": 1,
+    "telling": 1,
+    "reload": 1,
+    "lets": 1,
+    "stats": 1,
+    "cabinet": 1,
+    "usually": 1,
+    "wood": 1,
+    "dent": 1,
+    "dead": 1,
+    "gym": 1,
+    "cabinets": 1,
+    "vic": 1,
+    "running": 1,
+    "sex": 1,
+    "offender": 1,
+    "analogy": 1,
+    "undeafen": 1,
+    "pennies": 1,
+    "talking": 1,
+    "dry": 1,
+    "ssssshhhhh": 1,
+    "fake": 1,
+    "finger": 1,
+    "slipped": 1,
+    "wired": 1,
+    "superior": 1,
+    "mid": 1,
+    "juice": 1,
+    "feuker": 1,
+    "doma": 1,
+    "dark": 1,
+    "owned": 1,
+    "hm": 1,
+    "hideous": 1,
+    "rv": 1,
+    "mixed": 1,
+    "kitty": 1,
+    "wrapped": 1,
+    "nissan": 1,
+    "juke": 1,
+    "sybau": 1,
+    "gofundme": 1,
+    "employed": 1,
+    "shifts": 1,
+    "weekends": 1,
+    "shift": 1,
+    "walk": 1,
+    "forsaken": 1,
+    "station": 1,
+    "owner": 1,
+    "becuz": 1,
+    "gud": 1,
+    "feed": 1,
+    "andoodle": 1,
+    "jackass": 1,
+    "similar": 1,
+    "autism": 1,
+    "legit": 1,
+    "rid": 1,
+    "ed": 1,
+    "yet": 1,
+    "helpful": 1,
+    "greencord": 1,
+    "bluecord": 1,
+    "mechanic": 1,
+    "ikr": 1,
+    "gave": 1,
+    "drafted": 1,
+    "become": 1,
+    "iuono": 1,
+    "renew": 1,
+    "card": 1,
+    "aware": 1,
+    "citizenship": 1,
+    "deported": 1,
+    "outside": 1,
+    "walls": 1,
+    "fr": 1,
+    "gives": 1,
+    "idfk": 1,
+    "welp": 1,
+    "stealthmode": 1,
+    "normalized": 1,
+    "ways": 1,
+    "daedilon": 1,
+    "spelled": 1,
+    "rounds": 1,
+    "tonight": 1,
+    "noobs": 1,
+    "complain": 1,
+    "fight": 1,
+    "noob": 1,
+    "prime": 1,
+    "learning": 1,
+    "zoomer": 1,
+    "guide": 1,
+    "explosives": 1,
+    "interesting": 1,
+    "mhmmmmmmm": 1,
+    "reasoning": 1,
+    "gottem": 1,
+    "males": 1,
+    "mmmmmmmmmhm": 1,
+    "name": 1,
+    "speak": 1,
+    "whermst": 1,
+    "atf": 1,
+    "deal": 1,
+    "cut": 1,
+    "explosive": 1,
+    "weaponry": 1,
+    "yoooo": 1,
+    "winrate": 1,
+    "beat": 1,
+    "ukraine": 1,
+    "hours": 1,
+    "ahead": 1,
+    "ers": 1,
+    "include": 1,
+    "bracket": 1,
+    "dummy": 1,
+    "everytime": 1,
+    "effective": 1,
+    "demoralizing": 1,
+    "answering": 1,
+    "men": 1,
+    "dude": 1,
+    "context": 1,
+    "ragebait": 1,
+    "chatgpt": 1,
+    "years": 1,
+    "life": 1,
+    "reading": 1,
+    "attention": 1,
+    "quote": 1,
+    "dictionary": 1,
+    "wmoen": 1,
+    "exist": 1,
+    "fish": 1,
+    "jade": 1,
+    "gladly": 1,
+    "expect": 1,
+    "buoy": 1,
+    "despera": 1,
+    "desperate": 1,
+    "muted": 1,
+    "afraid": 1,
+    "cents": 1,
+    "jack": 1,
+    "scary": 1,
+    "mute": 1,
+    "bro": 1,
+    "tryna": 1,
+    "wreck": 1,
+    "f9bomber": 1,
+    "paly": 1,
+    "seeing": 1,
+    "vsync": 1,
+    "causing": 1,
+    "alt": 1,
+    "f4": 1,
+    "memes": 1,
+    "trolling": 1,
+    "high": 1,
+    "zombie": 1,
+    "hellfire": 1,
+    "op": 1,
+    "nutty": 1,
+    "splash": 1,
+    "compressed": 1,
+    "shoots": 1,
+    "targets": 1,
+    "strats": 1,
+    "carrier": 1,
+    "yikes": 1,
+    "army": 1,
+    "ye": 1,
+    "keep": 1,
+    "explosion": 1,
+    "sick": 1,
+    "somewhat": 1,
+    "sirens": 1,
+    "outright": 1,
+    "removed": 1,
+    "per": 1,
+    "crazy": 1,
+    "opportunities": 1,
+    "armed": 1,
+    "krulls": 1,
+    "advantage": 1,
+    "movement": 1,
+    "isdf05": 1,
+    "sluggish": 1,
+    "deflect": 1,
+    "demons": 1,
+    "clearing": 1,
+    "scavs": 1,
+    "sniffing": 1,
+    "particles": 1,
+    "close": 1,
+    "bigger": 1,
+    "actual": 1,
+    "playable": 1,
+    "completely": 1,
+    "complete": 1,
+    "sweep": 1,
+    "removing": 1,
+    "version": 1,
+    "fire": 1,
+    "rate": 1,
+    "forces": 1,
+    "plan": 1,
+    "spider": 1,
+    "75": 1,
+    "delay": 1,
+    "demon": 1,
+    "tree": 1,
+    "non": 1,
+    "standard": 1,
+    "physics": 1,
+    "forcing": 1,
+    "2000": 1,
+    "starting": 1,
+    "skills": 1,
+    "limitations": 1,
+    "109": 1,
+    "thinking": 1,
+    "dread": 1,
+    "dominator": 1,
+    "drath": 1,
+    "wraiths": 1,
+    "spamming": 1,
+    "today": 1,
+    "notice": 1,
+    "meant": 1,
+    "dealing": 1,
+    "loud": 1,
+    "engine": 1,
+    "drive": 1,
+    "omega": 1,
+    "xenomator": 1,
+    "utilizes": 1,
+    "main": 1,
+    "cannon": 1,
+    "65": 1,
+    "85": 1,
+    "haven": 1,
+    "strat": 1,
+    "agree": 1,
+    "disagree": 1,
+    "call": 1,
+    "hmmmmm": 1,
+    "test": 1,
+    "theory": 1,
+    "300": 1,
+    "350": 1,
+    "tanks": 1,
+    "messing": 1,
+    "moh": 1,
+    "25m": 1,
+    "par": 1,
+    "super": 1,
+    "costs": 1,
+    "indeed": 1,
+    "correct": 1,
+    "hold": 1,
+    "sgs": 1,
+    "mmmmmmno": 1,
+    "warning": 1,
+    "fly": 1,
+    "flyers": 1,
+    "flyer": 1,
+    "soon": 1,
+    "favorite": 1,
+    "hover": 1,
+    "incentive": 1,
+    "arsenal": 1,
+    "sounded": 1,
+    "ngl": 1,
+    "piloted": 1,
+    "hoverer": 1,
+    "spikes": 1,
+    "defenders": 1,
+    "competent": 1,
+    "pilotable": 1,
+    "hoverers": 1,
+    "driving": 1,
+    "meh": 1,
+    "armor": 1,
+    "supported": 1,
+    "teammates": 1,
+    "ryan": 1,
+    "mpi": 1,
+    "fiend": 1,
+    "hands": 1,
+    "xyr": 1,
+    "mints": 1,
+    "case": 1,
+    "side": 1,
+    "curtain": 1,
+    "related": 1,
+    "phantom": 1,
+    "cyber": 1,
+    "nuh": 1,
+    "place": 1,
+    "approaching": 1,
+    "ez": 1,
+    "counter": 1,
+    "funky": 1,
+    "imo": 1,
+    "nozza": 1,
+    "spot": 1,
+    "buff": 1,
+    "moar": 1,
+    "omegakick": 1,
+    "korean": 1,
+    "edit": 1,
+    "tells": 1,
+    "direction": 1,
+    "woosh": 1,
+    "yessir": 1,
+    "option": 1,
+    "maxcolorfade": 1,
+    "blackdragon": 1,
+    "reminded": 1,
+    "field": 1,
+    "poll": 1,
+    "sit": 1,
+    "around": 1,
+    "taking": 1,
+    "xanax": 1,
+    "dispense": 1,
+    "soldiers": 1,
+    "speeder": 1,
+    "bikes": 1,
+    "30": 1,
+    "suicide": 1,
+    "drops": 1,
+    "upon": 1,
+    "death": 1,
+    "xerrakis": 1,
+    "function": 1,
+    "requirement": 1,
+    "allow": 1,
+    "comm": 1,
+    "vehicles": 1,
+    "friendly": 1,
+    "months": 1,
+    "frendly": 1,
+    "basically": 1,
+    "mix": 1,
+    "france": 1,
+    "uk": 1,
+    "decide": 1,
+    "fursuit": 1,
+    "ahh": 1,
+    "chinese": 1,
+    "mb": 1
+  },
+  "phrases": {
+    "10 10": 3,
+    "shell gun": 4,
+    "more damage": 5,
+    "at least": 4,
+    "the cerberi": 9,
+    "to play": 3,
+    "the game": 3,
+    "instead of": 3,
+    "wtf is": 3,
+    "is happening": 3,
+    "this discord": 3,
+    "to go": 3,
+    "don want": 3,
+    "what happens": 3,
+    "happens in": 3,
+    "looking at": 4,
+    "put it": 3,
+    "looks like": 5,
+    "late game": 3,
+    "look at": 3,
+    "going to": 8,
+    "herp mcderperson": 3,
+    "in bz1": 3,
+    "game up": 3,
+    "can join": 3,
+    "the hadeans": 3,
+    "the furies": 3,
+    "the white": 3,
+    "want to": 9,
+    "voice lines": 3,
+    "to use": 4,
+    "local ammo": 4,
+    "you re": 3,
+    "it true": 3,
+    "the tech": 3,
+    "tech centre": 3,
+    "bz1 is": 3,
+    "to build": 3,
+    "not home": 3,
+    "the vsr": 3,
+    "joined the": 3,
+    "the server": 3,
+    "joined the server": 3,
+    "this one": 3,
+    "they got": 3,
+    "the armoury": 4,
+    "this channel": 4,
+    "the atlas": 4,
+    "the player": 4,
+    "use the": 3,
+    "to use the": 3
+  },
+  "timeline": {
+    "daily": [
+      {
+        "date": "2023-08-31",
+        "count": 5
+      },
+      {
+        "date": "2023-09-01",
+        "count": 1
+      },
+      {
+        "date": "2023-09-02",
+        "count": 1
+      },
+      {
+        "date": "2023-09-03",
+        "count": 9
+      },
+      {
+        "date": "2023-09-05",
+        "count": 4
+      },
+      {
+        "date": "2023-09-08",
+        "count": 4
+      },
+      {
+        "date": "2023-09-09",
+        "count": 2
+      },
+      {
+        "date": "2023-09-11",
+        "count": 6
+      },
+      {
+        "date": "2023-09-12",
+        "count": 2
+      },
+      {
+        "date": "2024-03-02",
+        "count": 5
+      },
+      {
+        "date": "2024-03-03",
+        "count": 42
+      },
+      {
+        "date": "2024-03-04",
+        "count": 26
+      },
+      {
+        "date": "2024-03-05",
+        "count": 5
+      },
+      {
+        "date": "2024-03-06",
+        "count": 19
+      },
+      {
+        "date": "2024-03-07",
+        "count": 6
+      },
+      {
+        "date": "2024-03-08",
+        "count": 20
+      },
+      {
+        "date": "2024-03-09",
+        "count": 5
+      },
+      {
+        "date": "2024-03-10",
+        "count": 20
+      },
+      {
+        "date": "2024-03-11",
+        "count": 1
+      },
+      {
+        "date": "2024-03-12",
+        "count": 2
+      },
+      {
+        "date": "2024-03-13",
+        "count": 18
+      },
+      {
+        "date": "2024-03-15",
+        "count": 10
+      },
+      {
+        "date": "2024-03-16",
+        "count": 4
+      },
+      {
+        "date": "2024-03-17",
+        "count": 3
+      },
+      {
+        "date": "2024-03-18",
+        "count": 9
+      },
+      {
+        "date": "2024-03-19",
+        "count": 5
+      },
+      {
+        "date": "2024-03-20",
+        "count": 2
+      },
+      {
+        "date": "2024-03-21",
+        "count": 2
+      },
+      {
+        "date": "2024-03-22",
+        "count": 1
+      },
+      {
+        "date": "2024-03-23",
+        "count": 6
+      },
+      {
+        "date": "2024-03-25",
+        "count": 2
+      },
+      {
+        "date": "2024-03-26",
+        "count": 3
+      },
+      {
+        "date": "2024-03-27",
+        "count": 3
+      },
+      {
+        "date": "2024-03-28",
+        "count": 16
+      },
+      {
+        "date": "2024-03-29",
+        "count": 2
+      },
+      {
+        "date": "2024-03-31",
+        "count": 5
+      },
+      {
+        "date": "2024-04-02",
+        "count": 2
+      },
+      {
+        "date": "2024-04-04",
+        "count": 6
+      },
+      {
+        "date": "2024-04-05",
+        "count": 2
+      },
+      {
+        "date": "2024-04-10",
+        "count": 4
+      },
+      {
+        "date": "2024-04-16",
+        "count": 5
+      },
+      {
+        "date": "2024-04-19",
+        "count": 2
+      },
+      {
+        "date": "2024-04-21",
+        "count": 2
+      },
+      {
+        "date": "2024-04-26",
+        "count": 26
+      },
+      {
+        "date": "2024-04-27",
+        "count": 1
+      },
+      {
+        "date": "2024-04-28",
+        "count": 28
+      },
+      {
+        "date": "2024-04-29",
+        "count": 4
+      },
+      {
+        "date": "2024-05-01",
+        "count": 3
+      },
+      {
+        "date": "2024-05-04",
+        "count": 11
+      },
+      {
+        "date": "2024-05-07",
+        "count": 1
+      },
+      {
+        "date": "2024-05-08",
+        "count": 1
+      },
+      {
+        "date": "2024-05-10",
+        "count": 1
+      },
+      {
+        "date": "2024-05-15",
+        "count": 4
+      },
+      {
+        "date": "2024-05-17",
+        "count": 13
+      },
+      {
+        "date": "2024-05-21",
+        "count": 2
+      },
+      {
+        "date": "2024-05-24",
+        "count": 4
+      },
+      {
+        "date": "2024-05-25",
+        "count": 1
+      },
+      {
+        "date": "2024-05-26",
+        "count": 2
+      },
+      {
+        "date": "2024-05-27",
+        "count": 1
+      },
+      {
+        "date": "2024-05-28",
+        "count": 6
+      },
+      {
+        "date": "2024-05-29",
+        "count": 4
+      },
+      {
+        "date": "2024-05-30",
+        "count": 2
+      },
+      {
+        "date": "2024-06-07",
+        "count": 59
+      },
+      {
+        "date": "2024-06-08",
+        "count": 1
+      },
+      {
+        "date": "2024-06-09",
+        "count": 2
+      },
+      {
+        "date": "2024-06-10",
+        "count": 40
+      },
+      {
+        "date": "2024-06-11",
+        "count": 1
+      },
+      {
+        "date": "2024-06-12",
+        "count": 8
+      },
+      {
+        "date": "2024-06-13",
+        "count": 3
+      },
+      {
+        "date": "2024-06-14",
+        "count": 2
+      },
+      {
+        "date": "2024-06-16",
+        "count": 3
+      },
+      {
+        "date": "2024-06-17",
+        "count": 6
+      },
+      {
+        "date": "2024-06-18",
+        "count": 6
+      },
+      {
+        "date": "2024-06-19",
+        "count": 2
+      },
+      {
+        "date": "2024-06-20",
+        "count": 2
+      },
+      {
+        "date": "2024-06-21",
+        "count": 1
+      },
+      {
+        "date": "2024-06-23",
+        "count": 2
+      },
+      {
+        "date": "2024-06-30",
+        "count": 4
+      },
+      {
+        "date": "2024-07-01",
+        "count": 8
+      },
+      {
+        "date": "2024-07-02",
+        "count": 5
+      },
+      {
+        "date": "2024-07-03",
+        "count": 3
+      },
+      {
+        "date": "2024-07-08",
+        "count": 1
+      },
+      {
+        "date": "2024-07-09",
+        "count": 1
+      },
+      {
+        "date": "2024-07-16",
+        "count": 9
+      },
+      {
+        "date": "2024-07-17",
+        "count": 1
+      },
+      {
+        "date": "2024-07-18",
+        "count": 5
+      },
+      {
+        "date": "2024-07-19",
+        "count": 1
+      },
+      {
+        "date": "2024-07-22",
+        "count": 3
+      },
+      {
+        "date": "2024-07-23",
+        "count": 1
+      },
+      {
+        "date": "2024-07-27",
+        "count": 1
+      },
+      {
+        "date": "2024-07-29",
+        "count": 2
+      },
+      {
+        "date": "2024-07-30",
+        "count": 4
+      },
+      {
+        "date": "2024-08-02",
+        "count": 2
+      },
+      {
+        "date": "2024-08-08",
+        "count": 3
+      },
+      {
+        "date": "2024-08-09",
+        "count": 2
+      },
+      {
+        "date": "2024-08-11",
+        "count": 1
+      },
+      {
+        "date": "2024-08-12",
+        "count": 1
+      },
+      {
+        "date": "2024-08-14",
+        "count": 8
+      },
+      {
+        "date": "2024-08-15",
+        "count": 1
+      },
+      {
+        "date": "2024-08-16",
+        "count": 9
+      },
+      {
+        "date": "2024-08-18",
+        "count": 4
+      },
+      {
+        "date": "2024-08-19",
+        "count": 14
+      },
+      {
+        "date": "2024-08-20",
+        "count": 7
+      },
+      {
+        "date": "2024-08-21",
+        "count": 9
+      },
+      {
+        "date": "2024-08-23",
+        "count": 10
+      },
+      {
+        "date": "2024-08-24",
+        "count": 1
+      },
+      {
+        "date": "2024-08-29",
+        "count": 1
+      },
+      {
+        "date": "2024-09-01",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 2
+      },
+      {
+        "date": "2024-09-07",
+        "count": 2
+      },
+      {
+        "date": "2024-09-09",
+        "count": 14
+      },
+      {
+        "date": "2024-09-11",
+        "count": 6
+      },
+      {
+        "date": "2024-09-12",
+        "count": 30
+      },
+      {
+        "date": "2024-09-14",
+        "count": 5
+      },
+      {
+        "date": "2024-09-15",
+        "count": 1
+      },
+      {
+        "date": "2024-09-16",
+        "count": 9
+      },
+      {
+        "date": "2024-09-19",
+        "count": 20
+      },
+      {
+        "date": "2024-09-20",
+        "count": 1
+      },
+      {
+        "date": "2024-09-21",
+        "count": 4
+      },
+      {
+        "date": "2024-09-23",
+        "count": 1
+      },
+      {
+        "date": "2024-09-24",
+        "count": 3
+      },
+      {
+        "date": "2024-09-26",
+        "count": 3
+      },
+      {
+        "date": "2024-09-28",
+        "count": 1
+      },
+      {
+        "date": "2024-10-04",
+        "count": 2
+      },
+      {
+        "date": "2024-10-06",
+        "count": 3
+      },
+      {
+        "date": "2024-10-09",
+        "count": 8
+      },
+      {
+        "date": "2024-10-14",
+        "count": 1
+      },
+      {
+        "date": "2024-10-15",
+        "count": 5
+      },
+      {
+        "date": "2024-10-17",
+        "count": 2
+      },
+      {
+        "date": "2024-10-18",
+        "count": 1
+      },
+      {
+        "date": "2024-10-20",
+        "count": 4
+      },
+      {
+        "date": "2024-10-21",
+        "count": 1
+      },
+      {
+        "date": "2024-10-28",
+        "count": 16
+      },
+      {
+        "date": "2024-10-30",
+        "count": 2
+      },
+      {
+        "date": "2024-10-31",
+        "count": 12
+      },
+      {
+        "date": "2024-11-01",
+        "count": 3
+      },
+      {
+        "date": "2024-11-02",
+        "count": 4
+      },
+      {
+        "date": "2024-11-05",
+        "count": 1
+      },
+      {
+        "date": "2024-11-07",
+        "count": 10
+      },
+      {
+        "date": "2024-11-08",
+        "count": 1
+      },
+      {
+        "date": "2024-11-11",
+        "count": 5
+      },
+      {
+        "date": "2024-11-14",
+        "count": 2
+      },
+      {
+        "date": "2024-11-15",
+        "count": 3
+      },
+      {
+        "date": "2024-11-17",
+        "count": 2
+      },
+      {
+        "date": "2024-11-18",
+        "count": 3
+      },
+      {
+        "date": "2024-11-19",
+        "count": 1
+      },
+      {
+        "date": "2024-11-27",
+        "count": 38
+      },
+      {
+        "date": "2024-11-28",
+        "count": 12
+      },
+      {
+        "date": "2024-12-01",
+        "count": 4
+      },
+      {
+        "date": "2024-12-04",
+        "count": 1
+      },
+      {
+        "date": "2024-12-05",
+        "count": 2
+      },
+      {
+        "date": "2024-12-14",
+        "count": 7
+      },
+      {
+        "date": "2024-12-17",
+        "count": 1
+      },
+      {
+        "date": "2024-12-19",
+        "count": 2
+      },
+      {
+        "date": "2024-12-20",
+        "count": 2
+      },
+      {
+        "date": "2024-12-30",
+        "count": 3
+      },
+      {
+        "date": "2025-01-01",
+        "count": 1
+      },
+      {
+        "date": "2025-01-07",
+        "count": 5
+      },
+      {
+        "date": "2025-01-09",
+        "count": 1
+      },
+      {
+        "date": "2025-01-12",
+        "count": 1
+      },
+      {
+        "date": "2025-01-14",
+        "count": 3
+      },
+      {
+        "date": "2025-01-15",
+        "count": 7
+      },
+      {
+        "date": "2025-01-21",
+        "count": 5
+      },
+      {
+        "date": "2025-01-23",
+        "count": 7
+      },
+      {
+        "date": "2025-01-28",
+        "count": 2
+      },
+      {
+        "date": "2025-01-31",
+        "count": 1
+      },
+      {
+        "date": "2025-02-03",
+        "count": 7
+      },
+      {
+        "date": "2025-02-04",
+        "count": 5
+      },
+      {
+        "date": "2025-02-18",
+        "count": 1
+      },
+      {
+        "date": "2025-02-19",
+        "count": 9
+      },
+      {
+        "date": "2025-02-21",
+        "count": 3
+      },
+      {
+        "date": "2025-02-25",
+        "count": 4
+      },
+      {
+        "date": "2025-02-27",
+        "count": 1
+      },
+      {
+        "date": "2025-03-02",
+        "count": 1
+      },
+      {
+        "date": "2025-03-03",
+        "count": 2
+      },
+      {
+        "date": "2025-03-04",
+        "count": 2
+      },
+      {
+        "date": "2025-03-14",
+        "count": 2
+      },
+      {
+        "date": "2025-05-06",
+        "count": 2
+      },
+      {
+        "date": "2025-05-08",
+        "count": 1
+      },
+      {
+        "date": "2025-05-09",
+        "count": 96
+      },
+      {
+        "date": "2025-05-27",
+        "count": 1
+      },
+      {
+        "date": "2025-06-17",
+        "count": 3
+      },
+      {
+        "date": "2025-07-05",
+        "count": 1
+      },
+      {
+        "date": "2025-07-11",
+        "count": 1
+      },
+      {
+        "date": "2025-07-15",
+        "count": 43
+      },
+      {
+        "date": "2025-07-16",
+        "count": 1
+      },
+      {
+        "date": "2025-07-17",
+        "count": 8
+      },
+      {
+        "date": "2025-07-21",
+        "count": 6
+      },
+      {
+        "date": "2025-07-23",
+        "count": 1
+      },
+      {
+        "date": "2025-07-24",
+        "count": 1
+      },
+      {
+        "date": "2025-07-25",
+        "count": 9
+      },
+      {
+        "date": "2025-07-26",
+        "count": 1
+      },
+      {
+        "date": "2025-07-27",
+        "count": 6
+      },
+      {
+        "date": "2025-07-28",
+        "count": 8
+      },
+      {
+        "date": "2025-07-31",
+        "count": 9
+      },
+      {
+        "date": "2025-08-02",
+        "count": 5
+      },
+      {
+        "date": "2025-09-03",
+        "count": 1
+      },
+      {
+        "date": "2025-09-15",
+        "count": 10
+      },
+      {
+        "date": "2025-09-20",
+        "count": 22
+      },
+      {
+        "date": "2025-09-22",
+        "count": 2
+      },
+      {
+        "date": "2025-09-25",
+        "count": 1
+      },
+      {
+        "date": "2025-09-27",
+        "count": 1
+      },
+      {
+        "date": "2025-10-01",
+        "count": 1
+      },
+      {
+        "date": "2025-10-08",
+        "count": 1
+      },
+      {
+        "date": "2025-10-09",
+        "count": 3
+      },
+      {
+        "date": "2025-10-14",
+        "count": 12
+      },
+      {
+        "date": "2025-10-15",
+        "count": 1
+      },
+      {
+        "date": "2025-10-17",
+        "count": 6
+      },
+      {
+        "date": "2025-10-22",
+        "count": 1
+      },
+      {
+        "date": "2025-10-25",
+        "count": 1
+      },
+      {
+        "date": "2025-10-26",
+        "count": 2
+      },
+      {
+        "date": "2025-10-28",
+        "count": 2
+      },
+      {
+        "date": "2025-10-30",
+        "count": 2
+      },
+      {
+        "date": "2025-10-31",
+        "count": 23
+      },
+      {
+        "date": "2025-11-03",
+        "count": 9
+      },
+      {
+        "date": "2025-11-05",
+        "count": 2
+      },
+      {
+        "date": "2025-11-14",
+        "count": 1
+      },
+      {
+        "date": "2025-11-18",
+        "count": 4
+      },
+      {
+        "date": "2025-11-19",
+        "count": 1
+      },
+      {
+        "date": "2025-11-20",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2023-W35",
+        "count": 7
+      },
+      {
+        "week": "2023-W36",
+        "count": 19
+      },
+      {
+        "week": "2023-W37",
+        "count": 8
+      },
+      {
+        "week": "2024-W08",
+        "count": 5
+      },
+      {
+        "week": "2024-W09",
+        "count": 123
+      },
+      {
+        "week": "2024-W10",
+        "count": 55
+      },
+      {
+        "week": "2024-W11",
+        "count": 28
+      },
+      {
+        "week": "2024-W12",
+        "count": 26
+      },
+      {
+        "week": "2024-W13",
+        "count": 15
+      },
+      {
+        "week": "2024-W14",
+        "count": 4
+      },
+      {
+        "week": "2024-W15",
+        "count": 7
+      },
+      {
+        "week": "2024-W16",
+        "count": 29
+      },
+      {
+        "week": "2024-W17",
+        "count": 46
+      },
+      {
+        "week": "2024-W18",
+        "count": 3
+      },
+      {
+        "week": "2024-W19",
+        "count": 17
+      },
+      {
+        "week": "2024-W20",
+        "count": 7
+      },
+      {
+        "week": "2024-W21",
+        "count": 15
+      },
+      {
+        "week": "2024-W22",
+        "count": 60
+      },
+      {
+        "week": "2024-W23",
+        "count": 56
+      },
+      {
+        "week": "2024-W24",
+        "count": 20
+      },
+      {
+        "week": "2024-W25",
+        "count": 2
+      },
+      {
+        "week": "2024-W26",
+        "count": 20
+      },
+      {
+        "week": "2024-W27",
+        "count": 2
+      },
+      {
+        "week": "2024-W28",
+        "count": 16
+      },
+      {
+        "week": "2024-W29",
+        "count": 5
+      },
+      {
+        "week": "2024-W30",
+        "count": 8
+      },
+      {
+        "week": "2024-W31",
+        "count": 5
+      },
+      {
+        "week": "2024-W32",
+        "count": 20
+      },
+      {
+        "week": "2024-W33",
+        "count": 45
+      },
+      {
+        "week": "2024-W34",
+        "count": 1
+      },
+      {
+        "week": "2024-W35",
+        "count": 5
+      },
+      {
+        "week": "2024-W36",
+        "count": 55
+      },
+      {
+        "week": "2024-W37",
+        "count": 35
+      },
+      {
+        "week": "2024-W38",
+        "count": 8
+      },
+      {
+        "week": "2024-W39",
+        "count": 2
+      },
+      {
+        "week": "2024-W40",
+        "count": 11
+      },
+      {
+        "week": "2024-W41",
+        "count": 9
+      },
+      {
+        "week": "2024-W42",
+        "count": 5
+      },
+      {
+        "week": "2024-W43",
+        "count": 37
+      },
+      {
+        "week": "2024-W44",
+        "count": 12
+      },
+      {
+        "week": "2024-W45",
+        "count": 10
+      },
+      {
+        "week": "2024-W46",
+        "count": 6
+      },
+      {
+        "week": "2024-W47",
+        "count": 50
+      },
+      {
+        "week": "2024-W48",
+        "count": 7
+      },
+      {
+        "week": "2024-W49",
+        "count": 7
+      },
+      {
+        "week": "2024-W50",
+        "count": 5
+      },
+      {
+        "week": "2024-W52",
+        "count": 3
+      },
+      {
+        "week": "2025-W00",
+        "count": 1
+      },
+      {
+        "week": "2025-W01",
+        "count": 6
+      },
+      {
+        "week": "2025-W02",
+        "count": 11
+      },
+      {
+        "week": "2025-W03",
+        "count": 12
+      },
+      {
+        "week": "2025-W04",
+        "count": 3
+      },
+      {
+        "week": "2025-W05",
+        "count": 12
+      },
+      {
+        "week": "2025-W07",
+        "count": 13
+      },
+      {
+        "week": "2025-W08",
+        "count": 5
+      },
+      {
+        "week": "2025-W09",
+        "count": 5
+      },
+      {
+        "week": "2025-W10",
+        "count": 2
+      },
+      {
+        "week": "2025-W18",
+        "count": 99
+      },
+      {
+        "week": "2025-W21",
+        "count": 1
+      },
+      {
+        "week": "2025-W24",
+        "count": 3
+      },
+      {
+        "week": "2025-W26",
+        "count": 1
+      },
+      {
+        "week": "2025-W27",
+        "count": 1
+      },
+      {
+        "week": "2025-W28",
+        "count": 52
+      },
+      {
+        "week": "2025-W29",
+        "count": 18
+      },
+      {
+        "week": "2025-W30",
+        "count": 28
+      },
+      {
+        "week": "2025-W35",
+        "count": 1
+      },
+      {
+        "week": "2025-W37",
+        "count": 32
+      },
+      {
+        "week": "2025-W38",
+        "count": 4
+      },
+      {
+        "week": "2025-W39",
+        "count": 1
+      },
+      {
+        "week": "2025-W40",
+        "count": 4
+      },
+      {
+        "week": "2025-W41",
+        "count": 19
+      },
+      {
+        "week": "2025-W42",
+        "count": 2
+      },
+      {
+        "week": "2025-W43",
+        "count": 29
+      },
+      {
+        "week": "2025-W44",
+        "count": 11
+      },
+      {
+        "week": "2025-W45",
+        "count": 1
+      },
+      {
+        "week": "2025-W46",
+        "count": 6
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2023-08",
+        "count": 5
+      },
+      {
+        "month": "2023-09",
+        "count": 29
+      },
+      {
+        "month": "2024-03",
+        "count": 242
+      },
+      {
+        "month": "2024-04",
+        "count": 82
+      },
+      {
+        "month": "2024-05",
+        "count": 56
+      },
+      {
+        "month": "2024-06",
+        "count": 142
+      },
+      {
+        "month": "2024-07",
+        "count": 45
+      },
+      {
+        "month": "2024-08",
+        "count": 73
+      },
+      {
+        "month": "2024-09",
+        "count": 103
+      },
+      {
+        "month": "2024-10",
+        "count": 57
+      },
+      {
+        "month": "2024-11",
+        "count": 85
+      },
+      {
+        "month": "2024-12",
+        "count": 22
+      },
+      {
+        "month": "2025-01",
+        "count": 33
+      },
+      {
+        "month": "2025-02",
+        "count": 30
+      },
+      {
+        "month": "2025-03",
+        "count": 7
+      },
+      {
+        "month": "2025-05",
+        "count": 100
+      },
+      {
+        "month": "2025-06",
+        "count": 3
+      },
+      {
+        "month": "2025-07",
+        "count": 95
+      },
+      {
+        "month": "2025-08",
+        "count": 5
+      },
+      {
+        "month": "2025-09",
+        "count": 37
+      },
+      {
+        "month": "2025-10",
+        "count": 55
+      },
+      {
+        "month": "2025-11",
+        "count": 18
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "VTrider",
+        "count": 23
+      },
+      {
+        "user": "susteem is African",
+        "count": 16
+      },
+      {
+        "user": "JJ173",
+        "count": 14
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 12
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 11
+      },
+      {
+        "user": "Deleted User",
+        "count": 6
+      },
+      {
+        "user": "BlackDragon",
+        "count": 6
+      },
+      {
+        "user": "Doma",
+        "count": 5
+      },
+      {
+        "user": "F9bomber",
+        "count": 5
+      },
+      {
+        "user": "Erotic Juice Princess",
+        "count": 5
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "JJ173",
+        "count": 21
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 18
+      },
+      {
+        "user": "Deleted User",
+        "count": 10
+      },
+      {
+        "user": "F9bomber",
+        "count": 6
+      },
+      {
+        "user": "susteem is African",
+        "count": 5
+      },
+      {
+        "user": "BlackDragon",
+        "count": 5
+      },
+      {
+        "user": "Doma",
+        "count": 5
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 4
+      },
+      {
+        "user": "Reacher",
+        "count": 4
+      },
+      {
+        "user": "Erotic Juice Princess",
+        "count": 3
+      }
+    ],
+    "reactionsReceived": [
+      {
+        "emoji": "🤣",
+        "count": 5
+      },
+      {
+        "emoji": "💯",
+        "count": 3
+      },
+      {
+        "emoji": "😂",
+        "count": 2
+      },
+      {
+        "emoji": "👎",
+        "count": 1
+      },
+      {
+        "emoji": "shcscribe",
+        "count": 1
+      },
+      {
+        "emoji": "🥹",
+        "count": 1
+      },
+      {
+        "emoji": "🫂",
+        "count": 1
+      },
+      {
+        "emoji": "🔥",
+        "count": 1
+      },
+      {
+        "emoji": "n__victory",
+        "count": 1
+      },
+      {
+        "emoji": "🐈",
+        "count": 1
+      }
+    ]
+  }
+}

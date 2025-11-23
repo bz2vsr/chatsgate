@@ -1,0 +1,47 @@
+{
+  "userId": "222487559119437825",
+  "displayName": "OwnedBigly",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 2,
+    "avgLength": 18.0,
+    "activityScore": 1.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "joined": 1,
+    "server": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-08-22",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W33",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-08",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

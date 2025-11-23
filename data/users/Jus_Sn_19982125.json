@@ -1,0 +1,55 @@
+{
+  "userId": "199821257150169088",
+  "displayName": "Jus_Sn",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 5,
+    "avgLength": 56.0,
+    "activityScore": 3.8,
+    "totalReactions": 0
+  },
+  "words": {
+    "apologies": 1,
+    "lurking": 1,
+    "usually": 1,
+    "much": 1,
+    "say": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-01-15",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W02",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-01",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 15
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

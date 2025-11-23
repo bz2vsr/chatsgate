@@ -1,0 +1,81 @@
+{
+  "userId": "162364517810962432",
+  "displayName": "Sly",
+  "aliases": [],
+  "stats": {
+    "messageCount": 2,
+    "wordCount": 7,
+    "avgLength": 37.0,
+    "activityScore": 5.5,
+    "totalReactions": 0
+  },
+  "words": {
+    "become": 1,
+    "powerful": 1,
+    "slyforion": 1,
+    "streets": 1,
+    "clear": 1,
+    "danger": 1,
+    "datguy": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-01-13",
+        "count": 1
+      },
+      {
+        "date": "2024-06-08",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W01",
+        "count": 1
+      },
+      {
+        "week": "2024-W22",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-01",
+        "count": 1
+      },
+      {
+        "month": "2024-06",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "susteem is African",
+        "count": 1
+      },
+      {
+        "user": "Streets clear, no danger",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
+        "count": 1
+      },
+      {
+        "user": "DatGuy",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Athelas",
+        "count": 2
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

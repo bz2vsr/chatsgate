@@ -1,0 +1,47 @@
+{
+  "userId": "300067729128554497",
+  "displayName": "◿Jayden Hopkins ┘├┤",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 2,
+    "avgLength": 18.0,
+    "activityScore": 1.7,
+    "totalReactions": 2
+  },
+  "words": {
+    "joined": 1,
+    "server": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-10-22",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W42",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-10",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [],
+    "reactionsReceived": [
+      {
+        "emoji": "z__bye",
+        "count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "userId": "201977847953227776",
+  "displayName": "Nozza",
+  "aliases": [],
+  "stats": {
+    "messageCount": 17,
+    "wordCount": 58,
+    "avgLength": 42.35,
+    "activityScore": 45.7,
+    "totalReactions": 1
+  },
+  "words": {
+    "one": 2,
+    "game": 2,
+    "gamer": 2,
+    "soon": 2,
+    "joined": 1,
+    "server": 1,
+    "hello": 1,
+    "haha": 1,
+    "practice": 1,
+    "flying": 1,
+    "genuinely": 1,
+    "asking": 1,
+    "somehelp": 1,
+    "idk": 1,
+    "drama": 1,
+    "found": 1,
+    "work": 1,
+    "shop": 1,
+    "eco": 1,
+    "chump": 1,
+    "broken": 1,
+    "f9": 1,
+    "flight": 1,
+    "sim": 1,
+    "try": 1,
+    "open": 1,
+    "put": 1,
+    "mod": 1,
+    "started": 1,
+    "campaing": 1,
+    "notes": 1,
+    "say": 1,
+    "says": 1,
+    "perished": 1,
+    "maybe": 1,
+    "user": 1,
+    "error": 1,
+    "smart": 1,
+    "today": 1,
+    "silica": 1,
+    "litt": 1,
+    "air": 1,
+    "update": 1,
+    "good": 1,
+    "haven": 1,
+    "played": 1,
+    "let": 1,
+    "coach": 1,
+    "ready": 1,
+    "pleaseee": 1,
+    "didn": 1,
+    "consider": 1,
+    "got": 1,
+    "space": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-09-07",
+        "count": 1
+      },
+      {
+        "date": "2025-07-15",
+        "count": 2
+      },
+      {
+        "date": "2025-07-19",
+        "count": 1
+      },
+      {
+        "date": "2025-07-21",
+        "count": 1
+      },
+      {
+        "date": "2025-07-26",
+        "count": 4
+      },
+      {
+        "date": "2025-07-27",
+        "count": 3
+      },
+      {
+        "date": "2025-07-28",
+        "count": 1
+      },
+      {
+        "date": "2025-07-31",
+        "count": 2
+      },
+      {
+        "date": "2025-08-01",
+        "count": 1
+      },
+      {
+        "date": "2025-08-02",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W35",
+        "count": 1
+      },
+      {
+        "week": "2025-W28",
+        "count": 3
+      },
+      {
+        "week": "2025-W29",
+        "count": 5
+      },
+      {
+        "week": "2025-W30",
+        "count": 8
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-09",
+        "count": 1
+      },
+      {
+        "month": "2025-07",
+        "count": 14
+      },
+      {
+        "month": "2025-08",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "F9bomber",
+        "count": 2
+      },
+      {
+        "user": "getsthedubs",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 3
+      },
+      {
+        "user": "Lithium",
+        "count": 3
+      },
+      {
+        "user": "getsthedubs",
+        "count": 2
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      },
+      {
+        "user": "JJ173",
+        "count": 1
+      },
+      {
+        "user": "F9bomber",
+        "count": 1
+      },
+      {
+        "user": "Six Seven",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": [
+      {
+        "emoji": "🔥",
+        "count": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "userId": "582408694868869121",
+  "displayName": "CamelBay",
+  "aliases": [],
+  "stats": {
+    "messageCount": 5,
+    "wordCount": 21,
+    "avgLength": 46.6,
+    "activityScore": 16.2,
+    "totalReactions": 1
+  },
+  "words": {
+    "everyone": 3,
+    "tonight": 2,
+    "look": 2,
+    "host": 1,
+    "game": 1,
+    "point": 1,
+    "anybody": 1,
+    "interested": 1,
+    "lmk": 1,
+    "room": 1,
+    "merry": 1,
+    "christmas": 1,
+    "games": 1,
+    "legos": 1,
+    "good": 1,
+    "blender": 1,
+    "models": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2023-12-28",
+        "count": 1
+      },
+      {
+        "date": "2024-01-05",
+        "count": 1
+      },
+      {
+        "date": "2024-12-25",
+        "count": 2
+      },
+      {
+        "date": "2024-12-27",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2023-W52",
+        "count": 1
+      },
+      {
+        "week": "2024-W00",
+        "count": 1
+      },
+      {
+        "week": "2024-W51",
+        "count": 3
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2023-12",
+        "count": 1
+      },
+      {
+        "month": "2024-01",
+        "count": 1
+      },
+      {
+        "month": "2024-12",
+        "count": 3
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "susteem is African",
+        "count": 1
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": [
+      {
+        "emoji": "❤️",
+        "count": 1
+      }
+    ]
+  }
+}

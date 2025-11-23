@@ -1,0 +1,79 @@
+{
+  "userId": "747621332191281212",
+  "displayName": "DriveLine",
+  "aliases": [],
+  "stats": {
+    "messageCount": 4,
+    "wordCount": 34,
+    "avgLength": 102.75,
+    "activityScore": 25.0,
+    "totalReactions": 0
+  },
+  "words": {
+    "great": 2,
+    "lot": 2,
+    "better": 2,
+    "requires": 2,
+    "oh": 1,
+    "insane": 1,
+    "macs": 1,
+    "long": 1,
+    "re": 1,
+    "fun": 1,
+    "think": 1,
+    "proper": 1,
+    "pc": 1,
+    "laptop": 1,
+    "whole": 1,
+    "literally": 1,
+    "keys": 1,
+    "chilling": 1,
+    "cool": 1,
+    "400": 1,
+    "degrees": 1,
+    "buuuut": 1,
+    "game": 1,
+    "playing": 1,
+    "server": 1,
+    "bztc": 1,
+    "feels": 1,
+    "weirdly": 1,
+    "good": 1,
+    "tbh": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-06-15",
+        "count": 4
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W24",
+        "count": 4
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-06",
+        "count": 4
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Reacher",
+        "count": 1
+      },
+      {
+        "user": "F9bomber",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

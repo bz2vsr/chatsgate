@@ -1,0 +1,81 @@
+{
+  "userId": "233915502844575745",
+  "displayName": "Karlopitek",
+  "aliases": [],
+  "stats": {
+    "messageCount": 6,
+    "wordCount": 11,
+    "avgLength": 20.33,
+    "activityScore": 9.5,
+    "totalReactions": 0
+  },
+  "words": {
+    "joined": 2,
+    "server": 2,
+    "sounds": 2,
+    "good": 2,
+    "trying": 1,
+    "verify": 1,
+    "files": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-08-23",
+        "count": 4
+      },
+      {
+        "date": "2025-08-25",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W33",
+        "count": 4
+      },
+      {
+        "week": "2025-W34",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-08",
+        "count": 6
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "BlackDragon",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "VTrider",
+        "count": 1
+      },
+      {
+        "user": "F9bomber",
+        "count": 1
+      },
+      {
+        "user": "vacuum34",
+        "count": 1
+      },
+      {
+        "user": "Clovis Bray",
+        "count": 1
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

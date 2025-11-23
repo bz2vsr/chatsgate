@@ -1,0 +1,164 @@
+{
+  "userId": "117522115883827206",
+  "displayName": "Bloo",
+  "aliases": [],
+  "stats": {
+    "messageCount": 17,
+    "wordCount": 122,
+    "avgLength": 83.53,
+    "activityScore": 90.5,
+    "totalReactions": 0
+  },
+  "words": {
+    "game": 6,
+    "read": 5,
+    "play": 4,
+    "going": 3,
+    "already": 3,
+    "kick": 2,
+    "feel": 2,
+    "weird": 2,
+    "shit": 2,
+    "dm": 2,
+    "another": 2,
+    "new": 2,
+    "got": 2,
+    "maybe": 2,
+    "win": 2,
+    "nickname": 1,
+    "cringe": 1,
+    "people": 1,
+    "always": 1,
+    "asking": 1,
+    "names": 1,
+    "every": 1,
+    "lmao": 1,
+    "max": 1,
+    "hard": 1,
+    "life": 1,
+    "able": 1,
+    "answer": 1,
+    "twice": 1,
+    "wanting": 1,
+    "repeat": 1,
+    "3rd": 1,
+    "time": 1,
+    "mean": 1,
+    "everyone": 1,
+    "else": 1,
+    "figured": 1,
+    "newb": 1,
+    "pretty": 1,
+    "quick": 1,
+    "except": 1,
+    "problem": 1,
+    "misunderstanding": 1,
+    "chillin": 1,
+    "rent": 1,
+    "free": 1,
+    "weirdos": 1,
+    "head": 1,
+    "want": 1,
+    "haha": 1,
+    "bottom": 1,
+    "feeder": 1,
+    "pinging": 1,
+    "tho": 1,
+    "retard": 1,
+    "icon": 1,
+    "says": 1,
+    "loser": 1,
+    "first": 1,
+    "games": 1,
+    "bro": 1,
+    "accidentally": 1,
+    "beat": 1,
+    "nah": 1,
+    "shredded": 1,
+    "kicked": 1,
+    "sucks": 1,
+    "spend": 1,
+    "long": 1,
+    "dunked": 1,
+    "player": 1,
+    "soon": 1,
+    "fly": 1,
+    "cause": 1,
+    "nick": 1,
+    "lose": 1,
+    "ahah": 1,
+    "figure": 1,
+    "host": 1,
+    "eh": 1,
+    "hella": 1,
+    "imagine": 1,
+    "lost": 1,
+    "worth": 1,
+    "pleasant": 1,
+    "ve": 1,
+    "gotten": 1,
+    "block": 1,
+    "rando": 1,
+    "weirdo": 1,
+    "wins": 1,
+    "good": 1,
+    "players": 1,
+    "ll": 1,
+    "dead": 1,
+    "months": 1
+  },
+  "phrases": {
+    "can read": 4
+  },
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-04-22",
+        "count": 2
+      },
+      {
+        "date": "2024-04-23",
+        "count": 15
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W16",
+        "count": 17
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-04",
+        "count": 17
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "MAX:)",
+        "count": 2
+      },
+      {
+        "user": "Slyforion",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 2
+      },
+      {
+        "user": "MAX:)",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

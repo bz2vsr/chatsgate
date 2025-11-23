@@ -1,0 +1,60 @@
+{
+  "userId": "1207896074576990238",
+  "displayName": ";",
+  "aliases": [],
+  "stats": {
+    "messageCount": 9,
+    "wordCount": 17,
+    "avgLength": 22.33,
+    "activityScore": 14.6,
+    "totalReactions": 0
+  },
+  "words": {
+    "unban": 2,
+    "alt": 2,
+    "go": 1,
+    "data": 1,
+    "cause": 1,
+    "needs": 1,
+    "join": 1,
+    "normal": 1,
+    "network": 1,
+    "herps": 1,
+    "idea": 1,
+    "mine": 1,
+    "main": 1,
+    "ok": 1,
+    "yes": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-03-02",
+        "count": 9
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W08",
+        "count": 9
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-03",
+        "count": 9
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

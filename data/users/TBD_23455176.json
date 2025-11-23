@@ -1,0 +1,214 @@
+{
+  "userId": "234551766971187200",
+  "displayName": "TBD",
+  "aliases": [],
+  "stats": {
+    "messageCount": 24,
+    "wordCount": 132,
+    "avgLength": 60.83,
+    "activityScore": 99.6,
+    "totalReactions": 0
+  },
+  "words": {
+    "twitch": 3,
+    "bz2": 2,
+    "discord": 2,
+    "stream": 2,
+    "good": 2,
+    "option": 2,
+    "streams": 2,
+    "days": 2,
+    "users": 2,
+    "gaming": 2,
+    "youtube": 2,
+    "fov": 2,
+    "game": 2,
+    "ultrawide": 2,
+    "format": 2,
+    "holy": 1,
+    "crap": 1,
+    "voip": 1,
+    "finally": 1,
+    "modernised": 1,
+    "monopoly": 1,
+    "soundboard": 1,
+    "overpowered": 1,
+    "fucking": 1,
+    "fantastic": 1,
+    "one": 1,
+    "play": 1,
+    "said": 1,
+    "steering": 1,
+    "wheel": 1,
+    "currently": 1,
+    "sim": 1,
+    "setup": 1,
+    "watching": 1,
+    "ur": 1,
+    "working": 1,
+    "got": 1,
+    "decent": 1,
+    "pc": 1,
+    "man": 1,
+    "jabbapop": 1,
+    "unfortunately": 1,
+    "last": 1,
+    "months": 1,
+    "everyone": 1,
+    "complain": 1,
+    "greatful": 1,
+    "job": 1,
+    "glances": 1,
+    "yea": 1,
+    "looked": 1,
+    "recording": 1,
+    "done": 1,
+    "iirc": 1,
+    "rip": 1,
+    "enable": 1,
+    "log": 1,
+    "account": 1,
+    "go": 1,
+    "settings": 1,
+    "channel": 1,
+    "videos": 1,
+    "activate": 1,
+    "store": 1,
+    "past": 1,
+    "broadcasts": 1,
+    "automatically": 1,
+    "save": 1,
+    "14": 1,
+    "regular": 1,
+    "60": 1,
+    "partners": 1,
+    "prime": 1,
+    "turbo": 1,
+    "try": 1,
+    "next": 1,
+    "time": 1,
+    "yes": 1,
+    "mate": 1,
+    "mine": 1,
+    "almost": 1,
+    "daily": 1,
+    "using": 1,
+    "obs": 1,
+    "resize": 1,
+    "change": 1,
+    "rendering": 1,
+    "monitors": 1,
+    "bought": 1,
+    "neo": 1,
+    "g9": 1,
+    "issue": 1,
+    "triples": 1,
+    "seems": 1,
+    "render": 1,
+    "large": 1,
+    "16": 1,
+    "instead": 1,
+    "32": 1,
+    "camera": 1,
+    "etc": 1,
+    "zoomed": 1,
+    "probably": 1,
+    "niche": 1,
+    "use": 1,
+    "case": 1,
+    "super": 1,
+    "damn": 1,
+    "immersive": 1,
+    "ll": 1,
+    "ask": 1,
+    "official": 1,
+    "bz": 1,
+    "modern": 1,
+    "think": 1,
+    "give": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2023-08-11",
+        "count": 4
+      },
+      {
+        "date": "2023-08-21",
+        "count": 13
+      },
+      {
+        "date": "2023-10-02",
+        "count": 4
+      },
+      {
+        "date": "2023-10-25",
+        "count": 1
+      },
+      {
+        "date": "2023-12-19",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2023-W32",
+        "count": 4
+      },
+      {
+        "week": "2023-W34",
+        "count": 13
+      },
+      {
+        "week": "2023-W40",
+        "count": 4
+      },
+      {
+        "week": "2023-W43",
+        "count": 1
+      },
+      {
+        "week": "2023-W51",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2023-08",
+        "count": 17
+      },
+      {
+        "month": "2023-10",
+        "count": 5
+      },
+      {
+        "month": "2023-12",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

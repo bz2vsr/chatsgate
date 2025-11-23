@@ -1,0 +1,51 @@
+{
+  "userId": "171063181219725313",
+  "displayName": "Sylph",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 2,
+    "avgLength": 18.0,
+    "activityScore": 1.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "joined": 1,
+    "server": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2025-08-03",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2025-W31",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-08",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "F9bomber",
+        "count": 1
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

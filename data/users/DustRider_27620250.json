@@ -1,0 +1,87 @@
+{
+  "userId": "276202501630590976",
+  "displayName": "DustRider",
+  "aliases": [],
+  "stats": {
+    "messageCount": 7,
+    "wordCount": 18,
+    "avgLength": 24.29,
+    "activityScore": 14.7,
+    "totalReactions": 0
+  },
+  "words": {
+    "guntower": 1,
+    "meta": 1,
+    "press": 1,
+    "play": 1,
+    "banger": 1,
+    "music": 1,
+    "hell": 1,
+    "bad": 1,
+    "asset": 1,
+    "next": 1,
+    "game": 1,
+    "ll": 1,
+    "got": 1,
+    "resubscribing": 1,
+    "vsr": 1,
+    "incredible": 1,
+    "map": 1,
+    "quality": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-08-19",
+        "count": 4
+      },
+      {
+        "date": "2024-09-09",
+        "count": 2
+      },
+      {
+        "date": "2024-10-28",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W33",
+        "count": 4
+      },
+      {
+        "week": "2024-W36",
+        "count": 2
+      },
+      {
+        "week": "2024-W43",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-08",
+        "count": 4
+      },
+      {
+        "month": "2024-09",
+        "count": 2
+      },
+      {
+        "month": "2024-10",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}
