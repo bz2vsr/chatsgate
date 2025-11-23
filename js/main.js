@@ -668,6 +668,17 @@ async function loadUserView(username) {
             console.log('Loaded user from file:', username);
         }
         
+        // Update word cloud settings for user view
+        cloudSettings.rankMax = 1000;
+        cloudSettings.countMin = 1;
+        // Update sliders if modal is open
+        if (rankSlider) {
+            rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
+        }
+        if (countSlider) {
+            countSlider.set([cloudSettings.countMin, cloudSettings.countMax === Infinity ? 10000 : cloudSettings.countMax]);
+        }
+        
         // Update UI
         showUserLoadingStatus(false);
         document.getElementById('btn-reset-filters').style.display = 'inline-block';
@@ -695,6 +706,17 @@ function resetToGlobalView() {
     
     document.getElementById('btn-reset-filters').style.display = 'none';
     document.getElementById('relationships-card').style.display = 'none';
+    
+    // Reset word cloud settings to defaults
+    cloudSettings.rankMax = 500;
+    cloudSettings.countMin = 100;
+    // Update sliders if modal is open
+    if (rankSlider) {
+        rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
+    }
+    if (countSlider) {
+        countSlider.set([cloudSettings.countMin, cloudSettings.countMax === Infinity ? 10000 : cloudSettings.countMax]);
+    }
     
     // Re-render with global data
     renderSummary();
