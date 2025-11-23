@@ -671,6 +671,7 @@ async function loadUserView(username) {
         // Update word cloud settings for user view
         cloudSettings.rankMax = 1000;
         cloudSettings.countMin = 1;
+        cloudSettings.fontSizeMax = 150;
         // Update sliders if modal is open
         if (rankSlider) {
             rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
@@ -678,6 +679,12 @@ async function loadUserView(username) {
         if (countSlider) {
             countSlider.set([cloudSettings.countMin, cloudSettings.countMax === Infinity ? 10000 : cloudSettings.countMax]);
         }
+        if (fontSlider) {
+            fontSlider.set([cloudSettings.fontSizeMin, cloudSettings.fontSizeMax]);
+        }
+        
+        // Update word cloud modal header
+        updateWordCloudModalHeader();
         
         // Update UI
         showUserLoadingStatus(false);
@@ -710,6 +717,7 @@ function resetToGlobalView() {
     // Reset word cloud settings to defaults
     cloudSettings.rankMax = 500;
     cloudSettings.countMin = 100;
+    cloudSettings.fontSizeMax = 50;
     // Update sliders if modal is open
     if (rankSlider) {
         rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
@@ -717,6 +725,12 @@ function resetToGlobalView() {
     if (countSlider) {
         countSlider.set([cloudSettings.countMin, cloudSettings.countMax === Infinity ? 10000 : cloudSettings.countMax]);
     }
+    if (fontSlider) {
+        fontSlider.set([cloudSettings.fontSizeMin, cloudSettings.fontSizeMax]);
+    }
+    
+    // Update word cloud modal header
+    updateWordCloudModalHeader();
     
     // Re-render with global data
     renderSummary();
@@ -848,6 +862,17 @@ function updateActivityTimelineHeader() {
     }
 }
 
+function updateWordCloudModalHeader() {
+    const header = document.getElementById('word-cloud-modal-title');
+    if (!header) return;
+    
+    if (currentViewMode === 'user' && currentUserData) {
+        header.textContent = `Word Cloud Visualization (${currentUserData.displayName})`;
+    } else {
+        header.textContent = 'Word Cloud Visualization';
+    }
+}
+
 function renderRelationships() {
     if (!currentUserData || !currentUserData.relationships) return;
     
@@ -926,17 +951,29 @@ function initWordCloudModal() {
     
     if (openBtn) {
         openBtn.addEventListener('click', () => {
+            // Show loading indicator immediately when button is clicked
+            showWordCloudLoading();
+            
             const bsModal = new bootstrap.Modal(modal);
             bsModal.show();
             
             // Initialize sliders if not already done
             if (!rankSlider) {
                 initRangeSliders();
+            } else {
+                // Update sliders to match current settings (in case they changed after user selection)
+                rankSlider.set([cloudSettings.rankMin, cloudSettings.rankMax]);
+                const countMax = cloudSettings.countMax === Infinity ? 10000 : cloudSettings.countMax;
+                countSlider.set([cloudSettings.countMin, countMax]);
+                fontSlider.set([cloudSettings.fontSizeMin, cloudSettings.fontSizeMax]);
             }
             
             // Initialize Bootstrap tooltips
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
             [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+            
+            // Update modal header to show username if in user mode
+            updateWordCloudModalHeader();
             
             // Render word cloud after modal is shown
             setTimeout(() => {
@@ -1039,7 +1076,7 @@ function initRangeSliders() {
     // Rank range slider
     const rankSliderElement = document.getElementById('cloud-rank-range');
     rankSlider = noUiSlider.create(rankSliderElement, {
-        start: [1, 500],
+        start: [cloudSettings.rankMin, cloudSettings.rankMax],
         connect: true,
         step: 1,
         range: {
@@ -1063,8 +1100,9 @@ function initRangeSliders() {
     
     // Count range slider
     const countSliderElement = document.getElementById('cloud-count-range');
+    const countMax = cloudSettings.countMax === Infinity ? 1000 : cloudSettings.countMax;
     countSlider = noUiSlider.create(countSliderElement, {
-        start: [100, 1000],
+        start: [cloudSettings.countMin, countMax],
         connect: true,
         step: 10,
         range: {
@@ -1090,7 +1128,7 @@ function initRangeSliders() {
     // Font size range slider
     const fontSliderElement = document.getElementById('cloud-font-range');
     fontSlider = noUiSlider.create(fontSliderElement, {
-        start: [12, 50],
+        start: [cloudSettings.fontSizeMin, cloudSettings.fontSizeMax],
         connect: true,
         step: 1,
         range: {
