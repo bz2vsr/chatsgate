@@ -15,7 +15,7 @@ let cloudSettings = {
     countMax: Infinity,
     colorScheme: 'blue',
     fontSizeMin: 12,
-    fontSizeMax: 99,
+    fontSizeMax: 50,
     userFilter: null
 };
 let rankSlider = null;

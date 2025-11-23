@@ -328,30 +328,32 @@ body {
 }
 
 .noUi-handle {
-    border: 1px solid var(--bs-border-color) !important;
-    background: var(--bs-body-bg) !important;
+    border: 2px solid var(--bs-primary) !important;
+    background: var(--bs-primary) !important;
     box-shadow: none !important;
     border-radius: 50% !important;
-    width: 10px !important;
-    height: 10px !important;
-    right: -5px !important;
-    top: -2px !important;
+    width: 14px !important;
+    height: 14px !important;
+    right: -7px !important;
+    top: -4px !important;
     cursor: pointer !important;
 }
 
 .noUi-horizontal .noUi-handle {
-    width: 10px !important;
-    height: 10px !important;
+    width: 14px !important;
+    height: 14px !important;
 }
 
 .noUi-handle:hover {
     background: var(--bs-primary) !important;
     border-color: var(--bs-primary) !important;
+    transform: scale(1.1);
 }
 
 .noUi-handle:active {
     background: var(--bs-primary) !important;
     border-color: var(--bs-primary) !important;
+    transform: scale(1.15);
 }
 
 .noUi-handle:before,
