@@ -76,10 +76,11 @@ body {
 
 /* Word cloud SVG container */
 #word-cloud-container {
-    min-height: 600px;
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 #word-cloud-svg {
@@ -90,6 +91,9 @@ body {
 /* Word cloud modal controls */
 .modal-fullscreen .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 /* Chart container */

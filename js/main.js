@@ -5,15 +5,15 @@ let currentFilters = {
     user: '',
     dateStart: '',
     dateEnd: '',
-    timelineView: 'daily'
+    timelineView: 'monthly'
 };
 let cloudSettings = {
-    topN: 50,
+    topN: 500,
     showType: 'all',
-    minCount: 20,
-    colorScheme: 'default',
+    minCount: 100,
+    colorScheme: 'blue',
     fontSizeMin: 12,
-    fontSizeMax: 80,
+    fontSizeMax: 99,
     userFilter: null
 };
 let userTable = null;
@@ -184,10 +184,11 @@ function initUserTable() {
         order: [[3, 'desc']], // Sort by activity score
         pageLength: 25,
         lengthChange: false,
-        searching: false,
+        searching: true,
         info: false,
         responsive: true,
         language: {
+            search: 'Search:',
             paginate: {
                 previous: '‹',
                 next: '›'
@@ -553,8 +554,14 @@ function renderWordCloud() {
     const svg = d3.select('#word-cloud-svg');
     svg.selectAll('*').remove();
     
-    const width = document.getElementById('word-cloud-container').clientWidth || 1000;
-    const height = 600;
+    const container = document.getElementById('word-cloud-container');
+    const width = container.clientWidth || 1000;
+    
+    // Calculate available height (modal body height minus controls card and padding)
+    const modalBody = container.closest('.modal-body');
+    const controlsCard = modalBody.querySelector('.card');
+    const availableHeight = modalBody.clientHeight - controlsCard.offsetHeight - 60; // 60px for padding
+    const height = Math.max(availableHeight, 400); // Minimum 400px
     
     svg.attr('width', width).attr('height', height);
     
