@@ -107,6 +107,43 @@ body {
     min-width: 0;
 }
 
+/* Navbar responsive behavior */
+.navbar .container-fluid {
+    flex-wrap: wrap;
+}
+
+.navbar-brand {
+    flex-shrink: 0;
+}
+
+/* Badge container responsive */
+.navbar .d-flex.gap-2 {
+    justify-content: flex-end;
+}
+
+@media (max-width: 576px) {
+    .navbar .container-fluid {
+        padding: 0.5rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .navbar .d-flex.gap-2 {
+        gap: 0.5rem !important;
+        width: 100%;
+        justify-content: flex-start;
+        margin-top: 0.5rem;
+    }
+    
+    .navbar .badge {
+        font-size: 0.7rem;
+        padding: 0.35em 0.5em;
+    }
+}
+
 /* Theme toggle button */
 #theme-toggle {
     border: none !important;
