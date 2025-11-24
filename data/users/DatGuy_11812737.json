@@ -1,0 +1,69 @@
+{
+  "userId": "118127375316680709",
+  "displayName": "DatGuy",
+  "aliases": [],
+  "stats": {
+    "messageCount": 1,
+    "wordCount": 4,
+    "avgLength": 54.0,
+    "activityScore": 3.1,
+    "totalReactions": 0
+  },
+  "words": {
+    "liking": 1,
+    "single": 1,
+    "album": 1,
+    "drop": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-05-11",
+        "count": 1
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W18",
+        "count": 1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-05",
+        "count": 1
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 4
+      },
+      {
+        "user": "Deleted User",
+        "count": 3
+      },
+      {
+        "user": "susteem is African",
+        "count": 2
+      },
+      {
+        "user": "Sly",
+        "count": 1
+      },
+      {
+        "user": "Cyber",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

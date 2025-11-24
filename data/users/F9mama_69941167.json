@@ -3,44 +3,54 @@
   "displayName": "F9mama",
   "aliases": [],
   "stats": {
-    "messageCount": 34,
-    "wordCount": 140,
-    "avgLength": 43.21,
-    "activityScore": 108.2,
-    "totalReactions": 1
+    "messageCount": 71,
+    "wordCount": 244,
+    "avgLength": 37.83,
+    "activityScore": 192.1,
+    "totalReactions": 3
   },
   "words": {
     "susteem": 11,
     "african": 11,
+    "name": 6,
+    "herp": 6,
     "player": 5,
+    "join": 5,
     "bz2": 4,
+    "play": 4,
+    "game": 4,
+    "vtrider": 3,
     "blue": 3,
-    "name": 3,
+    "thank": 3,
     "server": 3,
+    "hi": 3,
     "10": 3,
-    "herp": 3,
     "erotic": 3,
     "juice": 3,
     "princess": 3,
-    "vtrider": 2,
+    "things": 2,
+    "new": 2,
     "hey": 2,
-    "thank": 2,
+    "thought": 2,
     "another": 2,
-    "hi": 2,
     "keep": 2,
     "leaving": 2,
     "whatever": 2,
+    "help": 2,
     "picking": 2,
     "one": 2,
     "enemy": 2,
     "ship": 2,
+    "died": 2,
+    "mcderperson": 2,
+    "f9bomber": 2,
+    "al": 2,
+    "time": 2,
     "nicer": 1,
     "put": 1,
-    "things": 1,
     "sev": 1,
     "tantamount": 1,
     "overwhelming": 1,
-    "new": 1,
     "players": 1,
     "included": 1,
     "ewwwwwwwwwww": 1,
@@ -51,19 +61,16 @@
     "2025": 1,
     "tier": 1,
     "list": 1,
-    "thought": 1,
     "joined": 1,
     "everyone": 1,
     "someone": 1,
     "leaves": 1,
     "athelas": 1,
     "athela": 1,
-    "join": 1,
     "team": 1,
     "predicted": 1,
     "noted": 1,
     "somone": 1,
-    "help": 1,
     "appears": 1,
     "choking": 1,
     "want": 1,
@@ -71,8 +78,6 @@
     "swearing": 1,
     "calling": 1,
     "asked": 1,
-    "play": 1,
-    "game": 1,
     "drphiladelphia": 1,
     "stop": 1,
     "dr": 1,
@@ -85,7 +90,6 @@
     "pilot": 1,
     "building": 1,
     "pilots": 1,
-    "died": 1,
     "stolen": 1,
     "blackdragon": 1,
     "test": 1,
@@ -94,9 +98,82 @@
     "past": 1,
     "20": 1,
     "minutes": 1,
-    "crash": 1
+    "crash": 1,
+    "hello": 1,
+    "happy": 1,
+    "halloween": 1,
+    "hadeans": 1,
+    "suck": 1,
+    "context": 1,
+    "needed": 1,
+    "isn": 1,
+    "agreed": 1,
+    "upon": 1,
+    "participants": 1,
+    "counts": 1,
+    "stats": 1,
+    "gotcha": 1,
+    "artificial": 1,
+    "intelligence": 1,
+    "lacks": 1,
+    "common": 1,
+    "sense": 1,
+    "among": 1,
+    "wasn": 1,
+    "ai": 1,
+    "bad": 1,
+    "tell": 1,
+    "story": 1,
+    "f9": 1,
+    "lied": 1,
+    "f1": 1,
+    "fair": 1,
+    "talk": 1,
+    "arranged": 1,
+    "didn": 1,
+    "gbd": 1,
+    "create": 1,
+    "part": 1,
+    "rip": 1,
+    "splinter": 1,
+    "ok": 1,
+    "change": 1,
+    "nice": 1,
+    "looking": 1,
+    "profile": 1,
+    "pic": 1,
+    "think": 1,
+    "whiskeyblue": 1,
+    "bluewhiskey": 1,
+    "ken": 1,
+    "goat": 1,
+    "origin": 1,
+    "language": 1,
+    "gave": 1,
+    "us": 1,
+    "zone": 1,
+    "rage": 1,
+    "quitting": 1,
+    "invalidate": 1,
+    "screen": 1,
+    "freezes": 1,
+    "btw": 1,
+    "often": 1,
+    "burned": 1,
+    "zones": 1,
+    "games": 1,
+    "interesting": 1,
+    "come": 1,
+    "old": 1,
+    "times": 1,
+    "sake": 1,
+    "please": 1,
+    "heavy": 1,
+    "duty": 1,
+    "meds": 1
   },
   "phrases": {
+    "thank you": 3,
     "bz2 player": 4,
     "susteem is": 11,
     "is african": 11,
@@ -108,12 +185,28 @@
   "timeline": {
     "daily": [
       {
+        "date": "2024-10-19",
+        "count": 1
+      },
+      {
+        "date": "2024-10-31",
+        "count": 9
+      },
+      {
+        "date": "2024-12-28",
+        "count": 1
+      },
+      {
         "date": "2025-02-08",
         "count": 3
       },
       {
         "date": "2025-05-24",
         "count": 2
+      },
+      {
+        "date": "2025-05-30",
+        "count": 26
       },
       {
         "date": "2025-07-27",
@@ -146,12 +239,28 @@
     ],
     "weekly": [
       {
+        "week": "2024-W41",
+        "count": 1
+      },
+      {
+        "week": "2024-W43",
+        "count": 9
+      },
+      {
+        "week": "2024-W51",
+        "count": 1
+      },
+      {
         "week": "2025-W05",
         "count": 3
       },
       {
         "week": "2025-W20",
         "count": 2
+      },
+      {
+        "week": "2025-W21",
+        "count": 26
       },
       {
         "week": "2025-W30",
@@ -180,12 +289,20 @@
     ],
     "monthly": [
       {
+        "month": "2024-10",
+        "count": 10
+      },
+      {
+        "month": "2024-12",
+        "count": 1
+      },
+      {
         "month": "2025-02",
         "count": 3
       },
       {
         "month": "2025-05",
-        "count": 2
+        "count": 28
       },
       {
         "month": "2025-07",
@@ -205,19 +322,23 @@
     "mentionsGiven": [
       {
         "user": "susteem is African",
-        "count": 13
+        "count": 15
       },
       {
         "user": "Kowloon Walled City",
-        "count": 5
+        "count": 11
       },
       {
-        "user": "Erotic Juice Princess",
-        "count": 3
+        "user": "JJ173",
+        "count": 11
       },
       {
         "user": "VTrider",
-        "count": 2
+        "count": 4
+      },
+      {
+        "user": "Erotic Juice Princess",
+        "count": 4
       },
       {
         "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
@@ -226,11 +347,19 @@
       {
         "user": "BlackDragon",
         "count": 1
+      },
+      {
+        "user": "F9bomber",
+        "count": 1
       }
     ],
     "mentionsReceived": [
       {
         "user": "Kowloon Walled City",
+        "count": 6
+      },
+      {
+        "user": "JJ173",
         "count": 5
       },
       {
@@ -244,11 +373,27 @@
       {
         "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
         "count": 1
+      },
+      {
+        "user": "Slyforion",
+        "count": 1
+      },
+      {
+        "user": "Nozza",
+        "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "❤️",
+        "count": 1
+      },
+      {
+        "emoji": "😂",
+        "count": 1
+      },
+      {
+        "emoji": "💯",
         "count": 1
       }
     ]

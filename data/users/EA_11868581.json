@@ -1,0 +1,250 @@
+{
+  "userId": "1186858112095895572",
+  "displayName": "EA",
+  "aliases": [],
+  "stats": {
+    "messageCount": 94,
+    "wordCount": 174,
+    "avgLength": 16.53,
+    "activityScore": 150.0,
+    "totalReactions": 1
+  },
+  "words": {
+    "huh": 4,
+    "lumi": 4,
+    "wanna": 4,
+    "ll": 4,
+    "join": 4,
+    "yes": 3,
+    "host": 3,
+    "ok": 3,
+    "didn": 2,
+    "talkin": 2,
+    "go": 2,
+    "trying": 2,
+    "happens": 2,
+    "play": 2,
+    "mpi": 2,
+    "mean": 2,
+    "players": 2,
+    "better": 2,
+    "shit": 2,
+    "wise": 2,
+    "one": 2,
+    "cause": 2,
+    "say": 1,
+    "anything": 1,
+    "yet": 1,
+    "bout": 1,
+    "pissed": 1,
+    "existence": 1,
+    "come": 1,
+    "back": 1,
+    "spot": 1,
+    "gotta": 1,
+    "till": 1,
+    "march": 1,
+    "ageism": 1,
+    "away": 1,
+    "stop": 1,
+    "every": 1,
+    "seconds": 1,
+    "read": 1,
+    "omfg": 1,
+    "behave": 1,
+    "spaz": 1,
+    "yessss": 1,
+    "guess": 1,
+    "bz": 1,
+    "scorp": 1,
+    "joined": 1,
+    "loll": 1,
+    "game": 1,
+    "whaattt": 1,
+    "finished": 1,
+    "homework": 1,
+    "free": 1,
+    "games": 1,
+    "though": 1,
+    "worth": 1,
+    "shot": 1,
+    "idle": 1,
+    "ye": 1,
+    "want": 1,
+    "strat": 1,
+    "nice": 1,
+    "burn": 1,
+    "hydrogen": 1,
+    "probably": 1,
+    "since": 1,
+    "done": 1,
+    "possibly": 1,
+    "excluding": 1,
+    "asking": 1,
+    "hmm": 1,
+    "1v1": 1,
+    "ing": 1,
+    "gonna": 1,
+    "ask": 1,
+    "ooo": 1,
+    "cakes": 1,
+    "fun": 1,
+    "windup": 1,
+    "internet": 1,
+    "yikes": 1,
+    "bz2": 1,
+    "us": 1,
+    "gameplay": 1,
+    "netcode": 1,
+    "joining": 1,
+    "nevermind": 1,
+    "welp": 1,
+    "rando": 1,
+    "bodunchar": 1,
+    "ayy": 1,
+    "okay": 1,
+    "fuck": 1,
+    "sounds": 1,
+    "wrong": 1,
+    "asked": 1,
+    "kind": 1,
+    "ironic": 1,
+    "guy": 1,
+    "named": 1,
+    "coxxon": 1,
+    "cocks": 1,
+    "anybody": 1,
+    "throw": 1,
+    "stream": 1,
+    "wrist": 1,
+    "hurts": 1,
+    "punched": 1,
+    "wall": 1,
+    "got": 1,
+    "angry": 1,
+    "questions": 1,
+    "whoops": 1,
+    "reply": 1,
+    "goblins": 1,
+    "certain": 1,
+    "units": 1,
+    "higher": 1,
+    "hardpoint": 1,
+    "farther": 1,
+    "boy": 1,
+    "answer": 1,
+    "le": 1,
+    "question": 1,
+    "oi": 1,
+    "may": 1,
+    "introduce": 1,
+    "quack": 1,
+    "noise": 1,
+    "soundboard": 1,
+    "um": 1,
+    "yelling": 1,
+    "reason": 1,
+    "lack": 1,
+    "skill": 1,
+    "scions": 1,
+    "hater": 1,
+    "ggs": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-01-16",
+        "count": 6
+      },
+      {
+        "date": "2024-01-17",
+        "count": 7
+      },
+      {
+        "date": "2024-01-18",
+        "count": 11
+      },
+      {
+        "date": "2024-01-19",
+        "count": 7
+      },
+      {
+        "date": "2024-01-24",
+        "count": 7
+      },
+      {
+        "date": "2024-01-25",
+        "count": 8
+      },
+      {
+        "date": "2024-01-26",
+        "count": 9
+      },
+      {
+        "date": "2024-01-27",
+        "count": 22
+      },
+      {
+        "date": "2024-02-03",
+        "count": 17
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W02",
+        "count": 31
+      },
+      {
+        "week": "2024-W03",
+        "count": 46
+      },
+      {
+        "week": "2024-W04",
+        "count": 17
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-01",
+        "count": 77
+      },
+      {
+        "month": "2024-02",
+        "count": 17
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "LuMi",
+        "count": 4
+      },
+      {
+        "user": "Jabbapop",
+        "count": 1
+      },
+      {
+        "user": "Streets clear, no danger",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "LuMi",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": [
+      {
+        "emoji": "🥲",
+        "count": 1
+      }
+    ]
+  }
+}

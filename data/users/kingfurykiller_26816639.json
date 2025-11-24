@@ -3,10 +3,10 @@
   "displayName": "kingfurykiller",
   "aliases": [],
   "stats": {
-    "messageCount": 19,
-    "wordCount": 54,
-    "avgLength": 26.05,
-    "activityScore": 43.5,
+    "messageCount": 20,
+    "wordCount": 68,
+    "avgLength": 30.8,
+    "activityScore": 53.6,
     "totalReactions": 5
   },
   "words": {
@@ -15,6 +15,7 @@
     "default": 2,
     "cool": 2,
     "next": 2,
+    "kind": 2,
     "nice": 1,
     "choices": 1,
     "thanks": 1,
@@ -56,6 +57,18 @@
     "got": 1,
     "slot": 1,
     "omw": 1,
+    "person": 1,
+    "shares": 1,
+    "pornhub": 1,
+    "merch": 1,
+    "definitely": 1,
+    "cringe": 1,
+    "idiot": 1,
+    "tags": 1,
+    "random": 1,
+    "people": 1,
+    "rarely": 1,
+    "play": 1,
     "needs": 1,
     "17": 1,
     "sti": 1
@@ -66,6 +79,10 @@
       {
         "date": "2024-05-24",
         "count": 3
+      },
+      {
+        "date": "2024-10-08",
+        "count": 1
       },
       {
         "date": "2025-08-24",
@@ -94,6 +111,10 @@
         "count": 3
       },
       {
+        "week": "2024-W40",
+        "count": 1
+      },
+      {
         "week": "2025-W34",
         "count": 11
       },
@@ -106,6 +127,10 @@
       {
         "month": "2024-05",
         "count": 3
+      },
+      {
+        "month": "2024-10",
+        "count": 1
       },
       {
         "month": "2025-08",
@@ -135,6 +160,10 @@
     "mentionsReceived": [
       {
         "user": "Reacher",
+        "count": 4
+      },
+      {
+        "user": "Kowloon Walled City",
         "count": 4
       },
       {

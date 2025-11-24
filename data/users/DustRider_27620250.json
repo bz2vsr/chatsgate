@@ -3,13 +3,18 @@
   "displayName": "DustRider",
   "aliases": [],
   "stats": {
-    "messageCount": 7,
-    "wordCount": 18,
-    "avgLength": 24.29,
-    "activityScore": 14.7,
+    "messageCount": 34,
+    "wordCount": 112,
+    "avgLength": 35.12,
+    "activityScore": 88.6,
     "totalReactions": 0
   },
   "words": {
+    "next": 2,
+    "ll": 2,
+    "gun": 2,
+    "ships": 2,
+    "one": 2,
     "guntower": 1,
     "meta": 1,
     "press": 1,
@@ -19,22 +24,126 @@
     "hell": 1,
     "bad": 1,
     "asset": 1,
-    "next": 1,
     "game": 1,
-    "ll": 1,
     "got": 1,
     "resubscribing": 1,
     "vsr": 1,
     "incredible": 1,
     "map": 1,
-    "quality": 1
+    "quality": 1,
+    "hold": 1,
+    "random": 1,
+    "allegations": 1,
+    "baseless": 1,
+    "watched": 1,
+    "razario": 1,
+    "vampire": 1,
+    "chick": 1,
+    "dating": 1,
+    "liked": 1,
+    "uhh": 1,
+    "needed": 1,
+    "watch": 1,
+    "cells": 1,
+    "work": 1,
+    "science": 1,
+    "class": 1,
+    "nothing": 1,
+    "whattt": 1,
+    "hear": 1,
+    "nationhood": 1,
+    "constant": 1,
+    "explosions": 1,
+    "pussy": 1,
+    "wut": 1,
+    "ahh": 1,
+    "distinctly": 1,
+    "remember": 1,
+    "herps": 1,
+    "radar": 1,
+    "size": 1,
+    "hinderance": 1,
+    "many": 1,
+    "times": 1,
+    "gets": 1,
+    "empty": 1,
+    "stolen": 1,
+    "hardly": 1,
+    "edge": 1,
+    "handi": 1,
+    "cap": 1,
+    "sunovah": 1,
+    "ai": 1,
+    "especialy": 1,
+    "outside": 1,
+    "base": 1,
+    "yes": 1,
+    "guy": 1,
+    "fly": 1,
+    "hoolly": 1,
+    "cats": 1,
+    "man": 1,
+    "rofl": 1,
+    "fun": 1,
+    "weapons": 1,
+    "upgraded": 1,
+    "seen": 1,
+    "weird": 1,
+    "tank": 1,
+    "set": 1,
+    "first": 1,
+    "honestly": 1,
+    "bz1": 1,
+    "better": 1,
+    "hit": 1,
+    "mini": 1,
+    "sounds": 1,
+    "throwing": 1,
+    "rocks": 1,
+    "tennis": 1,
+    "balls": 1,
+    "either": 1,
+    "thanks": 1,
+    "posting": 1,
+    "gives": 1,
+    "chance": 1,
+    "review": 1,
+    "things": 1,
+    "dang": 1,
+    "catch": 1,
+    "bug": 1,
+    "certainly": 1,
+    "gettting": 1,
+    "actually": 1,
+    "hurt": 1,
+    "time": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
       {
+        "date": "2024-06-06",
+        "count": 14
+      },
+      {
+        "date": "2024-07-04",
+        "count": 2
+      },
+      {
+        "date": "2024-07-24",
+        "count": 2
+      },
+      {
+        "date": "2024-08-10",
+        "count": 2
+      },
+      {
         "date": "2024-08-19",
-        "count": 4
+        "count": 5
+      },
+      {
+        "date": "2024-08-20",
+        "count": 2
       },
       {
         "date": "2024-09-09",
@@ -43,12 +152,36 @@
       {
         "date": "2024-10-28",
         "count": 1
+      },
+      {
+        "date": "2025-01-28",
+        "count": 3
+      },
+      {
+        "date": "2025-01-29",
+        "count": 1
       }
     ],
     "weekly": [
       {
+        "week": "2024-W22",
+        "count": 14
+      },
+      {
+        "week": "2024-W26",
+        "count": 2
+      },
+      {
+        "week": "2024-W29",
+        "count": 2
+      },
+      {
+        "week": "2024-W31",
+        "count": 2
+      },
+      {
         "week": "2024-W33",
-        "count": 4
+        "count": 7
       },
       {
         "week": "2024-W36",
@@ -57,12 +190,24 @@
       {
         "week": "2024-W43",
         "count": 1
+      },
+      {
+        "week": "2025-W04",
+        "count": 4
       }
     ],
     "monthly": [
       {
-        "month": "2024-08",
+        "month": "2024-06",
+        "count": 14
+      },
+      {
+        "month": "2024-07",
         "count": 4
+      },
+      {
+        "month": "2024-08",
+        "count": 9
       },
       {
         "month": "2024-09",
@@ -71,6 +216,10 @@
       {
         "month": "2024-10",
         "count": 1
+      },
+      {
+        "month": "2025-01",
+        "count": 4
       }
     ]
   },
@@ -79,7 +228,11 @@
     "mentionsReceived": [
       {
         "user": "Kowloon Walled City",
-        "count": 1
+        "count": 3
+      },
+      {
+        "user": "F9bomber",
+        "count": 2
       }
     ],
     "reactionsReceived": []

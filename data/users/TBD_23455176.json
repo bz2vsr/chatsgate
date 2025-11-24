@@ -3,30 +3,62 @@
   "displayName": "TBD",
   "aliases": [],
   "stats": {
-    "messageCount": 24,
-    "wordCount": 132,
-    "avgLength": 60.83,
-    "activityScore": 99.6,
+    "messageCount": 91,
+    "wordCount": 351,
+    "avgLength": 47.31,
+    "activityScore": 273.0,
     "totalReactions": 0
   },
   "words": {
-    "twitch": 3,
-    "bz2": 2,
-    "discord": 2,
+    "back": 6,
+    "play": 4,
+    "good": 4,
+    "yea": 4,
+    "twitch": 4,
+    "bz2": 3,
+    "discord": 3,
+    "wheel": 3,
+    "sim": 3,
+    "jabbapop": 3,
+    "game": 3,
+    "use": 3,
+    "holy": 2,
+    "crap": 2,
+    "said": 2,
+    "setup": 2,
     "stream": 2,
-    "good": 2,
+    "got": 2,
     "option": 2,
     "streams": 2,
     "days": 2,
     "users": 2,
     "gaming": 2,
     "youtube": 2,
+    "next": 2,
+    "yes": 2,
+    "using": 2,
+    "obs": 2,
     "fov": 2,
-    "game": 2,
     "ultrawide": 2,
+    "monitors": 2,
+    "triples": 2,
     "format": 2,
-    "holy": 1,
-    "crap": 1,
+    "etc": 2,
+    "case": 2,
+    "ll": 2,
+    "racing": 2,
+    "4th": 2,
+    "monitor": 2,
+    "enough": 2,
+    "gotta": 2,
+    "least": 2,
+    "day": 2,
+    "teamspeak": 2,
+    "times": 2,
+    "actually": 2,
+    "year": 2,
+    "thugs": 2,
+    "12": 2,
     "voip": 1,
     "finally": 1,
     "modernised": 1,
@@ -36,21 +68,14 @@
     "fucking": 1,
     "fantastic": 1,
     "one": 1,
-    "play": 1,
-    "said": 1,
     "steering": 1,
-    "wheel": 1,
     "currently": 1,
-    "sim": 1,
-    "setup": 1,
     "watching": 1,
     "ur": 1,
     "working": 1,
-    "got": 1,
     "decent": 1,
     "pc": 1,
     "man": 1,
-    "jabbapop": 1,
     "unfortunately": 1,
     "last": 1,
     "months": 1,
@@ -59,7 +84,6 @@
     "greatful": 1,
     "job": 1,
     "glances": 1,
-    "yea": 1,
     "looked": 1,
     "recording": 1,
     "done": 1,
@@ -85,24 +109,18 @@
     "prime": 1,
     "turbo": 1,
     "try": 1,
-    "next": 1,
     "time": 1,
-    "yes": 1,
     "mate": 1,
     "mine": 1,
     "almost": 1,
     "daily": 1,
-    "using": 1,
-    "obs": 1,
     "resize": 1,
     "change": 1,
     "rendering": 1,
-    "monitors": 1,
     "bought": 1,
     "neo": 1,
     "g9": 1,
     "issue": 1,
-    "triples": 1,
     "seems": 1,
     "render": 1,
     "large": 1,
@@ -110,22 +128,171 @@
     "instead": 1,
     "32": 1,
     "camera": 1,
-    "etc": 1,
     "zoomed": 1,
     "probably": 1,
     "niche": 1,
-    "use": 1,
-    "case": 1,
     "super": 1,
     "damn": 1,
     "immersive": 1,
-    "ll": 1,
     "ask": 1,
     "official": 1,
     "bz": 1,
     "modern": 1,
     "think": 1,
-    "give": 1
+    "give": 1,
+    "ship": 1,
+    "reference": 1,
+    "anyone": 1,
+    "wondering": 1,
+    "meant": 1,
+    "yesterday": 1,
+    "playing": 1,
+    "danke": 1,
+    "lately": 1,
+    "hence": 1,
+    "triple": 1,
+    "pedals": 1,
+    "hell": 1,
+    "wouldn": 1,
+    "look": 1,
+    "wanting": 1,
+    "sitting": 1,
+    "centre": 1,
+    "outside": 1,
+    "wowee": 1,
+    "half": 1,
+    "stock": 1,
+    "price": 1,
+    "charts": 1,
+    "become": 1,
+    "trader": 1,
+    "influencer": 1,
+    "individual": 1,
+    "vertically": 1,
+    "stacked": 1,
+    "mounts": 1,
+    "ahhh": 1,
+    "guess": 1,
+    "pretty": 1,
+    "permanent": 1,
+    "werk": 1,
+    "sadly": 1,
+    "spirit": 1,
+    "find": 1,
+    "spectator": 1,
+    "passenger": 1,
+    "along": 1,
+    "ride": 1,
+    "outdated": 1,
+    "skype": 1,
+    "xfire": 1,
+    "voice": 1,
+    "chat": 1,
+    "miss": 1,
+    "played": 1,
+    "halo": 1,
+    "ce": 1,
+    "randoms": 1,
+    "cod": 1,
+    "fifa": 1,
+    "fps": 1,
+    "idiots": 1,
+    "preorder": 1,
+    "119": 1,
+    "95": 1,
+    "beta": 1,
+    "access": 1,
+    "battlepasses": 1,
+    "microtransactions": 1,
+    "splattered": 1,
+    "ui": 1,
+    "soon": 1,
+    "load": 1,
+    "loading": 1,
+    "5800x3d": 1,
+    "7900xtx": 1,
+    "nvme": 1,
+    "ssd": 1,
+    "takes": 1,
+    "seconds": 1,
+    "bunker": 1,
+    "comm": 1,
+    "viable": 1,
+    "3v4": 1,
+    "4v5": 1,
+    "parkour": 1,
+    "map": 1,
+    "engage": 1,
+    "first": 1,
+    "fight": 1,
+    "feeling": 1,
+    "gif": 1,
+    "lumi": 1,
+    "gamez": 1,
+    "today": 1,
+    "teebs": 1,
+    "imagination": 1,
+    "shameless": 1,
+    "self": 1,
+    "promo": 1,
+    "soz": 1,
+    "add": 1,
+    "mic": 1,
+    "audio": 1,
+    "source": 1,
+    "already": 1,
+    "maybe": 1,
+    "muted": 1,
+    "tomorrow": 1,
+    "ok": 1,
+    "dafuq": 1,
+    "streets": 1,
+    "clear": 1,
+    "danger": 1,
+    "used": 1,
+    "agitating": 1,
+    "person": 1,
+    "youngster": 1,
+    "deal": 1,
+    "ptsd": 1,
+    "thanks": 1,
+    "harsh": 1,
+    "words": 1,
+    "years": 1,
+    "ago": 1,
+    "idk": 1,
+    "whatever": 1,
+    "garbage": 1,
+    "thrown": 1,
+    "around": 1,
+    "kidding": 1,
+    "course": 1,
+    "99": 1,
+    "found": 1,
+    "sense": 1,
+    "achievement": 1,
+    "shitting": 1,
+    "trash": 1,
+    "old": 1,
+    "players": 1,
+    "fair": 1,
+    "nice": 1,
+    "everything": 1,
+    "sounded": 1,
+    "sly": 1,
+    "condescending": 1,
+    "tell": 1,
+    "difference": 1,
+    "growing": 1,
+    "innit": 1,
+    "classic": 1,
+    "every": 1,
+    "night": 1,
+    "games": 1,
+    "together": 1,
+    "mix": 1,
+    "miscommunication": 1,
+    "fallen": 1
   },
   "phrases": {},
   "timeline": {
@@ -135,20 +302,80 @@
         "count": 4
       },
       {
+        "date": "2023-08-13",
+        "count": 2
+      },
+      {
+        "date": "2023-08-14",
+        "count": 8
+      },
+      {
+        "date": "2023-08-16",
+        "count": 1
+      },
+      {
         "date": "2023-08-21",
         "count": 13
+      },
+      {
+        "date": "2023-09-11",
+        "count": 5
       },
       {
         "date": "2023-10-02",
         "count": 4
       },
       {
+        "date": "2023-10-10",
+        "count": 19
+      },
+      {
+        "date": "2023-10-16",
+        "count": 1
+      },
+      {
+        "date": "2023-10-17",
+        "count": 1
+      },
+      {
         "date": "2023-10-25",
         "count": 1
       },
       {
-        "date": "2023-12-19",
+        "date": "2023-10-30",
+        "count": 1
+      },
+      {
+        "date": "2023-12-16",
+        "count": 1
+      },
+      {
+        "date": "2023-12-18",
         "count": 2
+      },
+      {
+        "date": "2023-12-19",
+        "count": 10
+      },
+      {
+        "date": "2023-12-21",
+        "count": 1
+      },
+      {
+        "date": "2024-01-14",
+        "count": 10
+      },
+      {
+        "date": "2024-02-19",
+        "count": 4
+      },
+      {
+        "date": "2024-02-20",
+        "count": 2
+      },
+      {
+        "date": "2024-06-19",
+        "count": 1
       }
     ],
     "weekly": [
@@ -157,34 +384,86 @@
         "count": 4
       },
       {
+        "week": "2023-W33",
+        "count": 11
+      },
+      {
         "week": "2023-W34",
         "count": 13
+      },
+      {
+        "week": "2023-W37",
+        "count": 5
       },
       {
         "week": "2023-W40",
         "count": 4
       },
       {
+        "week": "2023-W41",
+        "count": 19
+      },
+      {
+        "week": "2023-W42",
+        "count": 2
+      },
+      {
         "week": "2023-W43",
         "count": 1
       },
       {
+        "week": "2023-W44",
+        "count": 1
+      },
+      {
+        "week": "2023-W50",
+        "count": 1
+      },
+      {
         "week": "2023-W51",
-        "count": 2
+        "count": 13
+      },
+      {
+        "week": "2024-W02",
+        "count": 10
+      },
+      {
+        "week": "2024-W07",
+        "count": 6
+      },
+      {
+        "week": "2024-W24",
+        "count": 1
       }
     ],
     "monthly": [
       {
         "month": "2023-08",
-        "count": 17
+        "count": 28
       },
       {
-        "month": "2023-10",
+        "month": "2023-09",
         "count": 5
       },
       {
+        "month": "2023-10",
+        "count": 27
+      },
+      {
         "month": "2023-12",
-        "count": 2
+        "count": 14
+      },
+      {
+        "month": "2024-01",
+        "count": 10
+      },
+      {
+        "month": "2024-02",
+        "count": 6
+      },
+      {
+        "month": "2024-06",
+        "count": 1
       }
     ]
   },
@@ -192,20 +471,56 @@
     "mentionsGiven": [
       {
         "user": "Kowloon Walled City",
-        "count": 1
+        "count": 3
+      },
+      {
+        "user": "Deleted User",
+        "count": 3
       },
       {
         "user": "susteem is African",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      },
+      {
+        "user": "Jabbapop",
+        "count": 1
+      },
+      {
+        "user": "LuMi",
+        "count": 1
+      },
+      {
+        "user": "Streets clear, no danger",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
         "count": 1
       }
     ],
     "mentionsReceived": [
       {
+        "user": "susteem is African",
+        "count": 7
+      },
+      {
         "user": "Kowloon Walled City",
+        "count": 5
+      },
+      {
+        "user": "Deleted User",
+        "count": 4
+      },
+      {
+        "user": "LuMi",
         "count": 1
       },
       {
-        "user": "susteem is African",
+        "user": "VTrider",
         "count": 1
       }
     ],

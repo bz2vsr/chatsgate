@@ -3,29 +3,42 @@
   "displayName": "Moboy",
   "aliases": [],
   "stats": {
-    "messageCount": 16,
-    "wordCount": 79,
-    "avgLength": 50.56,
-    "activityScore": 60.1,
-    "totalReactions": 0
+    "messageCount": 43,
+    "wordCount": 181,
+    "avgLength": 46.12,
+    "activityScore": 139.6,
+    "totalReactions": 1
   },
   "words": {
-    "vsr": 3,
-    "ll": 3,
+    "time": 5,
+    "game": 5,
+    "vsr": 4,
+    "ll": 4,
+    "hop": 3,
+    "thought": 3,
+    "tonight": 3,
+    "command": 3,
+    "everyone": 2,
+    "one": 2,
     "didn": 2,
-    "hop": 2,
-    "thought": 2,
-    "time": 2,
+    "maybe": 2,
+    "guys": 2,
+    "think": 2,
+    "friend": 2,
+    "issues": 2,
+    "units": 2,
+    "loses": 2,
+    "annoying": 2,
+    "gtg": 2,
+    "around": 2,
     "thanks": 1,
     "games": 1,
-    "everyone": 1,
     "mo": 1,
     "boy": 1,
     "reason": 1,
     "appriecate": 1,
     "asking": 1,
     "tho": 1,
-    "one": 1,
     "day": 1,
     "learn": 1,
     "arts": 1,
@@ -62,32 +75,116 @@
     "sand": 1,
     "color": 1,
     "funny": 1,
-    "friend": 1,
+    "mic": 1,
+    "obama": 1,
+    "canonically": 1,
+    "defunded": 1,
+    "isdf": 1,
+    "canceled": 1,
+    "constellation": 1,
+    "ve": 1,
+    "asked": 1,
+    "chat": 1,
+    "plays": 1,
+    "hadean": 1,
+    "eventually": 1,
+    "lose": 1,
+    "control": 1,
+    "sometimes": 1,
+    "ship": 1,
+    "happened": 1,
+    "crash": 1,
+    "lost": 1,
+    "building": 1,
+    "unit": 1,
+    "otherwise": 1,
+    "works": 1,
+    "fixed": 1,
+    "drive": 1,
+    "issue": 1,
+    "misunderstanding": 1,
+    "practicing": 1,
+    "stratting": 1,
+    "guess": 1,
+    "take": 1,
+    "matters": 1,
+    "hands": 1,
+    "oh": 1,
+    "weren": 1,
+    "coming": 1,
+    "wanna": 1,
+    "host": 1,
+    "go": 1,
+    "ahead": 1,
+    "playing": 1,
+    "sadly": 1,
+    "unban": 1,
+    "lamper": 1,
+    "remove": 1,
+    "image": 1,
+    "sending": 1,
+    "permissions": 1,
+    "spam": 1,
+    "unfunny": 1,
+    "memes": 1,
+    "hate": 1,
+    "much": 1,
+    "mute": 1,
+    "vc": 1,
+    "max": 1,
+    "two": 1,
+    "people": 1,
+    "nvm": 1,
+    "sorry": 1,
+    "bad": 1,
+    "yes": 1,
+    "please": 1,
+    "commanded": 1,
+    "navs": 1,
+    "pool": 1,
+    "couldn": 1,
+    "cmd": 1,
+    "distance": 1,
     "mine": 1,
-    "issues": 1,
     "randomly": 1,
-    "game": 1,
-    "loses": 1,
     "ability": 1,
-    "command": 1,
-    "units": 1,
     "crashes": 1,
     "infinite": 1,
     "loop": 1,
     "pissing": 1,
-    "around": 1,
     "friends": 1,
     "try": 1,
     "catch": 1,
-    "strat": 1,
-    "think": 1
+    "strat": 1
   },
-  "phrases": {},
+  "phrases": {
+    "to hop": 3
+  },
   "timeline": {
     "daily": [
       {
         "date": "2023-10-10",
         "count": 6
+      },
+      {
+        "date": "2023-10-12",
+        "count": 2
+      },
+      {
+        "date": "2023-10-13",
+        "count": 1
+      },
+      {
+        "date": "2023-10-15",
+        "count": 7
+      },
+      {
+        "date": "2023-10-16",
+        "count": 2
+      },
+      {
+        "date": "2023-10-22",
+        "count": 4
       },
       {
         "date": "2023-11-12",
@@ -102,18 +199,46 @@
         "count": 3
       },
       {
+        "date": "2024-04-07",
+        "count": 1
+      },
+      {
+        "date": "2024-04-12",
+        "count": 3
+      },
+      {
         "date": "2024-04-19",
         "count": 2
       },
       {
+        "date": "2024-06-11",
+        "count": 1
+      },
+      {
         "date": "2025-06-30",
         "count": 3
+      },
+      {
+        "date": "2025-07-17",
+        "count": 4
+      },
+      {
+        "date": "2025-07-18",
+        "count": 2
       }
     ],
     "weekly": [
       {
         "week": "2023-W41",
-        "count": 6
+        "count": 9
+      },
+      {
+        "week": "2023-W42",
+        "count": 9
+      },
+      {
+        "week": "2023-W43",
+        "count": 4
       },
       {
         "week": "2023-W46",
@@ -128,18 +253,30 @@
         "count": 3
       },
       {
+        "week": "2024-W14",
+        "count": 4
+      },
+      {
         "week": "2024-W15",
         "count": 2
       },
       {
+        "week": "2024-W23",
+        "count": 1
+      },
+      {
         "week": "2025-W26",
         "count": 3
+      },
+      {
+        "week": "2025-W28",
+        "count": 6
       }
     ],
     "monthly": [
       {
         "month": "2023-10",
-        "count": 6
+        "count": 22
       },
       {
         "month": "2023-11",
@@ -147,16 +284,36 @@
       },
       {
         "month": "2024-04",
-        "count": 5
+        "count": 9
+      },
+      {
+        "month": "2024-06",
+        "count": 1
       },
       {
         "month": "2025-06",
         "count": 3
+      },
+      {
+        "month": "2025-07",
+        "count": 6
       }
     ]
   },
   "relationships": {
     "mentionsGiven": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "MAX:)",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
+        "count": 1
+      },
       {
         "user": "Erotic Juice Princess",
         "count": 1
@@ -169,14 +326,30 @@
     "mentionsReceived": [
       {
         "user": "Kowloon Walled City",
-        "count": 4
+        "count": 13
       },
       {
         "user": "VTrider",
-        "count": 2
+        "count": 3
+      },
+      {
+        "user": "susteem is African",
+        "count": 3
       },
       {
         "user": "JJ173",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
+      },
+      {
+        "user": "Six Seven",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
         "count": 1
       },
       {
@@ -184,6 +357,11 @@
         "count": 1
       }
     ],
-    "reactionsReceived": []
+    "reactionsReceived": [
+      {
+        "emoji": "😆",
+        "count": 1
+      }
+    ]
   }
 }

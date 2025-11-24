@@ -3,11 +3,11 @@
   "displayName": "sahd0w",
   "aliases": [],
   "stats": {
-    "messageCount": 38,
-    "wordCount": 214,
-    "avgLength": 61.58,
-    "activityScore": 161.2,
-    "totalReactions": 3
+    "messageCount": 40,
+    "wordCount": 221,
+    "avgLength": 60.98,
+    "activityScore": 166.7,
+    "totalReactions": 6
   },
   "words": {
     "got": 5,
@@ -171,11 +171,18 @@
     "ronery": 1,
     "joined": 1,
     "server": 1,
+    "sup": 1,
     "motto": 1,
     "bz": 1,
     "hey": 1,
     "guys": 1,
-    "playing": 1
+    "playing": 1,
+    "suggesting": 1,
+    "immaculate": 1,
+    "ruthless": 1,
+    "killer": 1,
+    "battlefield": 1,
+    "ruuuude": 1
   },
   "phrases": {
     "we re": 4,
@@ -192,6 +199,10 @@
         "count": 4
       },
       {
+        "date": "2025-05-20",
+        "count": 1
+      },
+      {
         "date": "2025-06-14",
         "count": 2
       },
@@ -201,7 +212,7 @@
       },
       {
         "date": "2025-06-26",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2025-07-11",
@@ -226,12 +237,16 @@
         "count": 11
       },
       {
+        "week": "2025-W20",
+        "count": 1
+      },
+      {
         "week": "2025-W23",
         "count": 2
       },
       {
         "week": "2025-W25",
-        "count": 20
+        "count": 21
       },
       {
         "week": "2025-W27",
@@ -249,11 +264,11 @@
     "monthly": [
       {
         "month": "2025-05",
-        "count": 11
+        "count": 12
       },
       {
         "month": "2025-06",
-        "count": 22
+        "count": 23
       },
       {
         "month": "2025-07",
@@ -291,7 +306,7 @@
       },
       {
         "user": "F9bomber",
-        "count": 3
+        "count": 4
       },
       {
         "user": "Deleted User",
@@ -308,9 +323,17 @@
       {
         "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
         "count": 1
+      },
+      {
+        "user": "Reacher",
+        "count": 1
       }
     ],
     "reactionsReceived": [
+      {
+        "emoji": "😂",
+        "count": 3
+      },
       {
         "emoji": "🤣",
         "count": 2

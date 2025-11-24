@@ -3,291 +3,1093 @@
   "displayName": "RustyGuns",
   "aliases": [],
   "stats": {
-    "messageCount": 420,
-    "wordCount": 961,
-    "avgLength": 27.88,
-    "activityScore": 798.7,
-    "totalReactions": 16
+    "messageCount": 3406,
+    "wordCount": 7229,
+    "avgLength": 25.15,
+    "activityScore": 6082.1,
+    "totalReactions": 68
   },
   "words": {
-    "game": 27,
-    "10": 25,
-    "go": 13,
-    "gg": 13,
-    "host": 11,
-    "good": 9,
-    "f9": 8,
-    "vt": 7,
-    "strat": 6,
-    "never": 6,
-    "back": 6,
-    "one": 5,
+    "game": 181,
+    "10": 117,
+    "ok": 76,
+    "one": 61,
+    "host": 59,
+    "good": 58,
+    "gg": 53,
+    "go": 48,
+    "vt": 46,
+    "hey": 44,
+    "join": 42,
+    "ur": 42,
+    "xohm": 42,
+    "guys": 38,
+    "server": 33,
+    "blu": 31,
+    "games": 31,
+    "back": 30,
+    "people": 29,
+    "got": 27,
+    "f9": 27,
+    "never": 26,
+    "wow": 26,
+    "time": 26,
+    "sev": 25,
+    "beta": 24,
+    "mpi": 24,
+    "damn": 23,
+    "open": 23,
+    "bad": 21,
+    "em": 21,
+    "oh": 21,
+    "new": 20,
+    "blue": 20,
+    "ya": 20,
+    "herp": 20,
+    "dead": 19,
+    "bz1": 18,
+    "use": 18,
+    "shit": 18,
+    "sly": 18,
+    "strat": 17,
+    "die": 17,
+    "many": 16,
+    "want": 16,
+    "naw": 16,
+    "locked": 16,
+    "gud": 16,
+    "think": 16,
+    "dark": 15,
+    "god": 15,
+    "20": 14,
+    "world": 14,
+    "bz": 14,
+    "kewel": 14,
+    "bet": 14,
+    "ping": 14,
+    "fun": 13,
+    "eat": 13,
+    "hurry": 13,
+    "econ": 13,
+    "jabba": 13,
+    "vsr": 12,
+    "players": 12,
+    "kill": 12,
+    "look": 12,
+    "day": 12,
+    "code": 12,
+    "real": 12,
+    "today": 12,
+    "vaccine": 12,
+    "play": 12,
+    "work": 12,
+    "first": 12,
+    "everyone": 12,
+    "red": 12,
+    "years": 12,
+    "left": 11,
+    "rules": 11,
+    "trump": 11,
+    "lamper": 11,
+    "pretty": 11,
+    "vs": 11,
+    "ass": 11,
+    "hate": 11,
+    "cyber": 11,
+    "buncha": 11,
+    "fk": 11,
+    "old": 10,
+    "won": 10,
+    "uno": 10,
+    "mas": 10,
+    "bz2": 10,
+    "money": 10,
+    "doma": 10,
+    "take": 10,
+    "come": 10,
+    "doin": 10,
+    "shot": 10,
+    "tell": 10,
+    "night": 10,
+    "lost": 10,
+    "hell": 10,
+    "ai": 9,
+    "shoot": 9,
+    "full": 9,
+    "dog": 9,
+    "going": 9,
+    "diddy": 9,
+    "ever": 9,
+    "online": 9,
+    "bang": 9,
+    "mod": 9,
+    "try": 9,
+    "ask": 9,
+    "thx": 9,
+    "man": 9,
+    "beer": 9,
+    "launch": 9,
+    "quit": 9,
+    "hosting": 9,
+    "version": 9,
+    "started": 9,
+    "idiot": 9,
+    "usa": 9,
+    "update": 9,
+    "early": 8,
+    "said": 8,
+    "getting": 8,
+    "gay": 8,
+    "best": 8,
+    "big": 8,
+    "crazy": 8,
+    "min": 8,
+    "covid": 8,
+    "friday": 8,
+    "anyone": 8,
+    "great": 8,
+    "much": 8,
+    "say": 8,
+    "brain": 8,
+    "let": 8,
+    "guess": 8,
+    "went": 8,
+    "better": 8,
+    "100": 8,
+    "love": 8,
+    "poor": 8,
+    "euro": 8,
+    "radar": 8,
+    "maybe": 8,
+    "spot": 8,
+    "otter": 8,
+    "steam": 8,
+    "gees": 8,
+    "meningitis": 8,
+    "watch": 7,
+    "baby": 7,
+    "number": 7,
+    "guy": 7,
+    "video": 7,
+    "texas": 7,
+    "darkvale": 7,
+    "000": 7,
+    "zack": 7,
+    "running": 7,
+    "missed": 7,
+    "nothing": 7,
+    "live": 7,
+    "gotta": 7,
+    "brainwashed": 7,
+    "almost": 7,
+    "give": 7,
+    "password": 7,
+    "hard": 7,
+    "mean": 7,
+    "mind": 7,
+    "lot": 7,
+    "us": 7,
+    "4x4": 7,
+    "ships": 7,
+    "lamps": 7,
+    "year": 7,
+    "law": 7,
+    "start": 7,
+    "wrong": 7,
+    "ms": 7,
+    "pummel": 7,
+    "dom": 7,
+    "15": 7,
+    "mav": 7,
+    "says": 7,
+    "buy": 7,
+    "lumi": 6,
+    "ah": 6,
+    "died": 6,
+    "window": 6,
+    "another": 6,
+    "pm": 6,
+    "player": 6,
+    "viv": 6,
+    "every": 6,
+    "played": 6,
+    "done": 6,
+    "poof": 6,
+    "knows": 6,
+    "ffa": 6,
+    "lose": 6,
+    "times": 6,
+    "ina": 6,
+    "enuf": 6,
+    "idiots": 6,
+    "gaaaaaaaaaaaaaaame": 6,
+    "az": 6,
+    "days": 6,
+    "dollars": 6,
+    "isa": 6,
+    "hit": 6,
+    "load": 6,
+    "stuff": 6,
+    "sux": 6,
+    "always": 6,
+    "team": 6,
+    "comp": 6,
+    "makes": 6,
+    "blues": 6,
+    "talk": 6,
+    "steak": 6,
+    "couple": 6,
+    "ago": 6,
+    "fkn": 6,
+    "t2": 6,
+    "alot": 6,
+    "xpi": 6,
+    "choose": 6,
+    "fkg": 6,
+    "morons": 6,
+    "anymore": 6,
+    "insurance": 6,
+    "speech": 5,
+    "thread": 5,
+    "huge": 5,
+    "gaaaaaaaaame": 5,
+    "lets": 5,
+    "rid": 5,
+    "health": 5,
+    "soon": 5,
+    "hope": 5,
+    "con": 5,
+    "hours": 5,
     "rip": 5,
-    "mpi": 5,
-    "world": 4,
-    "server": 4,
-    "ur": 4,
-    "die": 4,
-    "blue": 4,
-    "ok": 4,
-    "min": 4,
-    "take": 4,
-    "ya": 4,
-    "time": 4,
-    "locked": 4,
+    "hosted": 5,
+    "kids": 5,
+    "gaaaaaaaaaaaaaaaame": 5,
+    "freedom": 5,
+    "free": 5,
+    "gaaaaaaaaaaaame": 5,
+    "gives": 5,
+    "pill": 5,
+    "yet": 5,
+    "hovering": 5,
+    "maps": 5,
+    "leave": 5,
+    "fast": 5,
+    "call": 5,
+    "ship": 5,
+    "win": 5,
+    "funny": 5,
+    "though": 5,
+    "long": 5,
+    "around": 5,
+    "nice": 5,
+    "thanks": 5,
+    "score": 5,
+    "playin": 5,
+    "shotgun": 5,
+    "build": 5,
+    "mode": 5,
+    "luck": 5,
+    "private": 5,
+    "working": 5,
+    "news": 5,
+    "different": 5,
+    "works": 5,
+    "goofy": 5,
+    "bucks": 5,
+    "mine": 5,
+    "put": 5,
+    "common": 5,
+    "read": 5,
+    "tv": 5,
+    "perfect": 5,
+    "updates": 5,
+    "scavs": 5,
+    "pay": 5,
+    "crash": 5,
+    "bullshit": 5,
+    "keep": 5,
+    "percent": 5,
+    "deaths": 5,
+    "cases": 5,
+    "reported": 5,
+    "made": 4,
+    "active": 4,
+    "taxes": 4,
+    "fricken": 4,
+    "run": 4,
+    "range": 4,
+    "aaaaaaaaaaaaagh": 4,
+    "waka": 4,
+    "doo": 4,
+    "gaaaaaaaaaaaaame": 4,
+    "walk": 4,
+    "list": 4,
+    "bone": 4,
+    "diet": 4,
+    "super": 4,
+    "patience": 4,
+    "getin": 4,
+    "gravy": 4,
+    "wait": 4,
+    "cancer": 4,
+    "matrix": 4,
+    "ready": 4,
+    "europe": 4,
+    "true": 4,
+    "ten": 4,
+    "actually": 4,
+    "hedoux": 4,
+    "tank": 4,
+    "high": 4,
+    "darn": 4,
+    "everything": 4,
+    "children": 4,
+    "life": 4,
+    "heard": 4,
+    "job": 4,
+    "agree": 4,
+    "graves": 4,
+    "woohoo": 4,
+    "sounds": 4,
+    "city": 4,
+    "ima": 4,
+    "word": 4,
+    "beat": 4,
+    "dang": 4,
+    "dude": 4,
+    "remember": 4,
+    "tanks": 4,
+    "giving": 4,
+    "blame": 4,
+    "takes": 4,
+    "seen": 4,
+    "discord": 4,
+    "99": 4,
+    "second": 4,
+    "enemy": 4,
+    "per": 4,
+    "dm": 4,
+    "last": 4,
+    "states": 4,
+    "tough": 4,
+    "voice": 4,
+    "yay": 4,
+    "ahve": 4,
+    "sunday": 4,
+    "servers": 4,
+    "bro": 4,
+    "worked": 4,
+    "dogfight": 4,
+    "pools": 4,
+    "card": 4,
+    "hop": 4,
+    "late": 4,
+    "itsa": 4,
+    "miss": 4,
+    "patch": 4,
+    "already": 4,
+    "kik": 4,
+    "happen": 4,
+    "gaming": 4,
+    "na": 4,
+    "test": 4,
+    "research": 4,
+    "afk": 4,
+    "toto": 4,
+    "nope": 4,
+    "happy": 4,
+    "snipe": 4,
+    "closed": 4,
+    "downloading": 4,
+    "prob": 4,
+    "impossible": 4,
+    "democrat": 4,
+    "ignorance": 4,
+    "shitty": 4,
+    "g66": 4,
+    "despra": 4,
+    "non": 4,
+    "kamala": 4,
+    "public": 4,
+    "question": 4,
+    "yes": 4,
+    "vaers": 4,
+    "vaccines": 4,
+    "bankruptcy": 4,
+    "credit": 4,
+    "fico": 4,
+    "meningitus": 4,
+    "vaccination": 4,
     "log": 4,
-    "join": 3,
-    "20": 3,
-    "baby": 3,
-    "early": 3,
-    "speech": 3,
-    "new": 3,
-    "made": 3,
-    "people": 3,
-    "bad": 3,
-    "naw": 3,
-    "em": 3,
-    "said": 3,
-    "old": 3,
-    "use": 3,
-    "shit": 3,
-    "oh": 3,
-    "full": 3,
-    "getting": 3,
+    "close": 3,
+    "pres": 3,
+    "decades": 3,
+    "natural": 3,
+    "gas": 3,
+    "limit": 3,
+    "map": 3,
+    "plus": 3,
+    "fyi": 3,
+    "wazat": 3,
+    "cheap": 3,
+    "loaded": 3,
+    "bummer": 3,
     "gaaaaaaaaaame": 3,
-    "gay": 3,
-    "hey": 3,
-    "dark": 3,
-    "window": 3,
-    "dog": 3,
-    "money": 3,
-    "day": 3,
-    "rid": 3,
-    "rules": 3,
+    "noooooooooooooo": 3,
+    "write": 3,
+    "stopped": 3,
+    "billions": 3,
     "months": 3,
-    "aaaaaaaaaaaaagh": 3,
-    "covid": 3,
-    "blu": 3,
-    "got": 3,
-    "player": 3,
-    "guys": 3,
-    "god": 3,
+    "25": 3,
+    "girls": 3,
+    "wild": 3,
+    "coming": 3,
     "norton": 3,
-    "bang": 3,
-    "gaaaaaaaaaaaaaaaame": 3,
-    "done": 3,
-    "play": 3,
-    "damn": 3,
-    "games": 3,
-    "gives": 3,
-    "cancer": 3,
-    "almost": 3,
-    "ina": 3,
-    "maps": 3,
-    "vsr": 2,
-    "many": 2,
+    "weeks": 3,
+    "named": 3,
+    "carnivore": 3,
+    "nutso": 3,
+    "took": 3,
+    "power": 3,
+    "level": 3,
+    "gravey": 3,
+    "gaaaaaaaaaaaaaaaaame": 3,
+    "outa": 3,
+    "gaaaaaaaaaaaaaame": 3,
+    "example": 3,
+    "europians": 3,
+    "idea": 3,
+    "welcome": 3,
+    "called": 3,
+    "yup": 3,
+    "weather": 3,
+    "next": 3,
+    "amazing": 3,
+    "water": 3,
+    "moving": 3,
+    "bitch": 3,
+    "loose": 3,
+    "gaaaaaaaaaaaaaaaaaaaaame": 3,
+    "utube": 3,
+    "boo": 3,
+    "bill": 3,
+    "less": 3,
+    "tier": 3,
+    "awhile": 3,
+    "spring": 3,
+    "week": 3,
+    "hosts": 3,
+    "insane": 3,
+    "thought": 3,
+    "hear": 3,
+    "multi": 3,
+    "without": 3,
+    "yeeehaaaw": 3,
+    "young": 3,
+    "fiber": 3,
+    "minded": 3,
+    "thinking": 3,
+    "sucked": 3,
+    "50": 3,
+    "bar": 3,
+    "30": 3,
+    "bike": 3,
+    "heck": 3,
+    "cost": 3,
+    "commanding": 3,
+    "commander": 3,
+    "ego": 3,
+    "90": 3,
+    "gama": 3,
+    "john": 3,
+    "monday": 3,
+    "easier": 3,
+    "command": 3,
+    "madness": 3,
+    "away": 3,
+    "gn": 3,
+    "anything": 3,
+    "practice": 3,
+    "eye": 3,
+    "filet": 3,
+    "york": 3,
+    "otherwise": 3,
+    "since": 3,
+    "favorite": 3,
+    "meat": 3,
+    "dogs": 3,
+    "newbies": 3,
+    "kid": 3,
+    "wish": 3,
+    "needed": 3,
+    "timing": 3,
+    "dun": 3,
+    "politics": 3,
+    "key": 3,
+    "microsoft": 3,
+    "luv": 3,
+    "liar": 3,
+    "12": 3,
+    "55": 3,
+    "lvl5": 3,
+    "updating": 3,
+    "suck": 3,
+    "starting": 3,
+    "wanna": 3,
+    "restart": 3,
+    "cool": 3,
+    "racism": 3,
+    "chance": 3,
+    "car": 3,
+    "cats": 3,
+    "betas": 3,
+    "came": 3,
+    "gaaaaaame": 3,
+    "connection": 3,
+    "matter": 3,
+    "308": 3,
+    "judge": 3,
+    "jesus": 3,
+    "double": 3,
+    "talking": 3,
+    "chain": 3,
+    "slow": 3,
+    "huh": 3,
+    "simple": 3,
+    "gone": 3,
+    "study": 3,
+    "dick": 3,
+    "ones": 3,
+    "18": 3,
+    "system": 3,
+    "weak": 3,
+    "kicked": 3,
+    "causes": 3,
+    "loading": 3,
+    "files": 3,
+    "snipes": 3,
+    "straight": 3,
+    "deadly": 3,
+    "hahahahaa": 3,
+    "germans": 3,
+    "vote": 3,
+    "wife": 3,
+    "maga": 3,
+    "spyware": 3,
+    "sense": 3,
+    "may": 3,
+    "browser": 3,
+    "social": 3,
+    "cheat": 3,
+    "stand": 3,
+    "germany": 3,
+    "house": 3,
+    "vaxxed": 3,
+    "believe": 3,
+    "government": 3,
+    "russia": 3,
+    "choice": 3,
+    "injuries": 3,
+    "strain": 3,
+    "nearly": 3,
+    "adverse": 3,
+    "events": 3,
+    "actual": 3,
+    "merry": 3,
+    "christmas": 3,
+    "ho": 3,
+    "hello": 3,
+    "bbb": 3,
+    "trucks": 3,
+    "bla": 3,
     "story": 2,
-    "lumi": 2,
-    "watch": 2,
+    "16": 2,
+    "death": 2,
+    "wef": 2,
+    "folks": 2,
+    "forget": 2,
+    "evil": 2,
+    "gaaaaaaaaaaame": 2,
+    "find": 2,
+    "fat": 2,
     "rule": 2,
-    "guy": 2,
-    "taxes": 2,
-    "bz1": 2,
-    "shoot": 2,
-    "uno": 2,
-    "mas": 2,
-    "gaaaaaaaaame": 2,
-    "bz2": 2,
+    "joined": 2,
+    "post": 2,
+    "across": 2,
+    "needs": 2,
     "workshop": 2,
     "drive": 2,
-    "died": 2,
-    "noooooooooooooo": 2,
-    "left": 2,
-    "run": 2,
-    "lets": 2,
-    "write": 2,
-    "billions": 2,
-    "big": 2,
-    "range": 2,
-    "another": 2,
-    "going": 2,
+    "wonder": 2,
+    "feukers": 2,
+    "aides": 2,
+    "ahhhhhhhhhhhhhhhhhhhhhhhhhh": 2,
+    "figured": 2,
+    "epstien": 2,
+    "history": 2,
+    "fart": 2,
+    "stupid": 2,
+    "thru": 2,
+    "usaid": 2,
+    "corrupt": 2,
+    "fda": 2,
+    "pharma": 2,
+    "office": 2,
+    "wing": 2,
+    "hold": 2,
     "babay": 2,
-    "waka": 2,
-    "doo": 2,
-    "wow": 2,
-    "zack": 2,
+    "five": 2,
+    "goofballs": 2,
+    "blast": 2,
     "heals": 2,
+    "wants": 2,
+    "dirty": 2,
     "words": 2,
-    "girls": 2,
-    "coming": 2,
-    "ever": 2,
-    "online": 2,
-    "eat": 2,
-    "great": 2,
+    "noobs": 2,
+    "groovy": 2,
+    "gaaaaaaame": 2,
+    "screw": 2,
+    "crappy": 2,
+    "pow": 2,
+    "quite": 2,
+    "aliases": 2,
+    "gamers": 2,
     "train": 2,
-    "much": 2,
-    "level": 2,
-    "dead": 2,
-    "say": 2,
-    "kewel": 2,
-    "brain": 2,
-    "getin": 2,
-    "played": 2,
-    "gravey": 2,
-    "running": 2,
+    "naps": 2,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaame": 2,
+    "medical": 2,
+    "home": 2,
     "tooot": 2,
-    "thx": 2,
-    "herp": 2,
-    "poof": 2,
-    "gaaaaaaaaaaaaaaaaame": 2,
-    "gaaaaaaaaaaaame": 2,
-    "work": 2,
-    "live": 2,
-    "man": 2,
-    "matrix": 2,
-    "shot": 2,
-    "everyone": 2,
-    "pill": 2,
-    "tell": 2,
-    "times": 2,
-    "yet": 2,
-    "hard": 2,
-    "better": 2,
-    "gaaaaaaaaaaaaaaame": 2,
-    "hovering": 2,
-    "az": 2,
-    "think": 2,
-    "mean": 2,
+    "gnite": 2,
+    "none": 2,
+    "along": 2,
+    "sometimes": 2,
+    "internet": 2,
+    "football": 2,
+    "aaaaaaaaaaaaaaaaaahg": 2,
+    "tomorrow": 2,
+    "australia": 2,
+    "box": 2,
+    "least": 2,
+    "millions": 2,
+    "horrid": 2,
+    "quits": 2,
+    "stay": 2,
+    "tha": 2,
+    "fact": 2,
+    "wierd": 2,
+    "60": 2,
+    "gonna": 2,
+    "tower": 2,
+    "designed": 2,
+    "dollar": 2,
+    "amounts": 2,
+    "ground": 2,
+    "allowed": 2,
+    "phoenix": 2,
+    "droves": 2,
     "buzy": 2,
-    "isa": 2,
-    "tank": 2,
+    "inside": 2,
+    "gaaaaaaaaaaaaaaaaaame": 2,
+    "biden": 2,
+    "kind": 2,
+    "able": 2,
+    "screen": 2,
+    "alt": 2,
+    "finger": 2,
+    "aaaaaaaaaaaaaaaaaaaaaaaaaagh": 2,
     "nite": 2,
+    "nooooooooooooooooooooooooooooooooooooo": 2,
+    "conversation": 2,
+    "mic": 2,
+    "wat": 2,
+    "assets": 2,
+    "zone": 2,
+    "wasn": 2,
+    "chat": 2,
+    "girlfriend": 2,
+    "retallion": 2,
+    "weapons": 2,
+    "recording": 2,
+    "ingame": 2,
+    "hilarious": 2,
+    "ruthless": 2,
+    "force": 2,
+    "things": 2,
+    "saw": 2,
+    "tubs": 2,
+    "fair": 2,
+    "meds": 2,
+    "bring": 2,
+    "judgeguns": 2,
+    "amen": 2,
+    "modified": 2,
+    "badass": 2,
+    "milk": 2,
+    "bought": 2,
+    "sit": 2,
+    "attack": 2,
+    "truth": 2,
+    "chicken": 2,
+    "sale": 2,
+    "sorry": 2,
+    "lord": 2,
+    "middle": 2,
+    "alive": 2,
+    "save": 2,
+    "check": 2,
+    "goo": 2,
+    "tired": 2,
+    "ts": 2,
+    "ignorant": 2,
+    "smarter": 2,
+    "ye": 2,
+    "access": 2,
+    "usually": 2,
+    "difference": 2,
+    "rib": 2,
+    "third": 2,
+    "overated": 2,
+    "tender": 2,
+    "shooting": 2,
+    "f4": 2,
+    "knew": 2,
+    "kills": 2,
+    "drink": 2,
+    "syas": 2,
+    "mods": 2,
+    "od": 2,
+    "smart": 2,
+    "animal": 2,
+    "kick": 2,
+    "balance": 2,
+    "hadeon": 2,
+    "amper": 2,
+    "party": 2,
+    "juggs": 2,
+    "help": 2,
+    "name": 2,
+    "griz": 2,
+    "company": 2,
+    "lived": 2,
+    "generator": 2,
+    "family": 2,
+    "mexico": 2,
+    "anti": 2,
+    "american": 2,
+    "means": 2,
+    "cnn": 2,
+    "ear": 2,
+    "ahh": 2,
+    "invite": 2,
+    "hrs": 2,
+    "porterhouse": 2,
+    "steaks": 2,
+    "taste": 2,
+    "ga": 2,
+    "darky": 2,
+    "wayne": 2,
+    "louder": 2,
+    "sober": 2,
+    "dev": 2,
+    "tons": 2,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 2,
+    "tgif": 2,
+    "peeps": 2,
+    "weird": 2,
+    "blink": 2,
+    "aco": 2,
+    "bit": 2,
+    "ran": 2,
+    "looking": 2,
+    "twice": 2,
+    "commies": 2,
+    "laser": 2,
+    "display": 2,
+    "showing": 2,
+    "class": 2,
+    "college": 2,
+    "mother": 2,
+    "gaaaaaaaaaaaaaaaaaaaaaaame": 2,
+    "except": 2,
+    "looks": 2,
+    "cares": 2,
+    "2015": 2,
+    "low": 2,
+    "drop": 2,
+    "data": 2,
+    "serious": 2,
+    "ammo": 2,
+    "original": 2,
+    "aw": 2,
+    "based": 2,
+    "basis": 2,
+    "current": 2,
+    "gos": 2,
+    "later": 2,
+    "easy": 2,
+    "wha": 2,
+    "wars": 2,
+    "racists": 2,
+    "someone": 2,
+    "un": 2,
+    "fridays": 2,
+    "armor": 2,
+    "barrel": 2,
+    "desu": 2,
+    "using": 2,
+    "isdf": 2,
+    "faster": 2,
+    "wins": 2,
+    "king": 2,
+    "ny": 2,
+    "communists": 2,
+    "propaganda": 2,
+    "opinion": 2,
+    "gimme": 2,
+    "clue": 2,
+    "argument": 2,
+    "criminal": 2,
+    "latinos": 2,
+    "conservative": 2,
+    "espanol": 2,
+    "changed": 2,
+    "economy": 2,
+    "eating": 2,
+    "sick": 2,
+    "siege": 2,
+    "invited": 2,
+    "software": 2,
+    "somebody": 2,
+    "ups": 2,
+    "router": 2,
+    "ft": 2,
+    "fauci": 2,
+    "poo": 2,
+    "crack": 2,
+    "cocaine": 2,
+    "jail": 2,
+    "sex": 2,
+    "gov": 2,
+    "women": 2,
+    "joe": 2,
+    "flag": 2,
+    "scion": 2,
+    "sell": 2,
+    "coffee": 2,
+    "turn": 2,
+    "commercial": 2,
+    "forever": 2,
+    "verify": 2,
+    "doms": 2,
+    "woman": 2,
+    "dsl": 2,
+    "loss": 2,
+    "upload": 2,
+    "killin": 2,
+    "bloat": 2,
+    "neighborhood": 2,
+    "dogfights": 2,
+    "comply": 2,
+    "winning": 2,
+    "stop": 2,
+    "purple": 2,
+    "80": 2,
+    "lives": 2,
+    "gaaaaaaaaaaaaaaaaaaaame": 2,
+    "elite": 2,
+    "showed": 2,
+    "age": 2,
+    "fish": 2,
+    "tumbleweeds": 2,
+    "govt": 2,
+    "killed": 2,
+    "possible": 2,
+    "wan": 2,
+    "crap": 2,
+    "atlases": 2,
+    "pilotable": 2,
+    "bubble": 2,
+    "gum": 2,
+    "official": 2,
+    "proof": 2,
+    "helluva": 2,
+    "sweet": 2,
+    "green": 2,
+    "add": 2,
+    "wtf": 2,
+    "pump": 2,
+    "conn": 2,
+    "gaaame": 2,
+    "either": 2,
+    "candy": 2,
+    "ridiculous": 2,
+    "debian": 2,
+    "mint": 2,
+    "proton": 2,
+    "bills": 2,
+    "computer": 2,
+    "german": 2,
+    "forbid": 2,
+    "bliss": 2,
+    "shitloads": 2,
+    "course": 2,
+    "dumb": 2,
+    "downloads": 2,
+    "mapak": 2,
+    "bed": 2,
+    "pain": 2,
+    "humans": 2,
+    "meme": 2,
+    "england": 2,
+    "silence": 2,
+    "monkey": 2,
+    "show": 2,
+    "porn": 2,
+    "ignore": 2,
+    "wore": 2,
+    "install": 2,
+    "bitches": 2,
+    "knowing": 2,
+    "information": 2,
+    "smartest": 2,
+    "gaaaaame": 2,
+    "yuch": 2,
+    "regular": 2,
+    "damage": 2,
+    "troll": 2,
+    "area": 2,
+    "500": 2,
+    "living": 2,
+    "pharmacutical": 2,
+    "companies": 2,
+    "travel": 2,
+    "etc": 2,
+    "prety": 2,
+    "seed": 2,
+    "oils": 2,
+    "blood": 2,
+    "self": 2,
+    "boom": 2,
+    "canadians": 2,
+    "county": 2,
+    "hospital": 2,
+    "scam": 2,
+    "buying": 2,
+    "hahahaa": 2,
+    "blows": 2,
+    "feeding": 2,
+    "dump": 2,
+    "knees": 2,
+    "trolls": 2,
+    "drunk": 2,
+    "cash": 2,
+    "apts": 2,
+    "students": 2,
+    "gettin": 2,
+    "rate": 2,
+    "country": 2,
+    "side": 2,
+    "effects": 2,
+    "bacterial": 2,
+    "antibodies": 2,
+    "2000": 2,
+    "estimate": 2,
+    "taking": 2,
+    "translates": 2,
+    "1000": 2,
+    "dei": 2,
+    "training": 2,
+    "mom": 2,
+    "horse": 2,
+    "booooooooom": 2,
+    "losin": 2,
+    "manu": 2,
+    "white": 2,
+    "da": 2,
+    "diego": 2,
+    "dotn": 2,
+    "little": 2,
+    "brains": 2,
+    "gaaaame": 2,
+    "homos": 2,
+    "toot": 2,
+    "hostt": 2,
+    "hurt": 2,
+    "scrap": 2,
+    "47": 2,
+    "teams": 2,
+    "suicide": 2,
+    "mentally": 2,
+    "ssd": 2,
+    "sesame": 2,
+    "street": 2,
+    "pink": 2,
+    "woke": 2,
+    "unloading": 2,
+    "wingman": 2,
+    "sake": 2,
     "buenos": 1,
     "dias": 1,
-    "want": 1,
-    "16": 1,
     "owuld": 1,
     "stayed": 1,
     "sugar": 1,
     "diabetes": 1,
-    "beta": 1,
     "fairly": 1,
-    "close": 1,
     "nestle": 1,
-    "death": 1,
-    "wef": 1,
-    "folks": 1,
-    "forget": 1,
-    "pres": 1,
     "bush": 1,
-    "number": 1,
     "order": 1,
     "klaus": 1,
     "scwab": 1,
     "smile": 1,
-    "evil": 1,
     "nickel": 1,
-    "gaaaaaaaaaaame": 1,
     "disagree": 1,
-    "players": 1,
     "happened": 1,
-    "active": 1,
-    "thread": 1,
-    "find": 1,
-    "ai": 1,
-    "kill": 1,
-    "fat": 1,
     "chicks": 1,
-    "joined": 1,
     "baaaaaaaayaaaaaaaaaack": 1,
-    "decades": 1,
     "hitler": 1,
-    "look": 1,
-    "post": 1,
     "clovis": 1,
     "scroll": 1,
-    "video": 1,
-    "natural": 1,
-    "gas": 1,
     "oil": 1,
-    "huge": 1,
-    "texas": 1,
     "tugs": 1,
-    "limit": 1,
-    "across": 1,
-    "map": 1,
-    "wazat": 1,
-    "ah": 1,
+    "thorman": 1,
+    "reactor": 1,
+    "1950": 1,
+    "technolgy": 1,
+    "fooled": 1,
+    "special": 1,
     "hloy": 1,
-    "fricken": 1,
-    "cheap": 1,
     "tiny": 1,
-    "wonder": 1,
-    "loaded": 1,
     "checky": 1,
-    "feukers": 1,
     "aaaaaaaaaaaaaahhhhhhhhhhhhh": 1,
-    "sev": 1,
-    "bummer": 1,
     "piiiiiiiiiiiiiiiiiiing": 1,
     "555555": 1,
-    "aides": 1,
-    "darkvale": 1,
     "sprained": 1,
     "ankle": 1,
     "hostel": 1,
     "meanies": 1,
-    "ahhhhhhhhhhhhhhhhhhhhhhhhhh": 1,
-    "figured": 1,
     "loves": 1,
-    "epstien": 1,
-    "best": 1,
     "launderer": 1,
-    "history": 1,
-    "000": 1,
     "illegals": 1,
     "lower": 1,
-    "fart": 1,
     "tax": 1,
-    "code": 1,
     "pro": 1,
     "business": 1,
-    "stupid": 1,
     "epa": 1,
-    "stopped": 1,
     "ngo": 1,
     "laundering": 1,
-    "thru": 1,
-    "usaid": 1,
     "saving": 1,
     "kennedy": 1,
     "poisons": 1,
     "promoing": 1,
-    "real": 1,
-    "health": 1,
     "firing": 1,
-    "corrupt": 1,
-    "fda": 1,
     "clones": 1,
-    "pharma": 1,
     "goes": 1,
-    "office": 1,
     "towers": 1,
     "push": 1,
-    "wing": 1,
     "logic": 1,
-    "soon": 1,
-    "crazy": 1,
-    "hold": 1,
-    "25": 1,
     "flat": 1,
     "shots": 1,
     "booster": 1,
-    "today": 1,
-    "five": 1,
-    "goofballs": 1,
-    "fyi": 1,
-    "blast": 1,
     "gaaaaaaaaaaaaaaaaam": 1,
     "waaaaaaaaaaaaaaaaaaaaaaa": 1,
     "rrrrrrrruuuuunnnnnnnnnnnnn": 1,
@@ -299,132 +1101,69 @@
     "aaaaaaaaaagh": 1,
     "bluuuuuuuuuuu": 1,
     "baayaak": 1,
-    "hope": 1,
     "wound": 1,
     "sniped": 1,
     "notice": 1,
     "demon": 1,
     "poopy": 1,
     "diapers": 1,
-    "wants": 1,
-    "dirty": 1,
     "strange": 1,
     "gaaaaaaaaaaaaaaaaaaaaaaaame": 1,
     "621": 1,
     "yeehaw": 1,
-    "diddy": 1,
-    "wild": 1,
     "banning": 1,
-    "noobs": 1,
     "future": 1,
-    "gaaaaaaaaaaaaame": 1,
-    "pm": 1,
     "ona": 1,
-    "friday": 1,
-    "groovy": 1,
-    "fun": 1,
-    "viv": 1,
     "gaaaaaaaaaaaaaaaaames": 1,
     "waaaaaaaaaaaaaa": 1,
-    "doma": 1,
-    "gaaaaaaame": 1,
     "waaaaaaaaaaaaaaaaaaaaaaaaaaa": 1,
     "dear": 1,
-    "screw": 1,
-    "every": 1,
     "delete": 1,
-    "anyone": 1,
-    "crappy": 1,
-    "con": 1,
-    "walk": 1,
     "bap": 1,
-    "pow": 1,
-    "quite": 1,
-    "list": 1,
-    "aliases": 1,
     "suuuuck": 1,
-    "mod": 1,
     "squad": 1,
     "please": 1,
     "uninstall": 1,
-    "bone": 1,
     "broth": 1,
-    "weeks": 1,
     "crons": 1,
-    "try": 1,
     "peptide": 1,
-    "named": 1,
     "bpc": 1,
     "157": 1,
     "intestines": 1,
-    "carnivore": 1,
-    "diet": 1,
     "amazed": 1,
-    "gamers": 1,
-    "nutso": 1,
     "wwar": 1,
     "thumbs": 1,
     "nap": 1,
-    "come": 1,
-    "hours": 1,
-    "took": 1,
-    "power": 1,
-    "naps": 1,
-    "super": 1,
     "powers": 1,
-    "bz": 1,
     "ugh": 1,
     "pc": 1,
     "whaaaaaaaaaaaaaaaat": 1,
     "hitters": 1,
-    "patience": 1,
-    "hosted": 1,
     "parakeets": 1,
-    "kids": 1,
     "trained": 1,
     "birds": 1,
-    "vaccine": 1,
-    "gaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
     "sic": 1,
     "yaba": 1,
     "daba": 1,
     "doooo": 1,
     "geometry": 1,
-    "trump": 1,
     "derangement": 1,
     "syndrome": 1,
     "tds": 1,
-    "medical": 1,
     "treatmen": 1,
-    "hurry": 1,
     "rigor": 1,
     "mortis": 1,
-    "open": 1,
-    "home": 1,
-    "ask": 1,
-    "let": 1,
-    "gravy": 1,
     "nowwwwwwww": 1,
     "gaaaaaaaaaaames": 1,
     "gaaaaaaaaaaaaaaaaaaaaames": 1,
-    "gnite": 1,
-    "freedom": 1,
     "forums": 1,
     "sent": 1,
     "restrictions": 1,
     "forum": 1,
-    "free": 1,
-    "none": 1,
-    "along": 1,
-    "sometimes": 1,
-    "missed": 1,
     "5v5": 1,
     "swhoulda": 1,
-    "nothing": 1,
-    "internet": 1,
     "holy": 1,
     "smokes": 1,
-    "wait": 1,
     "hour": 1,
     "coulda": 1,
     "rest": 1,
@@ -434,210 +1173,1857 @@
     "jabbaaaaaaaaaaaa": 1,
     "boooooooger": 1,
     "watching": 1,
-    "football": 1,
-    "aaaaaaaaaaaaaaaaaahg": 1,
     "costco": 1,
-    "tomorrow": 1,
-    "outa": 1,
     "dogfood": 1,
     "hoooooooooooooooost": 1,
-    "gaaaaaaaaaaaaaame": 1,
-    "doin": 1,
     "priv": 1,
     "bata": 1,
     "freinds": 1,
     "jive": 1,
     "lithium": 1,
-    "australia": 1,
-    "knows": 1,
-    "guess": 1,
     "cleaning": 1,
     "litter": 1,
-    "box": 1,
-    "gotta": 1,
-    "least": 1,
-    "first": 1,
     "epoch": 1,
     "prime": 1,
-    "example": 1,
-    "brainwashed": 1,
     "killing": 1,
-    "millions": 1,
-    "red": 1,
-    "ready": 1,
     "hellacious": 1,
     "reality": 1,
-    "horrid": 1,
     "gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
-    "went": 1,
-    "lamper": 1,
     "youuuuuu": 1,
-    "quits": 1,
     "anyway": 1,
-    "ffa": 1,
     "loooooooooooooooooad": 1,
     "souldnt": 1,
-    "give": 1,
-    "europians": 1,
     "epinefrin": 1,
-    "night": 1,
-    "lose": 1,
     "weight": 1,
-    "stay": 1,
     "awake": 1,
-    "tha": 1,
-    "fact": 1,
     "food": 1,
     "costs": 1,
-    "europe": 1,
-    "gud": 1,
-    "beer": 1,
     "grammy": 1,
     "awards": 1,
     "iits": 1,
-    "wierd": 1,
     "star": 1,
     "stoned": 1,
     "passworded": 1,
     "blt": 1,
     "avocado": 1,
-    "enuf": 1,
     "bigot": 1,
-    "idiots": 1,
-    "idea": 1,
     "raxism": 1,
     "grew": 1,
-    "60": 1,
     "rampant": 1,
     "general": 1,
     "major": 1,
-    "true": 1,
-    "password": 1,
-    "welcome": 1,
     "cum": 1,
     "bum": 1,
     "2o": 1,
-    "gonna": 1,
     "pressure": 1,
-    "called": 1,
     "overload": 1,
     "tiiiiiiiime": 1,
-    "100": 1,
     "meeters": 1,
     "added": 1,
-    "tower": 1,
-    "designed": 1,
-    "yup": 1,
-    "weather": 1,
     "nock": 1,
     "gorgeous": 1,
-    "next": 1,
-    "ten": 1,
-    "days": 1,
     "lotta": 1,
     "tech": 1,
     "fabs": 1,
     "built": 1,
     "valley": 1,
     "100s": 1,
-    "dollars": 1,
-    "amazing": 1,
     "intels": 1,
     "billion": 1,
-    "dollar": 1,
     "fab": 1,
     "arabs": 1,
     "redmad": 1,
-    "actually": 1,
     "vast": 1,
-    "amounts": 1,
-    "ground": 1,
-    "water": 1,
-    "allowed": 1,
     "ocean": 1,
-    "phoenix": 1,
     "californians": 1,
-    "moving": 1,
-    "droves": 1,
     "doomed": 1,
     "buxy": 1,
     "wazup": 1,
     "tf2": 1,
     "halloween": 1,
-    "inside": 1,
     "kowloons": 1,
-    "gaaaaaaaaaaaaaaaaaame": 1,
     "pitty": 1,
     "ended": 1,
-    "bitch": 1,
     "complain": 1,
     "thyen": 1,
-    "leave": 1,
-    "loose": 1,
-    "mind": 1,
     "hobby": 1,
     "acres": 1,
     "coudnt": 1,
     "labor": 1,
     "goal": 1,
-    "launch": 1,
     "hostin": 1,
-    "hedoux": 1,
     "rf": 1,
     "mercilous": 1,
-    "gaaaaaaaaaaaaaaaaaaaaame": 1,
     "kowloon": 1,
-    "needs": 1,
-    "biden": 1,
     "nnnnooooooo": 1,
     "mushrooms": 1,
-    "high": 1,
-    "pretty": 1,
     "aaaaaaaaaaaaaagh": 1,
     "gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
-    "kind": 1,
     "english": 1,
     "fuck": 1,
     "shoud": 1,
-    "able": 1,
-    "screen": 1,
-    "hit": 1,
-    "alt": 1,
     "enter": 1,
     "puts": 1,
-    "utube": 1,
     "insert": 1,
-    "finger": 1,
-    "aaaaaaaaaaaaaaaaaaaaaaaaaagh": 1,
+    "solves": 1,
+    "gates": 1,
+    "rifle": 1,
+    "perfection": 1,
+    "move": 1,
+    "piece": 1,
+    "baaaaaaaaaaaaaaaaaack": 1,
+    "hoky": 1,
+    "pokey": 1,
+    "noooooooooooooooooobs": 1,
+    "nooooooooooooooooobs": 1,
+    "happens": 1,
+    "fall": 1,
+    "geta": 1,
+    "blind": 1,
+    "filling": 1,
+    "melee": 1,
+    "match": 1,
+    "waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa": 1,
+    "fine": 1,
+    "crazies": 1,
+    "loonie": 1,
+    "traitor": 1,
+    "rolls": 1,
+    "muffins": 1,
+    "freaked": 1,
+    "dying": 1,
+    "launching": 1,
+    "disturb": 1,
+    "mashup": 1,
+    "youg": 1,
+    "massive": 1,
+    "onslaught": 1,
+    "attacks": 1,
+    "field": 1,
+    "luuuumii": 1,
+    "suit": 1,
+    "4444444444444444444444444444": 1,
+    "vourse": 1,
+    "scorp": 1,
+    "grown": 1,
+    "human": 1,
+    "competent": 1,
+    "iq": 1,
+    "higher": 1,
+    "urs": 1,
+    "booooooooooger": 1,
+    "error": 1,
+    "ahhh": 1,
+    "drew": 1,
+    "milked": 1,
+    "skirmishes": 1,
+    "patient": 1,
+    "mg": 1,
+    "browning": 1,
+    "cal": 1,
+    "amzing": 1,
+    "invented": 1,
+    "06": 1,
+    "hence": 1,
+    "firepower": 1,
+    "ar10": 1,
+    "trigger": 1,
+    "fn": 1,
+    "scar": 1,
+    "raw": 1,
+    "decided": 1,
+    "point": 1,
+    "road": 1,
+    "peugeot": 1,
+    "stolen": 1,
+    "lamp": 1,
+    "het": 1,
+    "hogged": 1,
+    "weps": 1,
+    "domeone": 1,
+    "heart": 1,
+    "telling": 1,
+    "hurts": 1,
+    "punishes": 1,
+    "cruel": 1,
+    "pop": 1,
+    "sont": 1,
+    "timed": 1,
+    "handle": 1,
+    "alright": 1,
+    "fried": 1,
+    "kroger": 1,
+    "racing": 1,
+    "club": 1,
+    "meeting": 1,
+    "praise": 1,
+    "awwwwwwwwwwwwww": 1,
+    "school": 1,
+    "slycy": 1,
+    "hormone": 1,
+    "mania": 1,
+    "muhahahahaa": 1,
+    "hooowwwwlllllllll": 1,
+    "anticpation": 1,
+    "slap": 1,
+    "hippie": 1,
+    "fallout": 1,
+    "sarcasm": 1,
+    "monsters": 1,
+    "youtube": 1,
+    "info": 1,
+    "tedx": 1,
+    "series": 1,
+    "sluts": 1,
+    "keeper": 1,
+    "aaaaaaaaaaaaaaaaaaaaaaaagh": 1,
+    "palestine": 1,
+    "tosser": 1,
+    "zoooooooone": 1,
+    "trash": 1,
+    "lookinf": 1,
+    "whatever": 1,
+    "bulshit": 1,
+    "straaaaaaaaaaaaaaaaaaaaat": 1,
+    "hahahahahaaa": 1,
+    "monitir": 1,
+    "coordination": 1,
+    "enforcement": 1,
+    "ineptitude": 1,
+    "required": 1,
+    "xd": 1,
+    "octogenerations": 1,
+    "faculty": 1,
+    "tag": 1,
+    "rated": 1,
+    "daywrecker": 1,
+    "isn": 1,
+    "noooooooooooooooooo": 1,
+    "noto": 1,
+    "loiners": 1,
+    "joiners": 1,
+    "restricting": 1,
+    "com": 1,
+    "quick": 1,
+    "pint": 1,
+    "sized": 1,
+    "guzzles": 1,
+    "grains": 1,
+    "fixes": 1,
+    "autoimmune": 1,
+    "content": 1,
+    "trimmed": 1,
+    "tie": 1,
+    "tasting": 1,
+    "ribeye": 1,
+    "mignon": 1,
+    "flavor": 1,
+    "wrapped": 1,
+    "bacon": 1,
+    "soaked": 1,
+    "sauce": 1,
+    "type": 1,
+    "understand": 1,
+    "especially": 1,
+    "turret": 1,
+    "2004": 1,
+    "manual": 1,
+    "auto": 1,
+    "pinto": 1,
+    "beans": 1,
+    "excellent": 1,
+    "platform": 1,
+    "controlled": 1,
+    "rockets": 1,
+    "crow": 1,
+    "dissolve": 1,
+    "teaspoon": 1,
+    "baking": 1,
+    "soda": 1,
+    "glass": 1,
+    "waterm": 1,
+    "sowly": 1,
+    "foods": 1,
+    "elk": 1,
+    "beaver": 1,
+    "tail": 1,
+    "buffalo": 1,
+    "struggling": 1,
+    "missouri": 1,
+    "men": 1,
+    "ate": 1,
+    "prodigious": 1,
+    "nine": 1,
+    "pounds": 1,
+    "clark": 1,
+    "abstained": 1,
+    "couldn": 1,
+    "3atext": 1,
+    "3dtheir": 1,
+    "2520favorite": 1,
+    "2520foods": 1,
+    "2520were": 1,
+    "2520always": 1,
+    "2chimself": 1,
+    "2520to": 1,
+    "2520eat": 1,
+    "2520dog": 1,
+    "2520meat": 1,
+    "usg": 1,
+    "aovvaw0": 1,
+    "rd": 1,
+    "n3ugrbjadbcd7htq": 1,
+    "opi": 1,
+    "89978449": 1,
+    "letters": 1,
+    "suk": 1,
+    "weenies": 1,
+    "cuz": 1,
+    "akready": 1,
+    "vets": 1,
+    "shads": 1,
+    "shad": 1,
+    "flyers": 1,
+    "squooshy": 1,
+    "fu": 1,
+    "woulda": 1,
+    "panic": 1,
+    "alike": 1,
+    "brown": 1,
+    "blends": 1,
+    "thinks": 1,
+    "conception": 1,
+    "stinken": 1,
+    "lousy": 1,
+    "lies": 1,
+    "pintoh": 1,
+    "wankers": 1,
+    "hungover": 1,
+    "trying": 1,
+    "pooper": 1,
+    "nogo": 1,
+    "helpful": 1,
+    "nerrrrrrrrrrrrrrrrrrds": 1,
+    "artificial": 1,
+    "caller": 1,
+    "fan": 1,
+    "duuuuuun": 1,
+    "solar": 1,
+    "al": 1,
+    "europeans": 1,
+    "hurricane": 1,
+    "gulf": 1,
+    "bunch": 1,
+    "moji": 1,
+    "1vs1": 1,
+    "sssssshhhhhhhhhh": 1,
+    "rappazinni": 1,
+    "knowa": 1,
+    "ther": 1,
+    "gif": 1,
+    "logo": 1,
+    "station": 1,
+    "teleprompter": 1,
+    "hahahahaha": 1,
+    "darkys": 1,
+    "baaack": 1,
+    "yeehaaw": 1,
+    "spooooooooooooot": 1,
+    "blooooooooooood": 1,
+    "somebodies": 1,
+    "yuk": 1,
+    "micro": 1,
+    "24": 1,
+    "package": 1,
+    "tad": 1,
+    "tasty": 1,
+    "expert": 1,
+    "lobby": 1,
+    "sory": 1,
+    "dave": 1,
+    "dawn": 1,
+    "avg": 1,
+    "vn": 1,
+    "designated": 1,
+    "wehre": 1,
+    "heya": 1,
+    "wup": 1,
+    "sup": 1,
+    "keeps": 1,
+    "noooooooooooo": 1,
+    "mke": 1,
+    "fight": 1,
+    "euros": 1,
+    "losing": 1,
+    "serous": 1,
+    "groomer": 1,
+    "ar": 1,
+    "ip": 1,
+    "misunderstanding": 1,
+    "feed": 1,
+    "mics": 1,
+    "faggots": 1,
+    "awd": 1,
+    "everybody": 1,
+    "spankin": 1,
+    "change": 1,
+    "34": 1,
+    "lvl": 1,
+    "f1": 1,
+    "unsubsribe": 1,
+    "resubscribe": 1,
+    "kinds": 1,
+    "shhhhhhhhhhhhhhhhhhhhh": 1,
+    "9th": 1,
+    "ot": 1,
+    "10th": 1,
+    "immature": 1,
+    "justa": 1,
+    "geeks": 1,
+    "talkin": 1,
+    "thead": 1,
+    "coders": 1,
+    "watchin": 1,
+    "3x3": 1,
+    "cya": 1,
+    "noooooooooooooooooooo": 1,
+    "nozza": 1,
+    "luvs": 1,
+    "earlier": 1,
+    "ahhhhhhhhh": 1,
+    "rage": 1,
+    "ahhhhhhhhhhhhh": 1,
+    "whaaaaaaaaaaaaaaat": 1,
+    "noise": 1,
+    "art": 1,
+    "form": 1,
+    "aaaah": 1,
+    "lc": 1,
+    "plays": 1,
+    "expose": 1,
+    "ole": 1,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaaam": 1,
+    "triping": 1,
+    "falling": 1,
+    "ahhhhhhhhhhhhhg": 1,
+    "haul": 1,
+    "happyotter": 1,
+    "happer": 1,
+    "cuuuuuuuuuuuming": 1,
+    "clown": 1,
+    "slicer": 1,
+    "prick": 1,
+    "leaves": 1,
+    "followed": 1,
+    "seam": 1,
+    "playyyyyyyyyyyyed": 1,
+    "opens": 1,
+    "emough": 1,
+    "mentioned": 1,
+    "palyers": 1,
+    "discrimation": 1,
+    "dna": 1,
+    "survival": 1,
+    "shows": 1,
+    "details": 1,
+    "sees": 1,
+    "setup": 1,
+    "kikin": 1,
+    "lookin": 1,
+    "duke": 1,
+    "nukem": 1,
+    "factor": 1,
+    "wwimp": 1,
+    "pinky": 1,
+    "ticket": 1,
+    "transparent": 1,
+    "overlay": 1,
+    "whole": 1,
+    "fighter": 1,
+    "pilot": 1,
+    "cockpit": 1,
+    "corvette": 1,
+    "approaching": 1,
+    "upgraded": 1,
+    "increased": 1,
+    "dramatically": 1,
+    "hoppity": 1,
+    "19": 1,
+    "ditch": 1,
+    "crammed": 1,
+    "final": 1,
+    "bba": 1,
+    "premed": 1,
+    "math": 1,
+    "ans": 1,
+    "science": 1,
+    "biology": 1,
+    "species": 1,
+    "gutting": 1,
+    "frogs": 1,
+    "kinda": 1,
+    "phuking": 1,
+    "insanity": 1,
+    "separate": 1,
+    "gidd": 1,
+    "grid": 1,
+    "nver": 1,
+    "strate": 1,
+    "crooked": 1,
+    "mini": 1,
+    "computers": 1,
+    "1050": 1,
+    "gti": 1,
+    "profile": 1,
+    "ooooooo": 1,
+    "aaaaaaaaaaah": 1,
+    "dd": 1,
+    "waht": 1,
+    "iw": 1,
+    "combine": 1,
+    "vehicle": 1,
+    "manageable": 1,
+    "arabian": 1,
+    "nights": 1,
+    "flotilla": 1,
+    "ram": 1,
+    "oof": 1,
+    "moooooooooooooooooooooooooooooore": 1,
+    "gooooooooooooooooooo": 1,
+    "crates": 1,
+    "battlezone2": 1,
+    "bets": 1,
+    "bats": 1,
+    "cliked": 1,
+    "diff": 1,
+    "nuthin": 1,
+    "found": 1,
+    "stone": 1,
+    "chanca": 1,
+    "piedra": 1,
+    "church": 1,
+    "lag": 1,
+    "gooood": 1,
+    "priivate": 1,
+    "13": 1,
+    "colonies": 1,
+    "constition": 1,
+    "constitution": 1,
+    "whay": 1,
+    "wnayone": 1,
+    "nels": 1,
+    "wnyone": 1,
+    "elde": 1,
+    "cops": 1,
+    "sieze": 1,
+    "overcharge": 1,
+    "discount": 1,
+    "bak": 1,
+    "boy": 1,
+    "9999999999": 1,
+    "10000000000": 1,
+    "f9bomber": 1,
+    "feel": 1,
+    "rag": 1,
+    "crotch": 1,
+    "cunts": 1,
+    "assholes": 1,
+    "jfk": 1,
+    "else": 1,
+    "besides": 1,
+    "fkd": 1,
+    "starbucks": 1,
+    "vacations": 1,
+    "shootin": 1,
+    "europian": 1,
+    "soldiers": 1,
+    "commie": 1,
+    "bluehats": 1,
+    "mostly": 1,
+    "french": 1,
+    "target": 1,
+    "goof": 1,
+    "anytime": 1,
+    "absolutes": 1,
+    "demanded": 1,
+    "highly": 1,
+    "recomend": 1,
+    "larger": 1,
+    "penetrate": 1,
+    "body": 1,
+    "stole": 1,
+    "trillions": 1,
+    "merchan": 1,
+    "postpones": 1,
+    "sentencing": 1,
+    "pisses": 1,
+    "lefties": 1,
+    "legally": 1,
+    "audited": 1,
+    "retires": 1,
+    "electric": 1,
+    "race": 1,
+    "baiters": 1,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
+    "kicks": 1,
+    "mule": 1,
+    "nah": 1,
+    "goood": 1,
+    "heads": 1,
+    "pool": 1,
+    "seconds": 1,
+    "peeops": 1,
+    "idf": 1,
+    "alksdfjasdjk": 1,
+    "lo": 1,
+    "land": 1,
+    "lately": 1,
+    "checkout": 1,
+    "la": 1,
+    "chicago": 1,
+    "subscribe": 1,
+    "method": 1,
+    "sort": 1,
+    "florida": 1,
+    "communist": 1,
+    "corps": 1,
+    "foreclosures": 1,
+    "legislated": 1,
+    "comment": 1,
+    "examples": 1,
+    "estate": 1,
+    "argue": 1,
+    "chenye": 1,
+    "leftists": 1,
+    "includes": 1,
+    "mexican": 1,
+    "families": 1,
+    "conservatives": 1,
+    "ustedes": 1,
+    "hablan": 1,
+    "6000": 1,
+    "hatians": 1,
+    "stray": 1,
+    "aaaaaaaaaaaaahhhhhhhhhhhhhhhhhhh": 1,
+    "seeeeeeeeeeeeeeev": 1,
+    "bmr": 1,
+    "miracle": 1,
+    "0ne": 1,
+    "selfless": 1,
+    "servant": 1,
+    "unit": 1,
+    "racist": 1,
+    "omg": 1,
+    "settings": 1,
+    "plug": 1,
+    "pew": 1,
+    "irrigation": 1,
+    "unless": 1,
+    "scrape": 1,
+    "scraaaaape": 1,
+    "irrigating": 1,
+    "gallpns": 1,
+    "cu": 1,
+    "whooooosh": 1,
+    "alfalfa": 1,
+    "lock": 1,
+    "crashes": 1,
+    "hero": 1,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
+    "nogame": 1,
+    "goooooooooooo": 1,
+    "lampy": 1,
+    "vale": 1,
+    "nut": 1,
+    "freakishly": 1,
+    "hearing": 1,
+    "brb": 1,
+    "aide": 1,
+    "weeeeeeeeeeener": 1,
+    "bbboooiiiisssss": 1,
+    "gaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
+    "angry": 1,
+    "goofball": 1,
+    "speeeeeeeeeeeeeeeeeed": 1,
+    "wahooooooooooooo": 1,
+    "t1": 1,
+    "keeeeeeeeeeeeeeeebbz": 1,
+    "problem": 1,
+    "courts": 1,
+    "minors": 1,
+    "prison": 1,
+    "profit": 1,
+    "center": 1,
+    "euroeans": 1,
+    "jealous": 1,
+    "soros": 1,
+    "masters": 1,
+    "homphobia": 1,
+    "backup": 1,
+    "support": 1,
+    "federal": 1,
+    "media": 1,
+    "mess": 1,
+    "existed": 1,
+    "known": 1,
+    "talked": 1,
+    "bout": 1,
+    "complained": 1,
+    "fag": 1,
+    "dc": 1,
+    "iran": 1,
+    "beggining": 1,
+    "feukrs": 1,
+    "adds": 1,
+    "thts": 1,
+    "gaaaaaaaaaaaaaaaaaaame": 1,
+    "tried": 1,
+    "rejoin": 1,
+    "updte": 1,
+    "cybers": 1,
+    "sync": 1,
+    "tlkin": 1,
+    "fewe": 1,
+    "thn": 1,
+    "thyey": 1,
+    "dew": 1,
+    "grasshopper": 1,
+    "waits": 1,
+    "worry": 1,
+    "mos": 1,
+    "downloeding": 1,
+    "uploas": 1,
+    "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz": 1,
+    "waaaaaaaaaaaaaaaaaaaaaa": 1,
+    "afternooon": 1,
+    "gota": 1,
+    "wiped": 1,
+    "bly": 1,
+    "finished": 1,
+    "corruptted": 1,
+    "tsker": 1,
+    "four": 1,
+    "horsemen": 1,
+    "thin": 1,
+    "skiined": 1,
+    "kikass": 1,
+    "ow1": 1,
+    "sumtin": 1,
+    "yeahi": 1,
+    "harder": 1,
+    "hade": 1,
+    "comps": 1,
+    "mouse": 1,
+    "worn": 1,
+    "calle": 1,
+    "buffer": 1,
+    "installing": 1,
+    "handicap": 1,
+    "dominating": 1,
+    "trolling": 1,
+    "assbite": 1,
+    "turs": 1,
+    "tues": 1,
+    "40": 1,
+    "sleepy": 1,
+    "wed": 1,
+    "comands": 1,
+    "hahahahahahaaa": 1,
+    "scared": 1,
+    "shitless": 1,
+    "hates": 1,
+    "fps": 1,
+    "defender": 1,
+    "mastered": 1,
+    "tirn": 1,
+    "spwan": 1,
+    "mans": 1,
+    "democracy": 1,
+    "democratic": 1,
+    "republic": 1,
+    "skill": 1,
+    "nooooooooooooooo": 1,
+    "noob": 1,
+    "missing": 1,
+    "place": 1,
+    "borrow": 1,
+    "hamberger": 1,
+    "tuesday": 1,
+    "bette": 1,
+    "cable": 1,
+    "wireless": 1,
+    "5g": 1,
+    "alone": 1,
+    "turd": 1,
+    "nerds": 1,
+    "frezzes": 1,
+    "yesterday": 1,
+    "answer": 1,
+    "shower": 1,
+    "gam": 1,
+    "monitor": 1,
+    "siad": 1,
+    "quiot": 1,
+    "rejoined": 1,
+    "mistakes": 1,
+    "thank": 1,
+    "kept": 1,
+    "blocking": 1,
+    "remake": 1,
+    "bird": 1,
+    "pizza": 1,
+    "lamb": 1,
+    "reverses": 1,
+    "goat": 1,
+    "yeeehawwwwwww": 1,
+    "susnt": 1,
+    "shhhhhhhhhh": 1,
+    "quiet": 1,
+    "chop": 1,
+    "thousnad": 1,
+    "tall": 1,
+    "chillin": 1,
+    "sssssshhhhhhhhh": 1,
+    "erase": 1,
+    "neeeeeeeeeerds": 1,
+    "500m": 1,
+    "changes": 1,
+    "sniper": 1,
+    "scares": 1,
+    "dimented": 1,
+    "powerful": 1,
+    "artillery": 1,
+    "snipable": 1,
+    "piloted": 1,
+    "equal": 1,
+    "worthwhile": 1,
+    "boooooooooooooom": 1,
+    "titans": 1,
+    "chew": 1,
+    "blocked": 1,
+    "bois": 1,
+    "frikin": 1,
+    "doubters": 1,
+    "reports": 1,
+    "352059": 1,
+    "employee": 1,
+    "denial": 1,
+    "outlive": 1,
+    "guaranteed": 1,
+    "unhealthy": 1,
+    "lifestyle": 1,
+    "ih": 1,
+    "ave": 1,
+    "pushed": 1,
+    "spires": 1,
+    "emp": 1,
+    "guadin": 1,
+    "yeeeeehaw": 1,
+    "sommmmmmmmethiiiing": 1,
+    "poles": 1,
+    "pole": 1,
+    "dancing": 1,
+    "mr": 1,
+    "shithead": 1,
+    "muty": 1,
+    "beauty": 1,
+    "snaaaaaaaaaap": 1,
+    "universe": 1,
+    "ero": 1,
+    "straters": 1,
+    "tht": 1,
+    "200": 1,
+    "download": 1,
+    "400": 1,
+    "packet": 1,
+    "unmeasurable": 1,
+    "plugs": 1,
+    "enuff": 1,
+    "eq": 1,
+    "crashed": 1,
+    "unplayable": 1,
+    "bas": 1,
+    "assetsm": 1,
+    "birthday": 1,
+    "surfing": 1,
+    "mega": 1,
+    "workin": 1,
+    "switched": 1,
+    "oclock": 1,
+    "ahhhhhhhhhhhhhhhh": 1,
+    "choices": 1,
+    "ggs": 1,
+    "everyones": 1,
+    "asleep": 1,
+    "bully": 1,
+    "redacted": 1,
+    "buildings": 1,
+    "wired": 1,
+    "demolition": 1,
+    "explosives": 1,
+    "building": 1,
+    "looser": 1,
+    "xhom": 1,
+    "jus6t5": 1,
+    "srt": 1,
+    "alarm": 1,
+    "illegal": 1,
+    "alien": 1,
+    "tryin": 1,
+    "teach": 1,
+    "sohm": 1,
+    "anygood": 1,
+    "steamos": 1,
+    "release": 1,
+    "linux": 1,
+    "operating": 1,
+    "base": 1,
+    "draws": 1,
+    "jessie": 1,
+    "care": 1,
+    "bloated": 1,
+    "sofware": 1,
+    "ons": 1,
+    "email": 1,
+    "pays": 1,
+    "heres": 1,
+    "buya": 1,
+    "browsers": 1,
+    "libre": 1,
+    "hablo": 1,
+    "poquito": 1,
+    "windows": 1,
+    "liked": 1,
+    "organization": 1,
+    "mafia": 1,
+    "inocent": 1,
+    "takeover": 1,
+    "jan": 1,
+    "20th": 1,
+    "sexually": 1,
+    "oriented": 1,
+    "disease": 1,
+    "false": 1,
+    "part": 1,
+    "machine": 1,
+    "oprah": 1,
+    "view": 1,
+    "ambassador": 1,
+    "domestic": 1,
+    "debator": 1,
+    "democrats": 1,
+    "bear": 1,
+    "arms": 1,
+    "kamalas": 1,
+    "past": 1,
+    "christians": 1,
+    "voted": 1,
+    "narrow": 1,
+    "allow": 1,
+    "obstain": 1,
+    "victim": 1,
+    "income": 1,
+    "pure": 1,
+    "crapola": 1,
+    "humor": 1,
+    "moking": 1,
+    "joke": 1,
+    "comedy": 1,
+    "jokes": 1,
+    "stick": 1,
+    "nothin": 1,
+    "resources": 1,
+    "seem": 1,
+    "verifeid": 1,
+    "developement": 1,
+    "shiit": 1,
+    "unban": 1,
+    "confused": 1,
+    "stocks": 1,
+    "reflect": 1,
+    "spook": 1,
+    "police": 1,
+    "raid": 1,
+    "pensioner": 1,
+    "drag": 1,
+    "court": 1,
+    "retweets": 1,
+    "calling": 1,
+    "minister": 1,
+    "forwaeded": 1,
+    "rude": 1,
+    "tweet": 1,
+    "canada": 1,
+    "zealand": 1,
+    "h5n1": 1,
+    "pox": 1,
+    "satan": 1,
+    "beyond": 1,
+    "voting": 1,
+    "acts": 1,
+    "noooooooooooooooooooooooooooooo": 1,
+    "nose": 1,
+    "planting": 1,
+    "fake": 1,
+    "meet": 1,
+    "gj": 1,
+    "charge": 1,
+    "sour": 1,
+    "wading": 1,
+    "rowing": 1,
+    "bong": 1,
+    "tuff": 1,
+    "far": 1,
+    "songs": 1,
+    "short": 1,
+    "shock": 1,
+    "absorber": 1,
+    "suspension": 1,
+    "springs": 1,
+    "nerd": 1,
+    "proves": 1,
+    "important": 1,
+    "conflict": 1,
+    "succeptable": 1,
+    "damaged": 1,
+    "ways": 1,
+    "shedule": 1,
+    "babies": 1,
+    "definition": 1,
+    "report": 1,
+    "accurate": 1,
+    "happenned": 1,
+    "members": 1,
+    "available": 1,
+    "wnat": 1,
+    "pick": 1,
+    "litle": 1,
+    "likes": 1,
+    "lesser": 1,
+    "evils": 1,
+    "spent": 1,
+    "researching": 1,
+    "injured": 1,
+    "suppose": 1,
+    "whast": 1,
+    "adverserial": 1,
+    "questions": 1,
+    "tested": 1,
+    "lab": 1,
+    "animals": 1,
+    "search": 1,
+    "engine": 1,
+    "shorter": 1,
+    "shopping": 1,
+    "socialize": 1,
+    "hermit": 1,
+    "industry": 1,
+    "worried": 1,
+    "throughout": 1,
+    "millon": 1,
+    "chinle": 1,
+    "navajo": 1,
+    "lmao": 1,
+    "aware": 1,
+    "treated": 1,
+    "natives": 1,
+    "sved": 1,
+    "hydroxychloroquin": 1,
+    "looked": 1,
+    "surpressed": 1,
+    "average": 1,
+    "thef": 1,
+    "lu": 1,
+    "flu": 1,
+    "studies": 1,
+    "fecal": 1,
+    "transplants": 1,
+    "balanced": 1,
+    "group": 1,
+    "fpeople": 1,
+    "background": 1,
+    "status": 1,
+    "110": 1,
+    "unny": 1,
+    "erased": 1,
+    "plant": 1,
+    "source": 1,
+    "medicine": 1,
+    "surperessed": 1,
+    "marijuana": 1,
+    "commonly": 1,
+    "used": 1,
+    "south": 1,
+    "america": 1,
+    "espevially": 1,
+    "peru": 1,
+    "pesticides": 1,
+    "eggs": 1,
+    "tests": 1,
+    "labcor": 1,
+    "sad": 1,
+    "doctor": 1,
+    "dotnt": 1,
+    "learned": 1,
+    "1980s": 1,
+    "shocked": 1,
+    "margarine": 1,
+    "quietly": 1,
+    "psa": 1,
+    "colonoscopy": 1,
+    "wifes": 1,
+    "indian": 1,
+    "regualr": 1,
+    "emplyed": 1,
+    "farmer": 1,
+    "crops": 1,
+    "tetanus": 1,
+    "lamy": 1,
+    "puppets": 1,
+    "jobb": 1,
+    "bus": 1,
+    "probbly": 1,
+    "file": 1,
+    "reson": 1,
+    "madical": 1,
+    "billsm": 1,
+    "insudrance": 1,
+    "probably": 1,
+    "saved": 1,
+    "indurance": 1,
+    "woud": 1,
+    "scariest": 1,
+    "reagon": 1,
+    "fix": 1,
+    "hsa": 1,
+    "fault": 1,
+    "dupports": 1,
+    "department": 1,
+    "stores": 1,
+    "farmers": 1,
+    "ehem": 1,
+    "blew": 1,
+    "russian": 1,
+    "pipe": 1,
+    "factories": 1,
+    "destroyed": 1,
+    "germanies": 1,
+    "clueless": 1,
+    "parked": 1,
+    "explosions": 1,
+    "site": 1,
+    "explosion": 1,
+    "russians": 1,
+    "reportes": 1,
+    "seeing": 1,
+    "divers": 1,
+    "nato": 1,
+    "fighting": 1,
+    "asses": 1,
+    "nuclear": 1,
+    "interest": 1,
+    "nuts": 1,
+    "ukrainian": 1,
+    "obama": 1,
+    "impressed": 1,
+    "dalio": 1,
+    "ggaaaaaaaaaame": 1,
+    "mountain": 1,
+    "east": 1,
+    "coast": 1,
+    "smh": 1,
+    "chairs": 1,
+    "fixed": 1,
+    "soup": 1,
+    "hawaii": 1,
+    "haahahaha": 1,
+    "gaames": 1,
+    "channel": 1,
+    "coward": 1,
+    "wears": 1,
+    "army": 1,
+    "boots": 1,
+    "slaves": 1,
+    "china": 1,
+    "credits": 1,
+    "shop": 1,
+    "lift": 1,
+    "protest": 1,
+    "longer": 1,
+    "transportation": 1,
+    "control": 1,
+    "worship": 1,
+    "borrowed": 1,
+    "rent": 1,
+    "apartment": 1,
+    "sore": 1,
+    "large": 1,
+    "appt": 1,
+    "condo": 1,
+    "homes": 1,
+    "parks": 1,
+    "basement": 1,
+    "poeple": 1,
+    "dumpster": 1,
+    "crime": 1,
+    "homeless": 1,
+    "repos": 1,
+    "behind": 1,
+    "property": 1,
+    "gona": 1,
+    "worse": 1,
+    "learn": 1,
+    "everyhting": 1,
+    "schools": 1,
+    "wash": 1,
+    "learning": 1,
+    "taught": 1,
+    "phd": 1,
+    "realize": 1,
+    "mort": 1,
+    "dig": 1,
+    "seveal": 1,
+    "weekend": 1,
+    "twits": 1,
+    "gdm": 1,
+    "380": 1,
+    "ban": 1,
+    "ko": 1,
+    "fill": 1,
+    "truck": 1,
+    "rustyguns": 1,
+    "quiers": 1,
+    "600": 1,
+    "odds": 1,
+    "lightning": 1,
+    "million": 1,
+    "colleges": 1,
+    "require": 1,
+    "infection": 1,
+    "injury": 1,
+    "blow": 1,
+    "lawsuits": 1,
+    "hater": 1,
+    "repeating": 1,
+    "nightly": 1,
+    "answers": 1,
+    "catatrophe": 1,
+    "protect": 1,
+    "versions": 1,
+    "provide": 1,
+    "temporary": 1,
+    "immunity": 1,
+    "35": 1,
+    "strains": 1,
+    "unfortunately": 1,
+    "protection": 1,
+    "developed": 1,
+    "responsible": 1,
+    "half": 1,
+    "infections": 1,
+    "adults": 1,
+    "70": 1,
+    "2016": 1,
+    "approved": 1,
+    "intended": 1,
+    "produce": 1,
+    "limited": 1,
+    "effectiveness": 1,
+    "observed": 1,
+    "practical": 1,
+    "applications": 1,
+    "patients": 1,
+    "failing": 1,
+    "develop": 1,
+    "particular": 1,
+    "bacteria": 1,
+    "following": 1,
+    "experts": 1,
+    "chronically": 1,
+    "underreported": 1,
+    "likely": 1,
+    "represent": 1,
+    "anywhere": 1,
+    "occur": 1,
+    "nationwide": 1,
+    "associated": 1,
+    "roughly": 1,
+    "comparison": 1,
+    "cdc": 1,
+    "550": 1,
+    "2013": 1,
+    "fatal": 1,
+    "825": 1,
+    "benefits": 1,
+    "outweigh": 1,
+    "risks": 1,
+    "meningococcal": 1,
+    "princess": 1,
+    "hang": 1,
+    "natzi": 1,
+    "doa": 1,
+    "prefer": 1,
+    "hehe": 1,
+    "stil": 1,
+    "derridied": 1,
+    "joing": 1,
+    "freeses": 1,
+    "progress": 1,
+    "sownloads": 1,
+    "sits": 1,
+    "packets": 1,
+    "bluuuuuuuu": 1,
+    "faaaaaaaaaaaaart": 1,
+    "tabbers": 1,
+    "v4": 1,
+    "sooner": 1,
+    "total": 1,
+    "bs": 1,
+    "balls": 1,
+    "pussies": 1,
+    "830": 1,
+    "wifeys": 1,
+    "commodore": 1,
+    "64": 1,
+    "ruled": 1,
+    "eeeeeeeeeuuuuuuuuuuu": 1,
+    "round": 1,
+    "asked": 1,
+    "tree": 1,
+    "thiiink": 1,
+    "squirrels": 1,
+    "sheeeeeeeeet": 1,
+    "santa": 1,
+    "sqm": 1,
+    "xmas": 1,
+    "clan": 1,
+    "everythings": 1,
+    "kiked": 1,
+    "friends": 1,
+    "buddy": 1,
+    "moddin": 1,
+    "65": 1,
+    "installed": 1,
+    "clean": 1,
+    "shirt": 1,
+    "places": 1,
+    "san": 1,
+    "heaven": 1,
+    "bless": 1,
+    "forgive": 1,
+    "sinners": 1,
+    "ivermectin": 1,
+    "baloney": 1,
+    "stupidity": 1,
+    "throw": 1,
+    "boys": 1,
+    "boss": 1,
+    "thug": 1,
+    "thre": 1,
+    "thingy": 1,
+    "update2": 1,
+    "service": 1,
+    "bay": 1,
+    "arm": 1,
+    "smog": 1,
+    "glasses": 1,
+    "core": 1,
+    "i5": 1,
+    "cpu": 1,
+    "bullet": 1,
+    "pentium": 1,
+    "aaaaaaaaaaaaaaaaaah": 1,
+    "wooorrmmss": 1,
+    "worms": 1,
+    "pad": 1,
+    "dano": 1,
+    "echos": 1,
+    "uses": 1,
+    "motar": 1,
+    "bikes": 1,
+    "plastic": 1,
+    "legos": 1,
+    "figure": 1,
+    "hhhoooossstttteeeeddd": 1,
+    "banana": 1,
+    "bread": 1,
+    "med": 1,
+    "vids": 1,
+    "book": 1,
+    "despraaaaaaaaaa": 1,
+    "tiiiiiiiiiiime": 1,
+    "master": 1,
+    "florist": 1,
+    "flower": 1,
+    "fags": 1,
+    "homo": 1,
+    "dream": 1,
+    "beeped": 1,
+    "410": 1,
+    "top": 1,
+    "retire": 1,
+    "healthy": 1,
+    "salmon": 1,
+    "pleasure": 1,
+    "bears": 1,
+    "dued": 1,
+    "blah": 1,
+    "dragon": 1,
+    "sheep": 1,
+    "bricks": 1,
+    "ztill": 1,
+    "calidating": 1,
+    "194": 1,
+    "lucj": 1,
+    "geting": 1,
+    "bes": 1,
+    "paatch": 1,
+    "participation": 1,
+    "quier": 1,
+    "hosty": 1,
+    "toasty": 1,
+    "aaaaaaaaaaaaaaaaaaaate": 1,
+    "reason": 1,
+    "strategy": 1,
+    "tutor": 1,
+    "abe": 1,
+    "hacked": 1,
+    "ahhhhhhhhhhhhhhhhhhhhhhhhh": 1,
+    "4v4": 1,
+    "ggaaaaaaaaaaaaaaaaaaaaaaaaaaaame": 1,
+    "notplayin": 1,
+    "thry": 1,
+    "weirdos": 1,
+    "ccrraasshh": 1,
+    "bend": 1,
+    "flour": 1,
+    "wazuup": 1,
+    "nooooooooooo": 1,
+    "calif": 1,
+    "grandson": 1,
+    "2c2": 1,
+    "convos": 1,
+    "normal": 1,
+    "whiner": 1,
+    "paid": 1,
+    "hated": 1,
+    "awfully": 1,
+    "judgemental": 1,
+    "bot": 1,
+    "sheeiit": 1,
+    "nooooooooo": 1,
+    "aaaaaaaaaaaagh": 1,
+    "hoooooooooosts": 1,
+    "jump": 1,
+    "somewheeere": 1,
+    "rainbow": 1,
+    "peeeeeople": 1,
+    "nooooooooooooooooooooooooo": 1,
+    "ahhhhhhhhhhhhhhh": 1,
+    "bow": 1,
+    "iwant": 1,
+    "ball": 1,
+    "empty": 1,
+    "worky": 1,
+    "fights": 1,
+    "coulfnt": 1,
+    "rush": 1,
+    "rec": 1,
+    "sniping": 1,
+    "liven": 1,
+    "msl": 1,
+    "whoever": 1,
+    "gets": 1,
+    "winner": 1,
+    "spoken": 1,
+    "v1": 1,
+    "fkrs": 1,
+    "daytona": 1,
+    "track": 1,
+    "gave": 1,
+    "47th": 1,
+    "president": 1,
+    "friken": 1,
+    "brought": 1,
+    "grandaughter": 1,
+    "nutin": 1,
+    "honey": 1,
+    "changing": 1,
+    "170": 1,
+    "deos": 1,
+    "respond": 1,
+    "getsthedubs": 1,
+    "dammit": 1,
+    "turning": 1,
+    "gamer": 1,
+    "walker": 1,
+    "hedouxs": 1,
+    "lie": 1,
+    "silly": 1,
+    "moron": 1,
+    "tourney": 1,
+    "illusion": 1,
+    "piss": 1,
+    "sitin": 1,
+    "modem": 1,
+    "max": 1,
+    "playing": 1,
+    "stock": 1,
+    "ooooooohgaaaaaaa": 1,
+    "shortage": 1,
+    "sompulsive": 1,
+    "quitter": 1,
+    "sub": 1,
+    "swith": 1,
+    "hoe": 1,
+    "break": 1,
+    "screws": 1,
+    "reacher": 1,
+    "oooooookaaaaaaaaaaaaaay": 1,
+    "lifes": 1,
+    "baxk": 1,
+    "surpise": 1,
+    "busy": 1,
+    "runnung": 1,
+    "surpriseupate2": 1,
+    "palyed": 1,
+    "et": 1,
+    "restrcted": 1,
+    "whatsa": 1,
+    "reno": 1,
+    "bath": 1,
+    "bastid": 1,
+    "looky": 1,
+    "1980": 1,
+    "drama": 1,
+    "moma": 1,
+    "filmed": 1,
+    "uk": 1,
+    "film": 1,
+    "broke": 1,
+    "spawn": 1,
+    "hum": 1,
+    "reminded": 1,
+    "2005": 1,
+    "b2": 1,
+    "tarts": 1,
+    "ealry": 1,
+    "dies": 1,
+    "comin": 1,
+    "defund": 1,
+    "nderstand": 1,
+    "jewed": 1,
+    "hiya": 1,
+    "pricse": 1,
+    "tarriffs": 1,
+    "elitist": 1,
+    "mindset": 1,
+    "asap": 1,
+    "lllllllllllllooooooooooky": 1,
+    "darks": 1,
+    "feelings": 1,
+    "tight": 1,
+    "uktrakill": 1,
+    "default": 1,
+    "igor": 1,
+    "multiplayer": 1,
+    "strats": 1,
+    "playyyed": 1,
+    "mums": 1,
+    "euope": 1,
+    "comunists": 1,
+    "si": 1,
+    "senor": 1,
+    "los": 1,
+    "gaaaaaaaaaaaaaamw": 1,
+    "married": 1,
+    "flintstones": 1,
+    "wake": 1,
+    "poll": 1,
+    "memorial": 1,
+    "nobody": 1,
+    "warmup": 1,
+    "fighters": 1,
+    "exactly": 1,
+    "midnight": 1,
+    "gods": 1,
+    "ca": 1,
+    "leftwing": 1,
+    "quierbate": 1,
+    "shithole": 1,
+    "bzcc": 1,
+    "style": 1,
+    "met": 1,
+    "fork": 1,
+    "matchmaking": 1,
+    "forks": 1,
+    "knives": 1,
+    "ahhhhhhhg": 1,
+    "surpriseupdate2": 1,
+    "identifier": 1,
+    "dual": 1,
+    "sp": 1,
+    "hacks": 1,
+    "whaaaaaaaaaale": 1,
+    "nooo": 1,
+    "outcome": 1,
+    "freakout": 1,
+    "hypercarry": 1,
+    "shoulda": 1,
+    "hada": 1,
+    "rematch": 1,
+    "posts": 1,
+    "13th": 1,
+    "dye": 1,
+    "freeeeee": 1,
+    "cone": 1,
+    "cut": 1,
+    "teaches": 1,
+    "weakling": 1,
+    "hiting": 1,
+    "vivify": 1,
+    "v3": 1,
+    "pinko": 1,
+    "included": 1,
+    "poop": 1,
+    "hail": 1,
+    "picket": 1,
+    "bzr": 1,
+    "tonight": 1,
+    "impressive": 1,
+    "hardest": 1,
+    "setting": 1,
+    "blick": 1,
+    "hover": 1,
+    "domaaaaa": 1,
+    "fear": 1,
+    "x10": 1,
+    "muhahahaha": 1,
+    "ride": 1,
+    "cowboy": 1,
+    "navs": 1,
+    "tornados": 1,
+    "cause": 1,
+    "prevent": 1,
+    "ususally": 1,
+    "pops": 1,
+    "befroe": 1,
+    "wet": 1,
+    "floor": 1,
+    "exploded": 1,
+    "duh": 1,
+    "tournament": 1,
     "junkfood": 1,
-    "anymore": 1,
     "youth": 1,
     "wasted": 1,
-    "young": 1,
     "unsub": 1,
     "resub": 1,
-    "pain": 1,
-    "ass": 1,
     "highest": 1,
-    "scrap": 1,
-    "cheat": 1,
-    "insane": 1,
-    "sounds": 1,
-    "ima": 1,
-    "commander": 1,
     "gaaaaames": 1,
     "hahahahah": 1,
     "naranja": 1,
     "dios": 1
   },
   "phrases": {
-    "game up": 5,
-    "the world": 3,
-    "rid of": 3,
-    "10 10": 3,
-    "go go": 5,
-    "go go go": 3,
-    "good host": 3
+    "game up": 32,
+    "strat game": 3,
+    "you want": 6,
+    "kill em": 6,
+    "em all": 6,
+    "kill em all": 6,
+    "the world": 10,
+    "the server": 10,
+    "look at": 4,
+    "in texas": 4,
+    "in bz1": 3,
+    "use to": 6,
+    "to shoot": 3,
+    "we won": 3,
+    "uno mas": 10,
+    "in bz2": 3,
+    "oh yeah": 5,
+    "hey dark": 4,
+    "the money": 4,
+    "rid of": 5,
+    "10 10": 7,
+    "are good": 4,
+    "good for": 3,
+    "blu is": 4,
+    "gg guys": 3,
+    "game is": 9,
+    "to go": 3,
+    "walk the": 3,
+    "the dog": 4,
+    "walk the dog": 3,
+    "come back": 5,
+    "back in": 5,
+    "rules the": 8,
+    "rules the world": 7,
+    "covid vaccine": 3,
+    "locked out": 3,
+    "freedom of": 3,
+    "of speech": 3,
+    "freedom of speech": 3,
+    "missed it": 7,
+    "game time": 6,
+    "go back": 4,
+    "get back": 3,
+    "guys are": 6,
+    "only knows": 3,
+    "watch the": 3,
+    "the matrix": 3,
+    "the blue": 3,
+    "went poof": 4,
+    "go go": 8,
+    "go go go": 5,
+    "give me": 3,
+    "as much": 4,
+    "ya gud": 9,
+    "gud beer": 7,
+    "ya gud beer": 6,
+    "host it": 16,
+    "host it up": 14,
+    "no idea": 3,
+    "good host": 5,
+    "game was": 3,
+    "go to": 7,
+    "isa good": 4,
+    "up vt": 4,
+    "it up vt": 3,
+    "host it up vt": 3,
+    "good game": 5,
+    "ur mind": 3,
+    "bang bang": 4,
+    "bang ur": 3,
+    "ur dead": 5,
+    "bang bang ur": 3,
+    "bang ur dead": 3,
+    "bang bang ur dead": 3,
+    "mpi time": 3,
+    "locked at": 7,
+    "need one": 11,
+    "one more": 15,
+    "need one more": 11,
+    "up 10": 4,
+    "game up 10": 4,
+    "to work": 5,
+    "to load": 5,
+    "every spring": 3,
+    "the game": 25,
+    "the game is": 3,
+    "no one": 7,
+    "10 join": 7,
+    "join up": 4,
+    "10 join up": 3,
+    "join in": 11,
+    "game game": 4,
+    "game game game": 3,
+    "hey lumi": 3,
+    "all vs": 4,
+    "vs vt": 3,
+    "all vs vt": 3,
+    "sounds like": 3,
+    "one day": 3,
+    "guys quit": 3,
+    "that game": 5,
+    "game lol": 3,
+    "you guys": 13,
+    "lot of": 4,
+    "to join": 4,
+    "the games": 3,
+    "the heck": 3,
+    "try to": 4,
+    "to host": 7,
+    "dont think": 3,
+    "going to": 4,
+    "join the": 5,
+    "join the server": 3,
+    "is pretty": 3,
+    "pretty good": 3,
+    "monday blues": 3,
+    "to game": 4,
+    "ok you": 3,
+    "have fun": 3,
+    "is locked": 3,
+    "want to": 8,
+    "you want to": 4,
+    "new york": 3,
+    "in one": 3,
+    "host up": 4,
+    "strat games": 3,
+    "get ur": 5,
+    "ur shot": 5,
+    "get ur shot": 5,
+    "cant join": 3,
+    "wrong version": 4,
+    "guys doin": 3,
+    "this game": 4,
+    "im back": 3,
+    "no good": 3,
+    "open open": 4,
+    "host game": 3,
+    "can host": 4,
+    "you go": 3,
+    "vsr mpi": 5,
+    "15 20": 4,
+    "just one": 3,
+    "is red": 3,
+    "red spot": 3,
+    "video card": 3,
+    "you guys are": 3,
+    "went to": 3,
+    "hey xohm": 3,
+    "in the game": 4,
+    "vt vt": 3,
+    "one one": 3,
+    "games in": 3,
+    "you ever": 4,
+    "open up": 4,
+    "open up the": 4,
+    "eat shit": 3,
+    "shit and": 3,
+    "and die": 4,
+    "eat shit and": 3,
+    "shit and die": 3,
+    "eat shit and die": 3,
+    "bet that": 4,
+    "xohm host": 3,
+    "na na": 3,
+    "the beta": 3,
+    "how many": 5,
+    "toto t2": 3,
+    "are going": 3,
+    "to leave": 3,
+    "are going to": 3,
+    "is good": 5,
+    "fk fk": 3,
+    "tell em": 3,
+    "back to": 6,
+    "the hell": 3,
+    "back in the": 3,
+    "impossible mpi": 3,
+    "ignorance is": 3,
+    "the code": 3,
+    "go back to": 3,
+    "bz1 games": 3,
+    "think about": 3,
+    "think about it": 3,
+    "years ago": 4,
+    "health insurance": 3,
+    "in usa": 3,
+    "credit score": 3,
+    "vaccine injuries": 3,
+    "the meningitis": 3,
+    "meningitis vaccination": 3,
+    "percent of": 4,
+    "the meningitis vaccination": 3,
+    "adverse events": 3,
+    "reported to": 3,
+    "to vaers": 3,
+    "ten percent": 3,
+    "reported to vaers": 3,
+    "ten percent of": 3,
+    "merry christmas": 3
   },
   "timeline": {
     "daily": [
@@ -650,12 +3036,28 @@
         "count": 1
       },
       {
+        "date": "2023-08-13",
+        "count": 2
+      },
+      {
         "date": "2023-08-23",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2023-08-25",
-        "count": 1
+        "count": 3
+      },
+      {
+        "date": "2023-08-29",
+        "count": 2
+      },
+      {
+        "date": "2023-08-31",
+        "count": 4
+      },
+      {
+        "date": "2023-09-01",
+        "count": 9
       },
       {
         "date": "2023-09-03",
@@ -663,14 +3065,26 @@
       },
       {
         "date": "2023-09-09",
-        "count": 1
+        "count": 2
+      },
+      {
+        "date": "2023-09-10",
+        "count": 2
       },
       {
         "date": "2023-09-11",
-        "count": 1
+        "count": 4
       },
       {
         "date": "2023-09-23",
+        "count": 1
+      },
+      {
+        "date": "2023-10-12",
+        "count": 2
+      },
+      {
+        "date": "2023-10-31",
         "count": 1
       },
       {
@@ -678,51 +3092,1367 @@
         "count": 1
       },
       {
+        "date": "2023-11-08",
+        "count": 2
+      },
+      {
+        "date": "2023-11-10",
+        "count": 4
+      },
+      {
+        "date": "2023-11-15",
+        "count": 1
+      },
+      {
+        "date": "2023-11-19",
+        "count": 1
+      },
+      {
+        "date": "2023-11-20",
+        "count": 2
+      },
+      {
+        "date": "2023-11-26",
+        "count": 2
+      },
+      {
+        "date": "2023-11-27",
+        "count": 2
+      },
+      {
+        "date": "2023-11-28",
+        "count": 12
+      },
+      {
+        "date": "2023-11-30",
+        "count": 2
+      },
+      {
+        "date": "2023-12-01",
+        "count": 2
+      },
+      {
+        "date": "2023-12-19",
+        "count": 3
+      },
+      {
+        "date": "2023-12-25",
+        "count": 2
+      },
+      {
+        "date": "2024-01-02",
+        "count": 1
+      },
+      {
         "date": "2024-02-01",
+        "count": 5
+      },
+      {
+        "date": "2024-02-02",
+        "count": 7
+      },
+      {
+        "date": "2024-02-03",
+        "count": 13
+      },
+      {
+        "date": "2024-02-04",
+        "count": 4
+      },
+      {
+        "date": "2024-02-05",
+        "count": 1
+      },
+      {
+        "date": "2024-02-06",
+        "count": 8
+      },
+      {
+        "date": "2024-02-07",
+        "count": 1
+      },
+      {
+        "date": "2024-02-13",
+        "count": 1
+      },
+      {
+        "date": "2024-02-14",
+        "count": 2
+      },
+      {
+        "date": "2024-02-16",
+        "count": 2
+      },
+      {
+        "date": "2024-02-19",
+        "count": 8
+      },
+      {
+        "date": "2024-02-20",
+        "count": 1
+      },
+      {
+        "date": "2024-03-02",
+        "count": 1
+      },
+      {
+        "date": "2024-03-03",
+        "count": 6
+      },
+      {
+        "date": "2024-03-04",
+        "count": 5
+      },
+      {
+        "date": "2024-03-06",
+        "count": 2
+      },
+      {
+        "date": "2024-03-07",
+        "count": 4
+      },
+      {
+        "date": "2024-03-08",
+        "count": 1
+      },
+      {
+        "date": "2024-03-09",
+        "count": 1
+      },
+      {
+        "date": "2024-03-10",
+        "count": 2
+      },
+      {
+        "date": "2024-03-12",
+        "count": 1
+      },
+      {
+        "date": "2024-03-15",
+        "count": 15
+      },
+      {
+        "date": "2024-03-16",
+        "count": 5
+      },
+      {
+        "date": "2024-03-19",
         "count": 1
       },
       {
         "date": "2024-03-24",
+        "count": 3
+      },
+      {
+        "date": "2024-03-29",
+        "count": 29
+      },
+      {
+        "date": "2024-03-30",
+        "count": 2
+      },
+      {
+        "date": "2024-03-31",
+        "count": 1
+      },
+      {
+        "date": "2024-04-10",
+        "count": 1
+      },
+      {
+        "date": "2024-04-13",
+        "count": 1
+      },
+      {
+        "date": "2024-04-14",
+        "count": 1
+      },
+      {
+        "date": "2024-04-16",
+        "count": 1
+      },
+      {
+        "date": "2024-04-19",
+        "count": 1
+      },
+      {
+        "date": "2024-04-20",
+        "count": 2
+      },
+      {
+        "date": "2024-04-23",
         "count": 1
       },
       {
         "date": "2024-04-26",
+        "count": 5
+      },
+      {
+        "date": "2024-04-27",
         "count": 1
       },
       {
-        "date": "2024-07-28",
+        "date": "2024-04-28",
+        "count": 2
+      },
+      {
+        "date": "2024-04-29",
         "count": 1
       },
       {
-        "date": "2024-10-26",
+        "date": "2024-05-01",
+        "count": 2
+      },
+      {
+        "date": "2024-05-03",
+        "count": 1
+      },
+      {
+        "date": "2024-05-07",
+        "count": 2
+      },
+      {
+        "date": "2024-05-10",
+        "count": 1
+      },
+      {
+        "date": "2024-05-13",
+        "count": 5
+      },
+      {
+        "date": "2024-05-14",
+        "count": 1
+      },
+      {
+        "date": "2024-05-15",
+        "count": 1
+      },
+      {
+        "date": "2024-05-19",
+        "count": 2
+      },
+      {
+        "date": "2024-05-20",
         "count": 3
       },
       {
-        "date": "2024-10-31",
+        "date": "2024-05-23",
+        "count": 5
+      },
+      {
+        "date": "2024-05-25",
+        "count": 3
+      },
+      {
+        "date": "2024-05-26",
+        "count": 3
+      },
+      {
+        "date": "2024-05-27",
+        "count": 3
+      },
+      {
+        "date": "2024-05-28",
+        "count": 6
+      },
+      {
+        "date": "2024-05-29",
         "count": 1
       },
       {
-        "date": "2024-11-29",
+        "date": "2024-05-30",
+        "count": 1
+      },
+      {
+        "date": "2024-05-31",
+        "count": 3
+      },
+      {
+        "date": "2024-06-01",
         "count": 2
       },
       {
-        "date": "2024-12-08",
+        "date": "2024-06-03",
         "count": 1
       },
       {
-        "date": "2025-01-10",
+        "date": "2024-06-05",
+        "count": 1
+      },
+      {
+        "date": "2024-06-06",
+        "count": 3
+      },
+      {
+        "date": "2024-06-07",
+        "count": 21
+      },
+      {
+        "date": "2024-06-08",
+        "count": 2
+      },
+      {
+        "date": "2024-06-09",
+        "count": 8
+      },
+      {
+        "date": "2024-06-10",
+        "count": 1
+      },
+      {
+        "date": "2024-06-11",
+        "count": 5
+      },
+      {
+        "date": "2024-06-12",
+        "count": 10
+      },
+      {
+        "date": "2024-06-15",
+        "count": 2
+      },
+      {
+        "date": "2024-06-16",
+        "count": 8
+      },
+      {
+        "date": "2024-06-17",
+        "count": 5
+      },
+      {
+        "date": "2024-06-19",
         "count": 4
       },
       {
-        "date": "2025-01-30",
-        "count": 1
+        "date": "2024-06-22",
+        "count": 11
       },
       {
-        "date": "2025-02-19",
+        "date": "2024-06-23",
+        "count": 8
+      },
+      {
+        "date": "2024-06-24",
+        "count": 5
+      },
+      {
+        "date": "2024-06-25",
+        "count": 3
+      },
+      {
+        "date": "2024-06-26",
+        "count": 6
+      },
+      {
+        "date": "2024-06-28",
+        "count": 5
+      },
+      {
+        "date": "2024-06-29",
+        "count": 9
+      },
+      {
+        "date": "2024-07-02",
+        "count": 7
+      },
+      {
+        "date": "2024-07-03",
+        "count": 4
+      },
+      {
+        "date": "2024-07-04",
+        "count": 15
+      },
+      {
+        "date": "2024-07-05",
+        "count": 11
+      },
+      {
+        "date": "2024-07-06",
         "count": 2
       },
       {
+        "date": "2024-07-07",
+        "count": 2
+      },
+      {
+        "date": "2024-07-08",
+        "count": 4
+      },
+      {
+        "date": "2024-07-09",
+        "count": 4
+      },
+      {
+        "date": "2024-07-11",
+        "count": 3
+      },
+      {
+        "date": "2024-07-12",
+        "count": 7
+      },
+      {
+        "date": "2024-07-13",
+        "count": 17
+      },
+      {
+        "date": "2024-07-14",
+        "count": 13
+      },
+      {
+        "date": "2024-07-15",
+        "count": 8
+      },
+      {
+        "date": "2024-07-16",
+        "count": 4
+      },
+      {
+        "date": "2024-07-17",
+        "count": 3
+      },
+      {
+        "date": "2024-07-18",
+        "count": 1
+      },
+      {
+        "date": "2024-07-19",
+        "count": 2
+      },
+      {
+        "date": "2024-07-20",
+        "count": 6
+      },
+      {
+        "date": "2024-07-21",
+        "count": 2
+      },
+      {
+        "date": "2024-07-23",
+        "count": 8
+      },
+      {
+        "date": "2024-07-24",
+        "count": 3
+      },
+      {
+        "date": "2024-07-25",
+        "count": 19
+      },
+      {
+        "date": "2024-07-26",
+        "count": 13
+      },
+      {
+        "date": "2024-07-27",
+        "count": 8
+      },
+      {
+        "date": "2024-07-28",
+        "count": 10
+      },
+      {
+        "date": "2024-07-29",
+        "count": 3
+      },
+      {
+        "date": "2024-07-30",
+        "count": 1
+      },
+      {
+        "date": "2024-08-01",
+        "count": 1
+      },
+      {
+        "date": "2024-08-02",
+        "count": 20
+      },
+      {
+        "date": "2024-08-03",
+        "count": 10
+      },
+      {
+        "date": "2024-08-04",
+        "count": 13
+      },
+      {
+        "date": "2024-08-05",
+        "count": 11
+      },
+      {
+        "date": "2024-08-06",
+        "count": 4
+      },
+      {
+        "date": "2024-08-07",
+        "count": 6
+      },
+      {
+        "date": "2024-08-08",
+        "count": 13
+      },
+      {
+        "date": "2024-08-09",
+        "count": 11
+      },
+      {
+        "date": "2024-08-10",
+        "count": 3
+      },
+      {
+        "date": "2024-08-11",
+        "count": 3
+      },
+      {
+        "date": "2024-08-12",
+        "count": 7
+      },
+      {
+        "date": "2024-08-13",
+        "count": 15
+      },
+      {
+        "date": "2024-08-14",
+        "count": 7
+      },
+      {
+        "date": "2024-08-15",
+        "count": 15
+      },
+      {
+        "date": "2024-08-16",
+        "count": 12
+      },
+      {
+        "date": "2024-08-17",
+        "count": 12
+      },
+      {
+        "date": "2024-08-18",
+        "count": 20
+      },
+      {
+        "date": "2024-08-19",
+        "count": 11
+      },
+      {
+        "date": "2024-08-20",
+        "count": 6
+      },
+      {
+        "date": "2024-08-21",
+        "count": 4
+      },
+      {
+        "date": "2024-08-22",
+        "count": 14
+      },
+      {
+        "date": "2024-08-23",
+        "count": 2
+      },
+      {
+        "date": "2024-08-24",
+        "count": 7
+      },
+      {
+        "date": "2024-08-25",
+        "count": 9
+      },
+      {
+        "date": "2024-08-26",
+        "count": 12
+      },
+      {
+        "date": "2024-08-27",
+        "count": 15
+      },
+      {
+        "date": "2024-08-28",
+        "count": 3
+      },
+      {
+        "date": "2024-08-29",
+        "count": 6
+      },
+      {
+        "date": "2024-08-30",
+        "count": 11
+      },
+      {
+        "date": "2024-08-31",
+        "count": 2
+      },
+      {
+        "date": "2024-09-01",
+        "count": 35
+      },
+      {
+        "date": "2024-09-02",
+        "count": 3
+      },
+      {
+        "date": "2024-09-03",
+        "count": 6
+      },
+      {
+        "date": "2024-09-04",
+        "count": 6
+      },
+      {
+        "date": "2024-09-05",
+        "count": 20
+      },
+      {
+        "date": "2024-09-06",
+        "count": 35
+      },
+      {
+        "date": "2024-09-07",
+        "count": 17
+      },
+      {
+        "date": "2024-09-08",
+        "count": 4
+      },
+      {
+        "date": "2024-09-09",
+        "count": 37
+      },
+      {
+        "date": "2024-09-10",
+        "count": 3
+      },
+      {
+        "date": "2024-09-12",
+        "count": 8
+      },
+      {
+        "date": "2024-09-13",
+        "count": 20
+      },
+      {
+        "date": "2024-09-14",
+        "count": 8
+      },
+      {
+        "date": "2024-09-15",
+        "count": 25
+      },
+      {
+        "date": "2024-09-16",
+        "count": 8
+      },
+      {
+        "date": "2024-09-17",
+        "count": 4
+      },
+      {
+        "date": "2024-09-18",
+        "count": 14
+      },
+      {
+        "date": "2024-09-19",
+        "count": 5
+      },
+      {
+        "date": "2024-09-20",
+        "count": 2
+      },
+      {
+        "date": "2024-09-21",
+        "count": 4
+      },
+      {
+        "date": "2024-09-22",
+        "count": 14
+      },
+      {
+        "date": "2024-09-23",
+        "count": 13
+      },
+      {
+        "date": "2024-09-24",
+        "count": 7
+      },
+      {
+        "date": "2024-09-25",
+        "count": 3
+      },
+      {
+        "date": "2024-09-26",
+        "count": 1
+      },
+      {
+        "date": "2024-09-27",
+        "count": 47
+      },
+      {
+        "date": "2024-09-28",
+        "count": 40
+      },
+      {
+        "date": "2024-09-29",
+        "count": 30
+      },
+      {
+        "date": "2024-09-30",
+        "count": 3
+      },
+      {
+        "date": "2024-10-01",
+        "count": 38
+      },
+      {
+        "date": "2024-10-02",
+        "count": 22
+      },
+      {
+        "date": "2024-10-03",
+        "count": 1
+      },
+      {
+        "date": "2024-10-04",
+        "count": 11
+      },
+      {
+        "date": "2024-10-05",
+        "count": 14
+      },
+      {
+        "date": "2024-10-06",
+        "count": 44
+      },
+      {
+        "date": "2024-10-07",
+        "count": 2
+      },
+      {
+        "date": "2024-10-09",
+        "count": 2
+      },
+      {
+        "date": "2024-10-10",
+        "count": 11
+      },
+      {
+        "date": "2024-10-11",
+        "count": 20
+      },
+      {
+        "date": "2024-10-12",
+        "count": 25
+      },
+      {
+        "date": "2024-10-13",
+        "count": 17
+      },
+      {
+        "date": "2024-10-14",
+        "count": 6
+      },
+      {
+        "date": "2024-10-15",
+        "count": 2
+      },
+      {
+        "date": "2024-10-16",
+        "count": 7
+      },
+      {
+        "date": "2024-10-17",
+        "count": 2
+      },
+      {
+        "date": "2024-10-18",
+        "count": 4
+      },
+      {
+        "date": "2024-10-19",
+        "count": 14
+      },
+      {
+        "date": "2024-10-20",
+        "count": 20
+      },
+      {
+        "date": "2024-10-21",
+        "count": 19
+      },
+      {
+        "date": "2024-10-22",
+        "count": 9
+      },
+      {
+        "date": "2024-10-23",
+        "count": 1
+      },
+      {
+        "date": "2024-10-24",
+        "count": 12
+      },
+      {
+        "date": "2024-10-25",
+        "count": 6
+      },
+      {
+        "date": "2024-10-26",
+        "count": 27
+      },
+      {
+        "date": "2024-10-27",
+        "count": 14
+      },
+      {
+        "date": "2024-10-29",
+        "count": 12
+      },
+      {
+        "date": "2024-10-30",
+        "count": 4
+      },
+      {
+        "date": "2024-10-31",
+        "count": 11
+      },
+      {
+        "date": "2024-11-01",
+        "count": 22
+      },
+      {
+        "date": "2024-11-02",
+        "count": 10
+      },
+      {
+        "date": "2024-11-03",
+        "count": 7
+      },
+      {
+        "date": "2024-11-05",
+        "count": 1
+      },
+      {
+        "date": "2024-11-06",
+        "count": 5
+      },
+      {
+        "date": "2024-11-07",
+        "count": 35
+      },
+      {
+        "date": "2024-11-08",
+        "count": 2
+      },
+      {
+        "date": "2024-11-09",
+        "count": 33
+      },
+      {
+        "date": "2024-11-10",
+        "count": 7
+      },
+      {
+        "date": "2024-11-11",
+        "count": 14
+      },
+      {
+        "date": "2024-11-12",
+        "count": 5
+      },
+      {
+        "date": "2024-11-14",
+        "count": 2
+      },
+      {
+        "date": "2024-11-16",
+        "count": 29
+      },
+      {
+        "date": "2024-11-17",
+        "count": 11
+      },
+      {
+        "date": "2024-11-18",
+        "count": 15
+      },
+      {
+        "date": "2024-11-19",
+        "count": 12
+      },
+      {
+        "date": "2024-11-20",
+        "count": 4
+      },
+      {
+        "date": "2024-11-21",
+        "count": 3
+      },
+      {
+        "date": "2024-11-22",
+        "count": 8
+      },
+      {
+        "date": "2024-11-23",
+        "count": 2
+      },
+      {
+        "date": "2024-11-24",
+        "count": 11
+      },
+      {
+        "date": "2024-11-25",
+        "count": 135
+      },
+      {
+        "date": "2024-11-26",
+        "count": 28
+      },
+      {
+        "date": "2024-11-27",
+        "count": 6
+      },
+      {
+        "date": "2024-11-28",
+        "count": 4
+      },
+      {
+        "date": "2024-11-29",
+        "count": 12
+      },
+      {
+        "date": "2024-11-30",
+        "count": 11
+      },
+      {
+        "date": "2024-12-01",
+        "count": 31
+      },
+      {
+        "date": "2024-12-02",
+        "count": 8
+      },
+      {
+        "date": "2024-12-03",
+        "count": 1
+      },
+      {
+        "date": "2024-12-05",
+        "count": 10
+      },
+      {
+        "date": "2024-12-06",
+        "count": 35
+      },
+      {
+        "date": "2024-12-07",
+        "count": 7
+      },
+      {
+        "date": "2024-12-08",
+        "count": 8
+      },
+      {
+        "date": "2024-12-09",
+        "count": 3
+      },
+      {
+        "date": "2024-12-10",
+        "count": 3
+      },
+      {
+        "date": "2024-12-11",
+        "count": 1
+      },
+      {
+        "date": "2024-12-12",
+        "count": 2
+      },
+      {
+        "date": "2024-12-13",
+        "count": 12
+      },
+      {
+        "date": "2024-12-14",
+        "count": 27
+      },
+      {
+        "date": "2024-12-15",
+        "count": 4
+      },
+      {
+        "date": "2024-12-19",
+        "count": 3
+      },
+      {
+        "date": "2024-12-20",
+        "count": 3
+      },
+      {
+        "date": "2024-12-21",
+        "count": 12
+      },
+      {
+        "date": "2024-12-22",
+        "count": 2
+      },
+      {
+        "date": "2024-12-23",
+        "count": 12
+      },
+      {
+        "date": "2024-12-24",
+        "count": 4
+      },
+      {
+        "date": "2024-12-25",
+        "count": 3
+      },
+      {
+        "date": "2024-12-26",
+        "count": 1
+      },
+      {
+        "date": "2024-12-28",
+        "count": 13
+      },
+      {
+        "date": "2024-12-29",
+        "count": 6
+      },
+      {
+        "date": "2024-12-30",
+        "count": 5
+      },
+      {
+        "date": "2024-12-31",
+        "count": 10
+      },
+      {
+        "date": "2025-01-01",
+        "count": 4
+      },
+      {
+        "date": "2025-01-02",
+        "count": 1
+      },
+      {
+        "date": "2025-01-03",
+        "count": 2
+      },
+      {
+        "date": "2025-01-04",
+        "count": 2
+      },
+      {
+        "date": "2025-01-05",
+        "count": 21
+      },
+      {
+        "date": "2025-01-06",
+        "count": 6
+      },
+      {
+        "date": "2025-01-07",
+        "count": 4
+      },
+      {
+        "date": "2025-01-08",
+        "count": 1
+      },
+      {
+        "date": "2025-01-09",
+        "count": 7
+      },
+      {
+        "date": "2025-01-10",
+        "count": 12
+      },
+      {
+        "date": "2025-01-11",
+        "count": 9
+      },
+      {
+        "date": "2025-01-12",
+        "count": 4
+      },
+      {
+        "date": "2025-01-13",
+        "count": 3
+      },
+      {
+        "date": "2025-01-14",
+        "count": 17
+      },
+      {
+        "date": "2025-01-15",
+        "count": 2
+      },
+      {
+        "date": "2025-01-16",
+        "count": 7
+      },
+      {
+        "date": "2025-01-17",
+        "count": 1
+      },
+      {
+        "date": "2025-01-18",
+        "count": 14
+      },
+      {
+        "date": "2025-01-19",
+        "count": 28
+      },
+      {
+        "date": "2025-01-20",
+        "count": 3
+      },
+      {
+        "date": "2025-01-21",
+        "count": 8
+      },
+      {
+        "date": "2025-01-22",
+        "count": 3
+      },
+      {
+        "date": "2025-01-23",
+        "count": 5
+      },
+      {
+        "date": "2025-01-24",
+        "count": 1
+      },
+      {
+        "date": "2025-01-25",
+        "count": 6
+      },
+      {
+        "date": "2025-01-27",
+        "count": 1
+      },
+      {
+        "date": "2025-01-29",
+        "count": 3
+      },
+      {
+        "date": "2025-01-30",
+        "count": 4
+      },
+      {
+        "date": "2025-02-02",
+        "count": 2
+      },
+      {
+        "date": "2025-02-03",
+        "count": 1
+      },
+      {
+        "date": "2025-02-04",
+        "count": 2
+      },
+      {
+        "date": "2025-02-06",
+        "count": 10
+      },
+      {
+        "date": "2025-02-07",
+        "count": 13
+      },
+      {
+        "date": "2025-02-08",
+        "count": 6
+      },
+      {
+        "date": "2025-02-10",
+        "count": 6
+      },
+      {
+        "date": "2025-02-11",
+        "count": 6
+      },
+      {
+        "date": "2025-02-12",
+        "count": 1
+      },
+      {
+        "date": "2025-02-13",
+        "count": 16
+      },
+      {
+        "date": "2025-02-14",
+        "count": 20
+      },
+      {
+        "date": "2025-02-15",
+        "count": 18
+      },
+      {
+        "date": "2025-02-16",
+        "count": 9
+      },
+      {
+        "date": "2025-02-17",
+        "count": 1
+      },
+      {
+        "date": "2025-02-18",
+        "count": 5
+      },
+      {
+        "date": "2025-02-19",
+        "count": 14
+      },
+      {
+        "date": "2025-02-20",
+        "count": 21
+      },
+      {
+        "date": "2025-02-21",
+        "count": 6
+      },
+      {
+        "date": "2025-02-22",
+        "count": 1
+      },
+      {
+        "date": "2025-02-24",
+        "count": 1
+      },
+      {
+        "date": "2025-02-27",
+        "count": 1
+      },
+      {
+        "date": "2025-02-28",
+        "count": 3
+      },
+      {
+        "date": "2025-03-01",
+        "count": 12
+      },
+      {
+        "date": "2025-03-02",
+        "count": 18
+      },
+      {
+        "date": "2025-03-03",
+        "count": 6
+      },
+      {
+        "date": "2025-03-04",
+        "count": 7
+      },
+      {
+        "date": "2025-03-05",
+        "count": 2
+      },
+      {
+        "date": "2025-03-06",
+        "count": 5
+      },
+      {
+        "date": "2025-03-07",
+        "count": 1
+      },
+      {
+        "date": "2025-03-08",
+        "count": 21
+      },
+      {
+        "date": "2025-03-09",
+        "count": 1
+      },
+      {
+        "date": "2025-03-13",
+        "count": 3
+      },
+      {
+        "date": "2025-03-14",
+        "count": 1
+      },
+      {
+        "date": "2025-03-16",
+        "count": 1
+      },
+      {
+        "date": "2025-03-17",
+        "count": 37
+      },
+      {
+        "date": "2025-03-18",
+        "count": 3
+      },
+      {
+        "date": "2025-03-20",
+        "count": 1
+      },
+      {
         "date": "2025-03-22",
+        "count": 1
+      },
+      {
+        "date": "2025-03-24",
+        "count": 1
+      },
+      {
+        "date": "2025-03-29",
+        "count": 13
+      },
+      {
+        "date": "2025-03-30",
+        "count": 2
+      },
+      {
+        "date": "2025-04-03",
+        "count": 1
+      },
+      {
+        "date": "2025-04-04",
+        "count": 5
+      },
+      {
+        "date": "2025-04-05",
+        "count": 1
+      },
+      {
+        "date": "2025-04-06",
+        "count": 4
+      },
+      {
+        "date": "2025-04-07",
+        "count": 4
+      },
+      {
+        "date": "2025-04-08",
+        "count": 2
+      },
+      {
+        "date": "2025-04-11",
+        "count": 2
+      },
+      {
+        "date": "2025-04-12",
+        "count": 2
+      },
+      {
+        "date": "2025-04-13",
+        "count": 3
+      },
+      {
+        "date": "2025-04-18",
+        "count": 2
+      },
+      {
+        "date": "2025-04-20",
+        "count": 1
+      },
+      {
+        "date": "2025-04-24",
+        "count": 2
+      },
+      {
+        "date": "2025-04-26",
         "count": 1
       },
       {
@@ -730,20 +4460,184 @@
         "count": 1
       },
       {
-        "date": "2025-05-10",
+        "date": "2025-05-02",
+        "count": 2
+      },
+      {
+        "date": "2025-05-05",
+        "count": 12
+      },
+      {
+        "date": "2025-05-06",
         "count": 1
+      },
+      {
+        "date": "2025-05-09",
+        "count": 9
+      },
+      {
+        "date": "2025-05-10",
+        "count": 11
+      },
+      {
+        "date": "2025-05-11",
+        "count": 5
+      },
+      {
+        "date": "2025-05-15",
+        "count": 3
+      },
+      {
+        "date": "2025-05-16",
+        "count": 3
+      },
+      {
+        "date": "2025-05-17",
+        "count": 3
+      },
+      {
+        "date": "2025-05-18",
+        "count": 4
+      },
+      {
+        "date": "2025-05-20",
+        "count": 3
+      },
+      {
+        "date": "2025-05-22",
+        "count": 4
+      },
+      {
+        "date": "2025-05-23",
+        "count": 8
+      },
+      {
+        "date": "2025-05-24",
+        "count": 1
+      },
+      {
+        "date": "2025-05-25",
+        "count": 1
+      },
+      {
+        "date": "2025-05-26",
+        "count": 3
+      },
+      {
+        "date": "2025-05-29",
+        "count": 1
+      },
+      {
+        "date": "2025-05-30",
+        "count": 5
+      },
+      {
+        "date": "2025-05-31",
+        "count": 24
+      },
+      {
+        "date": "2025-06-01",
+        "count": 9
       },
       {
         "date": "2025-06-02",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2025-06-04",
+        "count": 2
+      },
+      {
+        "date": "2025-06-06",
+        "count": 7
+      },
+      {
+        "date": "2025-06-07",
+        "count": 5
+      },
+      {
+        "date": "2025-06-08",
+        "count": 5
+      },
+      {
+        "date": "2025-06-09",
         "count": 1
       },
       {
-        "date": "2025-07-19",
+        "date": "2025-06-11",
         "count": 2
+      },
+      {
+        "date": "2025-06-13",
+        "count": 4
+      },
+      {
+        "date": "2025-06-14",
+        "count": 3
+      },
+      {
+        "date": "2025-06-20",
+        "count": 1
+      },
+      {
+        "date": "2025-06-22",
+        "count": 6
+      },
+      {
+        "date": "2025-06-23",
+        "count": 2
+      },
+      {
+        "date": "2025-06-24",
+        "count": 1
+      },
+      {
+        "date": "2025-06-25",
+        "count": 5
+      },
+      {
+        "date": "2025-06-26",
+        "count": 2
+      },
+      {
+        "date": "2025-06-27",
+        "count": 10
+      },
+      {
+        "date": "2025-06-28",
+        "count": 7
+      },
+      {
+        "date": "2025-07-02",
+        "count": 2
+      },
+      {
+        "date": "2025-07-03",
+        "count": 5
+      },
+      {
+        "date": "2025-07-04",
+        "count": 2
+      },
+      {
+        "date": "2025-07-06",
+        "count": 2
+      },
+      {
+        "date": "2025-07-12",
+        "count": 1
+      },
+      {
+        "date": "2025-07-13",
+        "count": 1
+      },
+      {
+        "date": "2025-07-14",
+        "count": 4
+      },
+      {
+        "date": "2025-07-19",
+        "count": 3
       },
       {
         "date": "2025-07-20",
@@ -755,7 +4649,7 @@
       },
       {
         "date": "2025-07-27",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2025-07-28",
@@ -795,7 +4689,7 @@
       },
       {
         "date": "2025-08-06",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2025-08-07",
@@ -851,7 +4745,7 @@
       },
       {
         "date": "2025-08-21",
-        "count": 1
+        "count": 2
       },
       {
         "date": "2025-08-24",
@@ -1051,7 +4945,7 @@
       },
       {
         "date": "2025-10-20",
-        "count": 4
+        "count": 5
       },
       {
         "date": "2025-10-22",
@@ -1100,88 +4994,376 @@
         "count": 2
       },
       {
-        "week": "2023-W34",
+        "week": "2023-W33",
         "count": 2
+      },
+      {
+        "week": "2023-W34",
+        "count": 5
+      },
+      {
+        "week": "2023-W35",
+        "count": 15
       },
       {
         "week": "2023-W36",
-        "count": 2
+        "count": 3
       },
       {
         "week": "2023-W37",
-        "count": 1
+        "count": 6
       },
       {
         "week": "2023-W38",
         "count": 1
       },
       {
+        "week": "2023-W41",
+        "count": 2
+      },
+      {
         "week": "2023-W44",
+        "count": 2
+      },
+      {
+        "week": "2023-W45",
+        "count": 6
+      },
+      {
+        "week": "2023-W46",
+        "count": 1
+      },
+      {
+        "week": "2023-W47",
+        "count": 3
+      },
+      {
+        "week": "2023-W48",
+        "count": 20
+      },
+      {
+        "week": "2023-W51",
+        "count": 3
+      },
+      {
+        "week": "2023-W52",
+        "count": 2
+      },
+      {
+        "week": "2024-W00",
         "count": 1
       },
       {
         "week": "2024-W04",
+        "count": 25
+      },
+      {
+        "week": "2024-W05",
+        "count": 14
+      },
+      {
+        "week": "2024-W06",
+        "count": 5
+      },
+      {
+        "week": "2024-W07",
+        "count": 9
+      },
+      {
+        "week": "2024-W08",
+        "count": 1
+      },
+      {
+        "week": "2024-W09",
+        "count": 19
+      },
+      {
+        "week": "2024-W10",
+        "count": 23
+      },
+      {
+        "week": "2024-W11",
         "count": 1
       },
       {
         "week": "2024-W12",
+        "count": 34
+      },
+      {
+        "week": "2024-W13",
         "count": 1
+      },
+      {
+        "week": "2024-W14",
+        "count": 2
+      },
+      {
+        "week": "2024-W15",
+        "count": 5
       },
       {
         "week": "2024-W16",
-        "count": 1
+        "count": 7
       },
       {
-        "week": "2024-W30",
-        "count": 1
+        "week": "2024-W17",
+        "count": 6
       },
       {
-        "week": "2024-W42",
+        "week": "2024-W18",
         "count": 3
       },
       {
+        "week": "2024-W19",
+        "count": 7
+      },
+      {
+        "week": "2024-W20",
+        "count": 13
+      },
+      {
+        "week": "2024-W21",
+        "count": 19
+      },
+      {
+        "week": "2024-W22",
+        "count": 28
+      },
+      {
+        "week": "2024-W23",
+        "count": 26
+      },
+      {
+        "week": "2024-W24",
+        "count": 28
+      },
+      {
+        "week": "2024-W25",
+        "count": 36
+      },
+      {
+        "week": "2024-W26",
+        "count": 39
+      },
+      {
+        "week": "2024-W27",
+        "count": 37
+      },
+      {
+        "week": "2024-W28",
+        "count": 37
+      },
+      {
+        "week": "2024-W29",
+        "count": 53
+      },
+      {
+        "week": "2024-W30",
+        "count": 45
+      },
+      {
+        "week": "2024-W31",
+        "count": 61
+      },
+      {
+        "week": "2024-W32",
+        "count": 71
+      },
+      {
+        "week": "2024-W33",
+        "count": 64
+      },
+      {
+        "week": "2024-W34",
+        "count": 58
+      },
+      {
+        "week": "2024-W35",
+        "count": 122
+      },
+      {
+        "week": "2024-W36",
+        "count": 80
+      },
+      {
+        "week": "2024-W37",
+        "count": 62
+      },
+      {
+        "week": "2024-W38",
+        "count": 125
+      },
+      {
+        "week": "2024-W39",
+        "count": 119
+      },
+      {
+        "week": "2024-W40",
+        "count": 104
+      },
+      {
+        "week": "2024-W41",
+        "count": 52
+      },
+      {
+        "week": "2024-W42",
+        "count": 94
+      },
+      {
         "week": "2024-W43",
-        "count": 1
+        "count": 73
+      },
+      {
+        "week": "2024-W44",
+        "count": 83
+      },
+      {
+        "week": "2024-W45",
+        "count": 57
+      },
+      {
+        "week": "2024-W46",
+        "count": 55
       },
       {
         "week": "2024-W47",
-        "count": 2
+        "count": 207
+      },
+      {
+        "week": "2024-W48",
+        "count": 92
       },
       {
         "week": "2024-W49",
-        "count": 1
+        "count": 56
+      },
+      {
+        "week": "2024-W50",
+        "count": 22
+      },
+      {
+        "week": "2024-W51",
+        "count": 35
+      },
+      {
+        "week": "2024-W52",
+        "count": 21
+      },
+      {
+        "week": "2025-W00",
+        "count": 9
       },
       {
         "week": "2025-W01",
-        "count": 4
+        "count": 60
+      },
+      {
+        "week": "2025-W02",
+        "count": 48
+      },
+      {
+        "week": "2025-W03",
+        "count": 54
       },
       {
         "week": "2025-W04",
-        "count": 1
+        "count": 8
+      },
+      {
+        "week": "2025-W05",
+        "count": 34
+      },
+      {
+        "week": "2025-W06",
+        "count": 67
       },
       {
         "week": "2025-W07",
-        "count": 2
+        "count": 57
+      },
+      {
+        "week": "2025-W08",
+        "count": 17
+      },
+      {
+        "week": "2025-W09",
+        "count": 60
+      },
+      {
+        "week": "2025-W10",
+        "count": 5
       },
       {
         "week": "2025-W11",
-        "count": 1
+        "count": 43
+      },
+      {
+        "week": "2025-W12",
+        "count": 14
+      },
+      {
+        "week": "2025-W13",
+        "count": 9
+      },
+      {
+        "week": "2025-W14",
+        "count": 14
+      },
+      {
+        "week": "2025-W15",
+        "count": 5
+      },
+      {
+        "week": "2025-W16",
+        "count": 4
       },
       {
         "week": "2025-W17",
-        "count": 1
+        "count": 3
       },
       {
         "week": "2025-W18",
-        "count": 1
+        "count": 33
+      },
+      {
+        "week": "2025-W19",
+        "count": 14
+      },
+      {
+        "week": "2025-W20",
+        "count": 20
+      },
+      {
+        "week": "2025-W21",
+        "count": 34
       },
       {
         "week": "2025-W22",
-        "count": 2
+        "count": 25
+      },
+      {
+        "week": "2025-W23",
+        "count": 15
+      },
+      {
+        "week": "2025-W24",
+        "count": 1
+      },
+      {
+        "week": "2025-W25",
+        "count": 33
+      },
+      {
+        "week": "2025-W26",
+        "count": 9
+      },
+      {
+        "week": "2025-W27",
+        "count": 3
       },
       {
         "week": "2025-W28",
-        "count": 2
+        "count": 8
       },
       {
         "week": "2025-W29",
@@ -1189,11 +5371,11 @@
       },
       {
         "week": "2025-W30",
-        "count": 34
+        "count": 35
       },
       {
         "week": "2025-W31",
-        "count": 27
+        "count": 28
       },
       {
         "week": "2025-W32",
@@ -1201,7 +5383,7 @@
       },
       {
         "week": "2025-W33",
-        "count": 13
+        "count": 14
       },
       {
         "week": "2025-W34",
@@ -1237,7 +5419,7 @@
       },
       {
         "week": "2025-W42",
-        "count": 36
+        "count": 37
       },
       {
         "week": "2025-W43",
@@ -1255,75 +5437,103 @@
     "monthly": [
       {
         "month": "2023-08",
-        "count": 4
+        "count": 15
       },
       {
         "month": "2023-09",
-        "count": 4
+        "count": 19
+      },
+      {
+        "month": "2023-10",
+        "count": 3
       },
       {
         "month": "2023-11",
+        "count": 29
+      },
+      {
+        "month": "2023-12",
+        "count": 7
+      },
+      {
+        "month": "2024-01",
         "count": 1
       },
       {
         "month": "2024-02",
-        "count": 1
+        "count": 53
       },
       {
         "month": "2024-03",
-        "count": 1
+        "count": 79
       },
       {
         "month": "2024-04",
-        "count": 1
+        "count": 17
+      },
+      {
+        "month": "2024-05",
+        "count": 43
+      },
+      {
+        "month": "2024-06",
+        "count": 120
       },
       {
         "month": "2024-07",
-        "count": 1
+        "count": 180
+      },
+      {
+        "month": "2024-08",
+        "count": 285
+      },
+      {
+        "month": "2024-09",
+        "count": 422
       },
       {
         "month": "2024-10",
-        "count": 4
+        "count": 377
       },
       {
         "month": "2024-11",
-        "count": 2
+        "count": 434
       },
       {
         "month": "2024-12",
-        "count": 1
+        "count": 226
       },
       {
         "month": "2025-01",
-        "count": 5
+        "count": 179
       },
       {
         "month": "2025-02",
-        "count": 2
+        "count": 163
       },
       {
         "month": "2025-03",
-        "count": 1
+        "count": 136
       },
       {
         "month": "2025-04",
-        "count": 1
+        "count": 31
       },
       {
         "month": "2025-05",
-        "count": 1
+        "count": 103
       },
       {
         "month": "2025-06",
-        "count": 2
+        "count": 74
       },
       {
         "month": "2025-07",
-        "count": 28
+        "count": 47
       },
       {
         "month": "2025-08",
-        "count": 121
+        "count": 123
       },
       {
         "month": "2025-09",
@@ -1331,7 +5541,7 @@
       },
       {
         "month": "2025-10",
-        "count": 104
+        "count": 105
       },
       {
         "month": "2025-11",
@@ -1343,6 +5553,14 @@
     "mentionsGiven": [
       {
         "user": "F9bomber",
+        "count": 9
+      },
+      {
+        "user": "Deleted User",
+        "count": 7
+      },
+      {
+        "user": "Kowloon Walled City",
         "count": 6
       },
       {
@@ -1350,16 +5568,20 @@
         "count": 5
       },
       {
-        "user": "susteem is African",
-        "count": 3
+        "user": "VTrider",
+        "count": 5
+      },
+      {
+        "user": "Doma",
+        "count": 5
       },
       {
         "user": "Erotic Juice Princess",
-        "count": 2
+        "count": 4
       },
       {
-        "user": "VTrider",
-        "count": 2
+        "user": "susteem is African",
+        "count": 3
       },
       {
         "user": "Clovis Bray",
@@ -1368,82 +5590,90 @@
       {
         "user": "vacuum34",
         "count": 1
-      },
-      {
-        "user": "Doma",
-        "count": 1
       }
     ],
     "mentionsReceived": [
       {
         "user": "Kowloon Walled City",
-        "count": 7
-      },
-      {
-        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
-        "count": 7
+        "count": 41
       },
       {
         "user": "Deleted User",
-        "count": 4
-      },
-      {
-        "user": "VTrider",
-        "count": 4
+        "count": 28
       },
       {
         "user": "Doma",
-        "count": 3
+        "count": 21
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 14
       },
       {
         "user": "F9bomber",
-        "count": 3
-      },
-      {
-        "user": "Reacher",
-        "count": 3
+        "count": 12
       },
       {
         "user": "susteem is African",
-        "count": 2
+        "count": 10
       },
       {
         "user": "Erotic Juice Princess",
-        "count": 2
+        "count": 9
       },
       {
         "user": "getsthedubs",
-        "count": 2
+        "count": 6
+      },
+      {
+        "user": "HappyOtter",
+        "count": 6
+      },
+      {
+        "user": "VTrider",
+        "count": 5
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "😂",
-        "count": 5
+        "count": 20
       },
       {
         "emoji": "💯",
+        "count": 9
+      },
+      {
+        "emoji": "❤️",
+        "count": 4
+      },
+      {
+        "emoji": "shcscribe",
+        "count": 4
+      },
+      {
+        "emoji": "🤣",
         "count": 3
       },
       {
         "emoji": "👀",
-        "count": 2
+        "count": 3
+      },
+      {
+        "emoji": "💀",
+        "count": 3
+      },
+      {
+        "emoji": "🐴",
+        "count": 3
+      },
+      {
+        "emoji": "🪱",
+        "count": 3
       },
       {
         "emoji": "n__very_well",
         "count": 2
-      },
-      {
-        "emoji": "🔥",
-        "count": 2
-      },
-      {
-        "emoji": "😍",
-        "count": 1
-      },
-      {
-        "emoji": "🤣",
-        "count": 1
       }
     ]
   }

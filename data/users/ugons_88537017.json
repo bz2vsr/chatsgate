@@ -3,13 +3,15 @@
   "displayName": "ugons",
   "aliases": [],
   "stats": {
-    "messageCount": 5,
-    "wordCount": 11,
-    "avgLength": 20.4,
-    "activityScore": 9.2,
+    "messageCount": 15,
+    "wordCount": 40,
+    "avgLength": 22.87,
+    "activityScore": 32.5,
     "totalReactions": 4
   },
   "words": {
+    "enjoy": 2,
+    "infinite": 2,
     "krush": 1,
     "loose": 1,
     "rock": 1,
@@ -17,20 +19,61 @@
     "occured": 1,
     "absolute": 1,
     "shitheel": 1,
-    "enjoy": 1,
     "coxxon": 1,
     "always": 1,
-    "wins": 1
+    "wins": 1,
+    "smack": 1,
+    "outta": 1,
+    "mouth": 1,
+    "sly": 1,
+    "hiding": 1,
+    "hills": 1,
+    "sniper": 1,
+    "aimed": 1,
+    "fueker": 1,
+    "cockpit": 1,
+    "resnah": 1,
+    "good": 1,
+    "thanks": 1,
+    "though": 1,
+    "hurricane": 1,
+    "shadower": 1,
+    "airrr": 1,
+    "snipeee": 1,
+    "deploying": 1,
+    "snare": 1,
+    "panic": 1,
+    "range": 1,
+    "blast": 1,
+    "jabba": 1,
+    "coward": 1,
+    "ouch": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
+      {
+        "date": "2024-06-27",
+        "count": 6
+      },
       {
         "date": "2024-06-28",
         "count": 1
       },
       {
         "date": "2024-08-25",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 2
+      },
+      {
+        "date": "2024-09-10",
+        "count": 1
+      },
+      {
+        "date": "2024-09-26",
         "count": 1
       },
       {
@@ -45,10 +88,22 @@
     "weekly": [
       {
         "week": "2024-W25",
-        "count": 1
+        "count": 7
       },
       {
         "week": "2024-W34",
+        "count": 1
+      },
+      {
+        "week": "2024-W35",
+        "count": 2
+      },
+      {
+        "week": "2024-W36",
+        "count": 1
+      },
+      {
+        "week": "2024-W38",
         "count": 1
       },
       {
@@ -63,11 +118,15 @@
     "monthly": [
       {
         "month": "2024-06",
-        "count": 1
+        "count": 7
       },
       {
         "month": "2024-08",
         "count": 1
+      },
+      {
+        "month": "2024-09",
+        "count": 4
       },
       {
         "month": "2024-10",
@@ -81,7 +140,28 @@
   },
   "relationships": {
     "mentionsGiven": [],
-    "mentionsReceived": [],
+    "mentionsReceived": [
+      {
+        "user": "susteem is African",
+        "count": 3
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 2
+      },
+      {
+        "user": "VTrider",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      }
+    ],
     "reactionsReceived": [
       {
         "emoji": "😂",

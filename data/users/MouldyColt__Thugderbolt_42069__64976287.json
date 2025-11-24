@@ -1,0 +1,91 @@
+{
+  "userId": "649762871844143125",
+  "displayName": "MouldyColt (Thugderbolt 42069)",
+  "aliases": [],
+  "stats": {
+    "messageCount": 4,
+    "wordCount": 42,
+    "avgLength": 108.25,
+    "activityScore": 30.6,
+    "totalReactions": 0
+  },
+  "words": {
+    "play": 3,
+    "ll": 2,
+    "tho": 2,
+    "mean": 1,
+    "roughly": 1,
+    "10": 1,
+    "hours": 1,
+    "thinking": 1,
+    "always": 1,
+    "mp": 1,
+    "games": 1,
+    "mood": 1,
+    "checking": 1,
+    "anyone": 1,
+    "playing": 1,
+    "said": 1,
+    "replays": 1,
+    "bz1": 1,
+    "campaign": 1,
+    "avp2": 1,
+    "probably": 1,
+    "go": 1,
+    "bed": 1,
+    "earlier": 1,
+    "folks": 1,
+    "weekends": 1,
+    "super": 1,
+    "free": 1,
+    "definitely": 1,
+    "want": 1,
+    "lot": 1,
+    "fun": 1,
+    "night": 1,
+    "wanna": 1,
+    "give": 1,
+    "coms": 1,
+    "try": 1,
+    "word": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-08-22",
+        "count": 4
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W33",
+        "count": 4
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-08",
+        "count": 4
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Slyforion",
+        "count": 2
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

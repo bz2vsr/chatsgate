@@ -5,53 +5,73 @@
     "The_Bylarge"
   ],
   "stats": {
-    "messageCount": 92,
-    "wordCount": 329,
-    "avgLength": 35.41,
-    "activityScore": 257.9,
-    "totalReactions": 4
+    "messageCount": 153,
+    "wordCount": 500,
+    "avgLength": 34.16,
+    "activityScore": 395.9,
+    "totalReactions": 7
   },
   "words": {
-    "f9bomber": 7,
+    "f9bomber": 13,
+    "bz2": 9,
+    "zack": 9,
+    "player": 8,
+    "voice": 8,
+    "play": 7,
+    "may": 6,
+    "blue": 6,
+    "today": 6,
     "hey": 5,
-    "zack": 5,
+    "battlezone": 5,
+    "f9": 5,
+    "okay": 5,
+    "lobby": 5,
     "people": 4,
+    "think": 4,
     "guy": 4,
-    "may": 4,
-    "f9": 4,
-    "okay": 4,
-    "think": 3,
+    "toto": 4,
+    "mate": 4,
+    "one": 4,
+    "join": 4,
     "indeed": 3,
+    "yet": 3,
     "understand": 3,
     "speak": 3,
-    "play": 3,
-    "battlezone": 3,
+    "pleasure": 3,
     "re": 3,
-    "mate": 3,
-    "bz2": 3,
+    "please": 3,
+    "goat": 3,
+    "past": 3,
     "future": 3,
-    "one": 3,
+    "played": 3,
+    "triage": 3,
+    "thanks": 3,
+    "games": 3,
     "actually": 3,
-    "lobby": 3,
+    "man": 3,
+    "10": 3,
+    "ll": 3,
+    "coming": 3,
+    "kane": 3,
+    "iamthefuture": 3,
     "jabbapop": 2,
+    "rustyguns": 2,
     "hello": 2,
+    "better": 2,
     "fuck": 2,
     "talking": 2,
-    "toto": 2,
     "nice": 2,
-    "yet": 2,
-    "pleasure": 2,
     "mean": 2,
     "community": 2,
     "vsr": 2,
+    "loool": 2,
     "cursed": 2,
     "oh": 2,
-    "player": 2,
+    "ya": 2,
     "role": 2,
     "based": 2,
-    "past": 2,
+    "thank": 2,
     "commands": 2,
-    "played": 2,
     "fun": 2,
     "good": 2,
     "made": 2,
@@ -66,19 +86,26 @@
     "pac": 2,
     "added": 2,
     "long": 2,
+    "seems": 2,
     "game": 2,
     "ah": 2,
     "beta": 2,
-    "join": 2,
+    "time": 2,
+    "hop": 2,
+    "together": 2,
+    "try": 2,
+    "ggs": 2,
+    "commander": 2,
+    "come": 2,
+    "2v2": 2,
+    "evilsi": 2,
     "update": 2,
     "got": 1,
     "invited": 1,
     "friend": 1,
     "jabba": 1,
-    "rustyguns": 1,
     "judgeguns": 1,
     "helmet": 1,
-    "better": 1,
     "pin": 1,
     "want": 1,
     "incident": 1,
@@ -94,7 +121,6 @@
     "problems": 1,
     "behalf": 1,
     "currently": 1,
-    "loool": 1,
     "going": 1,
     "furry": 1,
     "struggles": 1,
@@ -105,15 +131,11 @@
     "nomad": 1,
     "quite": 1,
     "surprised": 1,
-    "ya": 1,
     "since": 1,
     "bz99": 1,
     "receive": 1,
-    "please": 1,
     "deleted": 1,
     "user": 1,
-    "goat": 1,
-    "thank": 1,
     "controls": 1,
     "conquers": 1,
     "scii": 1,
@@ -121,7 +143,6 @@
     "mainly": 1,
     "coop": 1,
     "meh": 1,
-    "triage": 1,
     "blackdragon": 1,
     "night": 1,
     "comrades": 1,
@@ -135,7 +156,6 @@
     "mp": 1,
     "bf2142": 1,
     "alive": 1,
-    "thanks": 1,
     "reclamation": 1,
     "hub": 1,
     "launcher": 1,
@@ -144,7 +164,6 @@
     "around": 1,
     "ye": 1,
     "bf": 1,
-    "games": 1,
     "handled": 1,
     "correctly": 1,
     "depending": 1,
@@ -181,7 +200,6 @@
     "kowloon": 1,
     "walled": 1,
     "city": 1,
-    "blue": 1,
     "vet": 1,
     "ok": 1,
     "guys": 1,
@@ -195,7 +213,6 @@
     "assets": 1,
     "take": 1,
     "5min": 1,
-    "seems": 1,
     "downloaded": 1,
     "everything": 1,
     "shows": 1,
@@ -204,27 +221,84 @@
     "honest": 1,
     "90": 1,
     "percent": 1,
-    "time": 1,
     "recently": 1,
     "forgor": 1,
     "thx": 1,
-    "man": 1,
     "delete": 1,
     "tc": 1,
     "private": 1,
     "open": 1,
-    "voice": 1,
     "ahhaha": 1,
     "history": 1,
     "moment": 1,
     "ranme": 1,
     "maverik": 1,
     "john": 1,
-    "10": 1,
     "3v3": 1,
     "making": 1,
     "shortly": 1,
-    "hop": 1,
+    "gimme": 1,
+    "15": 1,
+    "min": 1,
+    "bylarge": 1,
+    "multiple": 1,
+    "times": 1,
+    "joins": 1,
+    "mess": 1,
+    "balance": 1,
+    "guess": 1,
+    "sorry": 1,
+    "able": 1,
+    "yes": 1,
+    "kinda": 1,
+    "days": 1,
+    "avaliable": 1,
+    "emotional": 1,
+    "support": 1,
+    "word": 1,
+    "stupidly": 1,
+    "genius": 1,
+    "taking": 1,
+    "nick": 1,
+    "hope": 1,
+    "least": 1,
+    "gentlemen": 1,
+    "reacher": 1,
+    "oof": 1,
+    "local": 1,
+    "clocks": 1,
+    "became": 1,
+    "early": 1,
+    "bz": 1,
+    "nerds": 1,
+    "anyways": 1,
+    "ping": 1,
+    "gather": 1,
+    "ccombat": 1,
+    "sleeping": 1,
+    "course": 1,
+    "omegalul": 1,
+    "herp": 1,
+    "go": 1,
+    "us": 1,
+    "proud": 1,
+    "second": 1,
+    "hitted": 1,
+    "recommendation": 1,
+    "give": 1,
+    "channel": 1,
+    "alone": 1,
+    "t2": 1,
+    "summon": 1,
+    "thee": 1,
+    "mortals": 1,
+    "combat": 1,
+    "getsthedubs": 1,
+    "boys": 1,
+    "gathering": 1,
+    "gotcha": 1,
+    "ve": 1,
+    "yep": 1,
     "pretty": 1,
     "interesting": 1,
     "idea": 1,
@@ -236,7 +310,6 @@
     "pods": 1,
     "forgive": 1,
     "jj173": 1,
-    "together": 1,
     "campod": 1,
     "project": 1,
     "came": 1,
@@ -246,12 +319,24 @@
     "earlier": 1,
     "shit": 1,
     "fire": 1,
-    "hopefully": 1,
-    "ll": 1
+    "hopefully": 1
   },
   "phrases": {
+    "to play": 5,
+    "play with": 4,
+    "to play with": 4,
+    "play with you": 3,
+    "to play with you": 3,
     "you re": 3,
-    "the future": 3
+    "here mate": 3,
+    "bz2 player": 8,
+    "the future": 3,
+    "triage toto": 3,
+    "f9bomber voice": 3,
+    "player 10": 3,
+    "bz2 player 10": 3,
+    "ll be": 3,
+    "kane iamthefuture": 3
   },
   "timeline": {
     "daily": [
@@ -264,11 +349,27 @@
         "count": 8
       },
       {
+        "date": "2025-05-05",
+        "count": 5
+      },
+      {
         "date": "2025-05-06",
+        "count": 5
+      },
+      {
+        "date": "2025-05-09",
         "count": 4
       },
       {
+        "date": "2025-05-10",
+        "count": 5
+      },
+      {
         "date": "2025-05-14",
+        "count": 1
+      },
+      {
+        "date": "2025-05-15",
         "count": 1
       },
       {
@@ -276,8 +377,48 @@
         "count": 8
       },
       {
+        "date": "2025-05-17",
+        "count": 1
+      },
+      {
+        "date": "2025-05-19",
+        "count": 1
+      },
+      {
         "date": "2025-06-03",
         "count": 1
+      },
+      {
+        "date": "2025-06-19",
+        "count": 2
+      },
+      {
+        "date": "2025-06-25",
+        "count": 16
+      },
+      {
+        "date": "2025-06-27",
+        "count": 8
+      },
+      {
+        "date": "2025-06-28",
+        "count": 2
+      },
+      {
+        "date": "2025-06-29",
+        "count": 6
+      },
+      {
+        "date": "2025-07-02",
+        "count": 1
+      },
+      {
+        "date": "2025-07-08",
+        "count": 6
+      },
+      {
+        "date": "2025-07-09",
+        "count": 2
       },
       {
         "date": "2025-07-13",
@@ -323,15 +464,35 @@
       },
       {
         "week": "2025-W18",
-        "count": 4
+        "count": 19
       },
       {
         "week": "2025-W19",
-        "count": 9
+        "count": 11
+      },
+      {
+        "week": "2025-W20",
+        "count": 1
       },
       {
         "week": "2025-W22",
         "count": 1
+      },
+      {
+        "week": "2025-W24",
+        "count": 2
+      },
+      {
+        "week": "2025-W25",
+        "count": 26
+      },
+      {
+        "week": "2025-W26",
+        "count": 7
+      },
+      {
+        "week": "2025-W27",
+        "count": 8
       },
       {
         "week": "2025-W28",
@@ -357,15 +518,15 @@
     "monthly": [
       {
         "month": "2025-05",
-        "count": 47
+        "count": 65
       },
       {
         "month": "2025-06",
-        "count": 1
+        "count": 35
       },
       {
         "month": "2025-07",
-        "count": 38
+        "count": 47
       },
       {
         "month": "2025-08",
@@ -384,53 +545,31 @@
   "relationships": {
     "mentionsGiven": [
       {
+        "user": "F9bomber",
+        "count": 23
+      },
+      {
         "user": "Zack",
+        "count": 20
+      },
+      {
+        "user": "Kowloon Walled City",
         "count": 11
       },
       {
-        "user": "F9bomber",
-        "count": 9
+        "user": "HyperVivify",
+        "count": 7
+      },
+      {
+        "user": "Reacher",
+        "count": 6
       },
       {
         "user": "JJ173",
         "count": 5
       },
       {
-        "user": "Kowloon Walled City",
-        "count": 3
-      },
-      {
-        "user": "susteem is African",
-        "count": 3
-      },
-      {
-        "user": "Erotic Juice Princess",
-        "count": 2
-      },
-      {
-        "user": "Reacher",
-        "count": 2
-      },
-      {
-        "user": "Deleted User",
-        "count": 2
-      },
-      {
-        "user": "Jabbapop",
-        "count": 1
-      },
-      {
         "user": "RustyGuns",
-        "count": 1
-      }
-    ],
-    "mentionsReceived": [
-      {
-        "user": "Zack",
-        "count": 5
-      },
-      {
-        "user": "F9bomber",
         "count": 4
       },
       {
@@ -438,19 +577,45 @@
         "count": 3
       },
       {
+        "user": "Totes Mcgee",
+        "count": 3
+      },
+      {
+        "user": "susteem is African",
+        "count": 3
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "F9bomber",
+        "count": 8
+      },
+      {
+        "user": "Zack",
+        "count": 6
+      },
+      {
+        "user": "Erotic Juice Princess",
+        "count": 3
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 3
+      },
+      {
         "user": "susteem is African",
         "count": 3
       },
       {
+        "user": "Kowloon Walled City",
+        "count": 3
+      },
+      {
         "user": "Reacher",
-        "count": 1
+        "count": 2
       },
       {
         "user": "Deleted User",
-        "count": 1
-      },
-      {
-        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
         "count": 1
       },
       {
@@ -460,19 +625,23 @@
       {
         "user": "VTrider",
         "count": 1
-      },
-      {
-        "user": "Monkey",
-        "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "❤️",
-        "count": 3
+        "count": 4
       },
       {
         "emoji": "🔥",
+        "count": 1
+      },
+      {
+        "emoji": "herpolar_express",
+        "count": 1
+      },
+      {
+        "emoji": "ISDF_scout",
         "count": 1
       }
     ]

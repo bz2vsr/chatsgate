@@ -3,13 +3,18 @@
   "displayName": "MrJuggs",
   "aliases": [],
   "stats": {
-    "messageCount": 8,
-    "wordCount": 28,
-    "avgLength": 37.25,
-    "activityScore": 22.0,
-    "totalReactions": 1
+    "messageCount": 47,
+    "wordCount": 121,
+    "avgLength": 22.55,
+    "activityScore": 98.8,
+    "totalReactions": 2
   },
   "words": {
+    "10": 25,
+    "bz2": 25,
+    "player": 24,
+    "game": 4,
+    "join": 2,
     "bzcc": 1,
     "sale": 1,
     "81": 1,
@@ -28,8 +33,6 @@
     "ego": 1,
     "filled": 1,
     "head": 1,
-    "10": 1,
-    "join": 1,
     "cum": 1,
     "laze": 1,
     "best": 1,
@@ -37,9 +40,33 @@
     "residuals": 1,
     "ty": 1,
     "sev": 1,
-    "sentient": 1
+    "sentient": 1,
+    "everyone": 1,
+    "much": 1,
+    "manaise": 1,
+    "us": 1,
+    "currently": 1,
+    "couple": 1,
+    "games": 1,
+    "since": 1,
+    "2v2": 1,
+    "opened": 1,
+    "blue": 1,
+    "erotic": 1,
+    "juice": 1,
+    "princess": 1,
+    "commanders": 1
   },
-  "phrases": {},
+  "phrases": {
+    "bz2 player": 24,
+    "player 10": 16,
+    "bz2 player 10": 16,
+    "player game": 4,
+    "game up": 4,
+    "bz2 player game": 4,
+    "player game up": 4,
+    "bz2 player game up": 4
+  },
   "timeline": {
     "daily": [
       {
@@ -47,8 +74,72 @@
         "count": 1
       },
       {
+        "date": "2024-04-01",
+        "count": 1
+      },
+      {
+        "date": "2024-04-03",
+        "count": 1
+      },
+      {
+        "date": "2024-04-13",
+        "count": 1
+      },
+      {
+        "date": "2024-04-14",
+        "count": 1
+      },
+      {
+        "date": "2024-04-15",
+        "count": 1
+      },
+      {
+        "date": "2024-04-21",
+        "count": 1
+      },
+      {
         "date": "2024-04-23",
+        "count": 6
+      },
+      {
+        "date": "2024-04-26",
+        "count": 7
+      },
+      {
+        "date": "2024-04-29",
+        "count": 3
+      },
+      {
+        "date": "2024-05-04",
         "count": 5
+      },
+      {
+        "date": "2024-05-05",
+        "count": 1
+      },
+      {
+        "date": "2024-05-06",
+        "count": 1
+      },
+      {
+        "date": "2024-05-09",
+        "count": 1
+      },
+      {
+        "date": "2024-05-10",
+        "count": 2
+      },
+      {
+        "date": "2024-05-20",
+        "count": 8
+      },
+      {
+        "date": "2024-05-30",
+        "count": 3
+      },
+      {
+        "date": "2024-06-17",
+        "count": 1
       },
       {
         "date": "2024-11-13",
@@ -61,8 +152,40 @@
         "count": 1
       },
       {
+        "week": "2024-W13",
+        "count": 2
+      },
+      {
+        "week": "2024-W14",
+        "count": 1
+      },
+      {
+        "week": "2024-W15",
+        "count": 2
+      },
+      {
         "week": "2024-W16",
+        "count": 14
+      },
+      {
+        "week": "2024-W17",
+        "count": 8
+      },
+      {
+        "week": "2024-W18",
         "count": 5
+      },
+      {
+        "week": "2024-W20",
+        "count": 8
+      },
+      {
+        "week": "2024-W21",
+        "count": 3
+      },
+      {
+        "week": "2024-W24",
+        "count": 1
       },
       {
         "week": "2024-W45",
@@ -76,7 +199,15 @@
       },
       {
         "month": "2024-04",
-        "count": 5
+        "count": 22
+      },
+      {
+        "month": "2024-05",
+        "count": 21
+      },
+      {
+        "month": "2024-06",
+        "count": 1
       },
       {
         "month": "2024-11",
@@ -93,29 +224,61 @@
       {
         "user": "Sentient",
         "count": 1
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "Erotic Juice Princess",
+        "count": 1
       }
     ],
     "mentionsReceived": [
       {
         "user": "susteem is African",
-        "count": 3
+        "count": 10
       },
       {
         "user": "Deleted User",
-        "count": 2
+        "count": 8
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 7
       },
       {
         "user": "Slyforion",
-        "count": 1
+        "count": 2
+      },
+      {
+        "user": "JJ173",
+        "count": 2
       },
       {
         "user": "Streets clear, no danger",
+        "count": 1
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 1
+      },
+      {
+        "user": "Cyber",
+        "count": 1
+      },
+      {
+        "user": "VTrider",
         "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "😎",
+        "count": 1
+      },
+      {
+        "emoji": "❤️",
         "count": 1
       }
     ]

@@ -1,0 +1,76 @@
+{
+  "userId": "1300203938980823160",
+  "displayName": "Blue",
+  "aliases": [],
+  "stats": {
+    "messageCount": 5,
+    "wordCount": 11,
+    "avgLength": 31.6,
+    "activityScore": 9.2,
+    "totalReactions": 0
+  },
+  "words": {
+    "vtrider": 1,
+    "found": 1,
+    "leak": 1,
+    "go": 1,
+    "prison": 1,
+    "archive": 1,
+    "messages": 1,
+    "send": 1,
+    "stealthmode": 1,
+    "put": 1,
+    "place": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-10-27",
+        "count": 5
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W43",
+        "count": 5
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-10",
+        "count": 5
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Kowloon Walled City",
+        "count": 7
+      },
+      {
+        "user": "VTrider",
+        "count": 2
+      },
+      {
+        "user": "Deleted User",
+        "count": 2
+      },
+      {
+        "user": "JJ173",
+        "count": 1
+      },
+      {
+        "user": "Athelas",
+        "count": 1
+      },
+      {
+        "user": "jade",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

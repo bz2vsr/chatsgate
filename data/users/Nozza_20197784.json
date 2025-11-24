@@ -3,19 +3,27 @@
   "displayName": "Nozza",
   "aliases": [],
   "stats": {
-    "messageCount": 17,
-    "wordCount": 58,
-    "avgLength": 42.35,
-    "activityScore": 45.7,
-    "totalReactions": 1
+    "messageCount": 55,
+    "wordCount": 132,
+    "avgLength": 34.49,
+    "activityScore": 108.9,
+    "totalReactions": 3
   },
   "words": {
+    "game": 10,
+    "gamer": 4,
+    "soon": 4,
+    "server": 2,
     "one": 2,
-    "game": 2,
-    "gamer": 2,
-    "soon": 2,
+    "open": 2,
+    "today": 2,
+    "got": 2,
+    "20": 2,
+    "home": 2,
+    "gamers": 2,
+    "spot": 2,
+    "player": 2,
     "joined": 1,
-    "server": 1,
     "hello": 1,
     "haha": 1,
     "practice": 1,
@@ -35,7 +43,6 @@
     "flight": 1,
     "sim": 1,
     "try": 1,
-    "open": 1,
     "put": 1,
     "mod": 1,
     "started": 1,
@@ -48,7 +55,6 @@
     "user": 1,
     "error": 1,
     "smart": 1,
-    "today": 1,
     "silica": 1,
     "litt": 1,
     "air": 1,
@@ -62,15 +68,130 @@
     "pleaseee": 1,
     "didn": 1,
     "consider": 1,
-    "got": 1,
-    "space": 1
+    "space": 1,
+    "fine": 1,
+    "morning": 1,
+    "ok": 1,
+    "long": 1,
+    "weekend": 1,
+    "baby": 1,
+    "kings": 1,
+    "birthday": 1,
+    "imm": 1,
+    "dota": 1,
+    "gimee": 1,
+    "min": 1,
+    "give": 1,
+    "recall": 1,
+    "mothership": 1,
+    "core": 1,
+    "oce": 1,
+    "prime": 1,
+    "time": 1,
+    "ll": 1,
+    "opens": 1,
+    "lmk": 1,
+    "bz2": 1,
+    "full": 1,
+    "lets": 1,
+    "go": 1,
+    "happyotter": 1,
+    "t1": 1,
+    "krees": 1,
+    "rustyguns": 1,
+    "f9mama": 1,
+    "giant": 1,
+    "golden": 1,
+    "orb": 1,
+    "weaver": 1,
+    "kind": 1,
+    "message": 1,
+    "expect": 1,
+    "admins": 1,
+    "running": 1,
+    "minecraft": 1,
+    "snobby": 1,
+    "kids": 1,
+    "bully": 1,
+    "owning": 1,
+    "entire": 1,
+    "person": 1,
+    "base": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
       {
-        "date": "2024-09-07",
+        "date": "2024-05-26",
         "count": 1
+      },
+      {
+        "date": "2024-06-01",
+        "count": 2
+      },
+      {
+        "date": "2024-06-07",
+        "count": 2
+      },
+      {
+        "date": "2024-06-09",
+        "count": 4
+      },
+      {
+        "date": "2024-06-12",
+        "count": 1
+      },
+      {
+        "date": "2024-06-14",
+        "count": 2
+      },
+      {
+        "date": "2024-06-15",
+        "count": 1
+      },
+      {
+        "date": "2024-06-27",
+        "count": 2
+      },
+      {
+        "date": "2024-06-28",
+        "count": 1
+      },
+      {
+        "date": "2024-07-03",
+        "count": 1
+      },
+      {
+        "date": "2024-07-04",
+        "count": 1
+      },
+      {
+        "date": "2024-07-08",
+        "count": 1
+      },
+      {
+        "date": "2024-08-09",
+        "count": 1
+      },
+      {
+        "date": "2024-08-17",
+        "count": 1
+      },
+      {
+        "date": "2024-09-06",
+        "count": 1
+      },
+      {
+        "date": "2024-09-07",
+        "count": 9
+      },
+      {
+        "date": "2024-12-06",
+        "count": 6
+      },
+      {
+        "date": "2024-12-07",
+        "count": 2
       },
       {
         "date": "2025-07-15",
@@ -111,8 +232,44 @@
     ],
     "weekly": [
       {
-        "week": "2024-W35",
+        "week": "2024-W21",
+        "count": 3
+      },
+      {
+        "week": "2024-W22",
+        "count": 2
+      },
+      {
+        "week": "2024-W23",
+        "count": 8
+      },
+      {
+        "week": "2024-W25",
+        "count": 3
+      },
+      {
+        "week": "2024-W26",
+        "count": 2
+      },
+      {
+        "week": "2024-W27",
         "count": 1
+      },
+      {
+        "week": "2024-W31",
+        "count": 1
+      },
+      {
+        "week": "2024-W32",
+        "count": 1
+      },
+      {
+        "week": "2024-W35",
+        "count": 10
+      },
+      {
+        "week": "2024-W48",
+        "count": 8
       },
       {
         "week": "2025-W28",
@@ -129,8 +286,28 @@
     ],
     "monthly": [
       {
-        "month": "2024-09",
+        "month": "2024-05",
         "count": 1
+      },
+      {
+        "month": "2024-06",
+        "count": 15
+      },
+      {
+        "month": "2024-07",
+        "count": 3
+      },
+      {
+        "month": "2024-08",
+        "count": 2
+      },
+      {
+        "month": "2024-09",
+        "count": 10
+      },
+      {
+        "month": "2024-12",
+        "count": 8
       },
       {
         "month": "2025-07",
@@ -145,15 +322,47 @@
   "relationships": {
     "mentionsGiven": [
       {
+        "user": "Athelas",
+        "count": 4
+      },
+      {
         "user": "F9bomber",
         "count": 2
       },
       {
         "user": "getsthedubs",
         "count": 1
+      },
+      {
+        "user": "VTrider",
+        "count": 1
+      },
+      {
+        "user": "HappyOtter",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      },
+      {
+        "user": "RustyGuns",
+        "count": 1
+      },
+      {
+        "user": "F9mama",
+        "count": 1
       }
     ],
     "mentionsReceived": [
+      {
+        "user": "susteem is African",
+        "count": 5
+      },
+      {
+        "user": "Deleted User",
+        "count": 5
+      },
       {
         "user": "Kowloon Walled City",
         "count": 3
@@ -163,7 +372,19 @@
         "count": 3
       },
       {
+        "user": "JJ173",
+        "count": 3
+      },
+      {
+        "user": "F9bomber",
+        "count": 3
+      },
+      {
         "user": "getsthedubs",
+        "count": 2
+      },
+      {
+        "user": "Cyber",
         "count": 2
       },
       {
@@ -171,21 +392,21 @@
         "count": 1
       },
       {
-        "user": "JJ173",
-        "count": 1
-      },
-      {
-        "user": "F9bomber",
-        "count": 1
-      },
-      {
-        "user": "Six Seven",
+        "user": "Athelas",
         "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "🔥",
+        "count": 1
+      },
+      {
+        "emoji": "❤️",
+        "count": 1
+      },
+      {
+        "emoji": "😂",
         "count": 1
       }
     ]

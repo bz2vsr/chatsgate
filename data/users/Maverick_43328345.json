@@ -3,51 +3,69 @@
   "displayName": "Maverick",
   "aliases": [],
   "stats": {
-    "messageCount": 61,
-    "wordCount": 185,
-    "avgLength": 33.52,
-    "activityScore": 147.8,
-    "totalReactions": 0
+    "messageCount": 106,
+    "wordCount": 299,
+    "avgLength": 30.08,
+    "activityScore": 241.1,
+    "totalReactions": 2
   },
   "words": {
-    "game": 5,
+    "game": 8,
+    "anyone": 7,
+    "one": 6,
+    "okay": 6,
+    "going": 5,
+    "bz": 4,
+    "lc": 4,
     "maps": 4,
-    "bz": 3,
-    "anyone": 3,
-    "lc": 3,
-    "going": 3,
+    "want": 4,
+    "already": 4,
+    "back": 4,
+    "guys": 4,
+    "play": 4,
+    "games": 4,
     "made": 3,
-    "already": 3,
-    "one": 3,
-    "games": 3,
+    "ones": 3,
+    "sent": 3,
+    "everyone": 3,
+    "come": 3,
+    "got": 3,
+    "let": 2,
     "yes": 2,
-    "ones": 2,
     "map": 2,
-    "okay": 2,
+    "never": 2,
+    "done": 2,
+    "oh": 2,
     "ready": 2,
-    "back": 2,
     "use": 2,
-    "guys": 2,
+    "hey": 2,
     "told": 2,
-    "sent": 2,
+    "guess": 2,
     "say": 2,
     "nigger": 2,
     "word": 2,
     "ever": 2,
     "racist": 2,
+    "said": 2,
     "mixed": 2,
+    "full": 2,
+    "care": 2,
+    "much": 2,
+    "f9": 2,
     "dc": 2,
+    "lcs": 2,
+    "getting": 2,
+    "bitch": 2,
+    "beta": 2,
     "coming": 1,
     "house": 1,
     "tonight": 1,
     "zone": 1,
     "talking": 1,
     "playing": 1,
-    "let": 1,
     "ends": 1,
     "help": 1,
     "bxeditor": 1,
-    "want": 1,
     "summit": 1,
     "old": 1,
     "tested": 1,
@@ -66,9 +84,6 @@
     "zips": 1,
     "pictures": 1,
     "voted": 1,
-    "never": 1,
-    "done": 1,
-    "oh": 1,
     "kinda": 1,
     "lost": 1,
     "go": 1,
@@ -86,16 +101,13 @@
     "daddy": 1,
     "won": 1,
     "show": 1,
-    "hey": 1,
     "juggs": 1,
     "passed": 1,
     "jan": 1,
     "went": 1,
     "rising": 1,
     "world": 1,
-    "play": 1,
     "someone": 1,
-    "guess": 1,
     "idk": 1,
     "knew": 1,
     "think": 1,
@@ -120,23 +132,18 @@
     "real": 1,
     "honest": 1,
     "love": 1,
-    "everyone": 1,
     "reaction": 1,
     "omg": 1,
-    "said": 1,
     "forbidden": 1,
     "whites": 1,
     "plus": 1,
     "girls": 1,
     "hard": 1,
-    "full": 1,
     "personally": 1,
     "wondering": 1,
     "nerdy": 1,
     "white": 1,
     "kids": 1,
-    "care": 1,
-    "much": 1,
     "call": 1,
     "blackies": 1,
     "handle": 1,
@@ -150,13 +157,71 @@
     "version": 1,
     "dot": 1,
     "hm": 1,
-    "f9": 1,
     "ask": 1,
     "message": 1,
     "says": 1,
-    "ol": 1
+    "ol": 1,
+    "okj": 1,
+    "strats": 1,
+    "ms": 1,
+    "mje": 1,
+    "happened": 1,
+    "dam": 1,
+    "matter": 1,
+    "seconeds": 1,
+    "arm": 1,
+    "better": 1,
+    "chance": 1,
+    "draw": 1,
+    "books": 1,
+    "seconed": 1,
+    "bar": 1,
+    "soon": 1,
+    "first": 1,
+    "gave": 1,
+    "con": 1,
+    "kept": 1,
+    "pushing": 1,
+    "happens": 1,
+    "hovering": 1,
+    "viv": 1,
+    "blue": 1,
+    "killed": 1,
+    "next": 1,
+    "open": 1,
+    "people": 1,
+    "weak": 1,
+    "marry": 1,
+    "christmas": 1,
+    "ignorant": 1,
+    "disrespectful": 1,
+    "self": 1,
+    "overly": 1,
+    "ass": 1,
+    "peoples": 1,
+    "feeling": 1,
+    "host": 1,
+    "comr": 1,
+    "hosting": 1,
+    "mins": 1,
+    "reg": 1,
+    "car": 1,
+    "set": 1,
+    "shows": 1,
+    "red": 1,
+    "patch": 1,
+    "approved": 1,
+    "click": 1,
+    "helped": 1,
+    "yesterday": 1,
+    "trolled": 1,
+    "point": 1
   },
   "phrases": {
+    "going to": 3,
+    "want to": 4,
+    "game up": 3,
+    "to play": 3,
     "any games": 3
   },
   "timeline": {
@@ -166,8 +231,28 @@
         "count": 1
       },
       {
-        "date": "2024-04-22",
+        "date": "2024-04-13",
+        "count": 2
+      },
+      {
+        "date": "2024-04-15",
         "count": 1
+      },
+      {
+        "date": "2024-04-18",
+        "count": 2
+      },
+      {
+        "date": "2024-04-21",
+        "count": 2
+      },
+      {
+        "date": "2024-04-22",
+        "count": 3
+      },
+      {
+        "date": "2024-04-23",
+        "count": 21
       },
       {
         "date": "2024-04-24",
@@ -178,12 +263,32 @@
         "count": 17
       },
       {
+        "date": "2024-05-20",
+        "count": 1
+      },
+      {
+        "date": "2024-09-02",
+        "count": 9
+      },
+      {
+        "date": "2024-09-17",
+        "count": 1
+      },
+      {
         "date": "2024-11-10",
         "count": 1
       },
       {
         "date": "2024-12-24",
         "count": 1
+      },
+      {
+        "date": "2024-12-25",
+        "count": 1
+      },
+      {
+        "date": "2024-12-26",
+        "count": 3
       },
       {
         "date": "2025-02-08",
@@ -241,15 +346,31 @@
     "weekly": [
       {
         "week": "2024-W14",
-        "count": 1
+        "count": 3
+      },
+      {
+        "week": "2024-W15",
+        "count": 3
       },
       {
         "week": "2024-W16",
-        "count": 2
+        "count": 27
       },
       {
         "week": "2024-W17",
         "count": 17
+      },
+      {
+        "week": "2024-W20",
+        "count": 1
+      },
+      {
+        "week": "2024-W35",
+        "count": 9
+      },
+      {
+        "week": "2024-W37",
+        "count": 1
       },
       {
         "week": "2024-W45",
@@ -257,7 +378,7 @@
       },
       {
         "week": "2024-W51",
-        "count": 1
+        "count": 5
       },
       {
         "week": "2025-W05",
@@ -291,7 +412,15 @@
     "monthly": [
       {
         "month": "2024-04",
-        "count": 20
+        "count": 50
+      },
+      {
+        "month": "2024-05",
+        "count": 1
+      },
+      {
+        "month": "2024-09",
+        "count": 10
       },
       {
         "month": "2024-11",
@@ -299,7 +428,7 @@
       },
       {
         "month": "2024-12",
-        "count": 1
+        "count": 5
       },
       {
         "month": "2025-02",
@@ -323,19 +452,27 @@
     "mentionsGiven": [],
     "mentionsReceived": [
       {
+        "user": "VTrider",
+        "count": 6
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 4
+      },
+      {
+        "user": "JJ173",
+        "count": 4
+      },
+      {
         "user": "Zack",
         "count": 4
       },
       {
-        "user": "Kowloon Walled City",
-        "count": 3
+        "user": "Erotic Juice Princess",
+        "count": 4
       },
       {
-        "user": "JJ173",
-        "count": 3
-      },
-      {
-        "user": "VTrider",
+        "user": "Deleted User",
         "count": 3
       },
       {
@@ -343,15 +480,7 @@
         "count": 2
       },
       {
-        "user": "Deleted User",
-        "count": 1
-      },
-      {
         "user": "F9bomber",
-        "count": 1
-      },
-      {
-        "user": "Erotic Juice Princess",
         "count": 1
       },
       {
@@ -363,6 +492,15 @@
         "count": 1
       }
     ],
-    "reactionsReceived": []
+    "reactionsReceived": [
+      {
+        "emoji": "🍅",
+        "count": 1
+      },
+      {
+        "emoji": "🎄",
+        "count": 1
+      }
+    ]
   }
 }

@@ -3,19 +3,30 @@
   "displayName": "dd",
   "aliases": [],
   "stats": {
-    "messageCount": 1,
-    "wordCount": 2,
-    "avgLength": 18.0,
-    "activityScore": 1.7,
+    "messageCount": 3,
+    "wordCount": 5,
+    "avgLength": 10.33,
+    "activityScore": 4.4,
     "totalReactions": 0
   },
   "words": {
+    "bz2maps": 1,
+    "com": 1,
     "joined": 1,
-    "server": 1
+    "server": 1,
+    "da": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
+      {
+        "date": "2024-09-05",
+        "count": 1
+      },
+      {
+        "date": "2025-10-11",
+        "count": 1
+      },
       {
         "date": "2025-10-30",
         "count": 1
@@ -23,14 +34,26 @@
     ],
     "weekly": [
       {
+        "week": "2024-W35",
+        "count": 1
+      },
+      {
+        "week": "2025-W40",
+        "count": 1
+      },
+      {
         "week": "2025-W43",
         "count": 1
       }
     ],
     "monthly": [
       {
-        "month": "2025-10",
+        "month": "2024-09",
         "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 2
       }
     ]
   },
@@ -39,10 +62,18 @@
     "mentionsReceived": [
       {
         "user": "Kowloon Walled City",
-        "count": 1
+        "count": 4
       },
       {
         "user": "F9bomber",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
         "count": 1
       }
     ],

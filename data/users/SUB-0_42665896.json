@@ -1,0 +1,51 @@
+{
+  "userId": "426658966794403841",
+  "displayName": "SUB-0",
+  "aliases": [],
+  "stats": {
+    "messageCount": 2,
+    "wordCount": 2,
+    "avgLength": 3.5,
+    "activityScore": 2.0,
+    "totalReactions": 0
+  },
+  "words": {
+    "ok": 1,
+    "night": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-01-20",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W02",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-01",
+        "count": 2
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Six Seven",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

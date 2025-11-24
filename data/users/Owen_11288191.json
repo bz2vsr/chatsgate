@@ -3,41 +3,44 @@
   "displayName": "Owen",
   "aliases": [],
   "stats": {
-    "messageCount": 7,
-    "wordCount": 32,
-    "avgLength": 47.14,
-    "activityScore": 24.5,
+    "messageCount": 11,
+    "wordCount": 44,
+    "avgLength": 40.36,
+    "activityScore": 34.1,
     "totalReactions": 0
   },
   "words": {
+    "called": 2,
+    "vets": 2,
+    "people": 2,
+    "play": 2,
+    "mpi": 2,
+    "scion": 2,
+    "anyone": 2,
+    "wants": 2,
+    "dm": 2,
     "player": 2,
     "looks": 1,
-    "called": 1,
-    "vets": 1,
     "bunch": 1,
     "crazy": 1,
-    "people": 1,
     "hello": 1,
     "life": 1,
     "game": 1,
     "inches": 1,
     "dick": 1,
     "biggest": 1,
+    "guys": 1,
+    "lmao": 1,
+    "ideas": 1,
     "suggestions": 1,
-    "scion": 1,
     "better": 1,
-    "anyone": 1,
-    "wants": 1,
-    "dm": 1,
     "vsr": 1,
     "made": 1,
     "vs": 1,
     "version": 1,
-    "mpi": 1,
     "ridicolous": 1,
     "brother": 1,
     "always": 1,
-    "play": 1,
     "scav": 1,
     "attack": 1,
     "noobs": 1
@@ -45,6 +48,18 @@
   "phrases": {},
   "timeline": {
     "daily": [
+      {
+        "date": "2024-01-17",
+        "count": 1
+      },
+      {
+        "date": "2024-01-19",
+        "count": 1
+      },
+      {
+        "date": "2024-01-29",
+        "count": 1
+      },
       {
         "date": "2024-02-05",
         "count": 1
@@ -66,6 +81,10 @@
         "count": 1
       },
       {
+        "date": "2024-07-03",
+        "count": 1
+      },
+      {
         "date": "2024-07-17",
         "count": 1
       },
@@ -75,6 +94,14 @@
       }
     ],
     "weekly": [
+      {
+        "week": "2024-W02",
+        "count": 2
+      },
+      {
+        "week": "2024-W04",
+        "count": 1
+      },
       {
         "week": "2024-W05",
         "count": 1
@@ -92,6 +119,10 @@
         "count": 2
       },
       {
+        "week": "2024-W26",
+        "count": 1
+      },
+      {
         "week": "2024-W28",
         "count": 1
       },
@@ -101,6 +132,10 @@
       }
     ],
     "monthly": [
+      {
+        "month": "2024-01",
+        "count": 3
+      },
       {
         "month": "2024-02",
         "count": 2
@@ -115,7 +150,7 @@
       },
       {
         "month": "2024-07",
-        "count": 1
+        "count": 2
       },
       {
         "month": "2024-09",

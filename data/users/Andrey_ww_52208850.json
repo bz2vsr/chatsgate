@@ -1,0 +1,72 @@
+{
+  "userId": "522088502901473284",
+  "displayName": "Andrey_ww",
+  "aliases": [],
+  "stats": {
+    "messageCount": 18,
+    "wordCount": 24,
+    "avgLength": 14.06,
+    "activityScore": 22.2,
+    "totalReactions": 0
+  },
+  "words": {
+    "man": 3,
+    "ok": 3,
+    "music": 2,
+    "guys": 1,
+    "nevemind": 1,
+    "russia": 1,
+    "banned": 1,
+    "list": 1,
+    "huh": 1,
+    "seldom": 1,
+    "use": 1,
+    "eng": 1,
+    "russian": 1,
+    "understand": 1,
+    "nevermind": 1,
+    "hey": 1,
+    "maxy": 1,
+    "ppl": 1,
+    "here4": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-05-04",
+        "count": 16
+      },
+      {
+        "date": "2024-05-06",
+        "count": 2
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W17",
+        "count": 16
+      },
+      {
+        "week": "2024-W18",
+        "count": 2
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-05",
+        "count": 18
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [],
+    "mentionsReceived": [
+      {
+        "user": "Erotic Juice Princess",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

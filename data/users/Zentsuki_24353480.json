@@ -3,14 +3,29 @@
   "displayName": "Zentsuki",
   "aliases": [],
   "stats": {
-    "messageCount": 3,
-    "wordCount": 17,
-    "avgLength": 68.33,
-    "activityScore": 12.8,
-    "totalReactions": 0
+    "messageCount": 17,
+    "wordCount": 140,
+    "avgLength": 94.0,
+    "activityScore": 103.1,
+    "totalReactions": 2
   },
   "words": {
-    "heard": 2,
+    "think": 5,
+    "game": 5,
+    "heard": 3,
+    "though": 3,
+    "meta": 3,
+    "strategy": 2,
+    "strategic": 2,
+    "lot": 2,
+    "understand": 2,
+    "rts": 2,
+    "come": 2,
+    "bit": 2,
+    "current": 2,
+    "gonna": 2,
+    "fps": 2,
+    "enjoy": 2,
     "yes": 1,
     "clear": 1,
     "didn": 1,
@@ -25,26 +40,114 @@
     "whatever": 1,
     "definitely": 1,
     "tazing": 1,
-    "though": 1
+    "bunker": 1,
+    "commanding": 1,
+    "re": 1,
+    "first": 1,
+    "adapting": 1,
+    "different": 1,
+    "used": 1,
+    "expected": 1,
+    "remember": 1,
+    "played": 1,
+    "wanted": 1,
+    "focus": 1,
+    "part": 1,
+    "maybe": 1,
+    "hot": 1,
+    "take": 1,
+    "potential": 1,
+    "wouldn": 1,
+    "everyone": 1,
+    "cup": 1,
+    "tea": 1,
+    "mode": 1,
+    "work": 1,
+    "multiple": 1,
+    "players": 1,
+    "1v1v1v1v1v1v1": 1,
+    "okay": 1,
+    "trying": 1,
+    "change": 1,
+    "anything": 1,
+    "thought": 1,
+    "experiment": 1,
+    "mind": 1,
+    "influenced": 1,
+    "existence": 1,
+    "empty": 1,
+    "scouts": 1,
+    "smaller": 1,
+    "maps": 1,
+    "ai": 1,
+    "burden": 1,
+    "brb": 1,
+    "bz3": 1,
+    "wasn": 1,
+    "fairly": 1,
+    "recent": 1,
+    "tried": 1,
+    "mix": 1,
+    "hyped": 1,
+    "never": 1,
+    "much": 1,
+    "came": 1,
+    "generation": 1,
+    "vtrider": 1,
+    "tbh": 1,
+    "surprised": 1,
+    "playing": 1,
+    "battlezone": 1,
+    "dad": 1,
+    "question": 1,
+    "except": 1,
+    "children": 1,
+    "ve": 1,
+    "conclusion": 1,
+    "multiplayer": 1,
+    "state": 1,
+    "made": 1,
+    "slightly": 1,
+    "awkard": 1,
+    "filled": 1,
+    "cheese": 1,
+    "rather": 1,
+    "shooting": 1,
+    "hybrid": 1,
+    "people": 1,
+    "ultimately": 1,
+    "serious": 1,
+    "balance": 1,
+    "concept": 1,
+    "issues": 1,
+    "address": 1,
+    "stick": 1,
+    "single": 1,
+    "player": 1,
+    "time": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
       {
+        "date": "2024-06-06",
+        "count": 13
+      },
+      {
         "date": "2024-06-07",
-        "count": 3
+        "count": 4
       }
     ],
     "weekly": [
       {
         "week": "2024-W22",
-        "count": 3
+        "count": 17
       }
     ],
     "monthly": [
       {
         "month": "2024-06",
-        "count": 3
+        "count": 17
       }
     ]
   },
@@ -54,8 +157,17 @@
       {
         "user": "susteem is African",
         "count": 2
+      },
+      {
+        "user": "JJ173",
+        "count": 1
       }
     ],
-    "reactionsReceived": []
+    "reactionsReceived": [
+      {
+        "emoji": "😍",
+        "count": 2
+      }
+    ]
   }
 }

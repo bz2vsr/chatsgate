@@ -76,10 +76,14 @@
     "mentionsReceived": [
       {
         "user": "susteem is African",
-        "count": 1
+        "count": 4
       },
       {
         "user": "Slyforion",
+        "count": 2
+      },
+      {
+        "user": "Deleted User",
         "count": 1
       }
     ],

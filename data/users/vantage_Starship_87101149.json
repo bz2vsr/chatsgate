@@ -3,20 +3,47 @@
   "displayName": "vantage Starship",
   "aliases": [],
   "stats": {
-    "messageCount": 14,
-    "wordCount": 47,
-    "avgLength": 32.07,
-    "activityScore": 37.1,
+    "messageCount": 50,
+    "wordCount": 179,
+    "avgLength": 36.54,
+    "activityScore": 140.3,
     "totalReactions": 0
   },
   "words": {
+    "ty": 6,
+    "hover": 4,
+    "game": 4,
+    "cyber": 4,
+    "pintoh1": 3,
+    "good": 3,
+    "hi": 3,
+    "welcome": 3,
+    "training": 3,
+    "session": 3,
+    "server": 3,
+    "ok": 3,
+    "gmt": 3,
+    "wait": 2,
+    "blueberry": 2,
     "servers": 2,
+    "go": 2,
     "different": 2,
-    "good": 2,
-    "welcome": 2,
-    "wait": 1,
-    "blueberry": 1,
-    "pintoh1": 1,
+    "anyways": 2,
+    "thanks": 2,
+    "next": 2,
+    "thxs": 2,
+    "new": 2,
+    "pintoh2": 2,
+    "pintoh3": 2,
+    "info": 2,
+    "got": 2,
+    "discord": 2,
+    "practice": 2,
+    "warrior": 2,
+    "xd": 2,
+    "shortly": 2,
+    "blue": 2,
+    "vtrider": 2,
     "makes": 1,
     "magen": 1,
     "david": 1,
@@ -26,48 +53,122 @@
     "actually": 1,
     "zionist": 1,
     "seen": 1,
-    "go": 1,
     "isreal": 1,
     "ideas": 1,
     "days": 1,
-    "anyways": 1,
     "long": 1,
     "general": 1,
     "take": 1,
     "reasonably": 1,
-    "hover": 1,
     "yes": 1,
     "mic": 1,
-    "ty": 1,
-    "thanks": 1,
-    "game": 1,
-    "cyber": 1,
     "hopefully": 1,
     "better": 1,
     "dogfighting": 1,
-    "next": 1,
     "lesson": 1,
-    "hi": 1,
-    "thxs": 1,
     "letting": 1,
     "quite": 1,
-    "new": 1,
-    "looks": 1
+    "looks": 1,
+    "people": 1,
+    "involved": 1,
+    "making": 1,
+    "scion": 1,
+    "sentries": 1,
+    "held": 1,
+    "tomorrow": 1,
+    "hello": 1,
+    "pintohs": 1,
+    "terms": 1,
+    "bz2": 1,
+    "usernames": 1,
+    "pintoh": 1,
+    "movement": 1,
+    "case": 1,
+    "authorized": 1,
+    "invite": 1,
+    "ai": 1,
+    "unit": 1,
+    "jj173": 1,
+    "minutes": 1,
+    "back": 1,
+    "didn": 1,
+    "today": 1,
+    "train": 1,
+    "fixed": 1,
+    "schedule": 1,
+    "oh": 1,
+    "watch": 1,
+    "cover": 1,
+    "repeat": 1,
+    "learn": 1,
+    "darkvale": 1,
+    "thx": 1,
+    "lot": 1,
+    "understood": 1,
+    "ll": 1,
+    "tho": 1,
+    "needs": 1,
+    "pic": 1,
+    "titan": 1,
+    "manual": 1,
+    "titans": 1,
+    "sarbuzz": 1,
+    "ciber": 1,
+    "sabre": 1,
+    "serv": 1,
+    "bluberry": 1,
+    "showing": 1,
+    "sorry": 1,
+    "set": 1,
+    "banana": 1,
+    "already": 1,
+    "hosting": 1,
+    "last": 1,
+    "least": 1,
+    "games": 1,
+    "slang": 1,
+    "word": 1,
+    "mood": 1,
+    "certain": 1,
+    "lamper": 1,
+    "75": 1,
+    "braddock": 1,
+    "happy": 1,
+    "around": 1,
+    "ish": 1
   },
-  "phrases": {},
+  "phrases": {
+    "ty for": 3
+  },
   "timeline": {
     "daily": [
       {
         "date": "2024-06-22",
-        "count": 10
+        "count": 22
       },
       {
         "date": "2024-06-23",
-        "count": 1
+        "count": 2
+      },
+      {
+        "date": "2024-06-25",
+        "count": 5
       },
       {
         "date": "2024-06-28",
+        "count": 5
+      },
+      {
+        "date": "2024-06-30",
+        "count": 4
+      },
+      {
+        "date": "2024-07-01",
         "count": 1
+      },
+      {
+        "date": "2024-07-02",
+        "count": 9
       },
       {
         "date": "2024-07-04",
@@ -77,51 +178,75 @@
     "weekly": [
       {
         "week": "2024-W24",
-        "count": 10
+        "count": 22
       },
       {
         "week": "2024-W25",
-        "count": 2
+        "count": 12
       },
       {
         "week": "2024-W26",
-        "count": 2
+        "count": 16
       }
     ],
     "monthly": [
       {
         "month": "2024-06",
-        "count": 12
+        "count": 38
       },
       {
         "month": "2024-07",
-        "count": 2
+        "count": 12
       }
     ]
   },
   "relationships": {
     "mentionsGiven": [
       {
-        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
-        "count": 2
+        "user": "Cyber",
+        "count": 4
       },
       {
         "user": "Kowloon Walled City",
-        "count": 1
+        "count": 3
+      },
+      {
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 3
+      },
+      {
+        "user": "VTrider",
+        "count": 2
       },
       {
         "user": "ThorM么n",
+        "count": 1
+      },
+      {
+        "user": "F9bomber",
+        "count": 1
+      },
+      {
+        "user": "JJ173",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
         "count": 1
       }
     ],
     "mentionsReceived": [
       {
-        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
-        "count": 1
+        "user": "Kowloon Walled City",
+        "count": 3
       },
       {
-        "user": "Kowloon Walled City",
-        "count": 1
+        "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 2
+      },
+      {
+        "user": "Cyber",
+        "count": 2
       }
     ],
     "reactionsReceived": []

@@ -3,11 +3,11 @@
   "displayName": "Rosario",
   "aliases": [],
   "stats": {
-    "messageCount": 53,
-    "wordCount": 439,
-    "avgLength": 99.32,
-    "activityScore": 323.2,
-    "totalReactions": 1
+    "messageCount": 55,
+    "wordCount": 446,
+    "avgLength": 96.53,
+    "activityScore": 328.7,
+    "totalReactions": 2
   },
   "words": {
     "mod": 10,
@@ -20,6 +20,7 @@
     "evidence": 5,
     "ai": 5,
     "say": 5,
+    "everyone": 5,
     "post": 5,
     "ve": 4,
     "grow": 4,
@@ -27,7 +28,6 @@
     "without": 4,
     "going": 4,
     "games": 4,
-    "everyone": 4,
     "try": 4,
     "deleted": 4,
     "welcome": 3,
@@ -44,6 +44,7 @@
     "want": 3,
     "rather": 3,
     "least": 3,
+    "ll": 3,
     "didn": 2,
     "50": 2,
     "case": 2,
@@ -64,6 +65,7 @@
     "shown": 2,
     "anyone": 2,
     "growth": 2,
+    "join": 2,
     "help": 2,
     "polling": 2,
     "stuff": 2,
@@ -72,6 +74,7 @@
     "guys": 2,
     "choice": 2,
     "respect": 2,
+    "game": 2,
     "play": 2,
     "kind": 2,
     "bz2": 2,
@@ -86,7 +89,7 @@
     "hold": 2,
     "away": 2,
     "better": 2,
-    "ll": 2,
+    "thanks": 2,
     "peace": 2,
     "keep": 1,
     "posting": 1,
@@ -131,7 +134,6 @@
     "explanation": 1,
     "showed": 1,
     "encourage": 1,
-    "join": 1,
     "us": 1,
     "admission": 1,
     "agreed": 1,
@@ -174,7 +176,6 @@
     "years": 1,
     "supposedly": 1,
     "dead": 1,
-    "game": 1,
     "pretty": 1,
     "good": 1,
     "pinging": 1,
@@ -270,7 +271,6 @@
     "agree": 1,
     "owner": 1,
     "finish": 1,
-    "thanks": 1,
     "listening": 1,
     "genuine": 1,
     "find": 1,
@@ -293,7 +293,9 @@
     "profit": 1,
     "repositioned": 1,
     "100k": 1,
-    "breakout": 1
+    "breakout": 1,
+    "gg": 1,
+    "cool": 1
   },
   "phrases": {
     "you re": 3,
@@ -311,6 +313,14 @@
   "timeline": {
     "daily": [
       {
+        "date": "2024-10-20",
+        "count": 1
+      },
+      {
+        "date": "2024-10-21",
+        "count": 1
+      },
+      {
         "date": "2024-11-13",
         "count": 1
       },
@@ -325,6 +335,10 @@
     ],
     "weekly": [
       {
+        "week": "2024-W42",
+        "count": 2
+      },
+      {
         "week": "2024-W45",
         "count": 1
       },
@@ -338,6 +352,10 @@
       }
     ],
     "monthly": [
+      {
+        "month": "2024-10",
+        "count": 2
+      },
       {
         "month": "2024-11",
         "count": 4
@@ -373,6 +391,10 @@
       {
         "user": "Cyber",
         "count": 1
+      },
+      {
+        "user": "VTrider",
+        "count": 1
       }
     ],
     "mentionsReceived": [
@@ -382,7 +404,7 @@
       },
       {
         "user": "Erotic Juice Princess",
-        "count": 3
+        "count": 4
       },
       {
         "user": "Doma",
@@ -390,7 +412,7 @@
       },
       {
         "user": "Deleted User",
-        "count": 1
+        "count": 2
       },
       {
         "user": "getsthedubs",
@@ -399,11 +421,27 @@
       {
         "user": "F9bomber",
         "count": 1
+      },
+      {
+        "user": "VTrider",
+        "count": 1
+      },
+      {
+        "user": "susteem is African",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
+        "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "🤮",
+        "count": 1
+      },
+      {
+        "emoji": "❤️",
         "count": 1
       }
     ]

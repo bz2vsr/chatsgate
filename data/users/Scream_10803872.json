@@ -3,16 +3,19 @@
   "displayName": "Scream",
   "aliases": [],
   "stats": {
-    "messageCount": 9,
-    "wordCount": 35,
-    "avgLength": 40.0,
-    "activityScore": 27.2,
+    "messageCount": 20,
+    "wordCount": 69,
+    "avgLength": 37.9,
+    "activityScore": 54.3,
     "totalReactions": 0
   },
   "words": {
-    "anyone": 2,
+    "anyone": 3,
+    "playing": 2,
     "homemade": 2,
     "thermal": 2,
+    "play": 2,
+    "cmding": 2,
     "sup": 1,
     "bitchezzz": 1,
     "huge": 1,
@@ -20,7 +23,6 @@
     "awesome": 1,
     "cookies": 1,
     "btw": 1,
-    "playing": 1,
     "airsoft": 1,
     "hide": 1,
     "seek": 1,
@@ -41,18 +43,54 @@
     "nvg": 1,
     "owerlay": 1,
     "ggs": 1,
-    "yall": 1
+    "yall": 1,
+    "game": 1,
+    "hi": 1,
+    "belive": 1,
+    "joining": 1,
+    "games": 1,
+    "ty": 1,
+    "used": 1,
+    "rn": 1,
+    "rusty": 1,
+    "newb": 1,
+    "domakus": 1,
+    "stull": 1,
+    "allot": 1,
+    "vs": 1,
+    "back": 1,
+    "day": 1,
+    "remember": 1,
+    "saw": 1,
+    "anyhow": 1,
+    "much": 1,
+    "free": 1,
+    "time": 1,
+    "mostly": 1,
+    "thugging": 1,
+    "bb": 1,
+    "facebook": 1,
+    "lost": 1,
+    "contact": 1
   },
   "phrases": {},
   "timeline": {
     "daily": [
       {
         "date": "2024-07-23",
-        "count": 1
+        "count": 4
+      },
+      {
+        "date": "2024-07-24",
+        "count": 7
       },
       {
         "date": "2024-07-26",
         "count": 3
+      },
+      {
+        "date": "2024-07-28",
+        "count": 1
       },
       {
         "date": "2024-07-31",
@@ -70,11 +108,11 @@
     "weekly": [
       {
         "week": "2024-W29",
-        "count": 4
+        "count": 14
       },
       {
         "week": "2024-W30",
-        "count": 2
+        "count": 3
       },
       {
         "week": "2024-W31",
@@ -88,7 +126,7 @@
     "monthly": [
       {
         "month": "2024-07",
-        "count": 6
+        "count": 17
       },
       {
         "month": "2024-08",
@@ -101,7 +139,12 @@
     ]
   },
   "relationships": {
-    "mentionsGiven": [],
+    "mentionsGiven": [
+      {
+        "user": "VTrider",
+        "count": 1
+      }
+    ],
     "mentionsReceived": [
       {
         "user": "JJ173",
@@ -113,6 +156,10 @@
       },
       {
         "user": "Erotic Juice Princess",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
         "count": 1
       }
     ],

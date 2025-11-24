@@ -3,153 +3,267 @@
   "displayName": "Cave-Man",
   "aliases": [],
   "stats": {
-    "messageCount": 230,
-    "wordCount": 1038,
-    "avgLength": 46.9,
-    "activityScore": 795.6,
-    "totalReactions": 7
+    "messageCount": 391,
+    "wordCount": 1615,
+    "avgLength": 43.32,
+    "activityScore": 1247.8,
+    "totalReactions": 14
   },
   "words": {
     "damagevalue": 18,
     "size": 16,
     "shield": 15,
     "file": 14,
+    "bz2": 13,
+    "armor": 13,
     "shieldscale": 13,
-    "armor": 12,
+    "players": 12,
+    "min": 11,
+    "use": 10,
+    "vsr": 10,
+    "game": 10,
     "trn": 10,
-    "min": 10,
     "armorscale": 9,
-    "use": 8,
-    "bug": 8,
+    "bug": 9,
+    "1v1": 8,
+    "good": 8,
+    "hp": 8,
+    "nielk1": 7,
     "max": 7,
     "0f": 7,
     "light": 7,
-    "vsr": 7,
+    "change": 7,
+    "odf": 7,
+    "scavs": 7,
+    "think": 6,
+    "real": 6,
     "parameterdb": 6,
     "getfloat": 6,
     "crcodf": 6,
     "ordnanceclass": 6,
     "proto": 6,
+    "games": 6,
+    "play": 6,
+    "scion": 6,
+    "kill": 6,
+    "gay": 6,
+    "assault": 6,
+    "using": 6,
     "path": 6,
     "getodfdouble": 6,
-    "bz2": 5,
+    "time": 5,
+    "tried": 5,
+    "base": 5,
     "none": 5,
     "heavy": 5,
-    "1v1": 5,
+    "one": 5,
+    "want": 5,
     "stinger": 5,
+    "made": 5,
+    "better": 5,
+    "lmao": 5,
+    "playing": 5,
+    "makes": 5,
+    "map": 5,
+    "bz1": 5,
+    "used": 5,
     "edge": 5,
-    "using": 5,
     "combat": 5,
-    "assault": 5,
-    "nielk1": 4,
+    "never": 4,
+    "got": 4,
     "remember": 4,
+    "new": 4,
+    "yes": 4,
+    "end": 4,
+    "damage": 4,
     "stasis": 4,
     "deflect": 4,
     "absorb": 4,
-    "made": 4,
-    "better": 4,
-    "odf": 4,
+    "values": 4,
+    "man": 4,
     "always": 4,
-    "map": 4,
+    "point": 4,
+    "changes": 4,
+    "feared": 4,
+    "someone": 4,
+    "deal": 4,
+    "rec": 4,
+    "probably": 4,
+    "mortar": 4,
+    "kp": 4,
+    "malone": 4,
+    "shooting": 4,
     "read": 4,
     "header": 4,
     "units": 4,
+    "thought": 3,
     "cool": 3,
-    "think": 3,
-    "real": 3,
-    "time": 3,
-    "tried": 3,
+    "re": 3,
+    "nobody": 3,
+    "looks": 3,
+    "fucking": 3,
+    "10": 3,
     "look": 3,
-    "yes": 3,
-    "end": 3,
+    "wrong": 3,
     "behind": 3,
-    "damage": 3,
     "value": 3,
-    "one": 3,
+    "become": 3,
+    "cave": 3,
     "round": 3,
     "nobs": 3,
+    "another": 3,
     "inheritence": 3,
-    "change": 3,
     "fix": 3,
     "50": 3,
-    "good": 3,
     "gravey": 3,
+    "dumb": 3,
+    "empties": 3,
+    "player": 3,
+    "blue": 3,
+    "black": 3,
     "channel": 3,
-    "lmao": 3,
+    "discord": 3,
     "herp": 3,
+    "high": 3,
     "people": 3,
+    "yellow": 3,
+    "issue": 3,
+    "bots": 3,
     "height": 3,
-    "scavs": 3,
+    "anything": 3,
+    "banned": 3,
+    "mort": 3,
+    "years": 3,
+    "constantly": 3,
+    "back": 3,
+    "big": 3,
+    "going": 3,
+    "comments": 3,
+    "files": 3,
+    "econ": 3,
+    "maybe": 3,
+    "ai": 3,
+    "unit": 3,
+    "fine": 3,
+    "anyone": 3,
     "meters": 3,
     "buffer": 3,
-    "hp": 3,
-    "mortar": 3,
-    "probably": 3,
-    "gay": 3,
-    "thought": 2,
-    "never": 2,
+    "work": 2,
     "supposed": 2,
     "aint": 2,
-    "nobody": 2,
+    "yet": 2,
     "channels": 2,
     "least": 2,
-    "players": 2,
-    "looks": 2,
+    "attention": 2,
+    "around": 2,
     "working": 2,
     "eat": 2,
     "meat": 2,
     "called": 2,
-    "got": 2,
+    "willing": 2,
     "humor": 2,
     "looked": 2,
     "ve": 2,
-    "new": 2,
     "clan": 2,
     "racism": 2,
-    "wrong": 2,
     "scales": 2,
+    "effects": 2,
     "multiply": 2,
     "baseline": 2,
-    "values": 2,
-    "become": 2,
+    "actual": 2,
     "code": 2,
+    "mr": 2,
+    "race": 2,
+    "first": 2,
     "video": 2,
-    "cave": 2,
-    "man": 2,
+    "two": 2,
     "water": 2,
+    "deleted": 2,
+    "everyone": 2,
+    "host": 2,
     "f1": 2,
+    "range": 2,
     "200m": 2,
-    "another": 2,
+    "full": 2,
+    "odfs": 2,
     "caused": 2,
     "gbd": 2,
     "hadean": 2,
+    "adding": 2,
     "start": 2,
     "krees": 2,
-    "empties": 2,
     "console": 2,
     "vote": 2,
-    "player": 2,
-    "blue": 2,
+    "30": 2,
     "say": 2,
     "ur": 2,
     "knew": 2,
     "reminds": 2,
-    "point": 2,
-    "playing": 2,
+    "tonight": 2,
+    "nerd": 2,
     "engine": 2,
-    "high": 2,
-    "yellow": 2,
+    "wait": 2,
+    "less": 2,
+    "fan": 2,
+    "quality": 2,
     "women": 2,
     "local": 2,
-    "play": 2,
     "dm": 2,
     "normal": 2,
+    "nigga": 2,
+    "let": 2,
     "old": 2,
-    "fine": 2,
-    "scion": 2,
+    "control": 2,
+    "die": 2,
+    "text": 2,
+    "red": 2,
+    "move": 2,
+    "come": 2,
+    "mother": 2,
+    "result": 2,
+    "ready": 2,
+    "interesting": 2,
+    "show": 2,
+    "4v4": 2,
+    "hedoux": 2,
+    "strategy": 2,
+    "complained": 2,
+    "lost": 2,
+    "huge": 2,
+    "changed": 2,
+    "trash": 2,
+    "bin": 2,
+    "whim": 2,
+    "gift": 2,
+    "extractor": 2,
+    "comet": 2,
+    "hit": 2,
+    "bomber": 2,
+    "buff": 2,
+    "super": 2,
+    "market": 2,
+    "mod": 2,
+    "view": 2,
+    "sleep": 2,
+    "tired": 2,
+    "lumi": 2,
+    "stop": 2,
+    "cuz": 2,
+    "sent": 2,
+    "slyforion": 2,
+    "proof": 2,
+    "evidence": 2,
+    "2v2": 2,
+    "command": 2,
+    "tank": 2,
+    "seeker": 2,
+    "instead": 2,
+    "scav": 2,
+    "noob": 2,
+    "lot": 2,
+    "shuddup": 2,
     "ivscav": 2,
     "fvscav": 2,
-    "feared": 2,
     "orange": 2,
     "guess": 2,
     "account": 2,
@@ -159,26 +273,19 @@
     "grid": 2,
     "print": 2,
     "bounds": 2,
-    "files": 2,
     "shit": 2,
     "createfile": 2,
     "openfile": 2,
     "return": 2,
     "weapons": 2,
-    "used": 2,
     "isassault": 2,
-    "rec": 2,
     "rush": 2,
-    "maybe": 2,
     "original": 2,
     "hustled": 1,
-    "work": 1,
     "put": 1,
-    "re": 1,
     "life": 1,
     "seem": 1,
     "notice": 1,
-    "yet": 1,
     "hey": 1,
     "150": 1,
     "dfing": 1,
@@ -188,8 +295,6 @@
     "rider": 1,
     "technique": 1,
     "paying": 1,
-    "attention": 1,
-    "around": 1,
     "nielk1net": 1,
     "54": 1,
     "200": 1,
@@ -203,13 +308,10 @@
     "snapshot": 1,
     "server": 1,
     "sly": 1,
-    "fucking": 1,
     "lagger": 1,
     "png": 1,
-    "willing": 1,
     "sell": 1,
     "paypal": 1,
-    "10": 1,
     "zero": 1,
     "angel": 1,
     "explain": 1,
@@ -235,31 +337,23 @@
     "sniped": 1,
     "warriors": 1,
     "titans": 1,
-    "base": 1,
-    "effects": 1,
     "basically": 1,
     "together": 1,
     "expect": 1,
     "three": 1,
     "shields": 1,
     "multipliers": 1,
-    "actual": 1,
     "source": 1,
     "btw": 1,
     "won": 1,
-    "mr": 1,
     "scorpion": 1,
     "please": 1,
     "add": 1,
     "gaydlian": 1,
     "core": 1,
-    "race": 1,
     "cooler": 1,
-    "first": 1,
-    "want": 1,
     "15": 1,
     "seconds": 1,
-    "two": 1,
     "open": 1,
     "mouth": 1,
     "bro": 1,
@@ -268,27 +362,20 @@
     "yooohohoooooooooo": 1,
     "noobs": 1,
     "online": 1,
-    "deleted": 1,
     "role": 1,
-    "everyone": 1,
-    "host": 1,
     "quit": 1,
     "praying": 1,
     "moboy": 1,
     "ordnance": 1,
-    "range": 1,
     "mistake": 1,
-    "full": 1,
     "2200": 1,
     "incorrect": 1,
     "inheriting": 1,
     "non": 1,
-    "odfs": 1,
     "evscout": 1,
     "classlabel": 1,
     "asset": 1,
     "pack": 1,
-    "adding": 1,
     "1800": 1,
     "override": 1,
     "bugs": 1,
@@ -306,7 +393,6 @@
     "correct": 1,
     "whoever": 1,
     "yup": 1,
-    "dumb": 1,
     "painting": 1,
     "special": 1,
     "slot": 1,
@@ -322,7 +408,6 @@
     "create": 1,
     "votes": 1,
     "via": 1,
-    "30": 1,
     "takes": 1,
     "effect": 1,
     "tool": 1,
@@ -332,7 +417,6 @@
     "buzzwords": 1,
     "racist": 1,
     "hates": 1,
-    "black": 1,
     "ppl": 1,
     "nsfw": 1,
     "sd": 1,
@@ -343,34 +427,24 @@
     "broke": 1,
     "porn": 1,
     "bzcc": 1,
-    "discord": 1,
-    "games": 1,
     "dev": 1,
     "nerds": 1,
-    "tonight": 1,
     "mcderperson": 1,
     "slaps": 1,
-    "nerd": 1,
     "glasses": 1,
     "mad": 1,
     "cycle": 1,
     "moving": 1,
     "slowly": 1,
-    "changes": 1,
     "throw": 1,
     "rpms": 1,
-    "makes": 1,
-    "wait": 1,
-    "less": 1,
     "nervous": 1,
     "driver": 1,
     "scotty": 1,
     "kilmer": 1,
-    "fan": 1,
     "slams": 1,
     "brakes": 1,
     "lights": 1,
-    "quality": 1,
     "dash": 1,
     "cam": 1,
     "taped": 1,
@@ -388,30 +462,267 @@
     "v6": 1,
     "diesel": 1,
     "iirc": 1,
-    "issue": 1,
     "netcode": 1,
     "key": 1,
     "mappings": 1,
     "stroke": 1,
     "selfie": 1,
     "filled": 1,
-    "bots": 1,
     "rather": 1,
     "heroin": 1,
     "dumpster": 1,
     "popeyes": 1,
     "judgeguns": 1,
     "irl": 1,
-    "anything": 1,
-    "nigga": 1,
     "atlanta": 1,
-    "let": 1,
     "drunk": 1,
     "anybody": 1,
     "link": 1,
     "sub0s": 1,
     "freewebs": 1,
     "website": 1,
+    "reason": 1,
+    "took": 1,
+    "csgo": 1,
+    "competitive": 1,
+    "take": 1,
+    "asdf": 1,
+    "vtrider": 1,
+    "meanwhile": 1,
+    "hads": 1,
+    "build": 1,
+    "anywhere": 1,
+    "recycler": 1,
+    "happy": 1,
+    "vt": 1,
+    "viv": 1,
+    "etc": 1,
+    "butthurt": 1,
+    "hears": 1,
+    "found": 1,
+    "googling": 1,
+    "word": 1,
+    "canned": 1,
+    "already": 1,
+    "informed": 1,
+    "situation": 1,
+    "thank": 1,
+    "god": 1,
+    "john": 1,
+    "tosser": 1,
+    "mom": 1,
+    "user": 1,
+    "isn": 1,
+    "aren": 1,
+    "enough": 1,
+    "pay": 1,
+    "podcast": 1,
+    "monitor": 1,
+    "sometimes": 1,
+    "solution": 1,
+    "joining": 1,
+    "send": 1,
+    "screenshot": 1,
+    "wasn": 1,
+    "friends": 1,
+    "dared": 1,
+    "campaign": 1,
+    "every": 1,
+    "year": 1,
+    "feels": 1,
+    "moon": 1,
+    "mission": 1,
+    "cmd": 1,
+    "whole": 1,
+    "tier": 1,
+    "system": 1,
+    "inside": 1,
+    "joke": 1,
+    "troll": 1,
+    "2v2s": 1,
+    "1v1s": 1,
+    "crashed": 1,
+    "aim": 1,
+    "straight": 1,
+    "11": 1,
+    "ago": 1,
+    "occasions": 1,
+    "juggs": 1,
+    "ever": 1,
+    "later": 1,
+    "became": 1,
+    "cesspit": 1,
+    "degrades": 1,
+    "tweaking": 1,
+    "coming": 1,
+    "learn": 1,
+    "stay": 1,
+    "constant": 1,
+    "said": 1,
+    "bail": 1,
+    "prove": 1,
+    "failed": 1,
+    "commander": 1,
+    "muffin": 1,
+    "pulled": 1,
+    "funny": 1,
+    "prank": 1,
+    "story": 1,
+    "shoot": 1,
+    "chaingun": 1,
+    "pods": 1,
+    "sending": 1,
+    "care": 1,
+    "reversing": 1,
+    "legitimately": 1,
+    "anyway": 1,
+    "things": 1,
+    "doesn": 1,
+    "matter": 1,
+    "unskilled": 1,
+    "suicides": 1,
+    "effective": 1,
+    "agreed": 1,
+    "sort": 1,
+    "hovering": 1,
+    "exploit": 1,
+    "patched": 1,
+    "support": 1,
+    "95": 1,
+    "ammo": 1,
+    "encourage": 1,
+    "rushing": 1,
+    "maps": 1,
+    "suicide": 1,
+    "upg": 1,
+    "empty": 1,
+    "chunks": 1,
+    "remembered": 1,
+    "nerf": 1,
+    "5v5": 1,
+    "almost": 1,
+    "bike": 1,
+    "lowest": 1,
+    "300m": 1,
+    "stab": 1,
+    "twoshed": 1,
+    "particle": 1,
+    "cumulative": 1,
+    "undocumented": 1,
+    "undiscussed": 1,
+    "banana": 1,
+    "trolling": 1,
+    "idea": 1,
+    "legit": 1,
+    "oppressed": 1,
+    "liked": 1,
+    "random": 1,
+    "devil": 1,
+    "lead": 1,
+    "developement": 1,
+    "mods": 1,
+    "scary": 1,
+    "day": 1,
+    "wrecker": 1,
+    "though": 1,
+    "op": 1,
+    "needs": 1,
+    "version": 1,
+    "setup": 1,
+    "leave": 1,
+    "individual": 1,
+    "documented": 1,
+    "history": 1,
+    "languages": 1,
+    "python": 1,
+    "93": 1,
+    "lolwut": 1,
+    "fun": 1,
+    "needed": 1,
+    "bad": 1,
+    "earlier": 1,
+    "excuses": 1,
+    "damn": 1,
+    "luminess": 1,
+    "complaining": 1,
+    "lumy": 1,
+    "dang": 1,
+    "today": 1,
+    "bit": 1,
+    "telling": 1,
+    "tiddy": 1,
+    "pics": 1,
+    "guys": 1,
+    "added": 1,
+    "buffs": 1,
+    "target": 1,
+    "archers": 1,
+    "anymore": 1,
+    "friend": 1,
+    "swear": 1,
+    "plz": 1,
+    "ageism": 1,
+    "ban": 1,
+    "bailed": 1,
+    "fuck": 1,
+    "snake": 1,
+    "try": 1,
+    "grr": 1,
+    "overlook": 1,
+    "sounding": 1,
+    "rod": 1,
+    "ok": 1,
+    "running": 1,
+    "blowing": 1,
+    "air": 1,
+    "keep": 1,
+    "awake": 1,
+    "hosting": 1,
+    "proove": 1,
+    "excuse": 1,
+    "determine": 1,
+    "commanders": 1,
+    "commanding": 1,
+    "thug": 1,
+    "gayme": 1,
+    "cube": 1,
+    "brings": 1,
+    "energy": 1,
+    "autistic": 1,
+    "tro": 1,
+    "sound": 1,
+    "track": 1,
+    "songs": 1,
+    "radar": 1,
+    "wireframe": 1,
+    "piss": 1,
+    "bombing": 1,
+    "done": 1,
+    "putting": 1,
+    "name": 1,
+    "cloaket": 1,
+    "homeless": 1,
+    "mentally": 1,
+    "thumbnails": 1,
+    "scavengers": 1,
+    "critical": 1,
+    "pretending": 1,
+    "average": 1,
+    "20": 1,
+    "sense": 1,
+    "spent": 1,
+    "proud": 1,
+    "wat": 1,
+    "byach": 1,
+    "byiatch": 1,
+    "painful": 1,
+    "watch": 1,
+    "cc111100": 1,
+    "suddenly": 1,
+    "explodes": 1,
+    "idk": 1,
+    "haven": 1,
+    "kid": 1,
     "cancer": 1,
     "zst": 1,
     "works": 1,
@@ -419,17 +730,13 @@
     "cells": 1,
     "varies": 1,
     "gradually": 1,
-    "show": 1,
-    "evidence": 1,
     "scavenger": 1,
     "zig": 1,
     "zag": 1,
     "shift": 1,
     "f9": 1,
-    "view": 1,
     "seems": 1,
     "asking": 1,
-    "proof": 1,
     "condition": 1,
     "lose": 1,
     "vegan": 1,
@@ -437,9 +744,7 @@
     "steak": 1,
     "thanks": 1,
     "content": 1,
-    "econ": 1,
     "loose": 1,
-    "cuz": 1,
     "eating": 1,
     "affects": 1,
     "cognition": 1,
@@ -448,14 +753,11 @@
     "brain": 1,
     "causing": 1,
     "dementia": 1,
-    "scav": 1,
     "difference": 1,
     "collisionradius": 1,
     "teamtransferrable": 1,
     "gototaskhasleader": 1,
     "commented": 1,
-    "years": 1,
-    "anyone": 1,
     "making": 1,
     "argument": 1,
     "different": 1,
@@ -464,16 +766,12 @@
     "sphere": 1,
     "part": 1,
     "msh": 1,
-    "slyforion": 1,
     "able": 1,
-    "kill": 1,
-    "extractor": 1,
     "plasma": 1,
     "stream": 1,
     "run": 1,
     "rid": 1,
     "beam": 1,
-    "shooting": 1,
     "eyes": 1,
     "xyr": 1,
     "flying": 1,
@@ -502,12 +800,8 @@
     "country": 1,
     "australia": 1,
     "aud": 1,
-    "someone": 1,
     "donated": 1,
     "refunded": 1,
-    "noob": 1,
-    "trash": 1,
-    "bin": 1,
     "sbx": 1,
     "push": 1,
     "objects": 1,
@@ -529,7 +823,6 @@
     "binary": 1,
     "faster": 1,
     "easier": 1,
-    "text": 1,
     "worry": 1,
     "line": 1,
     "ending": 1,
@@ -551,11 +844,9 @@
     "carriage": 1,
     "character": 1,
     "awful": 1,
-    "huge": 1,
     "winapi": 1,
     "underneath": 1,
     "based": 1,
-    "comments": 1,
     "hack": 1,
     "minimum": 1,
     "required": 1,
@@ -590,29 +881,21 @@
     "marked": 1,
     "default": 1,
     "variants": 1,
-    "deal": 1,
-    "hedoux": 1,
     "shellgun": 1,
-    "tank": 1,
     "uses": 1,
     "mdm": 1,
     "buildings": 1,
     "bounce": 1,
     "left": 1,
     "sandbox": 1,
-    "mod": 1,
     "predates": 1,
     "stolen": 1,
-    "banned": 1,
     "useless": 1,
     "morph": 1,
-    "hit": 1,
     "lancer": 1,
     "bring": 1,
-    "back": 1,
     "morphed": 1,
     "mag": 1,
-    "changed": 1,
     "swarm": 1,
     "rapid": 1,
     "fire": 1,
@@ -635,17 +918,16 @@
     "1f": 1,
     "represented": 1,
     "float": 1,
-    "instead": 1,
     "writing": 1,
     "gen": 1,
     "chat": 1,
     "active": 1,
     "servers": 1,
-    "seeker": 1,
     "annoying": 1
   },
   "phrases": {
-    "tried to": 3,
+    "you re": 3,
+    "tried to": 5,
     "parameterdb getfloat": 6,
     "getfloat crcodf": 6,
     "crcodf ordnanceclass": 6,
@@ -696,7 +978,17 @@
     "damagevalue 0f if parameterdb getfloat crcodf": 3,
     "parameterdb getfloat crcodf ordnanceclass damagevalue shieldscale": 3,
     "getfloat crcodf ordnanceclass damagevalue shieldscale shield": 3,
+    "cave man": 3,
     "1v1 nobs": 3,
+    "odf values": 3,
+    "the game": 5,
+    "not big": 3,
+    "big deal": 3,
+    "use it": 3,
+    "not big deal": 3,
+    "hp mortar": 3,
+    "kp malone": 4,
+    "ai unit": 3,
     "trn file": 9,
     "getodfdouble trn": 6,
     "file size": 8,
@@ -716,19 +1008,19 @@
     "daily": [
       {
         "date": "2023-08-09",
-        "count": 3
+        "count": 5
       },
       {
         "date": "2023-08-11",
-        "count": 4
+        "count": 5
       },
       {
         "date": "2023-08-13",
-        "count": 6
+        "count": 9
       },
       {
         "date": "2023-08-15",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2023-08-16",
@@ -736,7 +1028,11 @@
       },
       {
         "date": "2023-08-19",
-        "count": 6
+        "count": 11
+      },
+      {
+        "date": "2023-08-22",
+        "count": 3
       },
       {
         "date": "2023-08-23",
@@ -748,7 +1044,7 @@
       },
       {
         "date": "2023-08-25",
-        "count": 1
+        "count": 14
       },
       {
         "date": "2023-08-26",
@@ -768,7 +1064,7 @@
       },
       {
         "date": "2023-09-02",
-        "count": 1
+        "count": 3
       },
       {
         "date": "2023-09-05",
@@ -779,8 +1075,24 @@
         "count": 4
       },
       {
+        "date": "2023-09-07",
+        "count": 1
+      },
+      {
+        "date": "2023-09-10",
+        "count": 1
+      },
+      {
+        "date": "2023-09-11",
+        "count": 3
+      },
+      {
         "date": "2023-09-12",
         "count": 1
+      },
+      {
+        "date": "2023-09-21",
+        "count": 45
       },
       {
         "date": "2023-09-22",
@@ -804,7 +1116,19 @@
       },
       {
         "date": "2023-09-30",
+        "count": 2
+      },
+      {
+        "date": "2023-10-01",
         "count": 1
+      },
+      {
+        "date": "2023-10-02",
+        "count": 9
+      },
+      {
+        "date": "2023-10-08",
+        "count": 3
       },
       {
         "date": "2023-10-09",
@@ -812,7 +1136,11 @@
       },
       {
         "date": "2023-10-10",
-        "count": 1
+        "count": 2
+      },
+      {
+        "date": "2023-10-17",
+        "count": 10
       },
       {
         "date": "2023-10-18",
@@ -820,11 +1148,15 @@
       },
       {
         "date": "2023-10-22",
-        "count": 1
+        "count": 3
       },
       {
         "date": "2023-10-24",
-        "count": 41
+        "count": 44
+      },
+      {
+        "date": "2023-10-25",
+        "count": 1
       },
       {
         "date": "2023-10-26",
@@ -836,19 +1168,31 @@
       },
       {
         "date": "2023-11-04",
+        "count": 3
+      },
+      {
+        "date": "2023-11-05",
         "count": 2
       },
       {
         "date": "2023-11-06",
-        "count": 8
+        "count": 10
+      },
+      {
+        "date": "2023-11-08",
+        "count": 1
       },
       {
         "date": "2023-11-16",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2023-11-17",
         "count": 5
+      },
+      {
+        "date": "2023-11-24",
+        "count": 1
       },
       {
         "date": "2023-11-26",
@@ -856,18 +1200,38 @@
       },
       {
         "date": "2023-11-28",
-        "count": 2
+        "count": 4
       },
       {
         "date": "2023-11-29",
         "count": 1
       },
       {
-        "date": "2023-12-03",
+        "date": "2023-11-30",
+        "count": 3
+      },
+      {
+        "date": "2023-12-01",
         "count": 1
       },
       {
+        "date": "2023-12-03",
+        "count": 3
+      },
+      {
+        "date": "2023-12-04",
+        "count": 7
+      },
+      {
         "date": "2023-12-05",
+        "count": 2
+      },
+      {
+        "date": "2023-12-06",
+        "count": 3
+      },
+      {
+        "date": "2023-12-08",
         "count": 1
       },
       {
@@ -875,100 +1239,112 @@
         "count": 1
       },
       {
+        "date": "2023-12-13",
+        "count": 19
+      },
+      {
         "date": "2023-12-15",
-        "count": 1
+        "count": 4
       }
     ],
     "weekly": [
       {
         "week": "2023-W32",
-        "count": 7
+        "count": 10
       },
       {
         "week": "2023-W33",
-        "count": 18
+        "count": 27
       },
       {
         "week": "2023-W34",
-        "count": 24
+        "count": 40
       },
       {
         "week": "2023-W35",
-        "count": 12
+        "count": 14
       },
       {
         "week": "2023-W36",
-        "count": 7
-      },
-      {
-        "week": "2023-W37",
-        "count": 1
-      },
-      {
-        "week": "2023-W38",
-        "count": 44
-      },
-      {
-        "week": "2023-W39",
-        "count": 9
-      },
-      {
-        "week": "2023-W41",
-        "count": 7
-      },
-      {
-        "week": "2023-W42",
-        "count": 28
-      },
-      {
-        "week": "2023-W43",
-        "count": 48
-      },
-      {
-        "week": "2023-W44",
-        "count": 2
-      },
-      {
-        "week": "2023-W45",
         "count": 8
       },
       {
+        "week": "2023-W37",
+        "count": 5
+      },
+      {
+        "week": "2023-W38",
+        "count": 89
+      },
+      {
+        "week": "2023-W39",
+        "count": 10
+      },
+      {
+        "week": "2023-W40",
+        "count": 10
+      },
+      {
+        "week": "2023-W41",
+        "count": 11
+      },
+      {
+        "week": "2023-W42",
+        "count": 38
+      },
+      {
+        "week": "2023-W43",
+        "count": 54
+      },
+      {
+        "week": "2023-W44",
+        "count": 3
+      },
+      {
+        "week": "2023-W45",
+        "count": 13
+      },
+      {
         "week": "2023-W46",
-        "count": 7
+        "count": 8
+      },
+      {
+        "week": "2023-W47",
+        "count": 1
       },
       {
         "week": "2023-W48",
-        "count": 4
+        "count": 10
       },
       {
         "week": "2023-W49",
-        "count": 2
+        "count": 16
       },
       {
         "week": "2023-W50",
-        "count": 2
+        "count": 24
       }
     ],
     "monthly": [
       {
         "month": "2023-08",
-        "count": 60
+        "count": 88
       },
       {
         "month": "2023-09",
-        "count": 62
+        "count": 115
       },
       {
         "month": "2023-10",
-        "count": 83
+        "count": 113
       },
       {
         "month": "2023-11",
-        "count": 21
+        "count": 34
       },
       {
         "month": "2023-12",
-        "count": 4
+        "count": 41
       }
     ]
   },
@@ -976,7 +1352,11 @@
     "mentionsGiven": [
       {
         "user": "Feared_1",
-        "count": 3
+        "count": 5
+      },
+      {
+        "user": "Slyforion",
+        "count": 2
       },
       {
         "user": "Bad scion player",
@@ -987,7 +1367,19 @@
         "count": 1
       },
       {
-        "user": "Slyforion",
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "VTrider",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
+      },
+      {
+        "user": "LuMi",
         "count": 1
       },
       {
@@ -998,11 +1390,27 @@
     "mentionsReceived": [
       {
         "user": "Bad scion player",
-        "count": 5
+        "count": 8
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 7
+      },
+      {
+        "user": "Slyforion",
+        "count": 4
       },
       {
         "user": "VTrider",
-        "count": 2
+        "count": 3
+      },
+      {
+        "user": "LuMi",
+        "count": 3
+      },
+      {
+        "user": "susteem is African",
+        "count": 3
       },
       {
         "user": "F9bomber",
@@ -1017,26 +1425,14 @@
         "count": 1
       },
       {
-        "user": "Slyforion",
-        "count": 1
-      },
-      {
         "user": "Feared_1",
-        "count": 1
-      },
-      {
-        "user": "getsthedubs",
-        "count": 1
-      },
-      {
-        "user": "Kowloon Walled City",
         "count": 1
       }
     ],
     "reactionsReceived": [
       {
         "emoji": "👍",
-        "count": 3
+        "count": 5
       },
       {
         "emoji": "👌",
@@ -1044,6 +1440,26 @@
       },
       {
         "emoji": "🙀",
+        "count": 1
+      },
+      {
+        "emoji": "💀",
+        "count": 1
+      },
+      {
+        "emoji": "🤣",
+        "count": 1
+      },
+      {
+        "emoji": "🤔",
+        "count": 1
+      },
+      {
+        "emoji": "👴",
+        "count": 1
+      },
+      {
+        "emoji": "psyringe",
         "count": 1
       },
       {

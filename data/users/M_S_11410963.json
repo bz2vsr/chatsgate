@@ -3,16 +3,20 @@
   "displayName": "M.S",
   "aliases": [],
   "stats": {
-    "messageCount": 20,
-    "wordCount": 25,
-    "avgLength": 8.7,
-    "activityScore": 23.5,
-    "totalReactions": 0
+    "messageCount": 56,
+    "wordCount": 64,
+    "avgLength": 7.38,
+    "activityScore": 61.6,
+    "totalReactions": 1
   },
   "words": {
-    "game": 9,
-    "10": 4,
-    "strat": 1,
+    "game": 24,
+    "10": 11,
+    "strat": 4,
+    "ok": 4,
+    "bz2": 3,
+    "player": 3,
+    "bro": 2,
     "joined": 1,
     "server": 1,
     "assault": 1,
@@ -23,10 +27,16 @@
     "zack": 1,
     "monkey": 1,
     "3v3": 1,
-    "ok": 1
+    "host": 1,
+    "yes": 1,
+    "st": 1
   },
   "phrases": {
-    "game up": 9
+    "strat up": 3,
+    "game up": 24,
+    "up 10": 3,
+    "game up 10": 3,
+    "bz2 player": 3
   },
   "timeline": {
     "daily": [
@@ -47,7 +57,83 @@
         "count": 1
       },
       {
+        "date": "2024-04-18",
+        "count": 2
+      },
+      {
+        "date": "2024-05-06",
+        "count": 1
+      },
+      {
         "date": "2024-05-23",
+        "count": 1
+      },
+      {
+        "date": "2024-07-05",
+        "count": 1
+      },
+      {
+        "date": "2024-08-23",
+        "count": 1
+      },
+      {
+        "date": "2024-08-24",
+        "count": 1
+      },
+      {
+        "date": "2024-09-03",
+        "count": 2
+      },
+      {
+        "date": "2024-09-24",
+        "count": 1
+      },
+      {
+        "date": "2024-10-06",
+        "count": 2
+      },
+      {
+        "date": "2024-10-13",
+        "count": 2
+      },
+      {
+        "date": "2024-10-20",
+        "count": 2
+      },
+      {
+        "date": "2024-11-30",
+        "count": 3
+      },
+      {
+        "date": "2024-12-09",
+        "count": 1
+      },
+      {
+        "date": "2025-01-02",
+        "count": 2
+      },
+      {
+        "date": "2025-01-11",
+        "count": 1
+      },
+      {
+        "date": "2025-01-18",
+        "count": 4
+      },
+      {
+        "date": "2025-01-27",
+        "count": 3
+      },
+      {
+        "date": "2025-01-29",
+        "count": 2
+      },
+      {
+        "date": "2025-02-05",
+        "count": 2
+      },
+      {
+        "date": "2025-03-13",
         "count": 1
       },
       {
@@ -60,11 +146,11 @@
       },
       {
         "date": "2025-10-28",
-        "count": 5
+        "count": 6
       },
       {
         "date": "2025-10-30",
-        "count": 4
+        "count": 5
       },
       {
         "date": "2025-11-04",
@@ -81,7 +167,75 @@
         "count": 2
       },
       {
+        "week": "2024-W15",
+        "count": 2
+      },
+      {
+        "week": "2024-W18",
+        "count": 1
+      },
+      {
         "week": "2024-W20",
+        "count": 1
+      },
+      {
+        "week": "2024-W26",
+        "count": 1
+      },
+      {
+        "week": "2024-W33",
+        "count": 2
+      },
+      {
+        "week": "2024-W35",
+        "count": 2
+      },
+      {
+        "week": "2024-W38",
+        "count": 1
+      },
+      {
+        "week": "2024-W40",
+        "count": 2
+      },
+      {
+        "week": "2024-W41",
+        "count": 2
+      },
+      {
+        "week": "2024-W42",
+        "count": 2
+      },
+      {
+        "week": "2024-W47",
+        "count": 3
+      },
+      {
+        "week": "2024-W49",
+        "count": 1
+      },
+      {
+        "week": "2025-W00",
+        "count": 2
+      },
+      {
+        "week": "2025-W01",
+        "count": 1
+      },
+      {
+        "week": "2025-W02",
+        "count": 4
+      },
+      {
+        "week": "2025-W04",
+        "count": 5
+      },
+      {
+        "week": "2025-W05",
+        "count": 2
+      },
+      {
+        "week": "2025-W10",
         "count": 1
       },
       {
@@ -90,7 +244,7 @@
       },
       {
         "week": "2025-W43",
-        "count": 12
+        "count": 14
       },
       {
         "week": "2025-W44",
@@ -104,15 +258,51 @@
       },
       {
         "month": "2024-04",
-        "count": 3
+        "count": 5
       },
       {
         "month": "2024-05",
+        "count": 2
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 2
+      },
+      {
+        "month": "2024-09",
+        "count": 3
+      },
+      {
+        "month": "2024-10",
+        "count": 6
+      },
+      {
+        "month": "2024-11",
+        "count": 3
+      },
+      {
+        "month": "2024-12",
+        "count": 1
+      },
+      {
+        "month": "2025-01",
+        "count": 12
+      },
+      {
+        "month": "2025-02",
+        "count": 2
+      },
+      {
+        "month": "2025-03",
         "count": 1
       },
       {
         "month": "2025-10",
-        "count": 13
+        "count": 15
       },
       {
         "month": "2025-11",
@@ -125,21 +315,38 @@
     "mentionsReceived": [
       {
         "user": "Deleted User",
-        "count": 1
+        "count": 7
       },
       {
         "user": "Kowloon Walled City",
-        "count": 1
+        "count": 5
+      },
+      {
+        "user": "Bad scion player",
+        "count": 3
       },
       {
         "user": "F9bomber",
         "count": 1
       },
       {
+        "user": "jade",
+        "count": 1
+      },
+      {
         "user": "Reacher",
+        "count": 1
+      },
+      {
+        "user": "Cyber",
         "count": 1
       }
     ],
-    "reactionsReceived": []
+    "reactionsReceived": [
+      {
+        "emoji": "😂",
+        "count": 1
+      }
+    ]
   }
 }

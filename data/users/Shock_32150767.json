@@ -3,10 +3,10 @@
   "displayName": "Shock",
   "aliases": [],
   "stats": {
-    "messageCount": 12,
+    "messageCount": 13,
     "wordCount": 15,
-    "avgLength": 33.33,
-    "activityScore": 14.1,
+    "avgLength": 37.23,
+    "activityScore": 14.4,
     "totalReactions": 2
   },
   "words": {
@@ -30,6 +30,10 @@
   "timeline": {
     "daily": [
       {
+        "date": "2024-12-06",
+        "count": 1
+      },
+      {
         "date": "2025-07-21",
         "count": 1
       },
@@ -52,6 +56,10 @@
     ],
     "weekly": [
       {
+        "week": "2024-W48",
+        "count": 1
+      },
+      {
         "week": "2025-W29",
         "count": 1
       },
@@ -70,6 +78,10 @@
     ],
     "monthly": [
       {
+        "month": "2024-12",
+        "count": 1
+      },
+      {
         "month": "2025-07",
         "count": 1
       },
@@ -84,6 +96,10 @@
       {
         "user": "susteem is African",
         "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
       }
     ],
     "mentionsReceived": [
@@ -92,12 +108,12 @@
         "count": 3
       },
       {
-        "user": "VTrider",
+        "user": "Kowloon Walled City",
         "count": 2
       },
       {
-        "user": "Kowloon Walled City",
-        "count": 1
+        "user": "VTrider",
+        "count": 2
       },
       {
         "user": "getsthedubs",
@@ -105,6 +121,18 @@
       },
       {
         "user": "ᕭΛ𐍂ЖѴΔᒹΞ",
+        "count": 1
+      },
+      {
+        "user": "Deleted User",
+        "count": 1
+      },
+      {
+        "user": "Slyforion",
+        "count": 1
+      },
+      {
+        "user": "Bad scion player",
         "count": 1
       }
     ],

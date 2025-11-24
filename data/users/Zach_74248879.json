@@ -1,0 +1,142 @@
+{
+  "userId": "74248879226232832",
+  "displayName": "Zach",
+  "aliases": [],
+  "stats": {
+    "messageCount": 19,
+    "wordCount": 68,
+    "avgLength": 36.21,
+    "activityScore": 53.3,
+    "totalReactions": 0
+  },
+  "words": {
+    "flying": 4,
+    "vsr": 3,
+    "game": 3,
+    "mins": 2,
+    "yet": 2,
+    "seems": 2,
+    "someone": 2,
+    "fair": 2,
+    "spicy": 1,
+    "naked": 1,
+    "10": 1,
+    "15": 1,
+    "yes": 1,
+    "form": 1,
+    "version": 1,
+    "without": 1,
+    "nonsense": 1,
+    "play": 1,
+    "claim": 1,
+    "primary": 1,
+    "purpose": 1,
+    "add": 1,
+    "back": 1,
+    "balance": 1,
+    "contradiction": 1,
+    "onion": 1,
+    "hovering": 1,
+    "base": 1,
+    "shooting": 1,
+    "freely": 1,
+    "key": 1,
+    "targets": 1,
+    "broken": 1,
+    "haven": 1,
+    "participated": 1,
+    "match": 1,
+    "lasted": 1,
+    "long": 1,
+    "enough": 1,
+    "bomber": 1,
+    "bay": 1,
+    "built": 1,
+    "definitely": 1,
+    "impactful": 1,
+    "early": 1,
+    "mid": 1,
+    "think": 1,
+    "defense": 1,
+    "towers": 1,
+    "called": 1,
+    "spikes": 1,
+    "knowledge": 1,
+    "feel": 1,
+    "comparison": 1,
+    "crouching": 1,
+    "boring": 1
+  },
+  "phrases": {},
+  "timeline": {
+    "daily": [
+      {
+        "date": "2024-05-27",
+        "count": 1
+      },
+      {
+        "date": "2024-05-28",
+        "count": 3
+      },
+      {
+        "date": "2024-06-04",
+        "count": 2
+      },
+      {
+        "date": "2024-06-08",
+        "count": 13
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2024-W21",
+        "count": 4
+      },
+      {
+        "week": "2024-W22",
+        "count": 15
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2024-05",
+        "count": 4
+      },
+      {
+        "month": "2024-06",
+        "count": 15
+      }
+    ]
+  },
+  "relationships": {
+    "mentionsGiven": [
+      {
+        "user": "susteem is African",
+        "count": 1
+      },
+      {
+        "user": "Six Seven",
+        "count": 1
+      }
+    ],
+    "mentionsReceived": [
+      {
+        "user": "susteem is African",
+        "count": 2
+      },
+      {
+        "user": "Six Seven",
+        "count": 1
+      },
+      {
+        "user": "Kowloon Walled City",
+        "count": 1
+      },
+      {
+        "user": "Doma",
+        "count": 1
+      }
+    ],
+    "reactionsReceived": []
+  }
+}

@@ -61,15 +61,19 @@
     ],
     "mentionsReceived": [
       {
+        "user": "Bad scion player",
+        "count": 3
+      },
+      {
         "user": "Kowloon Walled City",
         "count": 2
       },
       {
-        "user": "Cyber",
-        "count": 1
+        "user": "susteem is African",
+        "count": 2
       },
       {
-        "user": "Bad scion player",
+        "user": "Cyber",
         "count": 1
       }
     ],
